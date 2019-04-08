@@ -20,10 +20,10 @@ If a downing-provider-class is configured this setting is ignored.
 - SeedNode1을 실행 시킨다.
 - NonSeedNode1을 실행 시킨다.
 - NonSeedNode1을 종료 시킨다(콘솔 창 닫기).
-  - SeedNode1에서 deadletter 9번째 호출, 7:40:59 
-  - 5초 후 
-  - 7:41:04, SeedNode1에서 NonSeedNode1을 클러스터에서 제거 시킨다(더 이상 재시도 하지 않느다).
-  ![](./Images/Auto-down.png)
+  - SeedNode1에서 deadletter 9번 호출된다, 7:40:59 
+  - 5초 후(auto-down-unreachable-after = 5s)
+  - 7:41:04, SeedNode1에서 NonSeedNode1을 클러스터에서 제거 시킨다(더 이상 재시도 하지 않는다).
+  ![](./Images/Auo-down.png)
   
 <br/>
 <br/>
