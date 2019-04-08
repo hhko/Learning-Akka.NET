@@ -1,6 +1,7 @@
-## Seed Node 재접속 시도 간격을 지정하기
+## Seed Node 최초 재접속 시도 간격을 지정하기
 - **seed-node-timeout = 5s** 기본값이다
   - 5초 간격으로 무한 재시도를 한다.
+  - Seed Node 최초 접속(Join)을 위한 시간 간격이다.
 ```
 how long to wait for one of the seed nodes to reply to initial join request.
 ```
