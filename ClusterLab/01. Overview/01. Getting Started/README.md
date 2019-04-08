@@ -31,14 +31,14 @@ ActorSystem.Create("ClusterLab", ...);
 
 - 실행 예.
   - SeedNode1(8081)만 실행할 때: [Up] 메시지를 확인할 수 있다.
-![SeedNode1](./Images/SeedNode.png)
+![SeedNode1](./Images/Starting_SeedNode1.png)
 
   - SeedNode1(8081) 실행 후 NonSeedNode1(8091)가 실행될 때: [Up]과 Welcome 메시지를 확인할 수 있다.
-![NonSeedNode1](./Images/NonSeedNode.png)
+![NonSeedNode1](./Images/Starting_NonSeedNode1.png)
 
 <br/>
 <br/>
 
 ## TODO
-- [ ] NonSeedNode가 종료될 때 SeedNode가 무한으로 재시도하는 것 방지하기
-- [ ] NonSeedNode가 SeedNode 없을 때(먼저 실행, ... 등) 무한으로 접속 시도를 방비하기
+- [ ] NonSeedNode가 종료될 때 SeedNode가 무한으로 재시도하는 것을 방지하기
+- [ ] NonSeedNode가 SeedNode 없을 때(먼저 실행, ... 등) 무한으로 재접속 시도를 방지하기
