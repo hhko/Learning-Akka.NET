@@ -45,15 +45,23 @@ using Petabridge.Cmd.Host;
 	cmd.Start();
 ```
 
-4. Petabridge.Cmd 사용하기
-    - 접속 : pbm 127.0.0.1:9091
-    - 상태 : cluster show
-    - 상황 : cluster status
-    - 리더 : cluster leader
-    - 계층 : actor hierarchy // "-d 4"가 기본 값이다.
-	- 계층 : actor hierarchy -d 8
+<br/>
 
-5. 액터 계층구조 보기
+## Petabridge.Cmd 이해하기
+1. Petabridge.Cmd 사용하기
+    - **접속 : pbm 127.0.0.1:9091**
+    - **상태 : cluster show**
+    - **상황 : cluster status**
+    - **리더 : cluster leader**
+    - **계층 : actor hierarchy** // "-d 4"가 기본 값이다.
+	- **계층 : actor hierarchy -d 8**
+	
+2. 접속하기
+```
+C:\> pbm 127.0.0.1:9091
+```
+
+3. 액터 계층구조 보기
 ```
 [127.0.0.1:9110] pbm> actor hierarchy -d 8
 /user
@@ -68,28 +76,27 @@ using Petabridge.Cmd.Host;
 /user/petabridge.cmd-log-memorizer
 ```
 
-6. 클러스터 상황(status) 확인하기
+4. 클러스터 상황(status) 확인하기
 ```
 [127.0.0.1:9110] pbm> cluster status
 akka.tcp://ClusterApp@localhost:8081 | [] | up |
 ```
 
-7. 클러스터 리더 확인하기
+5. 클러스터 리더 확인하기
 ```
 [127.0.0.1:9110] pbm> cluster leader
 akka.tcp://ClusterApp@localhost:8081
 ```
 
-8. 클래스터 상태(state) 확인하기
+6. 클래스터 상태(state) 확인하기
 ```
-cluster show
 	[127.0.0.1:9110] pbm> cluster show
 	akka.tcp://ClusterApp@localhost:8081 | [] | up |
 	akka.tcp://ClusterApp@localhost:8091 | [] | up |
 	akka.tcp://ClusterApp@localhost:8092 | [] | up |
 	Count: 3 nodes
 
-	// 8092 종료
+	// 8092 클러스터 이탈
 	//
 	[127.0.0.1:9110] pbm> cluster show
 	akka.tcp://ClusterApp@localhost:8081 | [] | up |
@@ -97,7 +104,7 @@ cluster show
 	akka.tcp://ClusterApp@localhost:8092 | [] | up | unreachable
 	Count: 3 nodes
 
-	// 8092 시작
+	// 8092 클러스터 조인 중
 	//
 	[127.0.0.1:9110] pbm> cluster show
 	akka.tcp://ClusterApp@localhost:8081 | [] | up |
@@ -105,15 +112,31 @@ cluster show
 	akka.tcp://ClusterApp@localhost:8092 | [] | joining |
 	Count: 3 nodes
 
+	// 8092 클러스터 조인 완료
+	//
 	[127.0.0.1:9110] pbm> cluster show
 	akka.tcp://ClusterApp@localhost:8081 | [] | up |
 	akka.tcp://ClusterApp@localhost:8091 | [] | up |
 	akka.tcp://ClusterApp@localhost:8092 | [] | up |
 	Count: 3 nodes
 ```	
-
 <br/>
-	
+
+## 데모 시나리오
+- 포트 정보
+  - SeedNode1 : 8081
+  - NonSeedNode1 : 8091
+  - NonSeedNode2 : 8092
+  - NonSeedNode3 : 8093
+ 
+- 실행 예.
+  - SeedNode1 실행
+  ![](./Images/Starting_SeedNode1.png)
+  - Petabridge.Cmd로 SeedNode1에 접속하기
+  ![](./Images/Connecting_SeedNode1.png)
+  - Cluster 상태 확인하기
+  ![](./Images/Show_Cluster.png)
+ 
 ## TODO
 - [ ] host 설정 이해하기
 ```
