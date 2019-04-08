@@ -15,3 +15,60 @@ ActorSystem.Create("ClusterLab", ...);
 		]
 	}
 ```
+
+- SeedNode Honcon 
+```
+akka {
+	actor {
+		provider = "cluster"
+	}
+
+	remote {
+		dot-netty.tcp {
+			hostname = "localhost"
+			port = 8081
+		}
+	}
+
+	cluster {
+		seed-nodes = [
+			"akka.tcp://ClusterLab@localhost:8081"
+		]
+	}
+}
+```
+
+- NonSeedNode1 Hocon
+```
+akka {
+	actor {
+		provider = "cluster"
+	}
+
+	remote {
+		dot-netty.tcp {
+			hostname = "localhost"
+			port = 8091
+		}
+	}
+
+	cluster {
+		seed-nodes = [
+			"akka.tcp://ClusterLab@localhost:8081"
+		]
+	}
+}
+```
+
+## 데모 시나리오
+- 포트 정보
+  - SeedNode : 8081
+  - NonSeedNode1 : 8091
+  - NonSeedNode2 : 8092
+  - NonSeedNode3 : 8093
+  
+- 실행 순서
+  - SeedNode 실행
+  - NonSeedNode1 실행
+  - NonSeedNode2 실행
+  - NonSeedNode3 실행
