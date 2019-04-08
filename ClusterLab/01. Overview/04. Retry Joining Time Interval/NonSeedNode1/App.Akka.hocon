@@ -15,7 +15,11 @@
 			"akka.tcp://ClusterLab@localhost:8081"
 		]
 
-		#seed-node-timeout = 10s
-		#retry-unsuccessful-join-after = off
+		#
+		# seed-node-timeout = 5s 기본값이다.
+		# 5초 간격으로 Seed Node 재접속을 시도한다.
+		#
+
+		seed-node-timeout = 10s
 	}
 }
