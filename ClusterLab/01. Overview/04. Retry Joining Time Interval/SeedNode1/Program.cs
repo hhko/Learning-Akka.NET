@@ -11,7 +11,7 @@ namespace SeedNode1
     {
         static void Main(string[] args)
         {
-            var hocon = ConfigurationFactory.ParseString(File.ReadAllText("App.Akka.hocon"));
+            var hocon = ConfigurationFactory.ParseString(File.ReadAllText("App.Akka.conf"));
             ActorSystem system = ActorSystem.Create("ClusterLab", hocon);
 
             var cmd = PetabridgeCmd.Get(system);
