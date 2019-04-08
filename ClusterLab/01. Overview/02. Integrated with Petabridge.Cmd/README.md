@@ -11,6 +11,7 @@
   ![](./Images/Install_Petabridge-Cmd.png)
   
 <br/>
+<br/>
 
 ## Petabridge.Cmd 통합하기
 
@@ -45,6 +46,7 @@ using Petabridge.Cmd.Host;
 	cmd.Start();
 ```
 
+<br/>
 <br/>
 
 ## Petabridge.Cmd 이해하기
@@ -121,6 +123,7 @@ akka.tcp://ClusterApp@localhost:8081
 	Count: 3 nodes
 ```	
 <br/>
+<br/>
 
 ## 데모 시나리오
 - 포트 정보
@@ -136,6 +139,9 @@ akka.tcp://ClusterApp@localhost:8081
   ![](./Images/Connecting_SeedNode1.png)
   - Cluster 상태 확인하기
   ![](./Images/Show_Cluster.png)
+  
+<br/>
+<br/>
  
 ## TODO
 - [ ] host 설정 이해하기
