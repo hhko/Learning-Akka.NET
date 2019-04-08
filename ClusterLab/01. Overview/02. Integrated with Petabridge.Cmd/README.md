@@ -45,18 +45,15 @@ using Petabridge.Cmd.Host;
 	cmd.Start();
 ```
 
-4.1 Petabridge.Cmd 사용하기
-	- 접속
-	pbm 127.0.0.1:9091
-	
-	- 명령
-	cluster show
-	cluster status
-	cluster leader
-	actor hierarchy // "-d 4"가 기본 값이다.
-	actor hierarchy -d 8
+4. Petabridge.Cmd 사용하기
+    - 접속 : pbm 127.0.0.1:9091
+    - 상태 : cluster show
+    - 상황 : cluster status
+    - 리더 : cluster leader
+    - 계층 : actor hierarchy // "-d 4"가 기본 값이다.
+	- 계층 : actor hierarchy -d 8
 
-4.2 액터 계층구조 보기
+5. 액터 계층구조 보기
 ```
 [127.0.0.1:9110] pbm> actor hierarchy -d 8
 /user
@@ -71,19 +68,19 @@ using Petabridge.Cmd.Host;
 /user/petabridge.cmd-log-memorizer
 ```
 
-4.3 클러스터 상황(status) 확인하기
+6. 클러스터 상황(status) 확인하기
 ```
 [127.0.0.1:9110] pbm> cluster status
 akka.tcp://ClusterApp@localhost:8081 | [] | up |
 ```
 
-4.4 클러스터 리더 확인하기
+7. 클러스터 리더 확인하기
 ```
 [127.0.0.1:9110] pbm> cluster leader
 akka.tcp://ClusterApp@localhost:8081
 ```
 
-4.5 클래스터 상태(state) 확인하기
+8. 클래스터 상태(state) 확인하기
 ```
 cluster show
 	[127.0.0.1:9110] pbm> cluster show
