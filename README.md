@@ -1,4 +1,4 @@
-# Akka.NET-Labs
+# Akka.NET Labs
 MORE FUN with Akka.NET 
 
 1. Cluster
