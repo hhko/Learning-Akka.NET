@@ -1,0 +1,19 @@
+﻿akka {
+	actor {
+		#provider = "Akka.Cluster.ClusterActorRefProvider, Akka.Cluster"
+		provider = "cluster"
+	}
+
+	remote {
+		dot-netty.tcp {
+			hostname = "localhost"
+			port = 8081
+		}
+	}
+
+	cluster {
+		seed-nodes = [
+			"akka.tcp://ClusterLab@localhost:8081"
+		]
+	}
+}
