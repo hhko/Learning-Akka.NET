@@ -40,7 +40,7 @@ ActorSystem.Create("ClusterLab", ...);
 <br/>
 
 ## TODO
-- [ ] NonSeedNode가 종료될 때 SeedNode가 무한으로 재시도하는 것을 방지하기
+- [x] NonSeedNode가 종료될 때 SeedNode가 무한으로 재시도하는 것을 방지하기, [링크](https://github.com/hhko/Akka.NET-Labs/tree/master/ClusterLab/01.%20Overview/03.%20Automatically%20Mark%20Unreachable%20Nodes)
 ```
     # Should the 'leader' in the cluster be allowed to automatically mark
     # unreachable nodes as DOWN after a configured time of unreachability?
