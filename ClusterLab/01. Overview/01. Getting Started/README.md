@@ -1,6 +1,6 @@
 ## 클러스터 구성하기(필수 조건)
 
-- **클러스터를 구성하기 위한 모든 ActorSystem은 반드시 이름이 같아야 한다.**
+- **클러스터를 구성하기 위해 모든 ActorSystem 이름은 반드시 같아야 한다(Hocon 정보까지도).**
 ```cs
 ActorSystem.Create("ClusterLab", ...);
 ```
@@ -31,10 +31,10 @@ ActorSystem.Create("ClusterLab", ...);
 
 - 실행 예.
   - SeedNode1(8081)만 실행할 때: [Up] 메시지를 확인할 수 있다.
-![SeedNode1](./Images/Starting_SeedNode1.png)
+![](./Images/Starting_SeedNode1.png)
 
   - SeedNode1(8081) 실행 후 NonSeedNode1(8091)가 실행될 때: [Up]과 Welcome 메시지를 확인할 수 있다.
-![NonSeedNode1](./Images/Starting_NonSeedNode1.png)
+![](./Images/Starting_NonSeedNode1.png)
 
 <br/>
 <br/>
