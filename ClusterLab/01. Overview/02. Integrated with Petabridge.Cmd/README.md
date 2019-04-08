@@ -1,14 +1,14 @@
 ## Petabridge.Cmd 설치하기
 1. Chocolatey을 설치한다(https://chocolatey.org/install)
-  - 관리자 콘솔 모드에서 설치 명령어를 실행 시킨다.
+   - 관리자 콘솔 모드에서 설치 명령어를 실행 시킨다.
   ![](./Images/Install_Chocolatey.png)
 
 2. Petabridge.Cmd을 설치한다(한번만 수행).  
-  - 관리자 콘솔 모드에서 설치 명령어를 실행 시킨다.
+   - 관리자 콘솔 모드에서 설치 명령어를 실행 시킨다.
 ```
 	choco install petabridge-cmd
 ```
-  ![](./Images/Install_Petabridge.Cmd.png)
+  ![](./Images/Install_Petabridge-Cmd.png)
   
 <br/>
 
@@ -17,7 +17,7 @@
 1. SeedNode에 Petabridge.Cmd.Cluster NuGet을 설치한다.
 
 2. App.Akka.hocon 파일에 Petabridge.Cmd 환경을 설정한다.
-  - 9110 포트를 기본으로 사용한다.
+   - 9110 포트를 기본으로 사용한다.
 ```
         ##################################
         # petabridge.cmd Reference Config File #
