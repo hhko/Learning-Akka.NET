@@ -33,7 +33,7 @@ ActorSystem.Create("ClusterLab", ...);
 
 - 실행 예.
   - SeedNode1(8081)만 실행할 때
-![SeedNode1](/Images/SeedNode.png)
+![SeedNode1](./Images/SeedNode.png)
 
   - SeedNode1(8081) 실행 후 NonSeedNode1(8091)가 실행될 때
-![NonSeedNode1](/Images/NonSeedNode.png)
+![NonSeedNode1](./Images/NonSeedNode.png)
