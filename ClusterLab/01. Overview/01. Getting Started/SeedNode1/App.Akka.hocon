@@ -1,0 +1,20 @@
+﻿akka {
+	actor {
+		# cluster로 간략하게 기술할 수 있다.
+		#provider = "Akka.Cluster.ClusterActorRefProvider, Akka.Cluster"
+		provider = "cluster"
+	}
+
+	remote {
+		dot-netty.tcp {
+			hostname = "localhost"
+			port = 8081
+		}
+	}
+
+	cluster {
+		seed-nodes = [
+			"akka.tcp://ClusterLab@localhost:8081"
+		]
+	}
+}
