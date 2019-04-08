@@ -1,4 +1,4 @@
-## Unreachable Node을 자동으로 클러스터에서 제거하기
+## Unreachable Non-Seed Node을 자동으로 클러스터에서 제거하기
 - **auto-down-unreachable-after = off** 기본값이다
   - Unreachable Node에 대해 무한으로 재시도를 한다.
 - **auto-down-unreachable-after = 5s** 특정 기간이 지속되면 자동으로 클러스터에서 해당 노드를 제거한다.

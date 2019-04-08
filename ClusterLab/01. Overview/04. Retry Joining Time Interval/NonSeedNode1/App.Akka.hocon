@@ -1,0 +1,21 @@
+﻿akka {
+	actor {
+		provider = "cluster"
+	}
+
+	remote {
+		dot-netty.tcp {
+			hostname = "localhost"
+			port = 8091
+		}
+	}
+
+	cluster {
+		seed-nodes = [
+			"akka.tcp://ClusterLab@localhost:8081"
+		]
+
+		#seed-node-timeout = 10s
+		#retry-unsuccessful-join-after = off
+	}
+}

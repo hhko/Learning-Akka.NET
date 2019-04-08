@@ -1,0 +1,59 @@
+﻿##################################
+# petabridge.cmd Reference Config File #
+##################################
+petabridge.cmd {
+	# default IP address used to listen for incoming petabridge.cmd client connections
+	# should be a safe default as it listens on "all network interfaces".
+	host = "0.0.0.0"
+    #host = "127.0.0.1"
+          
+    # host = "localhost"
+    # Really not a good idea to use DNS for binding inbound endpoints, 
+    # but we'll try anyway. Resolving localhost
+
+	# default port number used to listen for incoming petabridge.cmd client connections
+	port = 9110
+
+	# when true, logs all loaded palettes on startup
+	log-palettes-on-startup = on
+}
+
+akka {
+	actor {
+		# cluster로 간략하게 기술할 수 있다.
+		#provider = "Akka.Cluster.ClusterActorRefProvider, Akka.Cluster"
+		provider = "cluster"
+	}
+
+	remote {
+		dot-netty.tcp {
+			hostname = "localhost"
+			port = 8081
+		}
+	}
+
+	cluster {
+		seed-nodes = [
+			"akka.tcp://ClusterLab@localhost:8081"
+		]
+
+		#
+		# auto-down-unreachable-after = off 기본값이다(무한으로 재시도를 한다).
+		#
+		# Should the 'leader' in the cluster be allowed to automatically mark
+		# unreachable nodes as DOWN after a configured time of unreachability?
+		# Using auto-down implies that two separate clusters will automatically be
+		# formed in case of network partition.
+		# Disable with "off" or specify a duration to enable auto-down.
+		# If a downing-provider-class is configured this setting is ignored.
+		#
+            
+		#
+		# 'unreachable'로 인식(deadletter 9번째)한 후 10초 동안 'unreachable'이 연속되면
+		# Cluster에서 해당 Node을 자동으로 제거 시킨다(더 이상 재시도를 하지 않는다).
+		#
+		# auto-down-unreachable-after는 Seed Node에서 설정한다.
+		#
+		auto-down-unreachable-after = 5s
+	}
+}
