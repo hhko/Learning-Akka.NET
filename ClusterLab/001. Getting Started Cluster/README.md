@@ -32,5 +32,5 @@ ActorSystem.Create("ClusterLab", ...);
   - NonSeedNode3 실행
 
 - 실행 예.
-![SeedNode1](./images/SeedNode.png)
-![NonSeedNode1](./images/NonSeedNode.png)
+![SeedNode1](./Images/SeedNode.png)
+![NonSeedNode1](./Images/NonSeedNode.png)
