@@ -21,6 +21,9 @@ how long to wait for one of the seed nodes to reply to initial join request.
   ![](./Images/seed-node-timeout_10s.png)
   
 - seed-node-timeout 기본값일 때는 5초 간격으로 재접속을 시도한다.
+  - [INFO][ ... 8:10:13] ... 3 dead letters encountered.
+  - 5초 후(seed-node-timeout = 5s)
+  - [INFO][ ... 8:10:17] ... 4 dead letters encountered.
   ![](./Images/seed-node-timeout_default_5s.png)
   
 <br/>
@@ -33,3 +36,5 @@ how long to wait for one of the seed nodes to reply to initial join request.
     # Disable join retry by specifying "off".
     retry-unsuccessful-join-after = 10s
 ```
+- [ ] 9번 DeadLetter 이후 부터는 Warning으로 처리한다.
+![](./Images/Warning_Attempts.png)
