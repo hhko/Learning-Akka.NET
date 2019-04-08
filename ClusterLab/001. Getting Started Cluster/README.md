@@ -15,50 +15,8 @@ ActorSystem.Create("ClusterLab", ...);
 		]
 	}
 ```
-
-- SeedNode Honcon 
-```
-akka {
-	actor {
-		provider = "cluster"
-	}
-
-	remote {
-		dot-netty.tcp {
-			hostname = "localhost"
-			port = 8081
-		}
-	}
-
-	cluster {
-		seed-nodes = [
-			"akka.tcp://ClusterLab@localhost:8081"
-		]
-	}
-}
-```
-
-- NonSeedNode1 Hocon
-```
-akka {
-	actor {
-		provider = "cluster"
-	}
-
-	remote {
-		dot-netty.tcp {
-			hostname = "localhost"
-			port = 8091
-		}
-	}
-
-	cluster {
-		seed-nodes = [
-			"akka.tcp://ClusterLab@localhost:8081"
-		]
-	}
-}
-```
+<br/>
+<br/>
 
 ## 데모 시나리오
 - 포트 정보
