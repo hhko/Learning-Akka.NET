@@ -21,8 +21,14 @@ If a downing-provider-class is configured this setting is ignored.
 - NonSeedNode1을 실행 시킨다.
 - NonSeedNode1을 종료 시킨다(콘솔 창 닫기).
   - SeedNode1에서 deadletter 9번 호출된다, 7:40:59 
+```
+[INFO][ ... 7:40:59] ... 9 dead letters encountered. 
+```
   - 5초 후(auto-down-unreachable-after = 5s)
   - 7:41:04, SeedNode1에서 NonSeedNode1을 클러스터에서 제거 시킨다(더 이상 재시도 하지 않는다).
+```
+[INFO][ ... 7:41:04] ... Loader is removing unreachable node [akka.tcp://ClusterLab@localhost:8091]
+```
   ![](./Images/Auo-down.png)
   
 <br/>
