@@ -41,4 +41,21 @@ ActorSystem.Create("ClusterLab", ...);
 
 ## TODO
 - [ ] NonSeedNode가 종료될 때 SeedNode가 무한으로 재시도하는 것을 방지하기
+```
+    # Should the 'leader' in the cluster be allowed to automatically mark
+    # unreachable nodes as DOWN after a configured time of unreachability?
+    # Using auto-down implies that two separate clusters will automatically be
+    # formed in case of network partition.
+    # Disable with "off" or specify a duration to enable auto-down.
+    # If a downing-provider-class is configured this setting is ignored.
+    auto-down-unreachable-after = off
+```
 - [ ] NonSeedNode가 SeedNode 없을 때(먼저 실행, ... 등) 무한으로 재접속 시도를 방지하기
+```
+    # how long to wait for one of the seed nodes to reply to initial join request
+    seed-node-timeout = 5s
+
+    # If a join request fails it will be retried after this period.
+    # Disable join retry by specifying "off".
+    retry-unsuccessful-join-after = 10s
+```
