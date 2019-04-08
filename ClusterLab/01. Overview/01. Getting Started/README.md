@@ -50,7 +50,7 @@ ActorSystem.Create("ClusterLab", ...);
     # If a downing-provider-class is configured this setting is ignored.
     auto-down-unreachable-after = off
 ```
-- [ ] NonSeedNode가 SeedNode 없을 때(먼저 실행, ... 등) 무한으로 재접속 시도를 방지하기
+- [x] NonSeedNode가 SeedNode 없을 때(먼저 실행, ... 등) 무한으로 재접속 시도를 방지하기, [링크](https://github.com/hhko/Akka.NET-Labs/tree/master/ClusterLab/01.%20Overview/04.%20Retry%20Joining%20Time%20Interval)
 ```
     # how long to wait for one of the seed nodes to reply to initial join request
     seed-node-timeout = 5s
