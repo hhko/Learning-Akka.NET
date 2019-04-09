@@ -10,10 +10,7 @@ namespace NonSeedNode3
     public class MemberListenAsSnapshotActor : ReceiveActor
     {
         #region Messages
-        public sealed class RefreshCurrentClusterState
-        {
-
-        }
+        public sealed class RefreshCurrentClusterState { }
         #endregion
 
         private readonly ILoggingAdapter _log = Logging.GetLogger(Context);
@@ -26,6 +23,9 @@ namespace NonSeedNode3
 
         public MemberListenAsSnapshotActor()
         {
+            //
+            // 3초 후에 Snapshot으로 Gossip 정보를 받는다.
+            //
             Context.System.Scheduler.ScheduleTellOnce(TimeSpan.FromSeconds(3), Self, new RefreshCurrentClusterState(), Self);
             _cluster.SendCurrentClusterState(Self);
 
