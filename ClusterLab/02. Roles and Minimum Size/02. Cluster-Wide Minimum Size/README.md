@@ -20,3 +20,9 @@
   - 최소 Node 개수를 3을 만족하기 전까지는 "Joining" 상태가 된다.
   - 클러스터가 구성된 이후 최소 개수는 무시된다(8092 포트 Node가 클러스터에서 제거된 후에도 클러스터는 유지된다).
   ![](./Images/min-nr-of-members_3.png)
+
+<br/>
+<br/>
+
+## TODO
+- [ ] 'Cluster.registerOnMemberUp' 연동 예제를 추가한다.
