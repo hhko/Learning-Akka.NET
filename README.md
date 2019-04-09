@@ -14,7 +14,7 @@
    1. Gossip Events
        - Subscribe to Gossip Events : 
           - **Cluster _cluster = Cluster.Get(Context.System);**
-          - **_cluster.Subscribe(Self, ClusterEvent.SubscriptionInitialStateMode.InitialStateAsEvents, new[] { typeof(ClusterEvent.MemberUp) });**
+          - **_cluster.Subscribe(Self, ...);**
           - **_cluster.Unsubscribe(Self);**
 
 Receive<ClusterEvent.MemberUp>(_ => Handle(_));
