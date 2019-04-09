@@ -9,8 +9,8 @@ namespace NonSeedNode3
     {
         static void Main(string[] args)
         {
-            var hocon = ConfigurationFactory.ParseString(File.ReadAllText("App.Akka.hocon"));
-            ActorSystem system = ActorSystem.Create("ClusterLab", hocon);
+            var config = ConfigurationFactory.ParseString(File.ReadAllText("App.Akka.conf"));
+            ActorSystem system = ActorSystem.Create("ClusterLab", config);
 
             Console.WriteLine();
             Console.WriteLine("NonSeedNode3 is running...");
