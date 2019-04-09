@@ -16,8 +16,6 @@
           - **Cluster _cluster = Cluster.Get(Context.System);**
           - **_cluster.Subscribe(Self, ...);**
           - **_cluster.Unsubscribe(Self);**
-
-Receive<ClusterEvent.MemberUp>(_ => Handle(_));
    
 <br/>
 <br/>
