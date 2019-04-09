@@ -21,6 +21,6 @@ MORE FUN with Akka.NET
 - [ ] Akka
   - [ ] Console.WriteLine -> Log
   - [ ] 프로그램 종료 방법 변경
-  - [ ] App.Akka.hocon -> App.Akka.conf 파일명 변경하기
-  - [ ] var hocon = ...; -> var config = ...;
   - [ ] ActorSystem 이름을 conf 파일에서 지정하기 + SeedNode 이름에도 같이 사용하기?
+  - [x] 2019-04-09 App.Akka.hocon -> App.Akka.conf 파일명 변경하기
+  - [x] 2019-04-09 var hocon = ...; -> var config = ...;

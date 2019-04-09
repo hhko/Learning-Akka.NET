@@ -7,13 +7,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01. Overview", "01. Overvie
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01. Getting Started", "01. Getting Started", "{962AD9F9-AC02-4D3B-AF11-861059B0E922}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SeedNode1", "01. Overview\01. Getting Started\SeedNode1\SeedNode1.csproj", "{E7733AA8-5754-4715-8B33-5BE24EEFC78F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SeedNode1", "01. Overview\01. Getting Started\SeedNode1\SeedNode1.csproj", "{E7733AA8-5754-4715-8B33-5BE24EEFC78F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NonSeedNode1", "01. Overview\01. Getting Started\NonSeedNode1\NonSeedNode1.csproj", "{57627319-A35B-4434-9323-E5EE7E34791C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NonSeedNode1", "01. Overview\01. Getting Started\NonSeedNode1\NonSeedNode1.csproj", "{57627319-A35B-4434-9323-E5EE7E34791C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NonSeedNode2", "01. Overview\01. Getting Started\NonSeedNode2\NonSeedNode2.csproj", "{5BBC1D43-29AF-4753-AE1D-DA21E8E28454}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NonSeedNode2", "01. Overview\01. Getting Started\NonSeedNode2\NonSeedNode2.csproj", "{5BBC1D43-29AF-4753-AE1D-DA21E8E28454}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NonSeedNode3", "01. Overview\01. Getting Started\NonSeedNode3\NonSeedNode3.csproj", "{7CECE761-29A3-4C20-85F4-78B745BF8D8F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NonSeedNode3", "01. Overview\01. Getting Started\NonSeedNode3\NonSeedNode3.csproj", "{7CECE761-29A3-4C20-85F4-78B745BF8D8F}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02. Integrated with Petabridge.Cmd", "02. Integrated with Petabridge.Cmd", "{C6431149-253E-4F6E-A161-A181BBC7E78A}"
 EndProject
@@ -44,6 +44,18 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NonSeedNode2", "01. Overview\04. Retry Joining Time Interval\NonSeedNode2\NonSeedNode2.csproj", "{916FA932-968C-4155-BC6B-33389A1201C7}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NonSeedNode3", "01. Overview\04. Retry Joining Time Interval\NonSeedNode3\NonSeedNode3.csproj", "{E8E55492-DDD8-4C3F-A552-9B4185E6CD05}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02. Roles and Minimum Size", "02. Roles and Minimum Size", "{D4FECDBC-F331-4D9E-BBCD-94852C7DDCA8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01. Define Roles", "01. Define Roles", "{5D24C0C2-F964-4DEC-81A3-241B56528E84}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SeedNode1", "02. Roles and Minimum Size\01. Define Roles\SeedNode1\SeedNode1.csproj", "{0C81FD5A-117A-4CA5-868E-1246D2BF7ED1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NonSeedNode1", "02. Roles and Minimum Size\01. Define Roles\NonSeedNode1\NonSeedNode1.csproj", "{640152B3-1339-4C0C-B594-750EF44D3A30}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NonSeedNode2", "02. Roles and Minimum Size\01. Define Roles\NonSeedNode2\NonSeedNode2.csproj", "{23C09282-0A52-408A-B794-457749721252}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NonSeedNode3", "02. Roles and Minimum Size\01. Define Roles\NonSeedNode3\NonSeedNode3.csproj", "{1C1639D7-03C9-409C-96A9-5AA14F8BCC96}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -115,6 +127,22 @@ Global
 		{E8E55492-DDD8-4C3F-A552-9B4185E6CD05}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E8E55492-DDD8-4C3F-A552-9B4185E6CD05}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E8E55492-DDD8-4C3F-A552-9B4185E6CD05}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C81FD5A-117A-4CA5-868E-1246D2BF7ED1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C81FD5A-117A-4CA5-868E-1246D2BF7ED1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C81FD5A-117A-4CA5-868E-1246D2BF7ED1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C81FD5A-117A-4CA5-868E-1246D2BF7ED1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{640152B3-1339-4C0C-B594-750EF44D3A30}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{640152B3-1339-4C0C-B594-750EF44D3A30}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{640152B3-1339-4C0C-B594-750EF44D3A30}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{640152B3-1339-4C0C-B594-750EF44D3A30}.Release|Any CPU.Build.0 = Release|Any CPU
+		{23C09282-0A52-408A-B794-457749721252}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23C09282-0A52-408A-B794-457749721252}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23C09282-0A52-408A-B794-457749721252}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23C09282-0A52-408A-B794-457749721252}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C1639D7-03C9-409C-96A9-5AA14F8BCC96}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C1639D7-03C9-409C-96A9-5AA14F8BCC96}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C1639D7-03C9-409C-96A9-5AA14F8BCC96}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C1639D7-03C9-409C-96A9-5AA14F8BCC96}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -140,6 +168,11 @@ Global
 		{8D485213-C59A-425E-B730-934D494AA6EA} = {A3897B14-4E0A-4263-88A6-F584B87E8738}
 		{916FA932-968C-4155-BC6B-33389A1201C7} = {A3897B14-4E0A-4263-88A6-F584B87E8738}
 		{E8E55492-DDD8-4C3F-A552-9B4185E6CD05} = {A3897B14-4E0A-4263-88A6-F584B87E8738}
+		{5D24C0C2-F964-4DEC-81A3-241B56528E84} = {D4FECDBC-F331-4D9E-BBCD-94852C7DDCA8}
+		{0C81FD5A-117A-4CA5-868E-1246D2BF7ED1} = {5D24C0C2-F964-4DEC-81A3-241B56528E84}
+		{640152B3-1339-4C0C-B594-750EF44D3A30} = {5D24C0C2-F964-4DEC-81A3-241B56528E84}
+		{23C09282-0A52-408A-B794-457749721252} = {5D24C0C2-F964-4DEC-81A3-241B56528E84}
+		{1C1639D7-03C9-409C-96A9-5AA14F8BCC96} = {5D24C0C2-F964-4DEC-81A3-241B56528E84}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {ECF7691A-061A-4CA7-820E-B9E14611A042}
