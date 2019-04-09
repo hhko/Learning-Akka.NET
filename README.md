@@ -11,6 +11,13 @@
        - Cluster-Wide Minimum Size : **akka.cluster.min-nr-of-members**
        - Per-Role Minimum Size : **akka.role.<role-name>.min-nr-of-members**
        - Mix Minimum Size  
+   1. Gossip Events
+       - Subscribe to Gossip Events : 
+          - **Cluster _cluster = Cluster.Get(Context.System);**
+          - **_cluster.Subscribe(Self, ClusterEvent.SubscriptionInitialStateMode.InitialStateAsEvents, new[] { typeof(ClusterEvent.MemberUp) });**
+          - **_cluster.Unsubscribe(Self);**
+
+Receive<ClusterEvent.MemberUp>(_ => Handle(_));
    
 <br/>
 <br/>
