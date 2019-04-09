@@ -2,6 +2,7 @@
 1. 기본 값은 없다. 
    - <role-name>은 대/소문자를 구분한다.
    - AND 조건이다.
+   - 공백이 있을 때는 '"'을 사용한다. 예. **"Resource Manager".min-nr-of-members = 1**
 ```
 	role {
 		#
