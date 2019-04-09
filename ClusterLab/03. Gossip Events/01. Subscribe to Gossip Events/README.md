@@ -62,8 +62,12 @@ _cluster.RegisterOnMemberUp(() =>
    - NonSeedNode1에서 string 타입 메시지를 받는다.
 - NonSeedNode1 메시지 받기
 ![](./Images/NonSeedNode1_ReceviedMessages.png)
+<br/>
+
 - NonSeedNode2 메시지 보내기, Event로 Gossip 처리하기
 ![](./Images/NonSeedNode2_AsEvent.png)
+<br/>
+
 - NonSeedNode3 메시지 보내기, Snapshot(3초 후)로 Gossip 처리하기
 ![](./Images/NonSeedNode3_AsSnapshot.png)
    
