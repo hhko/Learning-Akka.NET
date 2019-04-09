@@ -1,7 +1,7 @@
 ## Cluster을 구성하기 위한 최소 Role의 Node 개수 지정하기.
 1. 기본 값은 없다. 
-  - <role-name>은 대/소문자를 구분한다.
-  - AND 조건이다.
+   - <role-name>은 대/소문자를 구분한다.
+   - AND 조건이다.
 ```
 	role {
 			#
@@ -17,7 +17,7 @@
 ```
 
 2. AND 조건이다.
-- front-end Role이 2개 이상이고 worker Role이 1개 이상일 때 Cluster을 구성한다.
+   - front-end Role이 2개 이상이고 worker Role이 1개 이상일 때 Cluster을 구성한다.
 ```
     role {
         front-end.min-nr-of-members = 2
@@ -29,7 +29,7 @@
 <br/>
 
 ## 데모 시나리오
-- Role 정보
+   - Role 정보
 
  Node | Port | Role 
 -----|-----|-----
@@ -39,8 +39,8 @@
  NonSeedNode3 | 0893 | Worker, Resource Manager 
 
 - Per-Role Minimum Size 설정
-  - AND 조건을 만족하기 전까지는 "Joining" 상태가 된다.
-  - 클러스터가 구성된 이후 최소 개수는 무시된다(8091, 8092 포트 Node가 클러스터에서 제거된 후에도 클러스터는 유지된다).
+   - AND 조건을 만족하기 전까지는 "Joining" 상태가 된다.
+   - 클러스터가 구성된 이후 최소 개수는 무시된다(8091, 8092 포트 Node가 클러스터에서 제거된 후에도 클러스터는 유지된다).
 ```
 		role {
 			provider.min-nr-of-members = 1
