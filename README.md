@@ -1,7 +1,6 @@
-# Akka.NET Labs
-MORE FUN with Akka.NET 
+# MORE FUN with Akka.NET Labs 
 
-1. Cluster  
+1. Cluster Lab
    1. Overview  
        - Getting Started : **akka.cluster.seed-nodes**
        - Integrated with Petabridge.Cmd  
