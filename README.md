@@ -3,14 +3,14 @@ MORE FUN with Akka.NET
 
 1. Cluster  
    1. Overview  
-       - Getting Started  
+       - Getting Started : **akka.cluster.seed-nodes**
        - Integrated with Petabridge.Cmd  
-       - Automatically Mark Unreachable Nodes  
-       - Retry Joining Time Interval  
+       - Automatically Mark Unreachable Nodes : **akka.cluster.auto-down-unreachable-after**
+       - Retry Joining Time Interval : **akka.cluster.seed-node-timeout**
    1. Roles and Minimum Size  
-       - Define Roles  
-       - Cluster-Wide Minimum Size  
-       - Per-Role Minimum Size  
+       - Define Roles : **akka.cluster.roles**
+       - Cluster-Wide Minimum Size : **akka.cluster.min-nr-of-members**
+       - Per-Role Minimum Size : **akka.role.<role-name>.min-nr-of-members**
        - Mix Minimum Size  
    
 <br/>
