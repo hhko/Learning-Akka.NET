@@ -1,17 +1,17 @@
 # Akka.NET Labs
 MORE FUN with Akka.NET 
 
-1. Cluster
-   1.1 Overview
-       1.1.1 Getting Started
-       1.1.2 Integrated with Petabridge.Cmd
-       1.1.3 Automatically Mark Unreachable Nodes
-       1.1.4 Retry Joining Time Interval
-   1.2 Roles and Minimum Size
-       1.2.1 Define Roles
-	   1.2.2. Cluster-Wide Minimum Size
-       1.2.3 Per-Role Minimum Size
-       1.2.4 Mix Minimum Size
+1. Cluster  
+   1. Overview  
+       - Getting Started  
+       - Integrated with Petabridge.Cmd  
+       - Automatically Mark Unreachable Nodes  
+       - Retry Joining Time Interval  
+   1. Roles and Minimum Size  
+       - Define Roles  
+       - Cluster-Wide Minimum Size  
+       - Per-Role Minimum Size  
+       - Mix Minimum Size  
    
 <br/>
 <br/>
