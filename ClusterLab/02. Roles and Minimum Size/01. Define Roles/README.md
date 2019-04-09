@@ -22,11 +22,11 @@
 ## 데모 시나리오
 - Role 정보
 
- 구분 | Role 
------|-----
- SeedNode1 | Master, Lighthouse 
- NonSeedNode1 | Provider 
- NonSeedNode2 | Worker, Scheduler 
- NonSeedNode3 | Worker, Resource Manager 
+ Node | Port | Role 
+-----|-----|-----
+ SeedNode1 | 8081 | Master, Lighthouse 
+ NonSeedNode1 | 8091 | Provider 
+ NonSeedNode2 | 8092 | Worker, Scheduler 
+ NonSeedNode3 | 0893 | Worker, Resource Manager 
 
   ![](./Images/Roles.png)
