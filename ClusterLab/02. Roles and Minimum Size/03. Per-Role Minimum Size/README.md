@@ -4,15 +4,15 @@
    - AND 조건이다.
 ```
 	role {
-			#
-			# Minimum required number of members of a certain role before the leader
-			# changes member status of 'Joining' members to 'Up'. Typically used together
-			# with 'Cluster.registerOnMemberUp' to defer some action, such as starting
-			# actors, until the cluster has reached a certain size.
-			# E.g. to require 2 nodes with role 'frontend' and 3 nodes with role 'backend':
-			#   frontend.min-nr-of-members = 2
-			#   backend.min-nr-of-members = 3
-			#<role-name>.min-nr-of-members = 1
+		#
+		# Minimum required number of members of a certain role before the leader
+		# changes member status of 'Joining' members to 'Up'. Typically used together
+		# with 'Cluster.registerOnMemberUp' to defer some action, such as starting
+		# actors, until the cluster has reached a certain size.
+		# E.g. to require 2 nodes with role 'frontend' and 3 nodes with role 'backend':
+		#   frontend.min-nr-of-members = 2
+		#   backend.min-nr-of-members = 3
+		#<role-name>.min-nr-of-members = 1
 	}
 ```
 
@@ -21,7 +21,7 @@
 ```
     role {
         front-end.min-nr-of-members = 2
-		worker.min-nr-of-members = 1
+	worker.min-nr-of-members = 1
     }
 ```	
  
