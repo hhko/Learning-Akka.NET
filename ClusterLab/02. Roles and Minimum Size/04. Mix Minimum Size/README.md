@@ -22,3 +22,10 @@
 		}
 ```
   ![](./Images/Mix_Minimum_Size.png)
+  
+<br/>
+<br/>
+
+## TODO
+- "Joining" 상태일 때 그 이유를 확인할 수 있는 방법인 없나?
+   - App.Akka.conf(Hocon) 설정을 런타임에 확인할 수 있는 방법은?
