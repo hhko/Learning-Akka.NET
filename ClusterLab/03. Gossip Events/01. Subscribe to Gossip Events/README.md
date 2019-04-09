@@ -18,8 +18,7 @@ _cluster.Unsubscribe(Self);
 Receive<ClusterEvent.MemberUp>(_ => Handle(_));
 ```
 
-2. Event vs. Snapshot 구분하여 이벤트 처리하기
-   - Event : Gossip 정보를 연속으로 받는다.
+2. Event vs. Snapshot, Event : Gossip 정보를 연속으로 받는다(변경이 있을 때마다 자동으로).
 ```cs
 _cluster.Subscribe(Self,
                 ClusterEvent.SubscriptionInitialStateMode.InitialStateAsEvents,
@@ -28,7 +27,7 @@ _cluster.Subscribe(Self,
 Receive<ClusterEvent.MemberUp>(_ => Handle(_));
 ```
 
-   - Snapshot : 현재 Gossip 상태를 받는다.				
+3. Event vs. Snapshot, Snapshot : 현재 Gossip 상태를 받는다.				
 ```cs
 _cluster.Subscribe(Self, 
                 ClusterEvent.SubscriptionInitialStateMode.InitialStateAsSnapshot, 
@@ -37,7 +36,7 @@ _cluster.Subscribe(Self,
 Receive<ClusterEvent.CurrentClusterState>(_ => Handle(_));
 ```
 
-3. 자신이 [Up]될 때(클러스터에 합류할 때) 처리하기
+4. 자신이 [Up]될 때(클러스터에 합류할 때) 호출되는 Callback 함수
 ```cs
 _cluster.RegisterOnMemberUp(() =>
 	{
