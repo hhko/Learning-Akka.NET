@@ -21,6 +21,7 @@
 
 ## 데모 시나리오
 - Role 정보
+
  구분 | Role 
 -----|-----
  SeedNode1 | Master, Lighthouse 
