@@ -28,6 +28,34 @@
   - [ ] Console.WriteLine -> Log
   - [ ] 프로그램 종료 방법 변경
   - [ ] ActorSystem 이름을 conf 파일에서 지정하기 + SeedNode 이름에도 같이 사용하기?
-- [ ] 예제 추가
+  - [ ] Discovery Actors -> Actors Discovery
+- [ ] Lab 추가
   - [ ] Overview > SeedNode가 종료된 후 재 시작할 때?
   - [ ] Overview > SeedNode가 N개 일 때
+  - [ ] Router > Pool/Group
+  - [ ] Singleton
+  - [ ] Pub/Sub
+  - [ ] ClusterClient
+  - [ ] Split Brain Resolver
+  - [ ] Consul Actor Discovery
+  - [ ] Sharding
+  - [ ] Distributed Data
+  - [ ] Hocon > akka.cluster.failure-detector/akka.remote.transport-failure-detector/ ...
+  - [ ] 장기간 Busy Actor일 때 Heartbeat 처리?
+  - [ ] 매뉴얼 무중단 Rolling Update(메시지 버전 Up, ...)
+- [ ] 예제 추가
+  - [ ] [Cluster.WebCrawler](https://github.com/petabridge/akkadotnet-code-samples/tree/master/Cluster.WebCrawler)
+  - [ ] [Cluster.Monitoring](https://github.com/cgstevens/Akka.Cluster.Monitor)
+  - [ ] [Akka.NET Repo Cluster Examples](https://github.com/akkadotnet/akka.net/tree/dev/src/examples/Cluster)
+  - [ ] [Sharding](https://github.com/uatec/akka.net-clustersharding-example)
+  - [ ] [Pluralsight Akka.NET Cluster](https://github.com/thelegendofando/Pluralsight)
+  - [ ] [Pub/Sub Problem](https://github.com/thelegendofando/ProducerConsumerProblem)
+  - [ ] [Singleton Example](https://github.com/cgstevens/MyClusterServices)
+  - [ ] [FileProcessor](https://github.com/cgstevens/FileProcessor)
+  - [ ] [Akka.NET Workshop](https://github.com/profesor79/LDNAAkkaWorkshop)
+  - [ ] [Akka.NET Patterns](https://github.com/profesor79/akka.net.Patterns)
+  - [ ] [Riccardo Terrell, ActorModel](https://github.com/rikace/AkkaActorModel)
+  - [ ] [Riccardo Terrell, Workshop](https://github.com/rikace/akkaworkshop)
+  - [ ] [Riccardo Terrell, devConf2017](https://github.com/rikace/devConf2017)
+  - [ ] [Proto Saga](http://proto.actor/blog/2017/06/24/money-transfer-saga.html)
+  - [ ] [Proto Examples](https://github.com/rogeralsing/protoactor-dotnet/tree/dev/examples)
