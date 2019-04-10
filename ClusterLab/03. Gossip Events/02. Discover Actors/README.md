@@ -45,3 +45,14 @@
 	NonSeedNode3
 1. NonSeedNode3에서 다른 Node에 있는 관심 액터에게 메시지를 보낸다.
 
+- SeedNode1
+![](./Images/SeedNode1.png)
+
+- NonSeedNode1
+![](./Images/NonSeedNode1.png)
+
+- NonSeedNode2
+![](./Images/NonSeedNode2.png)
+
+- NonSeedNode3
+![](./Images/NonSeedNode3.png)
