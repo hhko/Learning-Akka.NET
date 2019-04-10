@@ -9,13 +9,10 @@
    1. Roles and Minimum Size  
        - Define Roles : **akka.cluster.roles**
        - Cluster-Wide Minimum Size : **akka.cluster.min-nr-of-members**
-       - Per-Role Minimum Size : **akka.role.<role-name>.min-nr-of-members**
+       - Per-Role Minimum Size : **akka.cluster.role.<role-name>.min-nr-of-members**
        - Mix Minimum Size  
    1. Gossip Events
-       - Subscribe to Gossip Events : 
-          - **Cluster _cluster = Cluster.Get(Context.System);**
-          - **_cluster.Subscribe(Self, ...);**
-          - **_cluster.Unsubscribe(Self);**
+       - Subscribe to Gossip Events : **Cluster _cluster = Cluster.Get(Context.System); _cluster.Subscribe(Self, ...);**
    
 <br/>
 <br/>
@@ -30,5 +27,3 @@
   - [ ] Console.WriteLine -> Log
   - [ ] 프로그램 종료 방법 변경
   - [ ] ActorSystem 이름을 conf 파일에서 지정하기 + SeedNode 이름에도 같이 사용하기?
-  - [x] 2019-04-09 App.Akka.hocon -> App.Akka.conf 파일명 변경하기
-  - [x] 2019-04-09 var hocon = ...; -> var config = ...;
