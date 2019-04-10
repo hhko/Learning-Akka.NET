@@ -13,6 +13,7 @@
        - Mix Minimum Size  
    1. Gossip Events
        - Subscribe to Gossip Events : **Cluster _cluster = Cluster.Get(Context.System); _cluster.Subscribe(Self, ...);**
+       - Discovery Actors
    
 <br/>
 <br/>
@@ -27,3 +28,6 @@
   - [ ] Console.WriteLine -> Log
   - [ ] 프로그램 종료 방법 변경
   - [ ] ActorSystem 이름을 conf 파일에서 지정하기 + SeedNode 이름에도 같이 사용하기?
+- [ ] 예제 추가
+  - [ ] Overview > SeedNode가 종료된 후 재 시작할 때?
+  - [ ] Overview > SeedNode가 N개 일 때
