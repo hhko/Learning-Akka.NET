@@ -6,7 +6,7 @@
 	IActorRef clusterActorDiscovery = system.ActorOf(Props.Create(() => new ClusterActorDiscovery(cluster)), "cluster_actor_discovery");
 ```
 
-1. 관심 액터를 등록한다.
+2. 관심 액터를 등록한다.
 ```cs
 	//
 	// "SeedNode1-FooActor"은 클러스터 환경에서 유일한 식별 값이어야 한다.
@@ -14,12 +14,12 @@
 	_clusterActorDiscovery.Tell(new ClusterActorDiscoveryMessage.RegisterActor(Self, "SeedNode1-FooActor"));
 ```
 	
-1. 관심 액터 찾기를 감시한다.
+3. 관심 액터 찾기를 감시한다.
 ```cs
 	_clusterActorDiscovery.Tell(new ClusterActorDiscoveryMessage.MonitorActor("SeedNode1-FooActor"));
 ```
 
-1. 관심 액터가 클러스터에 합류/제거를 인식한다.
+4. 관심 액터가 클러스터에 합류/제거를 인식한다.
 ```cs
 	Receive<ClusterActorDiscoveryMessage.ActorUp>(_ => Handle(_));
     Receive<ClusterActorDiscoveryMessage.ActorDown>(_ => Handle(_));
