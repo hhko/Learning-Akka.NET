@@ -59,3 +59,5 @@
   - [ ] [Riccardo Terrell, devConf2017](https://github.com/rikace/devConf2017)
   - [ ] [Proto Saga](http://proto.actor/blog/2017/06/24/money-transfer-saga.html)
   - [ ] [Proto Examples](https://github.com/rogeralsing/protoactor-dotnet/tree/dev/examples)
+  - [ ] [Akka.Cluster.Sharding demo](https://github.com/Horusiath/AkkaDemos)
+  - [ ] [CQRS](https://github.com/Horusiath/AkkaCQRS)
