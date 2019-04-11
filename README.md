@@ -61,3 +61,4 @@
   - [ ] [Proto Examples](https://github.com/rogeralsing/protoactor-dotnet/tree/dev/examples)
   - [ ] [Akka.Cluster.Sharding demo](https://github.com/Horusiath/AkkaDemos)
   - [ ] [CQRS](https://github.com/Horusiath/AkkaCQRS)
+  - [ ] [HealthCheck](https://github.com/petabridge/akkadotnet-healthcheck)
