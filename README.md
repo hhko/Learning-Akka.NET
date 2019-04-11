@@ -36,14 +36,17 @@
 - [ ] Lab 추가
   - [ ] Overview > SeedNode가 종료된 후 재 시작할 때?
   - [ ] Overview > SeedNode가 N개 일 때
-  - [ ] Router > Pool/Group
-  - [ ] Singleton
-  - [ ] Pub/Sub
+  - [ ] Warm-up, Router > Group
+  - [ ] Warm-up, Deploy, Deploy 예외 처리 정보 부족 -> Akka.NET 이슈 제기
+  - [ ] Cluster Routing Pools
+  - [ ] Cluster Routing Groups
+  - [ ] Cluster Singleton
+  - [ ] Cluster Pub/Sub
   - [ ] ClusterClient
   - [ ] Split Brain Resolver
   - [ ] Consul Actor Discovery
-  - [ ] Sharding
-  - [ ] Distributed Data
+  - [ ] Cluster Sharding
+  - [ ] Cluster Distributed Data
   - [ ] Hocon > akka.cluster.failure-detector/akka.remote.transport-failure-detector/ ...
   - [ ] 장기간 Busy Actor일 때 Heartbeat 처리?
   - [ ] 매뉴얼 무중단 Rolling Update(메시지 버전 Up, ...)
