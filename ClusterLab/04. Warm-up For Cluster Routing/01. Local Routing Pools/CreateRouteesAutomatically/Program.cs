@@ -4,7 +4,7 @@ using Petabridge.Cmd.Host;
 using System;
 using System.IO;
 
-namespace CreateOwnWorkerActors
+namespace CreateRouteesAutomatically
 {
     class Program
     {

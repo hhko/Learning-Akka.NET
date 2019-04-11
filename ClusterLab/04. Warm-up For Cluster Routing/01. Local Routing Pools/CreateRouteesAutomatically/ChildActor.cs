@@ -5,7 +5,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace CreateOwnWorkerActors
+namespace CreateRouteesAutomatically
 {
     public class ChildActor : ReceiveActor
     {
