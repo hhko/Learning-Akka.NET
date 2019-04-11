@@ -99,17 +99,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NonSeedNode2", "03. Gossip 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NonSeedNode3", "03. Gossip Events\01. Subscribe to Gossip Events\NonSeedNode3\NonSeedNode3.csproj", "{91688A33-68A5-4087-BDC0-85269A2ADC80}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02. Discover Actors", "02. Discover Actors", "{158958C6-EF1A-4165-B37D-B16980DA6B5D}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02. Actor Discovery", "02. Actor Discovery", "{158958C6-EF1A-4165-B37D-B16980DA6B5D}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SeedNode1", "03. Gossip Events\02. Discover Actors\SeedNode1\SeedNode1.csproj", "{FA01DFCD-1D91-4DC1-A114-35F653BE32FA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SeedNode1", "03. Gossip Events\02. Actor Discovery\SeedNode1\SeedNode1.csproj", "{FA01DFCD-1D91-4DC1-A114-35F653BE32FA}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NonSeedNode1", "03. Gossip Events\02. Discover Actors\NonSeedNode1\NonSeedNode1.csproj", "{F3E21267-F0FC-477F-B928-5AEEDCA02671}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NonSeedNode1", "03. Gossip Events\02. Actor Discovery\NonSeedNode1\NonSeedNode1.csproj", "{F3E21267-F0FC-477F-B928-5AEEDCA02671}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NonSeedNode2", "03. Gossip Events\02. Discover Actors\NonSeedNode2\NonSeedNode2.csproj", "{EB60969C-AFD9-49B4-8437-E63D4151C44B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NonSeedNode2", "03. Gossip Events\02. Actor Discovery\NonSeedNode2\NonSeedNode2.csproj", "{EB60969C-AFD9-49B4-8437-E63D4151C44B}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NonSeedNode3", "03. Gossip Events\02. Discover Actors\NonSeedNode3\NonSeedNode3.csproj", "{DC03C681-6873-414F-B1E2-E1EEC2E521A1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NonSeedNode3", "03. Gossip Events\02. Actor Discovery\NonSeedNode3\NonSeedNode3.csproj", "{DC03C681-6873-414F-B1E2-E1EEC2E521A1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Akka.Cluster.Discovery", "03. Gossip Events\02. Discover Actors\Akka.Cluster.Discovery\Akka.Cluster.Discovery.csproj", "{3593A7FB-A58F-4029-945A-375900855819}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Akka.Cluster.Discovery", "03. Gossip Events\02. Actor Discovery\Akka.Cluster.Discovery\Akka.Cluster.Discovery.csproj", "{3593A7FB-A58F-4029-945A-375900855819}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
