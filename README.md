@@ -1,19 +1,24 @@
 # MORE FUN with Akka.NET Labs 
 
-1. Cluster Lab
-   1. Overview  
-       - Getting Started : **akka.cluster.seed-nodes**
-       - Integrated with Petabridge.Cmd  
-       - Automatically Mark Unreachable Nodes : **akka.cluster.auto-down-unreachable-after**
-       - Retry Joining Time Interval : **akka.cluster.seed-node-timeout**
-   1. Roles and Minimum Size  
-       - Define Roles : **akka.cluster.roles**
-       - Cluster-Wide Minimum Size : **akka.cluster.min-nr-of-members**
-       - Per-Role Minimum Size : **akka.cluster.role.<role-name>.min-nr-of-members**
-       - Mix Minimum Size  
-   1. Gossip Events
-       - Subscribe to Gossip Events : **Cluster _cluster = Cluster.Get(Context.System); _cluster.Subscribe(Self, ...);**
-       - Discovery Actors
+### Cluster Lab
+1. **Overview**
+   - Getting Started : **akka.cluster.seed-nodes**
+   - Integrated with Petabridge.Cmd  
+   - Automatically Mark Unreachable Nodes : **akka.cluster.auto-down-unreachable-after**
+   - Retry Joining Time Interval : **akka.cluster.seed-node-timeout**
+1. **Roles and Minimum Size**
+   - Define Roles : **akka.cluster.roles**
+   - Cluster-Wide Minimum Size : **akka.cluster.min-nr-of-members**
+   - Per-Role Minimum Size : **akka.cluster.role.<role-name>.min-nr-of-members**
+   - Mix Minimum Size  
+1. **Gossip Events**
+   - Subscribe to Gossip Events : **Cluster _cluster = Cluster.Get(Context.System); _cluster.Subscribe(Self, ...);**
+   - Discovery Actors
+1. **Warm-up For Cluster Routing**
+   - Local Routing Pools : Create routees automatically. **round-robin-pool**
+   - Local Routing Groups : Create routees yourself. **round-robin-group**, path
+   - Remote Deploy
+   - Remote Deploy Exceptions Info 
    
 <br/>
 <br/>
