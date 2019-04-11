@@ -109,7 +109,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NonSeedNode2", "03. Gossip 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NonSeedNode3", "03. Gossip Events\02. Actor Discovery\NonSeedNode3\NonSeedNode3.csproj", "{DC03C681-6873-414F-B1E2-E1EEC2E521A1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Akka.Cluster.Discovery", "03. Gossip Events\02. Actor Discovery\Akka.Cluster.Discovery\Akka.Cluster.Discovery.csproj", "{3593A7FB-A58F-4029-945A-375900855819}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Akka.Cluster.Discovery", "03. Gossip Events\02. Actor Discovery\Akka.Cluster.Discovery\Akka.Cluster.Discovery.csproj", "{3593A7FB-A58F-4029-945A-375900855819}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04. Warm-up For Cluster Routing", "04. Warm-up For Cluster Routing", "{EAAD7E45-C6CC-4A64-9C02-F1D934F79E00}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01. Local Routing Pool", "01. Local Routing Pool", "{4953F572-765E-4927-AB63-AD34C8386C24}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LocalRoutingPoolApp", "04. Warm-up For Cluster Routing\01. Local Routing Pool\LocalRoutingPoolApp\LocalRoutingPoolApp.csproj", "{DB8CAC56-3C66-49A6-A33F-FD9788EC8DD6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CreateOwnWorkerActors", "04. Warm-up For Cluster Routing\01. Local Routing Pool\CreateOwnWorkerActors\CreateOwnWorkerActors.csproj", "{BCCC0011-E0C8-4F0C-9508-D22B370F2A24}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -281,6 +289,14 @@ Global
 		{3593A7FB-A58F-4029-945A-375900855819}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3593A7FB-A58F-4029-945A-375900855819}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3593A7FB-A58F-4029-945A-375900855819}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB8CAC56-3C66-49A6-A33F-FD9788EC8DD6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB8CAC56-3C66-49A6-A33F-FD9788EC8DD6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB8CAC56-3C66-49A6-A33F-FD9788EC8DD6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB8CAC56-3C66-49A6-A33F-FD9788EC8DD6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BCCC0011-E0C8-4F0C-9508-D22B370F2A24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BCCC0011-E0C8-4F0C-9508-D22B370F2A24}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BCCC0011-E0C8-4F0C-9508-D22B370F2A24}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BCCC0011-E0C8-4F0C-9508-D22B370F2A24}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -337,6 +353,9 @@ Global
 		{EB60969C-AFD9-49B4-8437-E63D4151C44B} = {158958C6-EF1A-4165-B37D-B16980DA6B5D}
 		{DC03C681-6873-414F-B1E2-E1EEC2E521A1} = {158958C6-EF1A-4165-B37D-B16980DA6B5D}
 		{3593A7FB-A58F-4029-945A-375900855819} = {158958C6-EF1A-4165-B37D-B16980DA6B5D}
+		{4953F572-765E-4927-AB63-AD34C8386C24} = {EAAD7E45-C6CC-4A64-9C02-F1D934F79E00}
+		{DB8CAC56-3C66-49A6-A33F-FD9788EC8DD6} = {4953F572-765E-4927-AB63-AD34C8386C24}
+		{BCCC0011-E0C8-4F0C-9508-D22B370F2A24} = {4953F572-765E-4927-AB63-AD34C8386C24}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {ECF7691A-061A-4CA7-820E-B9E14611A042}

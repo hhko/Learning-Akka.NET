@@ -9,7 +9,7 @@ namespace NonSeedNode1
 {
     public class FooActor : ReceiveActor
     {
-        private readonly ILoggingAdapter _log = Logging.GetLogger(Context);
+        private readonly ILoggingAdapter _log = Context.GetLogger();
         private IActorRef _clusterActorDiscovery;
 
         public static Props Props(IActorRef clusterActorDiscovery)

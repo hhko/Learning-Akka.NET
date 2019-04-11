@@ -9,7 +9,7 @@ namespace NonSeedNode2
 {
     public class MemberListenAsEventsActor : ReceiveActor
     {
-        private readonly ILoggingAdapter _log = Logging.GetLogger(Context);
+        private readonly ILoggingAdapter _log = Context.GetLogger();
         private readonly Cluster _cluster = Cluster.Get(Context.System);
 
         public static Props Props()
