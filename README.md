@@ -19,8 +19,12 @@
 <br/>
 
 ## TODO
+- [ ] README.md
+  - [ ] 주요 함수 Summary 추가
+  - [ ] Diagram 이미지 추가
+  - [ ] Youtube 데모 동영상 추가
 - [ ] NLog
-  - [ ] NLog.config -> App.NLog.conf 파일명 변경하기
+  - [x] NLog.config -> App.NLog.conf 파일명 변경하기
   - [ ] [3] -> [0003] ThreadId 고정 영역으로 출력하기
   - [ ] Log 출력 소스 정보 [ ...? ] -> [akka://ClusterLab/deadletters]
   - [ ] 01. Overview -> 04. Retry Joining Time Interval -> NonSeedNode1 적용
@@ -43,6 +47,7 @@
   - [ ] Hocon > akka.cluster.failure-detector/akka.remote.transport-failure-detector/ ...
   - [ ] 장기간 Busy Actor일 때 Heartbeat 처리?
   - [ ] 매뉴얼 무중단 Rolling Update(메시지 버전 Up, ...)
+  - [ ] Transactions
 - [ ] 예제 추가
   - [ ] [Cluster.WebCrawler](https://github.com/petabridge/akkadotnet-code-samples/tree/master/Cluster.WebCrawler)
   - [ ] [Cluster.Monitoring](https://github.com/cgstevens/Akka.Cluster.Monitor)
