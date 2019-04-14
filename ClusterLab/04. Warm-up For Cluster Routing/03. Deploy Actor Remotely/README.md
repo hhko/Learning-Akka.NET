@@ -36,14 +36,12 @@ var remoteEcho2 = system.ActorOf(
 <br/>
 
 ## 데모 시나리오
-	1.1 구성
-		Deployer				// 배포하는 곳
-			LocalActor
-			
-		DeployerTarget		// 배포될 곳
-
-		DeployerShared		// 배포할 액터
-			DeployedEchoActor
+1. 구성
+   - Deployer				// 배포하는 곳
+     - LocalActor
+   - DeployerTarget		// 배포될 곳
+   - DeployerShared		// 배포할 액터
+     - DeployedEchoActor
 
 
 
