@@ -29,8 +29,8 @@ var remoteEcho2 = system.ActorOf(
 3. 배포된 액터 계층 구조
    - 액터를 배포하는 곳: /user 밑에 생성한다.
      - akka://Deployer/user/**DeployedEchoActor1**
-  - 액터가 배포되는 곳: /remote/"배포한 액서 시스템 Actor Path"
-    - akka://DeployerTarget/remote/akka.tcp/Deployer@localhost:57737/user/**DeployedEchoActor1**
+   - 액터가 배포되는 곳: /remote/"배포한 액서 시스템 Actor Path"
+     - akka://DeployerTarget/remote/akka.tcp/Deployer@localhost:57737/user/**DeployedEchoActor1**
   
 <br/>
 <br/>
@@ -71,7 +71,7 @@ actor hierarchy -d 9		// 기본 값은 4이다.
 actor hierarchy -s akka.tcp://DeployTarget@localhost:8090 -d 9
 ```
 
-1. Remote일 때 로그 수준이 "Debug"이면 'Heartbeat' 처리 과정이 반복적으로 출력된다.
+2. Remote일 때 로그 수준이 "Debug"이면 'Heartbeat' 처리 과정이 반복적으로 출력된다.
    - 어떻게 로그에서 제거할 수 있을까?
 ```
 [DEBUG][ ... ] Sending Heartbeat to [akka.tcp://Deployer@localhost:56367]
