@@ -39,7 +39,9 @@ var remoteEcho2 = system.ActorOf(
 1. 구성
    - Deployer: 배포하는 곳
      - LocalActor
+	 ![](./Images/Deployer.png)
    - DeployerTarget: 배포되는 곳
+     ![](./Images/DeployerTarget.png)
    - DeployerShared: 배포하는 액터
      - DeployedEchoActor
 
@@ -55,8 +57,7 @@ var remoteEcho2 = system.ActorOf(
 
 1. 배포할 액터는 배포하는 곳/배포되는 곳 모두 참조하고 있어야 한다.
    - Akka.Actor.ActorInitializationException 예외가 발생한다.
-
-
+   
 <br/>
 <br/>
 
