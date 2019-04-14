@@ -32,6 +32,8 @@ var remoteEcho2 = system.ActorOf(
    - 액터가 배포되는 곳: /remote/"배포한 액서 시스템 Actor Path"
      - akka://DeployerTarget/remote/akka.tcp/Deployer@localhost:57737/user/**DeployedEchoActor1**
   
+4. **만약 원격에 배포할 수 없게되면 자동으로 로컬에 배포한다.**
+
 <br/>
 <br/>
 
@@ -57,6 +59,9 @@ var remoteEcho2 = system.ActorOf(
 
 1. 배포할 액터는 배포하는 곳/배포되는 곳 모두 참조하고 있어야 한다.
    - Akka.Actor.ActorInitializationException 예외가 발생한다.
+   
+1. 배포되는 액터 시스템 프로세스를 실행시키지 않은 상태에서 액터를 배포할 때
+   ![](./Images/Deployer_DeployingLocal.png)
    
 <br/>
 <br/>
