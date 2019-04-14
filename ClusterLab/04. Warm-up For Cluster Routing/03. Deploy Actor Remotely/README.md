@@ -33,6 +33,8 @@ var remoteEcho2 = system.ActorOf(
      - akka://DeployerTarget/remote/akka.tcp/Deployer@localhost:57737/user/**DeployedEchoActor1**
   
 4. **만약 원격에 배포할 수 없게되면 Wraning 로그를 출력한다.**
+   - Warnning: AssociationError
+   - Wranning: Tried to associate with unreachable remote address  
 
 <br/>
 <br/>
@@ -58,7 +60,7 @@ var remoteEcho2 = system.ActorOf(
 1. 배포할 액터는 배포하는 곳/배포되는 곳 모두 참조하고 있어야 한다.
    - Akka.Actor.ActorInitializationException 예외가 발생한다.
    
-1. 배포되는 액터 시스템 프로세스를 실행시키지 않은 상태에서 액터를 배포할 때
+1. 배포되는 액터 시스템 프로세스를 실행시키지 않은 상태에서 액터를 배포할 때는 Warning 로그를 출력한다.
    - Warnning: AssociationError
    - Wranning: Tried to associate with unreachable remote address  
    ![](./Images/Deployer_DeployingLocal.png)
