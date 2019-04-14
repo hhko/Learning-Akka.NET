@@ -27,10 +27,10 @@ var remoteEcho2 = system.ActorOf(
 ```
 
 3. 배포된 액터 계층 구조
-- 액터를 배포하는 곳
-   - akka://Deployer/user/DeployedEchoActor1
-- 액터를 배포되는 곳
-  - akka://DeployTarget/remote/akka.tcp/Deployer@localhost:57737/user/DeployedEchoActor1
+   - 액터를 배포하는 곳: /user 밑에 생성한다.
+     - akka://Deployer/user/**DeployedEchoActor1**
+  - 액터가 배포되는 곳: /remote/"배포한 액서 시스템 Actor Path"
+    - akka://DeployerTarget/remote/akka.tcp/Deployer@localhost:57737/user/**DeployedEchoActor1**
   
 <br/>
 <br/>
