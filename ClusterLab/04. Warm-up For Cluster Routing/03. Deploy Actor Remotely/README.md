@@ -37,13 +37,11 @@ var remoteEcho2 = system.ActorOf(
 
 ## 데모 시나리오
 1. 구성
-   - Deployer: 배포하는 곳
-     - LocalActor
-	 ![](./Images/Deployer.png)
+   - Deployer: 배포하는 곳(LocalActor)
+     ![](./Images/Deployer.png)
    - DeployerTarget: 배포되는 곳
      ![](./Images/DeployerTarget.png)
-   - DeployerShared: 배포하는 액터
-     - DeployedEchoActor
+   - DeployerShared: 배포하는 액터(DeployedEchoActor)
 
 1. 액터 Run-time 구조
    - Deployer
