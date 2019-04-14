@@ -3,6 +3,7 @@ using Akka.Cluster;
 using Akka.Event;
 using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Text;
 
 namespace NonSeedNode2
@@ -62,6 +63,14 @@ namespace NonSeedNode2
                     //
                     _log.Info(">>> RegisterOnMemerUp Callback Method");
                 });
+
+            //_cluster.RegisterOnMemberRemoved(() =>
+            //    {
+            //        //
+            //        // 자신이 클러스테에서 제거될 때([Down]될 때) 호출된다.
+            //        //
+            //        _log.Info(">>> RegisterOnMemberRemoved Callback Method");
+            //    });
         }
 
         protected override void PostStop()
@@ -97,12 +106,10 @@ namespace NonSeedNode2
 
         private void Register(Member member)
         {
-            // Role 이름은 대/소문자를 구분한다.
-            if (member.HasRole("Provider"))
+            _log.Info($">>> Member : {member.Address}");
+            foreach (var role in member.Roles)
             {
-                // Address은 대/소문자를 구분한다.
-                _log.Info($">>> Address : {member.Address}/user/FooActor");
-                Context.ActorSelection(member.Address + "/user/FooActor").Tell("Hello from NonSeedNode2.");
+                _log.Info($">>> \t {role}");
             }
         }
     }

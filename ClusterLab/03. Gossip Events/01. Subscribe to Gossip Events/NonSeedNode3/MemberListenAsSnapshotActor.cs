@@ -61,6 +61,16 @@ namespace NonSeedNode3
 
         private void Register(Member member)
         {
+            _log.Info($">>> Member : {member.Address}");
+            foreach (var role in member.Roles)
+            {
+                _log.Info($">>> \t {role}");
+            }
+
+            // 
+            // NonSeedNode1 > FooActor에게 메시지를 보낸다.
+            //
+
             // Role 이름은 대/소문자를 구분한다.
             if (member.HasRole("Provider"))
             {

@@ -121,6 +121,14 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CreateRouteesAutomatically"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CreateRouteesYourself", "04. Warm-up For Cluster Routing\02. Local Routing Groups\CreateRouteesYourself\CreateRouteesYourself.csproj", "{631BAF79-CC99-4C36-8978-EFB0125470AA}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03. Deploy Actor Remotely", "03. Deploy Actor Remotely", "{BF706B16-342C-4458-AF56-7D1B28407A3B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Deployer", "04. Warm-up For Cluster Routing\03. Deploy Actor Remotely\Deployer\Deployer.csproj", "{B5BD1640-B626-4763-9753-81EAD1BA387D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeployerTarget", "04. Warm-up For Cluster Routing\03. Deploy Actor Remotely\DeployerTarget\DeployerTarget.csproj", "{010FD7EA-3085-4B24-BFE3-B3827F4E424D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeployerShared", "04. Warm-up For Cluster Routing\03. Deploy Actor Remotely\DeployerShared\DeployerShared.csproj", "{1C338A10-E2C5-4FA5-B61C-4F575A4EA392}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -299,6 +307,18 @@ Global
 		{631BAF79-CC99-4C36-8978-EFB0125470AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{631BAF79-CC99-4C36-8978-EFB0125470AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{631BAF79-CC99-4C36-8978-EFB0125470AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B5BD1640-B626-4763-9753-81EAD1BA387D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5BD1640-B626-4763-9753-81EAD1BA387D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5BD1640-B626-4763-9753-81EAD1BA387D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5BD1640-B626-4763-9753-81EAD1BA387D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{010FD7EA-3085-4B24-BFE3-B3827F4E424D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{010FD7EA-3085-4B24-BFE3-B3827F4E424D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{010FD7EA-3085-4B24-BFE3-B3827F4E424D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{010FD7EA-3085-4B24-BFE3-B3827F4E424D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C338A10-E2C5-4FA5-B61C-4F575A4EA392}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C338A10-E2C5-4FA5-B61C-4F575A4EA392}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C338A10-E2C5-4FA5-B61C-4F575A4EA392}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C338A10-E2C5-4FA5-B61C-4F575A4EA392}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -359,6 +379,10 @@ Global
 		{F73E806E-2E9B-4630-BCC0-1094F3EFD559} = {EAAD7E45-C6CC-4A64-9C02-F1D934F79E00}
 		{AB8825B5-01A0-44F9-898D-495FC14E1B8D} = {42568045-E934-4526-95AD-7529331FDBA3}
 		{631BAF79-CC99-4C36-8978-EFB0125470AA} = {F73E806E-2E9B-4630-BCC0-1094F3EFD559}
+		{BF706B16-342C-4458-AF56-7D1B28407A3B} = {EAAD7E45-C6CC-4A64-9C02-F1D934F79E00}
+		{B5BD1640-B626-4763-9753-81EAD1BA387D} = {BF706B16-342C-4458-AF56-7D1B28407A3B}
+		{010FD7EA-3085-4B24-BFE3-B3827F4E424D} = {BF706B16-342C-4458-AF56-7D1B28407A3B}
+		{1C338A10-E2C5-4FA5-B61C-4F575A4EA392} = {BF706B16-342C-4458-AF56-7D1B28407A3B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {ECF7691A-061A-4CA7-820E-B9E14611A042}
