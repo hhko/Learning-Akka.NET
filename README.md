@@ -19,6 +19,13 @@
    - Local Routing Groups : Create routees yourself. **round-robin-group**, path
    - Remote Deploy
    - Remote Deploy Exceptions Info 
+1. **Cluster Client"
+   - Communicating with Cluster : 
+     - Client 설정 : akka.cluster.client.initial-contacts = [ ... ]
+     - Client 함수 : ClusterClient.Props, .Send, SendToAll, Publish
+     - Cluster 설정 : extensions = ["Akka.Cluster.Tools.Client.ClusterClientReceptionistExtensionProvider, Akka.Cluster.Tools"]
+     - Cluster 등록 : ClusterClientReceptionist.Get(system).RegisterService(fooActor); 
+      
    
 <br/>
 <br/>
@@ -39,16 +46,16 @@
   - [ ] 프로그램 종료 방법 변경
   - [ ] ActorSystem 이름을 conf 파일에서 지정하기 + SeedNode 이름에도 같이 사용하기?
 - [ ] Lab 추가
+  - [ ] Warm-up Routting 예외 처리, 생성 분리
+  - [ ] Warm-up, Deploy, Deploy 예외 처리 정보 부족 -> Akka.NET 이슈 제기
+  - [ ] ClusterClient Event 처리 예제 추가
   - [ ] Overview > SeedNode가 종료된 후 재 시작할 때?
   - [ ] Overview > SeedNode가 N개 일 때
   - [ ] Gossip Events > RegisterOnMemberRemoved, Leave, Join, ... 
-  - [ ] Warm-up, Router > Group
-  - [ ] Warm-up, Deploy, Deploy 예외 처리 정보 부족 -> Akka.NET 이슈 제기
   - [ ] Cluster Routing Pools
   - [ ] Cluster Routing Groups
   - [ ] Cluster Singleton
   - [ ] Cluster Pub/Sub
-  - [ ] ClusterClient
   - [ ] Split Brain Resolver
   - [ ] Consul Actor Discovery
   - [ ] Cluster Sharding
