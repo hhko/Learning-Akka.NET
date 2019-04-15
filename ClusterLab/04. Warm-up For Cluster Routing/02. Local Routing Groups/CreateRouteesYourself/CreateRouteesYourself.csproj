@@ -10,4 +10,10 @@
     <PackageReference Include="Petabridge.Cmd.Host" Version="0.5.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Update="App.Akka.conf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
 </Project>

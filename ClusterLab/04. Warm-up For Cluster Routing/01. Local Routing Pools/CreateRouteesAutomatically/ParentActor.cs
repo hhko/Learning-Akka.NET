@@ -54,7 +54,7 @@ namespace CreateRouteesAutomatically
                 childActor.Tell(i);
         }
 
-        // SupervisorStrategy 호출 우선순위 2.
+        // SupervisorStrategy 호출 2. 우선순위이다.
         // WithSupervisorStrategy가 정의되어 있다면 SupervisorStrategy()는 호출되지 않는다.
         protected override SupervisorStrategy SupervisorStrategy()
         {

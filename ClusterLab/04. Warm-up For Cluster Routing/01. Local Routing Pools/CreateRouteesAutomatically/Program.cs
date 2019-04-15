@@ -11,7 +11,7 @@ namespace CreateRouteesAutomatically
         static void Main(string[] args)
         {
             var config = ConfigurationFactory.ParseString(File.ReadAllText("App.Akka.conf"));
-            ActorSystem system = ActorSystem.Create("LocalRoutingPool", config);
+            ActorSystem system = ActorSystem.Create("WarmupForClusterRouting", config);
 
             var cmd = PetabridgeCmd.Get(system);
             cmd.Start();
