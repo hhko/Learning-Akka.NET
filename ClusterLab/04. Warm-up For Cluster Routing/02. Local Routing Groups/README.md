@@ -35,8 +35,8 @@ var roundRobinGroupActor = system.ActorOf(Props.Empty
 ```
 
 3. Group Routee(ChildActor1)에서 발생되는 예외는 Group Router(MyGroupRouterActor)가 아닌 진짜 부모(ParentActor)에게 전달된다.
-  - Group Routee: /user/ParentActor/ChildActor1
-  - Group Router: /user/MyGroupRouterActor
+   - Group Routee: /user/ParentActor/ChildActor1
+   - Group Router: /user/MyGroupRouterActor
   
 <br/>
 <br/>
@@ -52,9 +52,9 @@ var roundRobinGroupActor = system.ActorOf(Props.Empty
 	/user/MyGroupRouterActor
 
 1. Router vs. Routee
-Group Router	| Group Routee
--- | -- 
-MyGroupRouterActor | ChildActor1, ChildActor2, ChildActor3
+| Group Router	| Group Routee |
+| -- | -- |
+| MyGroupRouterActor | ChildActor1, ChildActor2, ChildActor3 |
 
 1. ChildActor1, 2, 3에서 예외가 발생되면 ParentActor의 SupervisorStrategy가 호출된다.
 
