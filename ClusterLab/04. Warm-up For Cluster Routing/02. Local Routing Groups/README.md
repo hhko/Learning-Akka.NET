@@ -58,4 +58,4 @@ var roundRobinGroupActor = system.ActorOf(Props.Empty
 | MyGroupRouterActor | ChildActor1, ChildActor2, ChildActor3 |  
 
 3. ChildActor1, 2, 3에서 예외가 발생되면 ParentActor의 SupervisorStrategy가 호출된다.
-![](./Images/Result.png)
+![](./Images/Demo.png)
