@@ -13,7 +13,7 @@ akka {
 		}
 	}
 }
-``
+```
 
 2. 자동으로 Routee를 생성시킨다.
    - .WithRouter(FromConfig.Instance);
@@ -46,8 +46,9 @@ return Akka.Actor.Props.Create(() => new ChildActor())
     //
     return Directive.Stop;
 })));
+```
 
-7. 환경 설정 파일에 있는 Router 전략 사용하기
+6. 환경 설정 파일에 있는 Router 전략 사용하기
 ```
 using Akka.Routing;
 
