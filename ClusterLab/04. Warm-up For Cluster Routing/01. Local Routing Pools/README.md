@@ -57,9 +57,6 @@ using Akka.Routing;
 7. WithSupervisorStrategy vs. override SupervisorStrategy 함수 호출 우선 순위
    - WithSupervisorStrategy > override SupervisorStrategy 함수
 
-TODO 1. /user/MyRouter/$a
-			--> MyRouter로 장의 처리 전략을 수립하자.
-	
 8. 환경 설정에 지정된 액터 경로가 일치하지 않으면 예외가 발생한다.
    - Akka.Actor.ActorInitializationException
 ![](./Images/MismatchActorPath.png)
