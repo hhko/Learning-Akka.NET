@@ -43,22 +43,20 @@ var roundRobinGroupActor = system.ActorOf(Props.Empty
 
 ## 데모
 1. 데모 액터 구조
-	/user/ParentActor
-	/user/ParentActor/ChildActor1
-	/user/ParentActor/ChildActor2
-	/user/ParentActor/ChildActor3
+   - 기본 액터
+     - /user/ParentActor
+     - /user/ParentActor/ChildActor1
+     - /user/ParentActor/ChildActor2
+     - /user/ParentActor/ChildActor3
+   - Props.Empty
+     - /user/MyGroupRouterActor
 
-	Props.Empty
-	/user/MyGroupRouterActor
+1. Router vs. Routee 
 
-1. Router vs. Routee  
 | Group Router  | Group Routee  |  
 | --- | --- |  
 | MyGroupRouterActor | ChildActor1, ChildActor2, ChildActor3 |  
-| Command | Description |
-| --- | --- |
-| `git status` | List all *new or modified* files |
-| `git diff` | Show file differences that **haven't been** staged |
+
 
 1. ChildActor1, 2, 3에서 예외가 발생되면 ParentActor의 SupervisorStrategy가 호출된다.
 
