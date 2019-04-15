@@ -24,7 +24,7 @@ namespace CreateRouteesAutomatically
                     // 
                     // Why?
                     // Props 함수가 static 이기 때문이다.
-                    Console.WriteLine($">>> {ex.Message}");
+                    Console.WriteLine($">>> OneForOneStrategy: { ex.Message}");
 
                     //
                     // [[[ Routing 장애 처리 전략 이해 ]]]
@@ -50,7 +50,7 @@ namespace CreateRouteesAutomatically
         {
             IActorRef childActor = Context.ActorOf(ChildActor.Props(), nameof(ChildActor));
 
-            for (int i = 0; i < 6; i++)
+            for (int i = 0; i < 4; i++)
                 childActor.Tell(i);
         }
 

@@ -48,10 +48,10 @@ namespace CreateRouteesAutomatically
 
         private void Handle(int msg)
         {
-            if (msg == 3)
-                throw new Exception("Hi");
-
             _log.Info($">>> {Self.Path.ToStringWithoutAddress()}, {msg}");
+
+            if (msg == 3)
+                throw new Exception(msg.ToString());
         }
     }
 }
