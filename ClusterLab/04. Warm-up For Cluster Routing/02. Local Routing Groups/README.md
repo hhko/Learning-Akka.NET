@@ -51,13 +51,11 @@ var roundRobinGroupActor = system.ActorOf(Props.Empty
    - Props.Empty
      - /user/MyGroupRouterActor
 
-1. Router vs. Routee 
+2. Router vs. Routee 
 
 | Group Router  | Group Routee  |  
 | --- | --- |  
 | MyGroupRouterActor | ChildActor1, ChildActor2, ChildActor3 |  
 
-
-1. ChildActor1, 2, 3에서 예외가 발생되면 ParentActor의 SupervisorStrategy가 호출된다.
-
+3. ChildActor1, 2, 3에서 예외가 발생되면 ParentActor의 SupervisorStrategy가 호출된다.
 ![](./Images/Result.png)
