@@ -47,7 +47,9 @@
   - [ ] ActorSystem 이름을 conf 파일에서 지정하기 + SeedNode 이름에도 같이 사용하기?
 - [ ] Lab 추가
   - [ ] Warm-up Routting 예외 처리, 생성 분리
-  - [ ] Warm-up, Deploy, Deploy 예외 처리 정보 부족 -> Akka.NET 이슈 제기
+  - [ ] Warm-up, Deploy, Deploy 예외 처리 정보 부족 -> **Akka.NET 이슈 제거**
+  - [ ] ClusterClient "/user/xyz/" ActorPath 마지막에 "/"가 있으면 전달되지 않는다. -> **Akka.NET 이슈 제거**
+  - [ ] ClusterClient에세 정의된 사용자 정의 메시지가 Seed Node에도 참조되어 있어야 전송할 수 있다 -> **Akka.NET 이슈 제거**
   - [ ] ClusterClient Event 처리 예제 추가
   - [ ] Overview > SeedNode가 종료된 후 재 시작할 때?
   - [ ] Overview > SeedNode가 N개 일 때
