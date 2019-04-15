@@ -52,9 +52,13 @@ var roundRobinGroupActor = system.ActorOf(Props.Empty
 	/user/MyGroupRouterActor
 
 1. Router vs. Routee  
-| Group Router  | Group Routee  |
+| Group Router  | Group Routee  |  
+| --- | --- |  
+| MyGroupRouterActor | ChildActor1, ChildActor2, ChildActor3 |  
+| Command | Description |
 | --- | --- |
-| MyGroupRouterActor | ChildActor1, ChildActor2, ChildActor3 |
+| `git status` | List all *new or modified* files |
+| `git diff` | Show file differences that **haven't been** staged |
 
 1. ChildActor1, 2, 3에서 예외가 발생되면 ParentActor의 SupervisorStrategy가 호출된다.
 
