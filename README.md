@@ -19,12 +19,9 @@
    - Local Routing Groups : Create routees yourself. **round-robin-group**, path
    - Remote Deploy
    - Remote Deploy Exceptions Info 
-1. **Cluster Client"
-   - Communicating with Cluster : 
-     - Client 설정 : akka.cluster.client.initial-contacts = [ ... ]
-     - Client 함수 : ClusterClient.Props, .Send, SendToAll, Publish
-     - Cluster 설정 : extensions = ["Akka.Cluster.Tools.Client.ClusterClientReceptionistExtensionProvider, Akka.Cluster.Tools"]
-     - Cluster 등록 : ClusterClientReceptionist.Get(system).RegisterService(fooActor); 
+1. **Cluster Client**
+   - Communicate with Cluster : 
+
       
    
 <br/>
