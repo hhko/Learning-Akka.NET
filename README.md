@@ -44,6 +44,8 @@
 - [ ] 콘솔 타이틀
 - [ ] NLog 
 - [ ] [Role 기반으로 Actor에게 메시지 보내기](https://github.com/akkadotnet/akka.net/issues/3757#issuecomment-483522034)
+- [ ] akka.cluster.client.receptionist.role ???
+- [ ] ClusterClient PingPong 
 
 ## TODO
 - [ ] README.md
