@@ -23,6 +23,8 @@ namespace SeedNode1
 
             ActorSystem system = ActorSystem.Create(config.GetString("akka.system.actorsystem-name"), config);
 
+            //_targetReceptionist.Tell(SubscribeClusterClients.Instance);
+
             var cmd = PetabridgeCmd.Get(system);
             cmd.RegisterCommandPalette(ClusterCommands.Instance);
             cmd.Start();
@@ -32,6 +34,8 @@ namespace SeedNode1
             Console.WriteLine();
 
             Console.ReadLine();
+
+            system.Terminate().Wait();
         }
     }
 }

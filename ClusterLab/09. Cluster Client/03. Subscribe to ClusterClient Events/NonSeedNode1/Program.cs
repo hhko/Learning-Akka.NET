@@ -26,7 +26,14 @@ namespace NonSeedNode1
 
             // 등록 함수: RegisterService
             // 해제 함수: UnregisterService
-            ClusterClientReceptionist.Get(system).RegisterService(fooActor);
+            ClusterClientReceptionist.Get(system)
+                .RegisterService(fooActor);
+
+            system.ActorOf(
+                ReceptionistListenActor
+                    .Props(ClusterClientReceptionist.Get(system).Underlying),
+                nameof(ReceptionistListenActor));
+            
 
             Console.WriteLine();
             Console.WriteLine("NonSeedNode1 is running...");

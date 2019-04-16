@@ -30,12 +30,25 @@ namespace ClusterClientApp
         protected override void PreStart()
         {
             //
-            // 이벤트 등록하기: SubscribeContactPoints.Instance
-            // 이벤트 제거하기: UnsubscribeContactPoints.Instance
+            // 이벤트 등록: SubscribeContactPoints.Instance 
+            //      -> Receive<ContactPoints>
+            //      -> Receive<ContactPointAdded>
+            //      -> Receive<ContactPointRemoved>
+            // 이벤트 제거: UnsubscribeContactPoints.Instance
+            //
             //   vs.
-            // 명시적으로 확인하기: .Tell(GetContactPoints.Instance) -> Receive<ContactPoints>
+            //
+            // 명시적 확인: GetContactPoints.Instance 
+            //      -> Receive<ContactPoints>
             //
             _clusterClientActor.Tell(SubscribeContactPoints.Instance);
+        }
+
+        protected override void PostStop()
+        {
+            base.PostStop();
+
+            _clusterClientActor.Tell(UnsubscribeContactPoints.Instance);
         }
 
         private void Handle(ContactPoints msg)
@@ -65,7 +78,9 @@ namespace ClusterClientApp
             // TODO?: 언제 호출되는지 아직 모른다.
             //          ContactPoint 종료될 때: 메시지가 전달되지 않는다.
             //          ContactPoint 정보에 변화가 있을 때: ???? 어떻게 런타임에 변경하지?
+            //
+            _log.Info(">>> Received - ContactPointRemoved");
+            _log.Info($"\t{msg.ContactPoint.ToStringWithAddress()}");
         }
     }
-}
 }
