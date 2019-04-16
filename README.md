@@ -60,7 +60,7 @@
   - [ ] Console.WriteLine -> Log
   - [ ] 프로그램 종료 방법 변경
   - [ ] ActorSystem 이름을 conf 파일에서 지정하기 + SeedNode 이름에도 같이 사용하기?
-  - [ ] [ClusterClient 로그](https://github.com/akkadotnet/akka.net/issues/3315)
+  - [ ] [ClusterClient Router 연동할 때 버그 이슈](https://github.com/akkadotnet/akka.net/issues/3315)
 - [ ] Lab 추가
   - [ ] Warm-up Routting 예외 처리, 생성 분리
   - [ ] Warm-up, Deploy, Deploy 예외 처리 정보 부족 -> **Akka.NET 이슈 제거**
