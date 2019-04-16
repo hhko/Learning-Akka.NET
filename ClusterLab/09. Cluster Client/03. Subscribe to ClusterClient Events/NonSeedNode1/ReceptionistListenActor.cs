@@ -54,6 +54,7 @@ namespace NonSeedNode1
         {
             //
             // 시작하면 바로 메시지가 전달된다.
+            // TODO?: ClusterClients 목록이 정상적으로 전될하지 못한다.
             //
             _log.Info(">>> Received - ClusterClients");
             foreach (ActorPath clusterClient in msg.ClusterClientsList)
