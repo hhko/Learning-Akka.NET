@@ -30,7 +30,7 @@
 <br/>
 
 ## TODO - 2019-04-W3
-- [ ] Subscribe to ClusterClient Events 예제에 ClusterClient 이벤트 추가
+
 - [ ] README.md 추가
   - [ ] Communicate with Cluster by Path 
   - [ ] Communicate with Cluster by Topic
@@ -43,6 +43,7 @@
 - [ ] At least once
 - [ ] 콘솔 타이틀
 - [ ] NLog 
+- [ ] [Role 기반으로 Actor에게 메시지 보내기](https://github.com/akkadotnet/akka.net/issues/3757#issuecomment-483522034)
 
 ## TODO
 - [ ] README.md
@@ -59,6 +60,7 @@
   - [ ] Console.WriteLine -> Log
   - [ ] 프로그램 종료 방법 변경
   - [ ] ActorSystem 이름을 conf 파일에서 지정하기 + SeedNode 이름에도 같이 사용하기?
+  - [ ] [ClusterClient 로그](https://github.com/akkadotnet/akka.net/issues/3315)
 - [ ] Lab 추가
   - [ ] Warm-up Routting 예외 처리, 생성 분리
   - [ ] Warm-up, Deploy, Deploy 예외 처리 정보 부족 -> **Akka.NET 이슈 제거**
