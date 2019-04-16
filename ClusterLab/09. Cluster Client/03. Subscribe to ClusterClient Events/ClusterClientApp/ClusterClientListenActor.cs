@@ -29,6 +29,12 @@ namespace ClusterClientApp
 
         protected override void PreStart()
         {
+            //
+            // 이벤트 등록하기: SubscribeContactPoints.Instance
+            // 이벤트 제거하기: UnsubscribeContactPoints.Instance
+            //   vs.
+            // 명시적으로 확인하기: .Tell(GetContactPoints.Instance) -> Receive<ContactPoints>
+            //
             _clusterClientActor.Tell(SubscribeContactPoints.Instance);
         }
 
