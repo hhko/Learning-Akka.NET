@@ -20,12 +20,29 @@
    - Remote Deploy
    - Remote Deploy Exceptions Info 
 1. **Cluster Client**
-   - Communicate with Cluster : 
+   - Communicate with Cluster by Path 
+   - Communicate with Cluster by Topic
+   - Subscribe to ClusterClient Events
 
       
    
 <br/>
 <br/>
+
+## TODO - 2019-04-W3
+- [ ] Subscribe to ClusterClient Events 예제에 ClusterClient 이벤트 추가
+- [ ] README.md 추가
+  - [ ] Communicate with Cluster by Path 
+  - [ ] Communicate with Cluster by Topic
+  - [ ] Subscribe to ClusterClient Events
+- [ ] ClusterClient 테스트: 반드시 Seed Node이어야만 하나?
+- [ ] 04. Send Custom Messages 예제 추가
+- [ ] 05. Understand Cluster Client Config 예제 추가
+- [ ] Cluster > Pool Routing, Group Routing
+- [ ] Cluster > Pub/Sub
+- [ ] At least once
+- [ ] 콘솔 타이틀
+- [ ] NLog 
 
 ## TODO
 - [ ] README.md
