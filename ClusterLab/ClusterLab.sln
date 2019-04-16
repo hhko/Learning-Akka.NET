@@ -117,33 +117,55 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01. Local Routing Pools", "
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02. Local Routing Groups", "02. Local Routing Groups", "{F73E806E-2E9B-4630-BCC0-1094F3EFD559}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CreateRouteesAutomatically", "04. Warm-up For Cluster Routing\01. Local Routing Pools\CreateRouteesAutomatically\CreateRouteesAutomatically.csproj", "{AB8825B5-01A0-44F9-898D-495FC14E1B8D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CreateRouteesAutomatically", "04. Warm-up For Cluster Routing\01. Local Routing Pools\CreateRouteesAutomatically\CreateRouteesAutomatically.csproj", "{AB8825B5-01A0-44F9-898D-495FC14E1B8D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CreateRouteesYourself", "04. Warm-up For Cluster Routing\02. Local Routing Groups\CreateRouteesYourself\CreateRouteesYourself.csproj", "{631BAF79-CC99-4C36-8978-EFB0125470AA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CreateRouteesYourself", "04. Warm-up For Cluster Routing\02. Local Routing Groups\CreateRouteesYourself\CreateRouteesYourself.csproj", "{631BAF79-CC99-4C36-8978-EFB0125470AA}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03. Deploy Actor Remotely", "03. Deploy Actor Remotely", "{BF706B16-342C-4458-AF56-7D1B28407A3B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Deployer", "04. Warm-up For Cluster Routing\03. Deploy Actor Remotely\Deployer\Deployer.csproj", "{B5BD1640-B626-4763-9753-81EAD1BA387D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Deployer", "04. Warm-up For Cluster Routing\03. Deploy Actor Remotely\Deployer\Deployer.csproj", "{B5BD1640-B626-4763-9753-81EAD1BA387D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeployerTarget", "04. Warm-up For Cluster Routing\03. Deploy Actor Remotely\DeployerTarget\DeployerTarget.csproj", "{010FD7EA-3085-4B24-BFE3-B3827F4E424D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DeployerTarget", "04. Warm-up For Cluster Routing\03. Deploy Actor Remotely\DeployerTarget\DeployerTarget.csproj", "{010FD7EA-3085-4B24-BFE3-B3827F4E424D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeployerShared", "04. Warm-up For Cluster Routing\03. Deploy Actor Remotely\DeployerShared\DeployerShared.csproj", "{1C338A10-E2C5-4FA5-B61C-4F575A4EA392}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DeployerShared", "04. Warm-up For Cluster Routing\03. Deploy Actor Remotely\DeployerShared\DeployerShared.csproj", "{1C338A10-E2C5-4FA5-B61C-4F575A4EA392}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "09. Cluster Client", "09. Cluster Client", "{2D81285A-72C6-4C1F-9DF8-3C43ED34B819}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01. Communicate with Cluster", "01. Communicate with Cluster", "{B3E860B8-A968-4D71-82BA-18DEB0B410B1}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01. Communicate with Cluster by Path", "01. Communicate with Cluster by Path", "{B3E860B8-A968-4D71-82BA-18DEB0B410B1}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SeedNode1", "09. Cluster Client\01. Communicate with Cluster\SeedNode1\SeedNode1.csproj", "{1AAC4546-419A-4EE4-8442-8267EB1F62CE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SeedNode1", "09. Cluster Client\01. Communicate with Cluster by Path\SeedNode1\SeedNode1.csproj", "{1AAC4546-419A-4EE4-8442-8267EB1F62CE}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NonSeedNode1", "09. Cluster Client\01. Communicate with Cluster\NonSeedNode1\NonSeedNode1.csproj", "{8475ECDD-964D-4976-80B3-D53B1EA60FC9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NonSeedNode1", "09. Cluster Client\01. Communicate with Cluster by Path\NonSeedNode1\NonSeedNode1.csproj", "{8475ECDD-964D-4976-80B3-D53B1EA60FC9}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NonSeedNode2", "09. Cluster Client\01. Communicate with Cluster\NonSeedNode2\NonSeedNode2.csproj", "{B16D1793-D8CF-4753-93D1-D6F5D6AB7AE0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NonSeedNode2", "09. Cluster Client\01. Communicate with Cluster by Path\NonSeedNode2\NonSeedNode2.csproj", "{B16D1793-D8CF-4753-93D1-D6F5D6AB7AE0}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NonSeedNode3", "09. Cluster Client\01. Communicate with Cluster\NonSeedNode3\NonSeedNode3.csproj", "{AAB9A1D5-B5C3-4CB4-8839-2DE43BA829F8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NonSeedNode3", "09. Cluster Client\01. Communicate with Cluster by Path\NonSeedNode3\NonSeedNode3.csproj", "{AAB9A1D5-B5C3-4CB4-8839-2DE43BA829F8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClusterClientApp", "09. Cluster Client\01. Communicate with Cluster\ClusterClientApp\ClusterClientApp.csproj", "{D58BFB2C-7D87-43BD-A932-0988126AFF64}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClusterClientApp", "09. Cluster Client\01. Communicate with Cluster by Path\ClusterClientApp\ClusterClientApp.csproj", "{D58BFB2C-7D87-43BD-A932-0988126AFF64}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClusterClientSharedMessages", "09. Cluster Client\01. Communicate with Cluster\ClusterClientSharedMessages\ClusterClientSharedMessages.csproj", "{92B560EE-501C-495D-8C38-59084918E6B7}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02. Communicate with Cluster by Topic", "02. Communicate with Cluster by Topic", "{552C63F5-11D9-4C74-81E2-1D0C4E5201C9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SeedNode1", "09. Cluster Client\02. Communicate with Cluster by Topic\SeedNode1\SeedNode1.csproj", "{A428BE63-EA8D-47F6-9725-8495D35C0C28}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NonSeedNode1", "09. Cluster Client\02. Communicate with Cluster by Topic\NonSeedNode1\NonSeedNode1.csproj", "{B2BE28B5-F314-4323-84D2-F8C0583DAFB3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NonSeedNode2", "09. Cluster Client\02. Communicate with Cluster by Topic\NonSeedNode2\NonSeedNode2.csproj", "{8AAB31B9-1E2A-40D8-A37C-C2B6ADB10764}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NonSeedNode3", "09. Cluster Client\02. Communicate with Cluster by Topic\NonSeedNode3\NonSeedNode3.csproj", "{025B4DDE-E190-49D8-AE15-560FD7B97DF4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClusterClientApp", "09. Cluster Client\02. Communicate with Cluster by Topic\ClusterClientApp\ClusterClientApp.csproj", "{A8355683-4633-437B-9D8B-00232BF697E0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03. Subscribe to ClusterClient Events", "03. Subscribe to ClusterClient Events", "{76D83784-5707-4099-B6A9-62263475000C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SeedNode1", "09. Cluster Client\03. Subscribe to ClusterClient Events\SeedNode1\SeedNode1.csproj", "{F055F2FE-B60A-46C7-99EE-97C1F7217252}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NonSeedNode1", "09. Cluster Client\03. Subscribe to ClusterClient Events\NonSeedNode1\NonSeedNode1.csproj", "{C49B0CA6-F583-4F8E-BF26-3D850483FAA8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NonSeedNode2", "09. Cluster Client\03. Subscribe to ClusterClient Events\NonSeedNode2\NonSeedNode2.csproj", "{0E6A1E39-8595-4D6C-B845-18766BDE966E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NonSeedNode3", "09. Cluster Client\03. Subscribe to ClusterClient Events\NonSeedNode3\NonSeedNode3.csproj", "{F0E4A506-242B-4367-9F85-8A32BA27AE81}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClusterClientApp", "09. Cluster Client\03. Subscribe to ClusterClient Events\ClusterClientApp\ClusterClientApp.csproj", "{6E222DA3-78C6-430C-A25F-26AEA45C74F2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -355,10 +377,46 @@ Global
 		{D58BFB2C-7D87-43BD-A932-0988126AFF64}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D58BFB2C-7D87-43BD-A932-0988126AFF64}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D58BFB2C-7D87-43BD-A932-0988126AFF64}.Release|Any CPU.Build.0 = Release|Any CPU
-		{92B560EE-501C-495D-8C38-59084918E6B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{92B560EE-501C-495D-8C38-59084918E6B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{92B560EE-501C-495D-8C38-59084918E6B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{92B560EE-501C-495D-8C38-59084918E6B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A428BE63-EA8D-47F6-9725-8495D35C0C28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A428BE63-EA8D-47F6-9725-8495D35C0C28}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A428BE63-EA8D-47F6-9725-8495D35C0C28}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A428BE63-EA8D-47F6-9725-8495D35C0C28}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B2BE28B5-F314-4323-84D2-F8C0583DAFB3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2BE28B5-F314-4323-84D2-F8C0583DAFB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2BE28B5-F314-4323-84D2-F8C0583DAFB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2BE28B5-F314-4323-84D2-F8C0583DAFB3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8AAB31B9-1E2A-40D8-A37C-C2B6ADB10764}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8AAB31B9-1E2A-40D8-A37C-C2B6ADB10764}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8AAB31B9-1E2A-40D8-A37C-C2B6ADB10764}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8AAB31B9-1E2A-40D8-A37C-C2B6ADB10764}.Release|Any CPU.Build.0 = Release|Any CPU
+		{025B4DDE-E190-49D8-AE15-560FD7B97DF4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{025B4DDE-E190-49D8-AE15-560FD7B97DF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{025B4DDE-E190-49D8-AE15-560FD7B97DF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{025B4DDE-E190-49D8-AE15-560FD7B97DF4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A8355683-4633-437B-9D8B-00232BF697E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8355683-4633-437B-9D8B-00232BF697E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8355683-4633-437B-9D8B-00232BF697E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8355683-4633-437B-9D8B-00232BF697E0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F055F2FE-B60A-46C7-99EE-97C1F7217252}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F055F2FE-B60A-46C7-99EE-97C1F7217252}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F055F2FE-B60A-46C7-99EE-97C1F7217252}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F055F2FE-B60A-46C7-99EE-97C1F7217252}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C49B0CA6-F583-4F8E-BF26-3D850483FAA8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C49B0CA6-F583-4F8E-BF26-3D850483FAA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C49B0CA6-F583-4F8E-BF26-3D850483FAA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C49B0CA6-F583-4F8E-BF26-3D850483FAA8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E6A1E39-8595-4D6C-B845-18766BDE966E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E6A1E39-8595-4D6C-B845-18766BDE966E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E6A1E39-8595-4D6C-B845-18766BDE966E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E6A1E39-8595-4D6C-B845-18766BDE966E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F0E4A506-242B-4367-9F85-8A32BA27AE81}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F0E4A506-242B-4367-9F85-8A32BA27AE81}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F0E4A506-242B-4367-9F85-8A32BA27AE81}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F0E4A506-242B-4367-9F85-8A32BA27AE81}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E222DA3-78C6-430C-A25F-26AEA45C74F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E222DA3-78C6-430C-A25F-26AEA45C74F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E222DA3-78C6-430C-A25F-26AEA45C74F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E222DA3-78C6-430C-A25F-26AEA45C74F2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -429,7 +487,18 @@ Global
 		{B16D1793-D8CF-4753-93D1-D6F5D6AB7AE0} = {B3E860B8-A968-4D71-82BA-18DEB0B410B1}
 		{AAB9A1D5-B5C3-4CB4-8839-2DE43BA829F8} = {B3E860B8-A968-4D71-82BA-18DEB0B410B1}
 		{D58BFB2C-7D87-43BD-A932-0988126AFF64} = {B3E860B8-A968-4D71-82BA-18DEB0B410B1}
-		{92B560EE-501C-495D-8C38-59084918E6B7} = {B3E860B8-A968-4D71-82BA-18DEB0B410B1}
+		{552C63F5-11D9-4C74-81E2-1D0C4E5201C9} = {2D81285A-72C6-4C1F-9DF8-3C43ED34B819}
+		{A428BE63-EA8D-47F6-9725-8495D35C0C28} = {552C63F5-11D9-4C74-81E2-1D0C4E5201C9}
+		{B2BE28B5-F314-4323-84D2-F8C0583DAFB3} = {552C63F5-11D9-4C74-81E2-1D0C4E5201C9}
+		{8AAB31B9-1E2A-40D8-A37C-C2B6ADB10764} = {552C63F5-11D9-4C74-81E2-1D0C4E5201C9}
+		{025B4DDE-E190-49D8-AE15-560FD7B97DF4} = {552C63F5-11D9-4C74-81E2-1D0C4E5201C9}
+		{A8355683-4633-437B-9D8B-00232BF697E0} = {552C63F5-11D9-4C74-81E2-1D0C4E5201C9}
+		{76D83784-5707-4099-B6A9-62263475000C} = {2D81285A-72C6-4C1F-9DF8-3C43ED34B819}
+		{F055F2FE-B60A-46C7-99EE-97C1F7217252} = {76D83784-5707-4099-B6A9-62263475000C}
+		{C49B0CA6-F583-4F8E-BF26-3D850483FAA8} = {76D83784-5707-4099-B6A9-62263475000C}
+		{0E6A1E39-8595-4D6C-B845-18766BDE966E} = {76D83784-5707-4099-B6A9-62263475000C}
+		{F0E4A506-242B-4367-9F85-8A32BA27AE81} = {76D83784-5707-4099-B6A9-62263475000C}
+		{6E222DA3-78C6-430C-A25F-26AEA45C74F2} = {76D83784-5707-4099-B6A9-62263475000C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {ECF7691A-061A-4CA7-820E-B9E14611A042}
