@@ -131,19 +131,19 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeployerShared", "04. Warm-
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "09. Cluster Client", "09. Cluster Client", "{2D81285A-72C6-4C1F-9DF8-3C43ED34B819}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01. Communicating with Cluster", "01. Communicating with Cluster", "{B3E860B8-A968-4D71-82BA-18DEB0B410B1}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01. Communicate with Cluster", "01. Communicate with Cluster", "{B3E860B8-A968-4D71-82BA-18DEB0B410B1}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SeedNode1", "09. Cluster Client\01. Communicating with Cluster\SeedNode1\SeedNode1.csproj", "{1AAC4546-419A-4EE4-8442-8267EB1F62CE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SeedNode1", "09. Cluster Client\01. Communicate with Cluster\SeedNode1\SeedNode1.csproj", "{1AAC4546-419A-4EE4-8442-8267EB1F62CE}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NonSeedNode1", "09. Cluster Client\01. Communicating with Cluster\NonSeedNode1\NonSeedNode1.csproj", "{8475ECDD-964D-4976-80B3-D53B1EA60FC9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NonSeedNode1", "09. Cluster Client\01. Communicate with Cluster\NonSeedNode1\NonSeedNode1.csproj", "{8475ECDD-964D-4976-80B3-D53B1EA60FC9}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NonSeedNode2", "09. Cluster Client\01. Communicating with Cluster\NonSeedNode2\NonSeedNode2.csproj", "{B16D1793-D8CF-4753-93D1-D6F5D6AB7AE0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NonSeedNode2", "09. Cluster Client\01. Communicate with Cluster\NonSeedNode2\NonSeedNode2.csproj", "{B16D1793-D8CF-4753-93D1-D6F5D6AB7AE0}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NonSeedNode3", "09. Cluster Client\01. Communicating with Cluster\NonSeedNode3\NonSeedNode3.csproj", "{AAB9A1D5-B5C3-4CB4-8839-2DE43BA829F8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NonSeedNode3", "09. Cluster Client\01. Communicate with Cluster\NonSeedNode3\NonSeedNode3.csproj", "{AAB9A1D5-B5C3-4CB4-8839-2DE43BA829F8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClusterClientApp", "09. Cluster Client\01. Communicating with Cluster\ClusterClientApp\ClusterClientApp.csproj", "{D58BFB2C-7D87-43BD-A932-0988126AFF64}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClusterClientApp", "09. Cluster Client\01. Communicate with Cluster\ClusterClientApp\ClusterClientApp.csproj", "{D58BFB2C-7D87-43BD-A932-0988126AFF64}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClusterClientSharedMessages", "09. Cluster Client\01. Communicating with Cluster\ClusterClientSharedMessages\ClusterClientSharedMessages.csproj", "{92B560EE-501C-495D-8C38-59084918E6B7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClusterClientSharedMessages", "09. Cluster Client\01. Communicate with Cluster\ClusterClientSharedMessages\ClusterClientSharedMessages.csproj", "{92B560EE-501C-495D-8C38-59084918E6B7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
