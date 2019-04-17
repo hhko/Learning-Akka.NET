@@ -25,7 +25,8 @@
 1. **Cluster Client**
    - Communicate with Cluster by Path 
    - Communicate with Cluster by Topic
-   - Subscribe to ClusterClient Events
+   - Subscribe to SubscribeContactPoints Events
+   - Subscribe to SubscribeClusterClients Events
 
       
    
@@ -34,13 +35,13 @@
 
 ## TODO - 2019-04-W3
 
-- [ ] README.md 추가
-  - [ ] Communicate with Cluster by Path 
-  - [ ] Communicate with Cluster by Topic
-  - [ ] Subscribe to ClusterClient Events
-- [ ] ClusterClient 테스트: 반드시 Seed Node이어야만 하나?
-- [ ] 04. Send Custom Messages 예제 추가
-- [ ] 05. Understand Cluster Client Config 예제 추가
+- [ ] ClusterClient > Subscribe to SubscribeContactPoints Events README.md 추가
+- [ ] ClusterClient > Subscribe to SubscribeClusterClients Events 예제 정리
+- [ ] ClusterClient > Sender.Tell???? 
+- [ ] ClusterClient > Send Custom Messages 예제 추가
+- [ ] ClusterClient > Understand Cluster Client Config 예제 추가
+- [ ] ClusterClient > Tutorials PingPong 예제 추가
+- [ ] ClusterClient > 반드시 Seed Node이어야만 하나?
 - [ ] Cluster > Pool Routing, Group Routing
 - [ ] Cluster > Pub/Sub
 - [ ] At least once
@@ -48,7 +49,6 @@
 - [ ] NLog 
 - [ ] [Role 기반으로 Actor에게 메시지 보내기](https://github.com/akkadotnet/akka.net/issues/3757#issuecomment-483522034)
 - [ ] akka.cluster.client.receptionist.role ???
-- [ ] ClusterClient PingPong 
 
 ## TODO
 - [ ] README.md

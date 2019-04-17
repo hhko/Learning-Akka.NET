@@ -26,14 +26,7 @@ namespace ClusterClientApp
             var cmd = PetabridgeCmd.Get(system);
             cmd.Start();
 
-            system.ActorOf(ClusterClientSendActor.Props(), nameof(ClusterClientSendActor));
-
-            var clusterClientActor = system.ActorOf(
-                ClusterClient
-                    .Props(ClusterClientSettings.Create(system)),
-                "ClusterClientActor");
-
-            system.ActorOf(ClusterClientListenActor.Props(clusterClientActor), nameof(ClusterClientListenActor));
+            system.ActorOf(ClusterClientListenActor.Props(), nameof(ClusterClientListenActor));
 
             Console.WriteLine();
             Console.WriteLine("NonSeedNode1 is running...");

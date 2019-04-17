@@ -11,17 +11,15 @@ namespace ClusterClientApp
     public class ClusterClientListenActor : ReceiveActor
     {
         private readonly ILoggingAdapter _log = Context.GetLogger();
-        private readonly IActorRef _clusterClientActor;
+        private IActorRef _clusterClientActor;
 
-        public static Props Props(IActorRef clusterClientActor)
+        public static Props Props()
         {
-            return Akka.Actor.Props.Create(() => new ClusterClientListenActor(clusterClientActor));
+            return Akka.Actor.Props.Create(() => new ClusterClientListenActor());
         }
 
-        public ClusterClientListenActor(IActorRef clusterClientActor)
+        public ClusterClientListenActor()
         {
-            _clusterClientActor = clusterClientActor;
-
             Receive<ContactPoints>(_ => Handle(_));
             Receive<ContactPointAdded>(_ => Handle(_));
             Receive<ContactPointRemoved>(_ => Handle(_));
@@ -29,6 +27,11 @@ namespace ClusterClientApp
 
         protected override void PreStart()
         {
+            _clusterClientActor = Context.ActorOf(
+                ClusterClient
+                    .Props(ClusterClientSettings.Create(Context.System)),
+                "ClusterClientActor");
+
             //
             // 이벤트 등록: SubscribeContactPoints.Instance 
             //      -> Receive<ContactPoints>
@@ -65,8 +68,9 @@ namespace ClusterClientApp
 
         private void Handle(ContactPointAdded msg)
         {
-            //
-            // ContactPoint에 접속되면 전달된다.
+            // 
+            // TODO?: 처음 실행할 때 접속된 ContactPoint 정보만 전달된다.
+            //          나중에 Cluster로 합류한 ContactPoint에 대한 메시지는 전될지 않는다. 
             //
             _log.Info(">>> Received - ContactPointAdded");
             _log.Info($"\t{msg.ContactPoint.ToStringWithAddress()}");
