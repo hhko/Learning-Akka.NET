@@ -127,3 +127,5 @@
   - [ ] WPF main-thread Router x
   - [ ] WPF MVVM + Akka 표준
   - [ ] WPF MVVM + Akka Router
+  - [ ] 장애 처리 재시도?
+  - [ ] DeadLetter 재시도?
