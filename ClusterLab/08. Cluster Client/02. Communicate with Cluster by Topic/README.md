@@ -53,5 +53,15 @@ c.Tell(new ClusterClient.Publish("Topic1", "Hello1"));
 
 ## 데모
 1. 데모 실행 이미지
+   - NonSeedNode1 : ClusterClientReceptionist.Get(system).RegisterSubscriber("Topic1", fooActor);
+   - NonSeedNode2 : ClusterClientReceptionist.Get(system).RegisterSubscriber("Topic1", fooActor);
+   - NonSeedNode3 : ClusterClientReceptionist.Get(system).RegisterSubscriber("Topic2", fooActor);
+   - CluentClientApp
+```
+c.Tell(new ClusterClient.Publish("Topic1", "Hello1"));
+c.Tell(new ClusterClient.Publish("Topic1", "Hello2"));
+c.Tell(new ClusterClient.Publish("Topic2", "Hello3"));
+```
+   
 ![](./Images/Demo.png)
 
