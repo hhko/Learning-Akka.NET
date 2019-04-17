@@ -135,6 +135,6 @@
   - [ ] [Akka-Testing-Helper V1](https://connelhooley.uk/blog/2017/09/30/introducing-akka-testing-helpers-di)
   - [ ] [Akka-Testing-Helper V2](https://connelhooley.uk/blog/2018/10/05/akka-testing-helpers-v2)
   - [ ] [AkkaTestingHelpers](https://github.com/connelhooley/AkkaTestingHelpers)
-  - [ ] [Akka.NET with EF.Core][https://havret.io/akka-entity-framework-core)
+  - [ ] [Akka.NET with EF.Core](https://havret.io/akka-entity-framework-core)
   - [ ] [Akka.NET + DI + Testing Considerations](https://sachabarbs.wordpress.com/2018/05/22/akka-net-di-testing-considerations/)
   - [ ] [Supervisors in C# with Akka.NET](https://buildplease.com/pages/supervisors-csharp/)
