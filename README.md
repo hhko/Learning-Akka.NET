@@ -19,6 +19,9 @@
    - Local Routing Groups : Create routees yourself. **round-robin-group**, path
    - Remote Deploy
    - Remote Deploy Exceptions Info 
+1. **Cluster Routing**
+1. **Cluster Singleton**
+1. **Distributed PubSub**
 1. **Cluster Client**
    - Communicate with Cluster by Path 
    - Communicate with Cluster by Topic
