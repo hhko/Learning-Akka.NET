@@ -2,8 +2,8 @@
 
 ### Cluster Lab
 1. **Overview**
-   - Getting Started : **akka.cluster.seed-nodes**
-   - Integrated with Petabridge.Cmd  
+   - Create Cluster : **akka.cluster.seed-nodes**
+   - Integrate with Petabridge.Cmd  
    - Automatically Mark Unreachable Nodes : **akka.cluster.auto-down-unreachable-after**
    - Retry Joining Time Interval : **akka.cluster.seed-node-timeout**
 1. **Roles and Minimum Size**
