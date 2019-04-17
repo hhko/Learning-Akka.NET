@@ -56,5 +56,5 @@ c.Tell(new ClusterClient.SendToAll("/user/FooActor", "hi, everybody"));
 
 ## 데모
 1. 데모 실행 이미지
-![](./Images/Demo_01.png)
+![](./Images/Demo.png)
 
