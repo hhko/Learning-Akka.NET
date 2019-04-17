@@ -5,7 +5,7 @@ using Petabridge.Cmd.Host;
 using System;
 using System.IO;
 
-namespace SeedNode1
+namespace SeedNode2
 {
     class Program
     {

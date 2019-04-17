@@ -179,6 +179,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NonSeedNode3", "08. Cluster
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClusterClientApp", "08. Cluster Client\04. Subscribe to SubscribeClusterClients Events\ClusterClientApp\ClusterClientApp.csproj", "{22ECB04A-C14A-4B0F-B37C-2F4A5B8317FC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SeedNode2", "08. Cluster Client\03. Subscribe to SubscribeContactPoints Events\SeedNode2\SeedNode2.csproj", "{B832826A-5CA1-4BF7-A9A2-AB4797C62FBA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -449,6 +451,10 @@ Global
 		{22ECB04A-C14A-4B0F-B37C-2F4A5B8317FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{22ECB04A-C14A-4B0F-B37C-2F4A5B8317FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{22ECB04A-C14A-4B0F-B37C-2F4A5B8317FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B832826A-5CA1-4BF7-A9A2-AB4797C62FBA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B832826A-5CA1-4BF7-A9A2-AB4797C62FBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B832826A-5CA1-4BF7-A9A2-AB4797C62FBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B832826A-5CA1-4BF7-A9A2-AB4797C62FBA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -537,6 +543,7 @@ Global
 		{78B40712-4147-4186-B4F2-084C07D742B0} = {2505A034-1DD3-4DCD-8B28-862E3235592A}
 		{4FABA9F8-1EAE-404A-A3DD-16868ED6DB3C} = {2505A034-1DD3-4DCD-8B28-862E3235592A}
 		{22ECB04A-C14A-4B0F-B37C-2F4A5B8317FC} = {2505A034-1DD3-4DCD-8B28-862E3235592A}
+		{B832826A-5CA1-4BF7-A9A2-AB4797C62FBA} = {76D83784-5707-4099-B6A9-62263475000C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {ECF7691A-061A-4CA7-820E-B9E14611A042}

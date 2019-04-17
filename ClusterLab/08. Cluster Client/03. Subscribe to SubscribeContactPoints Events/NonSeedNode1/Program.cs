@@ -25,7 +25,13 @@ namespace NonSeedNode1
             Console.WriteLine();
             Console.WriteLine("NonSeedNode1 is running...");
             Console.WriteLine();
+            Console.ReadLine();
 
+            system.Terminate().Wait();
+
+            Console.WriteLine();
+            Console.WriteLine("ActorSystem is terminated.");
+            Console.WriteLine();
             Console.ReadLine();
         }
     }
