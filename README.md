@@ -129,3 +129,5 @@
   - [ ] WPF MVVM + Akka Router
   - [ ] 장애 처리 재시도?
   - [ ] DeadLetter 재시도?
+- Blog
+  - [ ] [Gigi](http://gigi.nullneuron.net/gigilabs/tag/akka-net/)
