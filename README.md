@@ -104,3 +104,4 @@
   - [ ] [CQRS](https://github.com/Horusiath/AkkaCQRS)
   - [ ] [HealthCheck](https://github.com/petabridge/akkadotnet-healthcheck)
   - [ ] [Cluster Sharding](https://github.com/ctrlaltdan/akka.net-cluster-sharding)
+  - [ ] [한글 예제](https://github.com/psmon/AkkaNetTest/blob/master/README.md)
