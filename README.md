@@ -109,3 +109,15 @@
   - [ ] [Bbotcamp 한글화](https://blog.rajephon.dev/2018/12/02/akka-01/)
   - [ ] [블로그](https://m.blog.naver.com/PostView.nhn?blogId=kbh3983&logNo=221182343063&categoryNo=119&proxyReferer=https%3A%2F%2Fwww.google.co.kr%2F)
   - [ ] [한글 Wiki](http://wiki.webnori.com/m/mobile.action#page/1048605)
+- FAQ
+  - [ ] Long running + Cancel: FSM
+  - [ ] Ask -> FSM
+  - [ ] Logging Message Info(including Generic).
+  - [ ] Log 분리(App, Akka, ...)
+  - [ ] Large Message
+  - [ ] 환경 설정(Remote, Cluster, ...)
+  - [ ] Serialization > readonly
+  - [ ] Serialization > WPF
+  - [ ] WPF main-thread Router x
+  - [ ] WPF MVVM + Akka 표준
+  - [ ] WPF MVVM + Akka Router
