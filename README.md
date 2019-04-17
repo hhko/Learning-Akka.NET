@@ -108,6 +108,8 @@
   - [ ] [HealthCheck](https://github.com/petabridge/akkadotnet-healthcheck)
   - [ ] [Cluster Sharding](https://github.com/ctrlaltdan/akka.net-cluster-sharding)
   - [ ] [한글 예제](https://github.com/psmon/AkkaNetTest/blob/master/README.md)
+  - [ ] [akka-net-traffic-control](https://github.com/EdwinVW/akka-net-traffic-control)
+  - [ ] [akka.net-warehouse-sample](https://github.com/EdwinVW/akka.net-warehouse-sample)
 - 한글 문서
   - [ ] [Bbotcamp 한글화](https://blog.rajephon.dev/2018/12/02/akka-01/)
   - [ ] [블로그](https://m.blog.naver.com/PostView.nhn?blogId=kbh3983&logNo=221182343063&categoryNo=119&proxyReferer=https%3A%2F%2Fwww.google.co.kr%2F)
