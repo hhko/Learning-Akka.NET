@@ -1,67 +1,44 @@
-## Cluster 밖에서 Cluster와 통신하기
-1. Akka.Cluster.Tools NuGet 패키지를 설치한다.
-
-2. NuGet 패키지를 환경 설정에 추가한다.
-```
-akka.extensions = ["Akka.Cluster.Tools.Client.ClusterClientReceptionistExtensionProvider, Akka.Cluster.Tools"]
-```
-
-3 노드에서 통신할 액터를 Topic 기준으로 등록한다.
-```
-IActorRef fooActor = ...
-
-// 등록 함수: RegisterSubscriber
-// 해제 함수: UnregisterSubscriber
-ClusterClientReceptionist.Get(system).RegisterSubscriber("Topic1", fooActor);
-```
-
-4. 접속할 Cluster 정보를 환경 설정에 추가한다.
-```
-akka {
-	...
-
-	extensions = ["Akka.Cluster.Tools.Client.ClusterClientReceptionistExtensionProvider, Akka.Cluster.Tools"]
-	cluster {
-		client {
-			initial-contacts = [
-				"akka.tcp://ClusterLab@localhost:8081/system/receptionist"
-			]
-		}
-	}
-}
-```
-- 접속이 성공하면 다음과 같은 로그가 출력된다.
-![](./Images/ClusterClient_OnlyCreation.png)
-
-5. Cluster에게 메시지를 보낼 액터를 생성한다.
-```
-var c = Context.ActorOf(
-	ClusterClient.Props(ClusterClientSettings.Create(Context.System)),
-	"ClusterClientActor");
-```
-- Cluster 통신을 위한 전용 액터 생성을 확인한다.
-![](./Images/ClusterClientActor.png)
-
-6. Cluster의 특정 경로 액터에게 메시지를 보낸다.
-   - ClusterClient.Publish: Topic 이름 기준으로 등록된 모든 액터에게 메시지를 보낸다. 
-```
-c.Tell(new ClusterClient.Publish("Topic1", "Hello1"));
-```
-
-<br/>
-<br/>
 
 ## 데모
-1. 데모 실행 이미지
-   - NonSeedNode1 : ClusterClientReceptionist.Get(system).RegisterSubscriber("Topic1", fooActor);
-   - NonSeedNode2 : ClusterClientReceptionist.Get(system).RegisterSubscriber("Topic1", fooActor);
-   - NonSeedNode3 : ClusterClientReceptionist.Get(system).RegisterSubscriber("Topic2", fooActor);
-   - CluentClientApp
-```
-c.Tell(new ClusterClient.Publish("Topic1", "Hello1"));
-c.Tell(new ClusterClient.Publish("Topic1", "Hello2"));
-c.Tell(new ClusterClient.Publish("Topic2", "Hello3"));
-```
+1. 데모 시나리오
+   - ClusterClientApp 실행: ContactPoints
+   - SeedNode1 실행( 1개가 접속 가능할 때): ContactPointAdded(N개), ContactPointRemoved(N - 1개)
+   - SeedNode2 실행
+   - SeedNode1 종료: ContactPointAdded(1개), ContactPointRemoved(1개)
+2. 메시지 정의
+   - ContactPoints: 접속 대상 목록
+   - ContactPointAdded: 접속 시도
+   - ContactPointRemoved: 접속 시도 실패, 접속 해제
+3. 데모 요약
+   - ClusterClient가 실행되면 ContactPoints 받는다.
+   - ContactPoints 정보 중에 접속 가능하면 전체를 대상(ContactPointAdded N번 호출)으로 접속 시도를 한다.
+   - 접속 중일 때는 새 접속 가능한 대상이 추가되어도 ContactPointAdded는 호출되지 않는다.
+   - 접속 중인 노드가 종료되면 새 접속 대상으로 접속을 시도한다. 
+4. 데모 시나리오 
+   - ClusterClientApp 실행
+      - ContactPoints
+         - akka.tcp://ClusterLab@localhost:8081
+         - akka.tcp://ClusterLab@localhost:8082
+   ![](./Images/01_Demo_ClusterClientApp_Running.png)
    
-![](./Images/Demo.png)
+   - SeedNode1 실행
+      - ContactPointAdded
+         - akka.tcp://ClusterLab@localhost:8081
+         - akka.tcp://ClusterLab@localhost:8082   
+   ![](./Images/02_Demo_SeedNode1_Running.png)
+   
+      - ContactPointRemoved
+         - akka.tcp://ClusterLab@localhost:8082   
+   ![](./Images/03_Demo_SeedNode1_Running.png)
+   
+   - SeedNode2 실행
+   
+   - SeedNode1 종료
+      - ContactPointAdded
+         - akka.tcp://ClusterLab@localhost:8082   
+      - ContactPointRemoved
+         - akka.tcp://ClusterLab@localhost:8081
+   
+   ![](./Images/04_Demo_SeedNode1_Terminating.png)
+   
 
