@@ -34,8 +34,8 @@
 <br/>
 
 ## TODO - 2019-04-W3
-
 - [ ] ClusterClient > Subscribe to SubscribeContactPoints Events README.md 추가
+- [ ] ClusterClient > Subscribe to SubscribeContactPoints Events SeedNode 3개로 데모 시나리오 
 - [ ] ClusterClient > Subscribe to SubscribeClusterClients Events 예제 정리
 - [ ] ClusterClient > Sender.Tell???? 
 - [ ] ClusterClient > Send Custom Messages 예제 추가
@@ -110,7 +110,7 @@
   - [ ] [Cluster Sharding](https://github.com/ctrlaltdan/akka.net-cluster-sharding)
   - [ ] [한글 예제](https://github.com/psmon/AkkaNetTest/blob/master/README.md)
   - [ ] [akka-net-traffic-control](https://github.com/EdwinVW/akka-net-traffic-control)
-  - [ ] [akka.net-warehouse-sample](https://github.com/EdwinVW/akka.net-warehouse-
+  - [ ] [akka.net-warehouse-sample](https://github.com/EdwinVW/akka.net-warehouse-sample)
   - [ ] [Akka 공식 예제](https://github.com/akka/akka-samples)
   - [ ] [Akka.NET 공식 예제](https://github.com/akkadotnet/akka.net/tree/dev/src/examples)
   - [ ] [Akka.NET Bootcamp](https://github.com/petabridge/akka-bootcamp)
