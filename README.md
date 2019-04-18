@@ -139,4 +139,7 @@
   - [ ] [Akka.NET + DI + Testing Considerations](https://sachabarbs.wordpress.com/2018/05/22/akka-net-di-testing-considerations/)
   - [ ] [Supervisors in C# with Akka.NET](https://buildplease.com/pages/supervisors-csharp/)
   - [ ] [Akka.NET 기술 정리 7개](https://hryniewski.net/tag/akka-net/)
+  - [ ] [Akka.NET 팀 코어 멤버](https://bartoszsypytkowski.com/tag/akka-net/)
+
+
 
