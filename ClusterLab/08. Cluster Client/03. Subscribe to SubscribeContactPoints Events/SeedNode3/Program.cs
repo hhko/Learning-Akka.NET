@@ -5,7 +5,7 @@ using Petabridge.Cmd.Host;
 using System;
 using System.IO;
 
-namespace SeedNode2
+namespace SeedNode3
 {
     class Program
     {
@@ -30,7 +30,7 @@ namespace SeedNode2
             cmd.Start();
 
             Console.WriteLine();
-            Console.WriteLine("SeedNode2 is running...");
+            Console.WriteLine("SeedNode3 is running...");
             Console.WriteLine();
             Console.ReadLine();
 
