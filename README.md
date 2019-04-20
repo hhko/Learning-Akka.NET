@@ -143,5 +143,5 @@
   - [ ] [Supervisors in C# with Akka.NET](https://buildplease.com/pages/supervisors-csharp/)
   - [ ] [Akka.NET 기술 정리 7개](https://hryniewski.net/tag/akka-net/)
   - [ ] [Akka.NET 팀 코어 멤버](https://bartoszsypytkowski.com/tag/akka-net/)
-
+  - [ ] [Akka.NET Extension 만들기](https://havret.io/akka-entity-framework-core)
 
