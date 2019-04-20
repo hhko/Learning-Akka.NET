@@ -1,5 +1,5 @@
 
-## 데모
+## 데모 1
 1. 데모 시나리오
    - ClusterClientApp 실행: ContactPoints
    - SeedNode1 실행( 1개가 접속 가능할 때): ContactPointAdded(N개), ContactPointRemoved(N - 1개)
@@ -41,4 +41,22 @@
    
    ![](./Images/04_Demo_SeedNode1_Terminating.png)
    
+<br/>
+<br/>
 
+## 데모 2
+1. 데모 시나리오
+   - ClusterClientApp을 실행한다. 
+   ![](./Images/Demo_01_ClusterClient-Running.png)
+   - SeedNode1을 실행한다.
+   ![](./Images/Demo_02_ClusterClient_SeedNode1-Running.png)
+   - SeedNode2을 실행한다.
+   - SeedNode3을 실행한다.
+   ![](./Images/Demo_03_ClusterClient_SeedNode2_3-Running.png)
+   - SeedNode1을 종료 시킨다.
+   ![](./Images/Demo_04_ClusterClient_SeedNode1-Terminating.png)
+   - SeedNode2을 종료 시킨다.
+   ![](./Images/Demo_05_ClusterClient_SeedNode2-Terminating.png)
+   - SeedNode3을 종료 시킨다.
+   ![](./Images/Demo_06_ClusterClient_SeedNode3-Terminating.png)
+   - ContactPointRemoved 메시지가 호출되지 않는다(SeedNode2, SeedNode3).
