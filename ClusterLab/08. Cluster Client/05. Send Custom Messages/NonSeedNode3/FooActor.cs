@@ -4,6 +4,7 @@ using Akka.Event;
 using System;
 using System.Collections.Generic;
 using System.Text;
+using static ClusterClientSharedMessages.SendMessages;
 
 namespace NonSeedNode3
 {
@@ -18,14 +19,14 @@ namespace NonSeedNode3
 
         public FooActor()
         {
-            Receive<string>(_ => Handle(_));
+            Receive<CustomWelcome>(_ => Handle(_));
 
             _log.Info($">>> Foo Address : {Self.Path.ToStringWithAddress()}");
         }
 
-        private void Handle(string msg)
+        private void Handle(CustomWelcome msg)
         {
-            _log.Info($">>> Recevied message : {msg}, Sender: {Sender}");
+            _log.Info($">>> Recevied message : CustomWelcome - {msg.Text}, Sender: {Sender}");
         }
     }
 }
