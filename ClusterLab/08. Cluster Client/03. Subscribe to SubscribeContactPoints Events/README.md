@@ -1,4 +1,4 @@
-## 이벤트 Subscribe하기
+## Seed Node 이벤트 처리하기
 1. 주요 기능 정리
    - ClusterClient 액터를 생성한다: ClusterClient.Props(ClusterClientSettings.Create(Context.System))
    - ClusterClient 액터에게 이벤트를 등록한다: _clusterClientActor.Tell(SubscribeContactPoints.Instance);
