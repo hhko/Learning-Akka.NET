@@ -13,7 +13,7 @@
    - Mix Minimum Size  
 1. **Gossip Events**
    - Subscribe to Gossip Events : **Cluster _cluster = Cluster.Get(Context.System); _cluster.Subscribe(Self, ...);**
-   - 03. Discover Actor by Tag
+   - Discover Actor by Tag
    - Discover Actor by Role and Path
 1. **Warm-up For Cluster Routing**
    - Local Routing Pools : Create routees automatically. **round-robin-pool**
