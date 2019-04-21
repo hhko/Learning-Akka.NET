@@ -1,5 +1,5 @@
 
-## 데모 1
+## 데모 1 - Seed Node가 2개일 때
 1. 데모 시나리오
    - ClusterClientApp 실행: ContactPoints
    - SeedNode1 실행( 1개가 접속 가능할 때): ContactPointAdded(N개), ContactPointRemoved(N - 1개)
@@ -44,7 +44,7 @@
 <br/>
 <br/>
 
-## 데모 2
+## 데모 2 - Seed Node가 3개일 때
 1. 데모 시나리오
    - ClusterClientApp을 실행한다. 
    ![](./Images/Demo_01_ClusterClient-Running.png)
@@ -59,4 +59,12 @@
    ![](./Images/Demo_05_ClusterClient_SeedNode2-Terminating.png)
    - SeedNode3을 종료 시킨다.
    ![](./Images/Demo_06_ClusterClient_SeedNode3-Terminating.png)
-   - ContactPointRemoved 메시지가 호출되지 않는다(SeedNode2, SeedNode3).
+   - ContactPointRemoved 메시지가 2번 호출되지 않는다(SeedNode2, SeedNode3).
+   
+<br/>
+<br/>
+
+## TODO
+1. ContactPointRemoved 단위 테스트를 통해 버그를 확인한다.
+1. ContactPointRemoved 버그 확인을 위한 데모를 작성한다(Info 로그만 출력한다).
+1. Akka.NET 이슈에 제기한다.
