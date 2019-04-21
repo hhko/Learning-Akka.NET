@@ -31,3 +31,10 @@ _receptionistActor.Tell(SubscribeClusterClients.Instance);
 1. ClusterClient2을 종료한다(ClusterClientUnreachable 메시지가 발생한다).
 1. ClusterClient3을 종료한다(ClusterClientUnreachable 메시지가 발생한다).
 ![](./Images/Demo.png)
+
+<br/>
+<br/>
+
+## TODO
+1. Petabridge.Cmd의 actor hierarchy로 ClusterClientReceptionist 액터를 확인한다.
+1. Petabridge.Cmd의 actor hierarchy로 Cluster Client 액터을 확인한다.
