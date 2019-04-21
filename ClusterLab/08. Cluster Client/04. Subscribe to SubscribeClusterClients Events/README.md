@@ -1,4 +1,4 @@
-## Cluster 밖에서 Cluster와 통신하기
+## ClusterClient 이벤트 처리하기
 1. 주요 기능 정리
    - ClusterClientReceptionist 액터 핸들을 얻는다: ClusterClientReceptionist.Get(Context.System).Underlying
    - ClusterClientReceptionist 액터에게 이벤트를 등록한다: _receptionistActor.Tell(SubscribeClusterClients.Instance);
