@@ -27,6 +27,9 @@
    - Communicate with Cluster by Topic
    - Subscribe to SubscribeContactPoints Events
    - Subscribe to SubscribeClusterClients Events
+   - Send Custom Messages
+   - TODO Tutorial: Ping Pong(Akka.NET Example)
+   - TODO Understanding: akka.cluster.client.receptionist, akka.cluster.client
 
       
    
@@ -35,8 +38,6 @@
 
 ## TODO
 - [ ] ClusterClient > Sender.Tell???? 
-- [ ] ClusterClient > Understand Cluster Client Config 예제 추가
-- [ ] ClusterClient > Tutorials PingPong 예제 추가
 - [ ] ClusterClient > 반드시 Seed Node이어야만 하나?
 - [ ] Cluster > Pool Routing, Group Routing
 - [ ] Cluster > Pub/Sub
