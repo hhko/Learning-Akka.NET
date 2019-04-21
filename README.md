@@ -114,6 +114,7 @@
   - [ ] [Akka 공식 예제](https://github.com/akka/akka-samples)
   - [ ] [Akka.NET 공식 예제](https://github.com/akkadotnet/akka.net/tree/dev/src/examples)
   - [ ] [Akka.NET Bootcamp](https://github.com/petabridge/akka-bootcamp)
+  - [ ] [Actor MapReduce WordCounter](https://github.com/DavidHoerster/ActorMapReduceWordCounter)
 - 한글 문서
   - [ ] [Bbotcamp 한글화](https://blog.rajephon.dev/2018/12/02/akka-01/)
   - [ ] [블로그](https://m.blog.naver.com/PostView.nhn?blogId=kbh3983&logNo=221182343063&categoryNo=119&proxyReferer=https%3A%2F%2Fwww.google.co.kr%2F)
