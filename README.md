@@ -28,8 +28,8 @@
    - Subscribe to SubscribeContactPoints Events
    - Subscribe to SubscribeClusterClients Events
    - Send Custom Messages
-   - TODO Tutorial: Ping Pong(Akka.NET Example)
-   - TODO Understanding: akka.cluster.client.receptionist, akka.cluster.client
+   - > TODO Tutorial: Ping Pong(Akka.NET Example)
+   - > TODO Understanding: akka.cluster.client.receptionist, akka.cluster.client
 
       
    
