@@ -99,17 +99,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NonSeedNode2", "03. Gossip 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NonSeedNode3", "03. Gossip Events\01. Subscribe to Gossip Events\NonSeedNode3\NonSeedNode3.csproj", "{91688A33-68A5-4087-BDC0-85269A2ADC80}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02. Actor Discovery", "02. Actor Discovery", "{158958C6-EF1A-4165-B37D-B16980DA6B5D}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02. Discover Actor by Tag", "02. Discover Actor by Tag", "{158958C6-EF1A-4165-B37D-B16980DA6B5D}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SeedNode1", "03. Gossip Events\02. Actor Discovery\SeedNode1\SeedNode1.csproj", "{FA01DFCD-1D91-4DC1-A114-35F653BE32FA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SeedNode1", "03. Gossip Events\02. Discover Actor by Tag\SeedNode1\SeedNode1.csproj", "{FA01DFCD-1D91-4DC1-A114-35F653BE32FA}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NonSeedNode1", "03. Gossip Events\02. Actor Discovery\NonSeedNode1\NonSeedNode1.csproj", "{F3E21267-F0FC-477F-B928-5AEEDCA02671}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NonSeedNode1", "03. Gossip Events\02. Discover Actor by Tag\NonSeedNode1\NonSeedNode1.csproj", "{F3E21267-F0FC-477F-B928-5AEEDCA02671}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NonSeedNode2", "03. Gossip Events\02. Actor Discovery\NonSeedNode2\NonSeedNode2.csproj", "{EB60969C-AFD9-49B4-8437-E63D4151C44B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NonSeedNode2", "03. Gossip Events\02. Discover Actor by Tag\NonSeedNode2\NonSeedNode2.csproj", "{EB60969C-AFD9-49B4-8437-E63D4151C44B}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NonSeedNode3", "03. Gossip Events\02. Actor Discovery\NonSeedNode3\NonSeedNode3.csproj", "{DC03C681-6873-414F-B1E2-E1EEC2E521A1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NonSeedNode3", "03. Gossip Events\02. Discover Actor by Tag\NonSeedNode3\NonSeedNode3.csproj", "{DC03C681-6873-414F-B1E2-E1EEC2E521A1}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Akka.Cluster.Discovery", "03. Gossip Events\02. Actor Discovery\Akka.Cluster.Discovery\Akka.Cluster.Discovery.csproj", "{3593A7FB-A58F-4029-945A-375900855819}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Akka.Cluster.Discovery", "03. Gossip Events\02. Discover Actor by Tag\Akka.Cluster.Discovery\Akka.Cluster.Discovery.csproj", "{3593A7FB-A58F-4029-945A-375900855819}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04. Warm-up For Cluster Routing", "04. Warm-up For Cluster Routing", "{EAAD7E45-C6CC-4A64-9C02-F1D934F79E00}"
 EndProject
@@ -169,11 +169,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SeedNode2", "08. Cluster Cl
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SeedNode3", "08. Cluster Client\03. Subscribe to SubscribeContactPoints Events\SeedNode3\SeedNode3.csproj", "{50791131-E444-4B48-8CEC-B74FC159ED90}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClusterClientApp1", "08. Cluster Client\04. Subscribe to SubscribeClusterClients Events\ClusterClientApp1\ClusterClientApp1.csproj", "{ADE727DB-5BEA-4CB1-B412-9CDA5021FA19}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClusterClientApp1", "08. Cluster Client\04. Subscribe to SubscribeClusterClients Events\ClusterClientApp1\ClusterClientApp1.csproj", "{ADE727DB-5BEA-4CB1-B412-9CDA5021FA19}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClusterClientApp2", "08. Cluster Client\04. Subscribe to SubscribeClusterClients Events\ClusterClientApp2\ClusterClientApp2.csproj", "{EB70C1DB-59E1-468B-9C72-D52F1E7BD5F7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClusterClientApp2", "08. Cluster Client\04. Subscribe to SubscribeClusterClients Events\ClusterClientApp2\ClusterClientApp2.csproj", "{EB70C1DB-59E1-468B-9C72-D52F1E7BD5F7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClusterClientApp3", "08. Cluster Client\04. Subscribe to SubscribeClusterClients Events\ClusterClientApp3\ClusterClientApp3.csproj", "{5E2B2977-03BC-417C-93AC-074CFFC7BACD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClusterClientApp3", "08. Cluster Client\04. Subscribe to SubscribeClusterClients Events\ClusterClientApp3\ClusterClientApp3.csproj", "{5E2B2977-03BC-417C-93AC-074CFFC7BACD}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "05. Send Custom Messages", "05. Send Custom Messages", "{5D69EC23-F79E-4436-83A6-7545D28D7E6C}"
 EndProject
@@ -188,6 +188,16 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClusterClientSharedMessages", "08. Cluster Client\05. Send Custom Messages\ClusterClientSharedMessages\ClusterClientSharedMessages.csproj", "{C89BAE3D-1842-440E-AE95-035D3DC5E99B}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClusterClientApp", "08. Cluster Client\05. Send Custom Messages\ClusterClientApp\ClusterClientApp.csproj", "{EC0EDC58-7A18-4128-BA51-71F1E8E9A747}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03. Discover Actor by Role and Path", "03. Discover Actor by Role and Path", "{8A99590E-A04E-4F2A-AB9D-61D877823A4B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SeedNode1", "03. Gossip Events\03. Discover Actor by Role and Path\SeedNode1\SeedNode1.csproj", "{EF6542B6-9A8D-4527-928D-AF5A286181B6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NonSeedNode1", "03. Gossip Events\03. Discover Actor by Role and Path\NonSeedNode1\NonSeedNode1.csproj", "{A71EF503-4300-48FB-B905-0FDCB1BA2622}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NonSeedNode2", "03. Gossip Events\03. Discover Actor by Role and Path\NonSeedNode2\NonSeedNode2.csproj", "{2F67001B-1631-42A8-AD9A-2D86288800F1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NonSeedNode3", "03. Gossip Events\03. Discover Actor by Role and Path\NonSeedNode3\NonSeedNode3.csproj", "{6F4C6B3D-508F-4BB5-9F56-2CA805BEA1AA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -475,6 +485,22 @@ Global
 		{EC0EDC58-7A18-4128-BA51-71F1E8E9A747}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EC0EDC58-7A18-4128-BA51-71F1E8E9A747}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EC0EDC58-7A18-4128-BA51-71F1E8E9A747}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF6542B6-9A8D-4527-928D-AF5A286181B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF6542B6-9A8D-4527-928D-AF5A286181B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF6542B6-9A8D-4527-928D-AF5A286181B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF6542B6-9A8D-4527-928D-AF5A286181B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A71EF503-4300-48FB-B905-0FDCB1BA2622}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A71EF503-4300-48FB-B905-0FDCB1BA2622}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A71EF503-4300-48FB-B905-0FDCB1BA2622}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A71EF503-4300-48FB-B905-0FDCB1BA2622}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F67001B-1631-42A8-AD9A-2D86288800F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F67001B-1631-42A8-AD9A-2D86288800F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F67001B-1631-42A8-AD9A-2D86288800F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F67001B-1631-42A8-AD9A-2D86288800F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F4C6B3D-508F-4BB5-9F56-2CA805BEA1AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F4C6B3D-508F-4BB5-9F56-2CA805BEA1AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F4C6B3D-508F-4BB5-9F56-2CA805BEA1AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F4C6B3D-508F-4BB5-9F56-2CA805BEA1AA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -568,6 +594,11 @@ Global
 		{9AD87AD8-C185-4B35-8DE5-1967FA2E48FC} = {5D69EC23-F79E-4436-83A6-7545D28D7E6C}
 		{C89BAE3D-1842-440E-AE95-035D3DC5E99B} = {5D69EC23-F79E-4436-83A6-7545D28D7E6C}
 		{EC0EDC58-7A18-4128-BA51-71F1E8E9A747} = {5D69EC23-F79E-4436-83A6-7545D28D7E6C}
+		{8A99590E-A04E-4F2A-AB9D-61D877823A4B} = {D79A3EE2-846F-4791-9C4A-9A2E440A6DAB}
+		{EF6542B6-9A8D-4527-928D-AF5A286181B6} = {8A99590E-A04E-4F2A-AB9D-61D877823A4B}
+		{A71EF503-4300-48FB-B905-0FDCB1BA2622} = {8A99590E-A04E-4F2A-AB9D-61D877823A4B}
+		{2F67001B-1631-42A8-AD9A-2D86288800F1} = {8A99590E-A04E-4F2A-AB9D-61D877823A4B}
+		{6F4C6B3D-508F-4BB5-9F56-2CA805BEA1AA} = {8A99590E-A04E-4F2A-AB9D-61D877823A4B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {ECF7691A-061A-4CA7-820E-B9E14611A042}
