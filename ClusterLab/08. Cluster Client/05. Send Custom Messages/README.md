@@ -1,6 +1,7 @@
 ## ClusterClient에서 사용자 정의 메시지 보내기
 1. 사용자 정의 메시지는 반드시 Seed Node와 이를 처리할 NonSeedNode 모두에 참조되어야 한다.
-![](./Images/Dependencies_for_CustomMessages.png){: width="609" height="1082"}
+![](./Images/Dependencies_for_CustomMessages.png){: width="60%" height="60%"}
+
 
 <br/>
 <br/>
