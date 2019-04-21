@@ -88,6 +88,10 @@ _clusterClientActor.Tell(SubscribeContactPoints.Instance);
 <br/>
 
 ## TODO
-1. ContactPointRemoved 단위 테스트를 통해 버그를 확인한다.
-1. ContactPointRemoved 버그 확인을 위한 데모를 작성한다(Info 로그만 출력한다).
-1. Akka.NET 이슈에 제기한다.
+1. ContactPointRemoved 버그
+   - ContactPointRemoved 단위 테스트를 통해 버그를 확인한다.
+   - ContactPointRemoved 버그 확인을 위한 데모를 작성한다(Info 로그만 출력한다).
+   - Akka.NET 이슈에 제기한다.
+1. Petabridge.Cmd
+   - actor hierarchy로 ClusterClientReceptionist 액터를 확인한다.
+   - actor hierarchy로 Cluster Client 액터을 확인한다.
