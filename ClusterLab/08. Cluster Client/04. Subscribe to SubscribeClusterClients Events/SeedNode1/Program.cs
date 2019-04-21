@@ -1,4 +1,5 @@
 ﻿using Akka.Actor;
+using Akka.Cluster.Tools.Client;
 using Akka.Configuration;
 using Petabridge.Cmd.Cluster;
 using Petabridge.Cmd.Host;
@@ -23,11 +24,11 @@ namespace SeedNode1
 
             ActorSystem system = ActorSystem.Create(config.GetString("akka.system.actorsystem-name"), config);
 
-            //_targetReceptionist.Tell(SubscribeClusterClients.Instance);
-
             var cmd = PetabridgeCmd.Get(system);
             cmd.RegisterCommandPalette(ClusterCommands.Instance);
             cmd.Start();
+
+            system.ActorOf(ClusterClientListenActor.Props(), nameof(ClusterClientListenActor));
 
             Console.WriteLine();
             Console.WriteLine("SeedNode1 is running...");

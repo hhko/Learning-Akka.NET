@@ -26,10 +26,16 @@ namespace ClusterClientApp
             var cmd = PetabridgeCmd.Get(system);
             cmd.Start();
 
-            system.ActorOf(ClusterClientListenActor.Props(), nameof(ClusterClientListenActor));
+            //
+            // Cluster 접속하기
+            //
+            system.ActorOf(
+                ClusterClient
+                    .Props(ClusterClientSettings.Create(system)),
+                "ClusterClientActor");
 
             Console.WriteLine();
-            Console.WriteLine("NonSeedNode1 is running...");
+            Console.WriteLine("ClusterClientApp1 is running...");
             Console.WriteLine();
 
             Console.ReadLine();

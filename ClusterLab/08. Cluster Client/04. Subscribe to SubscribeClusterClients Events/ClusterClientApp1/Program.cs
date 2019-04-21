@@ -1,10 +1,11 @@
 ﻿using Akka.Actor;
 using Akka.Cluster.Tools.Client;
 using Akka.Configuration;
+using Petabridge.Cmd.Host;
 using System;
 using System.IO;
 
-namespace NonSeedNode1
+namespace ClusterClientApp1
 {
     class Program
     {
@@ -22,21 +23,19 @@ namespace NonSeedNode1
 
             ActorSystem system = ActorSystem.Create(config.GetString("akka.system.actorsystem-name"), config);
 
-            IActorRef fooActor = system.ActorOf(FooActor.Props(), nameof(FooActor));
+            var cmd = PetabridgeCmd.Get(system);
+            cmd.Start();
 
-            // 등록 함수: RegisterService
-            // 해제 함수: UnregisterService
-            ClusterClientReceptionist.Get(system)
-                .RegisterService(fooActor);
-
+            //
+            // Cluster 접속하기
+            //
             system.ActorOf(
-                ReceptionistListenActor
-                    .Props(ClusterClientReceptionist.Get(system).Underlying),
-                nameof(ReceptionistListenActor));
-            
+                ClusterClient
+                    .Props(ClusterClientSettings.Create(system)),
+                "ClusterClientActor");
 
             Console.WriteLine();
-            Console.WriteLine("NonSeedNode1 is running...");
+            Console.WriteLine("ClusterClientApp1 is running...");
             Console.WriteLine();
 
             Console.ReadLine();

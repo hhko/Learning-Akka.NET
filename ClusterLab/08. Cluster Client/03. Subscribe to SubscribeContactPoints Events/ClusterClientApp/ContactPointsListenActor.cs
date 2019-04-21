@@ -8,17 +8,17 @@ using System.Text;
 
 namespace ClusterClientApp
 {
-    public class ClusterClientListenActor : ReceiveActor
+    public class ContactPointsListenActor : ReceiveActor
     {
         private readonly ILoggingAdapter _log = Context.GetLogger();
         private IActorRef _clusterClientActor;
 
         public static Props Props()
         {
-            return Akka.Actor.Props.Create(() => new ClusterClientListenActor());
+            return Akka.Actor.Props.Create(() => new ContactPointsListenActor());
         }
 
-        public ClusterClientListenActor()
+        public ContactPointsListenActor()
         {
             Receive<ContactPoints>(_ => Handle(_));
             Receive<ContactPointAdded>(_ => Handle(_));
@@ -69,8 +69,9 @@ namespace ClusterClientApp
         private void Handle(ContactPointAdded msg)
         {
             // 
-            // TODO?: 처음 실행할 때 접속된 ContactPoint 정보만 전달된다.
-            //          나중에 Cluster로 합류한 ContactPoint에 대한 메시지는 전될지 않는다. 
+            // Seed Node 중에서 새로 접속될 때 호출된다.
+            //  -> Seed Node 정보가 N개 있어도 1개만 접속한다.
+            //  -> Seed Node가 Cluster에서 접속되어도 호출되지 않는다(이미지 ClusterClient는 접속되어 있기 때문이다).
             //
             _log.Info(">>> Received - ContactPointAdded");
             _log.Info($"\t{msg.ContactPoint.ToStringWithAddress()}");
@@ -79,9 +80,9 @@ namespace ClusterClientApp
         private void Handle(ContactPointRemoved msg)
         {
             // 
-            // TODO?: 언제 호출되는지 아직 모른다.
-            //          ContactPoint 종료될 때: 메시지가 전달되지 않는다.
-            //          ContactPoint 정보에 변화가 있을 때: ???? 어떻게 런타임에 변경하지?
+            // 접속 시도한 Seed Node 중에서 접속되지 않을 때 호출된다.
+            // 접속된 Seed Node가 접속되지 않을 때 호출된다.
+            //  -> 접속 중인 Seed Node가 아니 Seed Node 종료일 때는 호출되지 않는다.
             //
             _log.Info(">>> Received - ContactPointRemoved");
             _log.Info($"\t{msg.ContactPoint.ToStringWithAddress()}");

@@ -1,4 +1,27 @@
+## 이벤트 Subscribe하기
+1. 주요 기능 정리
+   - ClusterClient 액터를 생성한다: ClusterClient.Props(ClusterClientSettings.Create(Context.System))
+   - ClusterClient 액터에게 이벤트를 등록한다: _clusterClientActor.Tell(SubscribeContactPoints.Instance);
+```
+_clusterClientActor = Context.ActorOf(
+	ClusterClient
+		.Props(ClusterClientSettings.Create(Context.System)),
+	"ClusterClientActor");
 
+//
+// 이벤트 등록: SubscribeContactPoints.Instance 
+//      -> Receive<ContactPoints>
+//      -> Receive<ContactPointAdded>
+//      -> Receive<ContactPointRemoved>
+// 이벤트 제거: UnsubscribeContactPoints.Instance
+//
+//   vs.
+//
+// 명시적 확인: GetContactPoints.Instance 
+//      -> Receive<ContactPoints>
+//
+_clusterClientActor.Tell(SubscribeContactPoints.Instance);
+```
 ## 데모 1 - Seed Node가 2개일 때
 1. 데모 시나리오
    - ClusterClientApp 실행: ContactPoints
