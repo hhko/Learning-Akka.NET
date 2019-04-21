@@ -6,6 +6,7 @@
    - Integrate with Petabridge.Cmd  
    - Automatically Mark Unreachable Nodes : **akka.cluster.auto-down-unreachable-after**
    - Retry Joining Time Interval : **akka.cluster.seed-node-timeout**
+   - > TODO Petabridge.Cmd Join, Leave, ...
 1. **Roles and Minimum Size**
    - Define Roles : **akka.cluster.roles**
    - Cluster-Wide Minimum Size : **akka.cluster.min-nr-of-members**
@@ -31,8 +32,9 @@
    - Send Custom Messages
    - > TODO Tutorial: Ping Pong(Akka.NET Example)
    - > TODO Understanding: akka.cluster.client.receptionist, akka.cluster.client
-
-      
+1. **Sharding**
+1. **Distributed Data**
+1. **Split Brain Resolver**      
    
 <br/>
 <br/>
@@ -91,6 +93,7 @@
   - [ ] 매뉴얼 무중단 Rolling Update(메시지 버전 Up, ...)
   - [ ] Transactions
   - [ ] Actor Hierarchy 출력(/user/..., /system/...)
+  - [ ] 메시지 전송을 위해서는 메시지 Dll을 모두 참조해야 하지 않나? SeedNode까지 포함해서?
 - [ ] 예제 추가
   - [ ] [Cluster.WebCrawler](https://github.com/petabridge/akkadotnet-code-samples/tree/master/Cluster.WebCrawler)
   - [ ] [Cluster.Monitoring](https://github.com/cgstevens/Akka.Cluster.Monitor)
