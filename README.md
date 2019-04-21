@@ -33,12 +33,8 @@
 <br/>
 <br/>
 
-## TODO - 2019-04-W3
-- [ ] ClusterClient > Subscribe to SubscribeContactPoints Events README.md 추가
-- [ ] ClusterClient > Subscribe to SubscribeContactPoints Events SeedNode 3개로 데모 시나리오 
-- [ ] ClusterClient > Subscribe to SubscribeClusterClients Events 예제 정리
+## TODO
 - [ ] ClusterClient > Sender.Tell???? 
-- [ ] ClusterClient > Send Custom Messages 예제 추가
 - [ ] ClusterClient > Understand Cluster Client Config 예제 추가
 - [ ] ClusterClient > Tutorials PingPong 예제 추가
 - [ ] ClusterClient > 반드시 Seed Node이어야만 하나?
@@ -49,14 +45,8 @@
 - [ ] NLog 
 - [ ] [Role 기반으로 Actor에게 메시지 보내기](https://github.com/akkadotnet/akka.net/issues/3757#issuecomment-483522034)
 - [ ] akka.cluster.client.receptionist.role ???
-
-## TODO
-- [ ] README.md
-  - [ ] 주요 함수 Summary 추가
-  - [ ] Diagram 이미지 추가
-  - [ ] Youtube 데모 동영상 추가
+- [ ] README.md > 주요 함수 Summary 추가
 - [ ] NLog
-  - [x] NLog.config -> App.NLog.conf 파일명 변경하기
   - [ ] [3] -> [0003] ThreadId 고정 영역으로 출력하기
   - [ ] Log 출력 소스 정보 [ ...? ] -> [akka://ClusterLab/deadletters]
   - [ ] 01. Overview -> 04. Retry Joining Time Interval -> NonSeedNode1 적용
@@ -66,6 +56,8 @@
   - [ ] 프로그램 종료 방법 변경
   - [ ] ActorSystem 이름을 conf 파일에서 지정하기 + SeedNode 이름에도 같이 사용하기?
   - [ ] [ClusterClient Router 연동할 때 버그 이슈](https://github.com/akkadotnet/akka.net/issues/3315)
+- [ ] README.md > Diagram 이미지 추가
+- [ ] README.md > Youtube 데모 동영상 추가
 - [ ] Lab 추가
   - [ ] Warm-up Routting 예외 처리, 생성 분리
   - [ ] Warm-up, Deploy, Deploy 예외 처리 정보 부족 -> **Akka.NET 이슈 제거**
