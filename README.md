@@ -49,11 +49,24 @@
 <br/>
 <br/>
 
-## DOING - Labs
-1. Akka
+## DOING
+1. Akka 
    - Cluster Lab
+      - [ ] Cluster Routing 
+	     - [ ]Pools
+         - [ ] Groups
+      - [ ] Cluster Singleton
+      - [ ] Cluster Pub/Sub
+      - [ ] Split Brain Resolver
+      - [ ] Cluster Sharding
+      - [ ] Cluster Distributed Data
+      - [ ] Consul Actor Discovery
+      - [ ] Transactions
    - Local Lab
    - Persistence Lab
+   - Issues
+   - FAQ
+   - Examples
 1. Pattern Lab
    - Saga
 1. Docker Container Lab
@@ -62,7 +75,7 @@
 
 <br/>
 
-## DOING
+## DOING - Labs
 - [ ] [Role 기반으로 Actor에게 메시지 보내기](https://github.com/akkadotnet/akka.net/issues/3757#issuecomment-483522034)
    - [ ] Sender ?
    - [ ] async IEnumerable 적용
@@ -127,23 +140,6 @@
 
 <br/>
  
-## TODO - ClusterLab
-- [ ] Overview 
-   - [ ] SeedNode가 종료된 후 재 시작할 때?
-   - [ ] SeedNode가 N개 일 때
-- [ ] Gossip Events > RegisterOnMemberRemoved, Leave, Join, ... 
-- [ ] Cluster Routing Pools
-- [ ] Cluster Routing Groups
-- [ ] Cluster Singleton
-- [ ] Cluster Pub/Sub
-- [ ] Split Brain Resolver
-- [ ] Consul Actor Discovery
-- [ ] Cluster Sharding
-- [ ] Cluster Distributed Data
-- [ ] Transactions
-  
-<br/>  
-  
 ## TODO - 예제 추가
 - [ ] [Cluster.WebCrawler](https://github.com/petabridge/akkadotnet-code-samples/tree/master/Cluster.WebCrawler)
 - [ ] [Cluster.Monitoring](https://github.com/cgstevens/Akka.Cluster.Monitor)
