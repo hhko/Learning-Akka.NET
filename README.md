@@ -16,12 +16,14 @@
 1. **Gossip Events**
    - Subscribe to Gossip Events : **Cluster _cluster = Cluster.Get(Context.System); _cluster.Subscribe(Self, ...);**
    - Discover Actor by Tag
-   - Discover Actor by Role and Path
+   - Discover Actor by Role and Path : **cluster.State.Members.Where(member => ...);**
 1. **Warm-up For Cluster Routing**
    - Local Routing Pools : Create routees automatically. **round-robin-pool**
-   - Local Routing Groups : Create routees yourself. **round-robin-group**, path
+   - Local Routing Groups : Create routees yourself. **round-robin-group**, **path**
    - Remote Deploy
-   - Remote Deploy Exceptions Info 
+   - > Local Routing Pools : Exceptions
+   - > Local Routing Groups : Exceptions
+   - > Remote Deploy : Exceptions Info? 
 1. **Cluster Routing**
 1. **Cluster Singleton**
 1. **Distributed PubSub**
