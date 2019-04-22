@@ -113,13 +113,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Akka.Cluster.Discovery", "0
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04. Warm-up For Cluster Routing", "04. Warm-up For Cluster Routing", "{EAAD7E45-C6CC-4A64-9C02-F1D934F79E00}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01. Local Routing Pools", "01. Local Routing Pools", "{42568045-E934-4526-95AD-7529331FDBA3}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01. Pool - Create Routees Automatically", "01. Pool - Create Routees Automatically", "{42568045-E934-4526-95AD-7529331FDBA3}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02. Local Routing Groups", "02. Local Routing Groups", "{F73E806E-2E9B-4630-BCC0-1094F3EFD559}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02. Group - Create Routees Yourself", "02. Group - Create Routees Yourself", "{F73E806E-2E9B-4630-BCC0-1094F3EFD559}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CreateRouteesAutomatically", "04. Warm-up For Cluster Routing\01. Local Routing Pools\CreateRouteesAutomatically\CreateRouteesAutomatically.csproj", "{AB8825B5-01A0-44F9-898D-495FC14E1B8D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CreateRouteesAutomatically", "04. Warm-up For Cluster Routing\01. Pool - Create Routees Automatically\CreateRouteesAutomatically\CreateRouteesAutomatically.csproj", "{AB8825B5-01A0-44F9-898D-495FC14E1B8D}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CreateRouteesYourself", "04. Warm-up For Cluster Routing\02. Local Routing Groups\CreateRouteesYourself\CreateRouteesYourself.csproj", "{631BAF79-CC99-4C36-8978-EFB0125470AA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CreateRouteesYourself", "04. Warm-up For Cluster Routing\02. Group - Create Routees Yourself\CreateRouteesYourself\CreateRouteesYourself.csproj", "{631BAF79-CC99-4C36-8978-EFB0125470AA}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03. Deploy Actor Remotely", "03. Deploy Actor Remotely", "{BF706B16-342C-4458-AF56-7D1B28407A3B}"
 EndProject
