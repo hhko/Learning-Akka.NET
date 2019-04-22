@@ -6,7 +6,8 @@
    - Integrate with Petabridge.Cmd  
    - Automatically Mark Unreachable Nodes : **akka.cluster.auto-down-unreachable-after**
    - Retry Joining Time Interval : **akka.cluster.seed-node-timeout**
-   - > TODO Petabridge.Cmd Join, Leave, ...
+   - > Seed Node N개 일 때
+   - > Petabridge.Cmd Join, Leave, ...
 1. **Roles and Minimum Size**
    - Define Roles : **akka.cluster.roles**
    - Cluster-Wide Minimum Size : **akka.cluster.min-nr-of-members**
@@ -162,6 +163,7 @@
 - [ ] [Akka.NET Bootcamp](https://github.com/petabridge/akka-bootcamp)
 - [ ] [Actor MapReduce WordCounter](https://github.com/DavidHoerster/ActorMapReduceWordCounter)
 - [ ] [Saga Pattern](https://github.com/heynickc/akka_process_manager)
+- [ ] [Saga UnitTests](https://github.com/VaughnVernon/Dotsero/blob/master/DotseroTest/ProcessManagerTests.cs), [동영상](https://vimeo.com/104021785)
 
 <br/>
 
