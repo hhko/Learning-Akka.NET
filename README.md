@@ -64,6 +64,7 @@
       - [ ] Transactions
    - Local Lab
    - Persistence Lab
+   - Remote Lab
    - Issues
    - FAQ
    - Examples
