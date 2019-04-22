@@ -31,8 +31,8 @@
    - Subscribe to SubscribeContactPoints Events
    - Subscribe to SubscribeClusterClients Events
    - Send Custom Messages
-   - > TODO Tutorial: Ping Pong(Akka.NET Example)
-   - > TODO Understanding: akka.cluster.client.receptionist, akka.cluster.client
+   - > Ping Pong Tutorial(Akka.NET Example)
+   - > akka.cluster.client.receptionist, akka.cluster.client HOCON
 1. **Sharding**
 1. **Distributed Data**
 1. **Split Brain Resolver**      
