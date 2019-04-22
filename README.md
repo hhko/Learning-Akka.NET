@@ -184,7 +184,7 @@
 - [ ] [Naver 블로그](https://m.blog.naver.com/PostView.nhn?blogId=kbh3983&logNo=221182343063&categoryNo=119&proxyReferer=https%3A%2F%2Fwww.google.co.kr%2F)
 - [ ] [한글 Wiki](http://wiki.webnori.com/m/mobile.action#page/1048605)
 - [ ] [Akka.NET Kafka](http://wiki.webnori.com/display/AKKA)
-
+- [ ] [Akka.NET + ASP.NET Core](https://hardyeats.github.io/2018/02/19/aspnetcore-akka/)
 <br/>
 
 ## Blog English
