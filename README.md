@@ -27,10 +27,10 @@
    - > Remote Deploy : 자동으로 Deathwatch 되는지? 
 1. **Cluster Routing**
    - > Pool - Deploy Routees Remotely
-   - > Pool - Hanlde Exceptions
+   - > Pool - Hanlde Exceptions Raised by Routees
    - > Pool - Handle Routees Lifecycle
    - > Group - Create Routees Yourself
-   - > Group - Handle Exceptions
+   - > Group - Handle Exceptions Raised by Routees
    - > Group - Handle Routees Lifecycle
 1. **Cluster Singleton**
 1. **Distributed PubSub**
