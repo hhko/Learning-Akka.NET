@@ -135,6 +135,7 @@
 - [ ] 매뉴얼 무중단 Rolling Update(메시지 버전 Up, ...)
 - [ ] Actor Hierarchy 출력(/user/..., /system/...)
 - [ ] 메시지 전송을 위해서는 메시지 Dll을 Cluster 모듈 모두가 참조해야 하나? SeedNode까지 포함해서?
+- [ ] C#에서 C/C++ 예외 처리하기를 기본으로 제공한다.
 
 <br/>
  
