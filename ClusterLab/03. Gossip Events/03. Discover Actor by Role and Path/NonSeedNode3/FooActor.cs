@@ -75,7 +75,7 @@ namespace NonSeedNode3
                     .ActorSelection($"{member.Address}{path}")
                     //.ResolveOne(TimeSpan.FromSeconds(3))
                     //.Result
-                    .Tell(message, Self);
+                    .Tell(message);
 
                 // 
                 // TODO: async Task<IEnumerable<IActorRef>> ?
