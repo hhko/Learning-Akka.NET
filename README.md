@@ -21,9 +21,9 @@
    - Pool - Create Routees Automatically : **round-robin-pool**
    - Group - Create routees yourself : **round-robin-group**, **path**
    - Remote Deploy
-   - > Local Routing Pools : Exceptions
-   - > Local Routing Groups : Exceptions
-   - > Remote Deploy : Exceptions Info? 
+   - > Pool : Handle Exceptions
+   - > Groups : Handle Exceptions
+   - > Remote Deploy : Handle Exceptions Info? 
    - > Remote Deploy : 자동으로 Deathwatch 되는지? 
 1. **Cluster Routing**
    - > Pool - Deploy Routees Remotely
@@ -53,7 +53,7 @@
 1. Akka 
    - Cluster Lab
       - [ ] Cluster Routing 
-	     - [ ]Pools
+	     - [ ] Pools
          - [ ] Groups
       - [ ] Cluster Singleton
       - [ ] Cluster Pub/Sub
