@@ -1,58 +1,53 @@
-## 다른 Node에 있는 액터를 찾는다.
-
-1. 모든 Node에 "ClusterActorDiscovery" 액터를 생성한다.
-```cs
-var cluster = Cluster.Get(system);
-IActorRef clusterActorDiscovery = system.ActorOf(Props.Create(() => new ClusterActorDiscovery(cluster)), "cluster_actor_discovery");
+## Role과 Path로 메시지 보내기
+1. Cluster 멤버를 조회한다.
 ```
-
-2. 관심 액터를 등록한다.
-```cs
-//
-// "SeedNode1-FooActor"은 클러스터 환경에서 유일한 식별 값이어야 한다.
-//
-_clusterActorDiscovery.Tell(new ClusterActorDiscoveryMessage.RegisterActor(Self, "SeedNode1-FooActor"));
-```
-	
-3. 관심 액터 찾기를 감시한다.
-```cs
-_clusterActorDiscovery.Tell(new ClusterActorDiscoveryMessage.MonitorActor("SeedNode1-FooActor"));
-```
-
-4. 관심 액터가 클러스터에 합류/제거를 인식한다.
-```cs
-Receive<ClusterActorDiscoveryMessage.ActorUp>(_ => Handle(_));
-Receive<ClusterActorDiscoveryMessage.ActorDown>(_ => Handle(_));
-			
-private void Handle(ClusterActorDiscoveryMessage.ActorUp msg)
+Cluster cluster = Cluster.Get(Context.System);
+IEnumerable<Member> members = cluster.State.Members.Where(member => member.Roles.Contains(roleName));
+foreach (Member member in members)
 {
-	...
-}
-
-private void Handle(ClusterActorDiscoveryMessage.ActorDown msg)
-{
-	...
+	Context
+		.ActorSelection($"{member.Address}/user/FooActor")
+		.Tell(message);
 }
 ```
-	
+
+2. Gossip Event 호출 람다의 Self 주소를 반드시 확인해야 한다.
+   - RegisterOnMemberUp 람다의 Self는 "**/system/cluster/$a**" 이다.
+```
+//
+// Cluster로 합류할 때 액터를 찾는다.
+// RegisterOnMemberUp에서 호출되는 람다 Self 주소는 akka://ClusterLab/system/cluster/$a 이다.
+//
+IActorRef self = Self;
+Cluster cluster = Cluster.Get(Context.System);
+cluster.RegisterOnMemberUp(() =>
+	{
+		_log.Info($">>> RegisterOnMemberUp, {Self.Path}, {cluster.SelfAddress}");
+		self.Tell(new ClusterJoined());
+	});
+```
 <br/>
 <br/>
-		
-## 데모 시나리오.
-1. 관심 액터를 등록한다.
-	SeedNode1, NonSeedNode1, NonSeedNode2
-1. 관심 액터를 감시한다(합류를 인식한다)
-	NonSeedNode3
-1. NonSeedNode3에서 다른 Node에 있는 관심 액터에게 메시지를 보낸다.
 
-  - SeedNode1
-![](./Images/SeedNode1.png)
-
-  - NonSeedNode1
-![](./Images/NonSeedNode1.png)
-
-  - NonSeedNode2
-![](./Images/NonSeedNode2.png)
-
-  - NonSeedNode3
-![](./Images/NonSeedNode3.png)
+## 데모
+1. NonSeedNode3에서 Master 역할자(SeedNode1)에게 메시지를 보낸다.
+```
+// SeedNode1
+SendByRoleAndPath("Master", "/user/FooActor", "Hello from NonSeedNode3 to Master");
+```
+2. NonSeedNode3에서 Provider 역할자(NonSeedNode1)에게 메시지를 보낸다.
+```
+// NonSeedNode1
+SendByRoleAndPath("Provider", "/user/FooActor", "Hello from NonSeedNode3 to Provider");
+```
+3. NonSeedNode3에서 Worker 역할자(NonSeedNode2, NonSeedNode3)에게 메시지를 보낸다.
+```
+// NonSeedNode2, NonSeedNode3(Call back 메시지를 보내지 않는다)
+SendByRoleAndPath("Worker", "/user/FooActor", "Hello from NonSeedNode3 to Worker");
+```
+4. NonSeedNode3에서 Scheduler 역할자(NonSeedNode2)에게 메시지를 보낸다.
+```
+// NonSeedNode2
+SendByRoleAndPath("Scheduler", "/user/FooActor", "Hello from NonSeedNode3 to Worker");
+```
+![](./Images/Demo.png)

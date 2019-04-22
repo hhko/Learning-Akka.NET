@@ -11,6 +11,10 @@ namespace NonSeedNode3
 {
     public class FooActor : ReceiveActor
     {
+        #region
+        public sealed class ClusterJoined { }
+        #endregion
+
         private readonly ILoggingAdapter _log = Context.GetLogger();
 
         public static Props Props()
@@ -21,27 +25,44 @@ namespace NonSeedNode3
         public FooActor()
         {
             Receive<string>(_ => Handle(_));
+            Receive<ClusterJoined>(_ => Handle(_));
 
             _log.Info($">>> Foo Address : {Self.Path.ToStringWithAddress()}");
 
             //
             // Cluster로 합류할 때 액터를 찾는다.
+            // RegisterOnMemberUp에서 호출되는 람다 Self 주소는 akka://ClusterLab/system/cluster/$a 이다.
             //
+            IActorRef self = Self;
             Cluster cluster = Cluster.Get(Context.System);
             cluster.RegisterOnMemberUp(() =>
-            {
-                _log.Info($">>> RegisterOnMemberUp");
+                {
+                    _log.Info($">>> RegisterOnMemberUp, {Self.Path}, {cluster.SelfAddress}");
 
-                SendByRoleAndPath("Master", "/user/FooActor", "Hello from NonSeedNode3 to Master");
-                SendByRoleAndPath("Provider", "/user/FooActor", "Hello from NonSeedNode3 to Provider");
-                SendByRoleAndPath("Worker", "/user/FooActor", "Hello from NonSeedNode3 to Worker");
-                SendByRoleAndPath("Scheduler", "/user/FooActor", "Hello from NonSeedNode3 to Worker");
-            });
+                    self.Tell(new ClusterJoined());
+                });
         }
 
         private void Handle(string msg)
         {
             _log.Info($">>> Message : {msg}, Sender: {Sender}");
+        }
+
+        private void Handle(ClusterJoined msg)
+        {
+            _log.Info($">>> Message : {msg}, Sender: {Sender}");
+
+            // SeedNode1
+            SendByRoleAndPath("Master", "/user/FooActor", "Hello from NonSeedNode3 to Master");
+
+            // NonSeedNode1
+            SendByRoleAndPath("Provider", "/user/FooActor", "Hello from NonSeedNode3 to Provider");
+
+            // NonSeedNode2, NonSeedNode3(Call back 메시지를 보내지 않는다)
+            SendByRoleAndPath("Worker", "/user/FooActor", "Hello from NonSeedNode3 to Worker");
+
+            // NonSeedNode2
+            SendByRoleAndPath("Scheduler", "/user/FooActor", "Hello from NonSeedNode3 to Worker");
         }
 
         private void SendByRoleAndPath(string roleName, string path, string message)
@@ -52,15 +73,9 @@ namespace NonSeedNode3
             {
                 Context
                     .ActorSelection($"{member.Address}{path}")
-                    .ResolveOne(TimeSpan.FromSeconds(3))
-                    .Result
+                    //.ResolveOne(TimeSpan.FromSeconds(3))
+                    //.Result
                     .Tell(message, Self);
-
-                //
-                // TODO?: Sender가 경로가 이상한다.
-                //      리턴 메시지를 받을 수 없다.
-                //      akka.tcp://ClusterLab@localhost:8093/system/cluster$a
-                //
 
                 // 
                 // TODO: async Task<IEnumerable<IActorRef>> ?
