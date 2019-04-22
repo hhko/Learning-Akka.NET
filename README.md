@@ -169,6 +169,13 @@
 - [ ] [Actor MapReduce WordCounter](https://github.com/DavidHoerster/ActorMapReduceWordCounter)
 - [ ] [Saga Pattern](https://github.com/heynickc/akka_process_manager)
 - [ ] [Saga UnitTests](https://github.com/VaughnVernon/Dotsero/blob/master/DotseroTest/ProcessManagerTests.cs), [동영상](https://vimeo.com/104021785)
+- [ ] [Akka.NET Reference Architecture - CRQS + Sharding + In-Memory Replication](https://github.com/Aaronontheweb/InMemoryCQRSReplication)
+- [ ] [Debugger application for viewing Akka.NET Cluster.Sharding Data](https://github.com/Aaronontheweb/Cluster.Sharding.Viewer)
+- [ ] [Akka.AtLeastOnceDelivery-Snapshot-Manipulation](https://github.com/Aaronontheweb/Akka.AtLeastOnceDelivery-Snapshot-Manipulation)
+- [ ] [Play with Akka Cluster](https://github.com/carsten-j/playWithAkkaCluster)
+- [ ] [AkkaAnalyzer](https://github.com/AkkaNetContrib/AkkaAnalyzer)
+- [ ] [Akka.NET-Throughput](https://github.com/Aaronontheweb/Akka.NET-Throughput)
+- [ ] [Detect Socket Leaks](https://github.com/petabridge/SocketLeakDetection)
 
 <br/>
 
@@ -180,6 +187,7 @@
 <br/>
 
 ## Blog English
+- [ ] [Akka.NET CEO, Aaronstannard](http://www.aaronstannard.com/)
 - [ ] [Gigi](http://gigi.nullneuron.net/gigilabs/tag/akka-net/)
 - [ ] [Akka-Guide](https://connelhooley.uk/blog/2017/02/21/akka-guide)
 - [ ] [Akka-Testing-Helper V1](https://connelhooley.uk/blog/2017/09/30/introducing-akka-testing-helpers-di)
