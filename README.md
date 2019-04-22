@@ -76,27 +76,23 @@
 <br/>
 
 ## DOING - Labs
+- [ ] Cluster Pool Routing
+- [ ] Cluster Group Routing
+- [ ] Cluster Pub/Sub
+- [ ] At Least Once
 - [ ] [Role 기반으로 Actor에게 메시지 보내기](https://github.com/akkadotnet/akka.net/issues/3757#issuecomment-483522034)
-   - [ ] Sender ?
    - [ ] async IEnumerable 적용
 - [ ] ClusterClient 
    - [ ] Sender.Tell???? 
    - [ ] 반드시 Seed Node이어야만 하나?
+   - [ ] akka.cluster.client.receptionist.role ???
 - [ ] Warm-up
    - [ ] 예외만 예제를 분리한다.
-- [ ] Cluster Pool Routing
-- [ ] Cluster Group Routing
-- [ ] Cluster Pub/Sub
-- [ ] At least once
-- [ ] 콘솔 타이틀
-- [ ] NLog 
-- [ ] akka.cluster.client.receptionist.role ???
-- [ ] README.md > 주요 함수 Summary 추가
 - [ ] NLog
    - [ ] [3] -> [0003] ThreadId 고정 영역으로 출력하기
    - [ ] Log 출력 소스 정보 [ ...? ] -> [akka://ClusterLab/deadletters]
    - [ ] 01. Overview -> 04. Retry Joining Time Interval -> NonSeedNode1 적용
-- [ ] Akka
+- [ ] Console App
    - [ ] 콘솔 타이틀을 추가한다.
    - [ ] Console.WriteLine -> Log
    - [ ] 프로그램 종료 방법 변경
@@ -106,7 +102,8 @@
    - [ ] 요약 추가
    - [ ] Diagram 이미지 추가
    - [ ] Youtube 데모 동영상 추가
-
+   - [ ] Blog 적용
+   
 <br/>
 
 ## TODO - Akka.NET 이슈
