@@ -18,8 +18,8 @@
    - Discover Actor by Tag
    - Discover Actor by Role and Path : **cluster.State.Members.Where(member => ...);**
 1. **Warm-up For Cluster Routing**
-   - Local Routing Pools : Create routees automatically. **round-robin-pool**
-   - Local Routing Groups : Create routees yourself. **round-robin-group**, **path**
+   - Pool - Create Routees Automatically : **round-robin-pool**
+   - Group - Create routees yourself : **round-robin-group**, **path**
    - Remote Deploy
    - > Local Routing Pools : Exceptions
    - > Local Routing Groups : Exceptions
