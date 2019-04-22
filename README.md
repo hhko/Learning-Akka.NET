@@ -174,13 +174,16 @@
 - [ ] [AkkaAnalyzer](https://github.com/AkkaNetContrib/AkkaAnalyzer)
 - [ ] [Akka.NET-Throughput](https://github.com/Aaronontheweb/Akka.NET-Throughput)
 - [ ] [Detect Socket Leaks](https://github.com/petabridge/SocketLeakDetection)
+- [ ] [.netzuid-akka Talk](https://github.com/Danthar/.netzuid-akka)
+- [ ] [PersistentActor with a backoff supervisor](https://github.com/Danthar/Akka.PersistentBackoff)
 
 <br/>
 
 ## Blog Korean
-- [ ] [Bbotcamp 한글화](https://blog.rajephon.dev/2018/12/02/akka-01/)
-- [ ] [블로그](https://m.blog.naver.com/PostView.nhn?blogId=kbh3983&logNo=221182343063&categoryNo=119&proxyReferer=https%3A%2F%2Fwww.google.co.kr%2F)
+- [ ] [Botcamp 한글화](https://blog.rajephon.dev/2018/12/02/akka-01/)
+- [ ] [Naver 블로그](https://m.blog.naver.com/PostView.nhn?blogId=kbh3983&logNo=221182343063&categoryNo=119&proxyReferer=https%3A%2F%2Fwww.google.co.kr%2F)
 - [ ] [한글 Wiki](http://wiki.webnori.com/m/mobile.action#page/1048605)
+- [ ] [Akka.NET Kafka](http://wiki.webnori.com/display/AKKA)
 
 <br/>
 
