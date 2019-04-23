@@ -179,6 +179,8 @@
 - [ ] [.netzuid-akka Talk](https://github.com/Danthar/.netzuid-akka)
 - [ ] [PersistentActor with a backoff supervisor](https://github.com/Danthar/Akka.PersistentBackoff)
 - [ ] [Process Manager](https://github.com/justeat/ProcessManager), [Blog](https://tech.just-eat.com/2015/05/26/process-managers/)
+- [ ] [Auto-Updating Cache using Actors](https://github.com/profesor79/akka.net.Patterns)
+
 <br/>
 
 ## Blog Korean
@@ -187,6 +189,7 @@
 - [ ] [한글 Wiki](http://wiki.webnori.com/m/mobile.action#page/1048605)
 - [ ] [Akka.NET Kafka](http://wiki.webnori.com/display/AKKA)
 - [ ] [Akka.NET + ASP.NET Core](https://hardyeats.github.io/2018/02/19/aspnetcore-akka/)
+
 <br/>
 
 ## Blog - Akka.NET English
@@ -202,6 +205,8 @@
 - [ ] [Akka.NET 기술 정리 7개](https://hryniewski.net/tag/akka-net/)
 - [ ] [Akka.NET 팀 코어 멤버](https://bartoszsypytkowski.com/tag/akka-net/)
 - [ ] [Akka.NET Extension 만들기](https://havret.io/akka-entity-framework-core)
+
+<br/>
 
 ## Blog - DDD and DesignPatterns English
 - Primitive Obsession
