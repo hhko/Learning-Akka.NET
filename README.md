@@ -70,6 +70,7 @@
    - Examples
 1. Pattern Lab
    - Saga
+1. .NET Core Lab
 1. Docker Container Lab
 1. RabbitMQ Lab
 1. Visual Studio Extension Lab
@@ -105,7 +106,8 @@
    - [ ] Diagram 이미지 추가
    - [ ] Youtube 데모 동영상 추가
    - [ ] Blog 적용
-   
+- [ ] Visual Studio Code 기반으로 코드 작성
+
 <br/>
 
 ## TODO - Akka.NET 이슈
