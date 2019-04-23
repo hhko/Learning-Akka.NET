@@ -178,7 +178,7 @@
 - [ ] [Detect Socket Leaks](https://github.com/petabridge/SocketLeakDetection)
 - [ ] [.netzuid-akka Talk](https://github.com/Danthar/.netzuid-akka)
 - [ ] [PersistentActor with a backoff supervisor](https://github.com/Danthar/Akka.PersistentBackoff)
-
+- [ ] [Process Manager](https://github.com/justeat/ProcessManager), [Blog](https://tech.just-eat.com/2015/05/26/process-managers/)
 <br/>
 
 ## Blog Korean
@@ -189,7 +189,7 @@
 - [ ] [Akka.NET + ASP.NET Core](https://hardyeats.github.io/2018/02/19/aspnetcore-akka/)
 <br/>
 
-## Blog English
+## Blog - Akka.NET English
 - [ ] [Akka.NET CEO, Aaronstannard](http://www.aaronstannard.com/)
 - [ ] [Gigi](http://gigi.nullneuron.net/gigilabs/tag/akka-net/)
 - [ ] [Akka-Guide](https://connelhooley.uk/blog/2017/02/21/akka-guide)
@@ -203,3 +203,7 @@
 - [ ] [Akka.NET 팀 코어 멤버](https://bartoszsypytkowski.com/tag/akka-net/)
 - [ ] [Akka.NET Extension 만들기](https://havret.io/akka-entity-framework-core)
 
+## Blog - DDD and Design Patterns English
+- [ ] [DDD, Hexagonal, Onion, Clean, CQRS, … How I put it all together](https://herbertograca.com/2017/11/16/explicit-architecture-01-ddd-hexagonal-onion-clean-cqrs-how-i-put-it-all-together/)
+- [ ] [4 Common Mistakes with the Repository Pattern](https://programmingwithmosh.com/net/common-mistakes-with-the-repository-pattern/)
+- [ ] [Using the Repository and Unit Of Work Pattern in .NET Core](https://garywoodfine.com/generic-repository-pattern-net-core/)
