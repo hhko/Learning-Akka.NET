@@ -21,10 +21,10 @@
    - Pool - Create Routees Automatically : **round-robin-pool**
    - Group - Create routees yourself : **round-robin-group**, **path**
    - Remote Deploy
-   - > Pool : Handle Exceptions
-   - > Groups : Handle Exceptions
-   - > Remote Deploy : Handle Exceptions Info? 
-   - > Remote Deploy : 자동으로 Deathwatch 되는지? 
+   - > Pool - Handle Exceptions
+   - > Groups - Handle Exceptions
+   - > Remote Deploy - Handle Exceptions Info? 
+   - > Remote Deploy - 자동으로 Deathwatch 되는지? 
 1. **Cluster Routing**
    - > Pool - Deploy Routees Remotely
    - > Pool - Hanlde Exceptions Raised by Routees
