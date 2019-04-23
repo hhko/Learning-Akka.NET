@@ -52,11 +52,11 @@
 ## DOING
 1. Akka 
    - Cluster Lab
-      - Cluster Routing 
-	 - [ ] Pools
+      - 2019-04-W4 Cluster Routing 
+         - [ ] Pools
          - [ ] Groups
-      - [ ] Cluster Singleton
-      - [ ] Cluster Pub/Sub
+      - 2019-04-W4 Cluster Singleton
+      - 2019-04-W4 Cluster Pub/Sub
       - [ ] Split Brain Resolver
       - [ ] Cluster Sharding
       - [ ] Cluster Distributed Data
@@ -65,6 +65,8 @@
       - [ ] Transactions
    - Local Lab
    - Persistence Lab
+      - [ ] At Least Once
+      - [ ] At Least Once + Cluster Pub/Sub
    - Remote Lab
    - Issues
    - FAQ
