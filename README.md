@@ -44,7 +44,7 @@
    - > akka.cluster.client.receptionist, akka.cluster.client HOCON
 1. **Sharding**
 1. **Distributed Data**
-1. **Split Brain Resolver**      
+1. **Split Brain Resolver**
    
 <br/>
 <br/>
@@ -52,14 +52,15 @@
 ## DOING
 1. Akka 
    - Cluster Lab
-      - [ ] Cluster Routing 
-	     - [ ] Pools
+      - Cluster Routing 
+	 - [ ] Pools
          - [ ] Groups
       - [ ] Cluster Singleton
       - [ ] Cluster Pub/Sub
       - [ ] Split Brain Resolver
       - [ ] Cluster Sharding
       - [ ] Cluster Distributed Data
+   - NuGet
       - [ ] Consul Actor Discovery
       - [ ] Transactions
    - Local Lab
@@ -68,6 +69,7 @@
    - Issues
    - FAQ
    - Examples
+   - Understanding Projects
 1. Pattern Lab
    - Saga
 1. .NET Core Lab
@@ -195,7 +197,9 @@
 <br/>
 
 ## Blog - Akka.NET English
+- [ ] [Akka.NET Official](https://petabridge.com/blog/)
 - [ ] [Akka.NET CEO, Aaronstannard](http://www.aaronstannard.com/)
+- [ ] [Akka.NET 팀 코어 멤버](https://bartoszsypytkowski.com/tag/akka-net/)
 - [ ] [Gigi](http://gigi.nullneuron.net/gigilabs/tag/akka-net/)
 - [ ] [Akka-Guide](https://connelhooley.uk/blog/2017/02/21/akka-guide)
 - [ ] [Akka-Testing-Helper V1](https://connelhooley.uk/blog/2017/09/30/introducing-akka-testing-helpers-di)
@@ -205,7 +209,6 @@
 - [ ] [Akka.NET + DI + Testing Considerations](https://sachabarbs.wordpress.com/2018/05/22/akka-net-di-testing-considerations/)
 - [ ] [Supervisors in C# with Akka.NET](https://buildplease.com/pages/supervisors-csharp/)
 - [ ] [Akka.NET 기술 정리 7개](https://hryniewski.net/tag/akka-net/)
-- [ ] [Akka.NET 팀 코어 멤버](https://bartoszsypytkowski.com/tag/akka-net/)
 - [ ] [Akka.NET Extension 만들기](https://havret.io/akka-entity-framework-core)
 
 <br/>
