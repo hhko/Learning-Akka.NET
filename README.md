@@ -203,7 +203,34 @@
 - [ ] [Akka.NET 팀 코어 멤버](https://bartoszsypytkowski.com/tag/akka-net/)
 - [ ] [Akka.NET Extension 만들기](https://havret.io/akka-entity-framework-core)
 
-## Blog - DDD and Design Patterns English
-- [ ] [DDD, Hexagonal, Onion, Clean, CQRS, … How I put it all together](https://herbertograca.com/2017/11/16/explicit-architecture-01-ddd-hexagonal-onion-clean-cqrs-how-i-put-it-all-together/)
-- [ ] [4 Common Mistakes with the Repository Pattern](https://programmingwithmosh.com/net/common-mistakes-with-the-repository-pattern/)
-- [ ] [Using the Repository and Unit Of Work Pattern in .NET Core](https://garywoodfine.com/generic-repository-pattern-net-core/)
+## Blog - DDD and DesignPatterns English
+- Primitive Obsession
+   - [ ] [Primitive Obsession](https://refactoring.guru/smells/primitive-obsession)
+   - [ ] [강박적 기본 타입](http://dj6316.torchpad.com/%EB%A6%AC%ED%8C%A9%ED%86%A0%EB%A7%81%28refactoring%29/CH.03+%EC%BD%94%EB%93%9C%EC%9D%98+%EA%B5%AC%EB%A6%B0%EB%82%B4/5.%EA%B0%95%EB%B0%95%EC%A0%81+%EA%B8%B0%EB%B3%B8+%ED%83%80%EC%9E%85+%EC%82%AC%EC%9A%A9+Primitive+Obsession)
+   - [ ] [Strongly Typed Identifiers in .NET revealed](https://www.seeitsharp.pl/2018/11/strongly-typed-identifiers-dot-net/)
+   - [ ] [From Primitive Obsession to Domain Modelling](https://blog.ploeh.dk/2015/01/19/from-primitive-obsession-to-domain-modelling/)
+   - [ ] [Functional C# Primitive obsession](https://enterprisecraftsmanship.com/2015/03/07/functional-c-primitive-obsession/)
+   - [ ] [Dealing with primitive obsession](https://lostechies.com/jimmybogard/2007/12/03/dealing-with-primitive-obsession/)
+   - [ ] [Primitive Obsession, Custom String Types, and Self Referencing Generic Constraints](https://haacked.com/archive/2012/09/30/primitive-obsession-custom-string-types-and-self-referencing-generic-constraints.aspx/)
+   - [ ] [Primitive Obsession by Example](https://medium.com/@gatm50/primitive-obsession-by-example-1f8c157f9900)
+   - [ ] [Autofac Primitive Obsession](https://github.com/lucax88x/PrimitiveObsession)
+   - [ ] [Designing Data Objects in C# and F#](https://www.dotnetcurry.com/patterns-practices/1429/data-objects-csharp-fsharp)
+   - [ ] [Designing Data Objects in C#: More examples](https://www.dotnetcurry.com/patterns-practices/1475/data-objects-csharp-examples)
+   - [ ] [NuGet, ValueOf]()
+   - [ ] [NuGet, Value](https://github.com/tpierrain/Value)
+   - [ ] [NuGet, FluentTypes](https://github.com/Fyzxs/FluentTypes)
+- Functional
+   - [ ] [PPT, Functional patterns and techniques in C#](https://www.slideshare.net/PterTakcs2/functional-patterns-and-techniques-in-c)
+   - [ ] [PurityAnalyzer](https://marketplace.visualstudio.com/items?itemName=yacoubmassad.PurityAnalyzer)
+   - [ ] [PurityAnalyzer Source](https://github.com/ymassad/PurityAnalyzer)
+   - [ ] [PurityAnalyzer Examples](https://github.com/ymassad/PureCodeInCSharpExample/tree/ExtractingWriteToConsole)
+   - [ ] [Writing Pure Code in C#](https://www.dotnetcurry.com/csharp/1464/pure-code-csharp)
+   - [ ] [Writing Honest Methods in C#](https://www.dotnetcurry.com/patterns-practices/1449/pure-impure-methods-csharp)
+   - [ ] [Composing Honest Methods in C#](https://www.dotnetcurry.com/patterns-practices/honest-methods-csharp)
+- Domain-Driven Design
+   - [ ] [DDD, Hexagonal, Onion, Clean, CQRS, … How I put it all together](https://herbertograca.com/2017/11/16/explicit-architecture-01-ddd-hexagonal-onion-clean-cqrs-how-i-put-it-all-together/)
+- Repository Pattern
+   - [ ] [4 Common Mistakes with the Repository Pattern](https://programmingwithmosh.com/net/common-mistakes-with-the-repository-pattern/)
+   - [ ] [Using the Repository and Unit Of Work Pattern in .NET Core](https://garywoodfine.com/generic-repository-pattern-net-core/)
+- CQRS
+   - [ ] [BookARoom project](https://github.com/tpierrain/CQRS)
