@@ -216,7 +216,7 @@
    - [ ] [Autofac Primitive Obsession](https://github.com/lucax88x/PrimitiveObsession)
    - [ ] [Designing Data Objects in C# and F#](https://www.dotnetcurry.com/patterns-practices/1429/data-objects-csharp-fsharp)
    - [ ] [Designing Data Objects in C#: More examples](https://www.dotnetcurry.com/patterns-practices/1475/data-objects-csharp-examples)
-   - [ ] [NuGet, ValueOf]()
+   - [ ] [NuGet, ValueOf](https://github.com/mcintyre321/ValueOf/)
    - [ ] [NuGet, Value](https://github.com/tpierrain/Value)
    - [ ] [NuGet, FluentTypes](https://github.com/Fyzxs/FluentTypes)
 - Functional
