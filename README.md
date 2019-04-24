@@ -20,17 +20,25 @@
 1. **Warm-up For Cluster Routing**
    - Pool - Create Routees Automatically : **round-robin-pool**
    - Group - Create routees yourself : **round-robin-group**, **path**
+<<<<<<< HEAD
    - Deploy - Create Actor Remotely : **akka.actor.deployment.<actor-path>.remote**
    - > Pool : Handle Exceptions
    - > Groups : Handle Exceptions
    - > Remote Deploy : Handle Exceptions Info? 
    - > Remote Deploy : 자동으로 Deathwatch 되는지? 
+=======
+   - Remote Deploy
+   - > Pool - Handle Exceptions
+   - > Groups - Handle Exceptions
+   - > Remote Deploy - Handle Exceptions Info? 
+   - > Remote Deploy - 자동으로 Deathwatch 되는지? 
+>>>>>>> ac406317dff02208ae0b0758938cb0334660c19e
 1. **Cluster Routing**
    - > Pool - Deploy Routees Remotely
-   - > Pool - Hanlde Exceptions
+   - > Pool - Hanlde Exceptions Raised by Routees
    - > Pool - Handle Routees Lifecycle
    - > Group - Create Routees Yourself
-   - > Group - Handle Exceptions
+   - > Group - Handle Exceptions Raised by Routees
    - > Group - Handle Routees Lifecycle
 1. **Cluster Singleton**
 1. **Distributed PubSub**
@@ -44,7 +52,7 @@
    - > akka.cluster.client.receptionist, akka.cluster.client HOCON
 1. **Sharding**
 1. **Distributed Data**
-1. **Split Brain Resolver**      
+1. **Split Brain Resolver**
    
 <br/>
 <br/>
@@ -52,24 +60,29 @@
 ## DOING
 1. Akka 
    - Cluster Lab
-      - [ ] Cluster Routing 
-	     - [ ] Pools
+      - 2019-04-W4 Cluster Routing 
+         - [ ] Pools
          - [ ] Groups
-      - [ ] Cluster Singleton
-      - [ ] Cluster Pub/Sub
+      - 2019-04-W4 Cluster Singleton
+      - 2019-04-W4 Cluster Pub/Sub
       - [ ] Split Brain Resolver
       - [ ] Cluster Sharding
       - [ ] Cluster Distributed Data
+   - NuGet
       - [ ] Consul Actor Discovery
       - [ ] Transactions
    - Local Lab
    - Persistence Lab
+      - [ ] At Least Once
+      - [ ] At Least Once + Cluster Pub/Sub
    - Remote Lab
    - Issues
    - FAQ
    - Examples
+   - Understanding Projects
 1. Pattern Lab
    - Saga
+1. .NET Core Lab
 1. Docker Container Lab
 1. RabbitMQ Lab
 1. Visual Studio Extension Lab
@@ -77,6 +90,7 @@
 <br/>
 
 ## DOING - Labs
+- [ ] 01. -> Ch 01. 으로 변경한다.
 - [ ] Cluster Pool Routing
 - [ ] Cluster Group Routing
 - [ ] Cluster Pub/Sub
@@ -104,7 +118,8 @@
    - [ ] Diagram 이미지 추가
    - [ ] Youtube 데모 동영상 추가
    - [ ] Blog 적용
-   
+- [ ] Visual Studio Code 기반으로 코드 작성
+
 <br/>
 
 ## TODO - Akka.NET 이슈
@@ -135,6 +150,7 @@
 - [ ] 매뉴얼 무중단 Rolling Update(메시지 버전 Up, ...)
 - [ ] Actor Hierarchy 출력(/user/..., /system/...)
 - [ ] 메시지 전송을 위해서는 메시지 Dll을 Cluster 모듈 모두가 참조해야 하나? SeedNode까지 포함해서?
+- [ ] C#에서 C/C++ 예외 처리하기를 기본으로 제공한다.
 
 <br/>
  
@@ -176,7 +192,10 @@
 - [ ] [Detect Socket Leaks](https://github.com/petabridge/SocketLeakDetection)
 - [ ] [.netzuid-akka Talk](https://github.com/Danthar/.netzuid-akka)
 - [ ] [PersistentActor with a backoff supervisor](https://github.com/Danthar/Akka.PersistentBackoff)
-
+- [ ] [Process Manager](https://github.com/justeat/ProcessManager), [Blog](https://tech.just-eat.com/2015/05/26/process-managers/)
+- [ ] [Auto-Updating Cache using Actors](https://github.com/profesor79/akka.net.Patterns)
+- [ ] [Singleton](https://github.com/cgstevens/MyClusterServices)
+- [ ] [a simple cluster with Akka.NET on .NET Core](https://github.com/BigDaddy1337/dotnet-core-akka-cluster-example)
 <br/>
 
 ## Blog Korean
@@ -185,10 +204,13 @@
 - [ ] [한글 Wiki](http://wiki.webnori.com/m/mobile.action#page/1048605)
 - [ ] [Akka.NET Kafka](http://wiki.webnori.com/display/AKKA)
 - [ ] [Akka.NET + ASP.NET Core](https://hardyeats.github.io/2018/02/19/aspnetcore-akka/)
+
 <br/>
 
-## Blog English
+## Blog - Akka.NET English
+- [ ] [Akka.NET Official](https://petabridge.com/blog/)
 - [ ] [Akka.NET CEO, Aaronstannard](http://www.aaronstannard.com/)
+- [ ] [Akka.NET 팀 코어 멤버](https://bartoszsypytkowski.com/tag/akka-net/)
 - [ ] [Gigi](http://gigi.nullneuron.net/gigilabs/tag/akka-net/)
 - [ ] [Akka-Guide](https://connelhooley.uk/blog/2017/02/21/akka-guide)
 - [ ] [Akka-Testing-Helper V1](https://connelhooley.uk/blog/2017/09/30/introducing-akka-testing-helpers-di)
@@ -198,6 +220,38 @@
 - [ ] [Akka.NET + DI + Testing Considerations](https://sachabarbs.wordpress.com/2018/05/22/akka-net-di-testing-considerations/)
 - [ ] [Supervisors in C# with Akka.NET](https://buildplease.com/pages/supervisors-csharp/)
 - [ ] [Akka.NET 기술 정리 7개](https://hryniewski.net/tag/akka-net/)
-- [ ] [Akka.NET 팀 코어 멤버](https://bartoszsypytkowski.com/tag/akka-net/)
 - [ ] [Akka.NET Extension 만들기](https://havret.io/akka-entity-framework-core)
 
+<br/>
+
+## Blog - DDD and DesignPatterns English
+- Primitive Obsession
+   - [ ] [Primitive Obsession](https://refactoring.guru/smells/primitive-obsession)
+   - [ ] [강박적 기본 타입](http://dj6316.torchpad.com/%EB%A6%AC%ED%8C%A9%ED%86%A0%EB%A7%81%28refactoring%29/CH.03+%EC%BD%94%EB%93%9C%EC%9D%98+%EA%B5%AC%EB%A6%B0%EB%82%B4/5.%EA%B0%95%EB%B0%95%EC%A0%81+%EA%B8%B0%EB%B3%B8+%ED%83%80%EC%9E%85+%EC%82%AC%EC%9A%A9+Primitive+Obsession)
+   - [ ] [Strongly Typed Identifiers in .NET revealed](https://www.seeitsharp.pl/2018/11/strongly-typed-identifiers-dot-net/)
+   - [ ] [From Primitive Obsession to Domain Modelling](https://blog.ploeh.dk/2015/01/19/from-primitive-obsession-to-domain-modelling/)
+   - [ ] [Functional C# Primitive obsession](https://enterprisecraftsmanship.com/2015/03/07/functional-c-primitive-obsession/)
+   - [ ] [Dealing with primitive obsession](https://lostechies.com/jimmybogard/2007/12/03/dealing-with-primitive-obsession/)
+   - [ ] [Primitive Obsession, Custom String Types, and Self Referencing Generic Constraints](https://haacked.com/archive/2012/09/30/primitive-obsession-custom-string-types-and-self-referencing-generic-constraints.aspx/)
+   - [ ] [Primitive Obsession by Example](https://medium.com/@gatm50/primitive-obsession-by-example-1f8c157f9900)
+   - [ ] [Autofac Primitive Obsession](https://github.com/lucax88x/PrimitiveObsession)
+   - [ ] [Designing Data Objects in C# and F#](https://www.dotnetcurry.com/patterns-practices/1429/data-objects-csharp-fsharp)
+   - [ ] [Designing Data Objects in C#: More examples](https://www.dotnetcurry.com/patterns-practices/1475/data-objects-csharp-examples)
+   - [ ] [NuGet, ValueOf](https://github.com/mcintyre321/ValueOf/)
+   - [ ] [NuGet, Value](https://github.com/tpierrain/Value)
+   - [ ] [NuGet, FluentTypes](https://github.com/Fyzxs/FluentTypes)
+- Functional
+   - [ ] [PPT, Functional patterns and techniques in C#](https://www.slideshare.net/PterTakcs2/functional-patterns-and-techniques-in-c)
+   - [ ] [PurityAnalyzer](https://marketplace.visualstudio.com/items?itemName=yacoubmassad.PurityAnalyzer)
+   - [ ] [PurityAnalyzer Source](https://github.com/ymassad/PurityAnalyzer)
+   - [ ] [PurityAnalyzer Examples](https://github.com/ymassad/PureCodeInCSharpExample/tree/ExtractingWriteToConsole)
+   - [ ] [Writing Pure Code in C#](https://www.dotnetcurry.com/csharp/1464/pure-code-csharp)
+   - [ ] [Writing Honest Methods in C#](https://www.dotnetcurry.com/patterns-practices/1449/pure-impure-methods-csharp)
+   - [ ] [Composing Honest Methods in C#](https://www.dotnetcurry.com/patterns-practices/honest-methods-csharp)
+- Domain-Driven Design
+   - [ ] [DDD, Hexagonal, Onion, Clean, CQRS, … How I put it all together](https://herbertograca.com/2017/11/16/explicit-architecture-01-ddd-hexagonal-onion-clean-cqrs-how-i-put-it-all-together/)
+- Repository Pattern
+   - [ ] [4 Common Mistakes with the Repository Pattern](https://programmingwithmosh.com/net/common-mistakes-with-the-repository-pattern/)
+   - [ ] [Using the Repository and Unit Of Work Pattern in .NET Core](https://garywoodfine.com/generic-repository-pattern-net-core/)
+- CQRS
+   - [ ] [BookARoom project](https://github.com/tpierrain/CQRS)
