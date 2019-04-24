@@ -114,7 +114,9 @@
 
 ## TODO - Akka.NET 이슈
 - [ ] Hocon 다음 행 시작에 ","일 때 예외 발생
-- [ ] Warm-up, Deploy, Deploy 예외 처리 정보 부족
+- [ ] RegisterOnMemberUp 람다 함수 Self Path가 akka://ClusterLab/system/cluster/$a 이다.
+- [ ] .NET Core에서는 "akka.actor.deployment.<actor-path>.cluster.allow-local-routess = off"가 동작하지 않는다.
+- [ ] Cluster Pool Routing 예외 처리가 Remote Deploy와 다르다(부족하다).
 - [ ] ClusterClient "/user/xyz/" ActorPath 마지막에 "/"가 있으면 전달되지 않는다. 
 - [ ] ClusterClient에세 정의된 사용자 정의 메시지가 Seed Node에도 참조되어 있어야 전송할 수 있다.
 
