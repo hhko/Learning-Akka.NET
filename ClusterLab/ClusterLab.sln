@@ -121,13 +121,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CreateRouteesAutomatically"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CreateRouteesYourself", "04. Warm-up For Cluster Routing\02. Group - Create Routees Yourself\CreateRouteesYourself\CreateRouteesYourself.csproj", "{631BAF79-CC99-4C36-8978-EFB0125470AA}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03. Deploy Actor Remotely", "03. Deploy Actor Remotely", "{BF706B16-342C-4458-AF56-7D1B28407A3B}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03. Deploy - Create Actor Remotely", "03. Deploy - Create Actor Remotely", "{BF706B16-342C-4458-AF56-7D1B28407A3B}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Deployer", "04. Warm-up For Cluster Routing\03. Deploy Actor Remotely\Deployer\Deployer.csproj", "{B5BD1640-B626-4763-9753-81EAD1BA387D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Deployer", "04. Warm-up For Cluster Routing\03. Deploy - Create Actor Remotely\Deployer\Deployer.csproj", "{B5BD1640-B626-4763-9753-81EAD1BA387D}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DeployerTarget", "04. Warm-up For Cluster Routing\03. Deploy Actor Remotely\DeployerTarget\DeployerTarget.csproj", "{010FD7EA-3085-4B24-BFE3-B3827F4E424D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DeployerTarget", "04. Warm-up For Cluster Routing\03. Deploy - Create Actor Remotely\DeployerTarget\DeployerTarget.csproj", "{010FD7EA-3085-4B24-BFE3-B3827F4E424D}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DeployerShared", "04. Warm-up For Cluster Routing\03. Deploy Actor Remotely\DeployerShared\DeployerShared.csproj", "{1C338A10-E2C5-4FA5-B61C-4F575A4EA392}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DeployerShared", "04. Warm-up For Cluster Routing\03. Deploy - Create Actor Remotely\DeployerShared\DeployerShared.csproj", "{1C338A10-E2C5-4FA5-B61C-4F575A4EA392}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "08. Cluster Client", "08. Cluster Client", "{2D81285A-72C6-4C1F-9DF8-3C43ED34B819}"
 EndProject
@@ -205,13 +205,23 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01. Pool - Deploy Routees R
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04. Group - Create Routees Yourself", "04. Group - Create Routees Yourself", "{C4C3B424-A6CA-4A44-A6A7-2E1C4EEEF93A}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02. Pool - Hanlde Exceptions", "02. Pool - Hanlde Exceptions", "{B99C7C53-E752-46F1-BB1B-3115810F2021}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02. Pool - Hanlde Exceptions Raised by Routees", "02. Pool - Hanlde Exceptions Raised by Routees", "{B99C7C53-E752-46F1-BB1B-3115810F2021}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "05. Group - Handle Exceptions", "05. Group - Handle Exceptions", "{9DCE1700-67ED-4AA0-999A-ED5D07F4D333}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "05. Group - Handle Exceptions Raised by Routees", "05. Group - Handle Exceptions Raised by Routees", "{9DCE1700-67ED-4AA0-999A-ED5D07F4D333}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03. Pool - Handle Routees Lifecycle", "03. Pool - Handle Routees Lifecycle", "{F5449545-E4DF-48A6-B044-7DB44435DBC6}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "06. Group - Handle Routees Lifecycle", "06. Group - Handle Routees Lifecycle", "{1FB07DDE-2626-4B4B-833E-C1E8C0E9FB19}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SeedNode1", "05. Cluster Routing\01. Pool - Deploy Routees Remotely\SeedNode1\SeedNode1.csproj", "{2A479A0B-B3B8-46BE-BDC4-0F4DF4C594F2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NonSeedNode1", "05. Cluster Routing\01. Pool - Deploy Routees Remotely\NonSeedNode1\NonSeedNode1.csproj", "{889F790E-D7A7-4CBE-A6F2-C1B49DB39247}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NonSeedNode2", "05. Cluster Routing\01. Pool - Deploy Routees Remotely\NonSeedNode2\NonSeedNode2.csproj", "{D8D11327-2FFB-457D-AA03-7E359FFAB8DA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NonSeedNode3", "05. Cluster Routing\01. Pool - Deploy Routees Remotely\NonSeedNode3\NonSeedNode3.csproj", "{7701DC70-8428-4A8C-B1C5-E6165AF328F3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NonSeedNodeDeployedActors", "05. Cluster Routing\01. Pool - Deploy Routees Remotely\NonSeedNodeDeployedActors\NonSeedNodeDeployedActors.csproj", "{3414B0D2-E9CB-4ADF-BD02-31687FDB8216}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -515,6 +525,26 @@ Global
 		{6F4C6B3D-508F-4BB5-9F56-2CA805BEA1AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6F4C6B3D-508F-4BB5-9F56-2CA805BEA1AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6F4C6B3D-508F-4BB5-9F56-2CA805BEA1AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A479A0B-B3B8-46BE-BDC4-0F4DF4C594F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A479A0B-B3B8-46BE-BDC4-0F4DF4C594F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A479A0B-B3B8-46BE-BDC4-0F4DF4C594F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A479A0B-B3B8-46BE-BDC4-0F4DF4C594F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{889F790E-D7A7-4CBE-A6F2-C1B49DB39247}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{889F790E-D7A7-4CBE-A6F2-C1B49DB39247}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{889F790E-D7A7-4CBE-A6F2-C1B49DB39247}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{889F790E-D7A7-4CBE-A6F2-C1B49DB39247}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D8D11327-2FFB-457D-AA03-7E359FFAB8DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8D11327-2FFB-457D-AA03-7E359FFAB8DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8D11327-2FFB-457D-AA03-7E359FFAB8DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8D11327-2FFB-457D-AA03-7E359FFAB8DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7701DC70-8428-4A8C-B1C5-E6165AF328F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7701DC70-8428-4A8C-B1C5-E6165AF328F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7701DC70-8428-4A8C-B1C5-E6165AF328F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7701DC70-8428-4A8C-B1C5-E6165AF328F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3414B0D2-E9CB-4ADF-BD02-31687FDB8216}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3414B0D2-E9CB-4ADF-BD02-31687FDB8216}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3414B0D2-E9CB-4ADF-BD02-31687FDB8216}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3414B0D2-E9CB-4ADF-BD02-31687FDB8216}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -619,6 +649,11 @@ Global
 		{9DCE1700-67ED-4AA0-999A-ED5D07F4D333} = {1EF8762C-F602-4C52-8EB8-9810D0E67833}
 		{F5449545-E4DF-48A6-B044-7DB44435DBC6} = {1EF8762C-F602-4C52-8EB8-9810D0E67833}
 		{1FB07DDE-2626-4B4B-833E-C1E8C0E9FB19} = {1EF8762C-F602-4C52-8EB8-9810D0E67833}
+		{2A479A0B-B3B8-46BE-BDC4-0F4DF4C594F2} = {AB8B9CF9-E7A1-402A-B649-2D065DDD36B4}
+		{889F790E-D7A7-4CBE-A6F2-C1B49DB39247} = {AB8B9CF9-E7A1-402A-B649-2D065DDD36B4}
+		{D8D11327-2FFB-457D-AA03-7E359FFAB8DA} = {AB8B9CF9-E7A1-402A-B649-2D065DDD36B4}
+		{7701DC70-8428-4A8C-B1C5-E6165AF328F3} = {AB8B9CF9-E7A1-402A-B649-2D065DDD36B4}
+		{3414B0D2-E9CB-4ADF-BD02-31687FDB8216} = {AB8B9CF9-E7A1-402A-B649-2D065DDD36B4}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {ECF7691A-061A-4CA7-820E-B9E14611A042}
