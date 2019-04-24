@@ -186,7 +186,8 @@
 - [ ] [PersistentActor with a backoff supervisor](https://github.com/Danthar/Akka.PersistentBackoff)
 - [ ] [Process Manager](https://github.com/justeat/ProcessManager), [Blog](https://tech.just-eat.com/2015/05/26/process-managers/)
 - [ ] [Auto-Updating Cache using Actors](https://github.com/profesor79/akka.net.Patterns)
-
+- [ ] [Singleton](https://github.com/cgstevens/MyClusterServices)
+- [ ] [a simple cluster with Akka.NET on .NET Core](https://github.com/BigDaddy1337/dotnet-core-akka-cluster-example)
 <br/>
 
 ## Blog Korean
