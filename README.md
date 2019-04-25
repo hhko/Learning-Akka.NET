@@ -78,6 +78,13 @@
 1. Docker Container Lab
 1. RabbitMQ Lab
 1. Visual Studio Extension Lab
+1. Books
+   - Akka 쿡북
+   - 아카 코딩 공작소
+   - 러닝 아카
+   - 아카를 이용한 마이크로서비스 개발
+   - Reactive Application with Akka.NET
+   
 
 <br/>
 
