@@ -54,5 +54,12 @@ akka {
 <br/>
 <br/>
 
+## TODO?
+1. Cluster Pool Routing 되기 전에 Tell을 하면 메시지가 전송되지 않는다.
+   - Dead Letter에게도 전달되지 않는다.
+
+<br/>
+<br/>
+
 ## TODO
 1. Akka.NET 팀에게 해당 이슈를 제기한다.

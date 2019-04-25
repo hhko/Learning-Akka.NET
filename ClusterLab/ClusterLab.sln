@@ -233,6 +233,14 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NonSeedNode3", "05. Cluster
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NonSeedNodeDeployedActors", "05. Cluster Routing\02. Pool - Hanlde Exceptions Raised by Routees\NonSeedNodeDeployedActors\NonSeedNodeDeployedActors.csproj", "{39FF4F7A-89D7-46D0-BCA2-71370CFC6D2C}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04. Deploy - Hanlde Exceptions Raised by Deployed Actors", "04. Deploy - Hanlde Exceptions Raised by Deployed Actors", "{028F8631-E834-44DD-AAD4-9D5E82E5309E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Deployer", "04. Warm-up For Cluster Routing\04. Deploy - Hanlde Exceptions Raised by Deployed Actors\Deployer\Deployer.csproj", "{66D2F9C6-216E-4EE4-B1AC-B5AC441F54E3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DeployerShared", "04. Warm-up For Cluster Routing\04. Deploy - Hanlde Exceptions Raised by Deployed Actors\DeployerShared\DeployerShared.csproj", "{95937A33-68B4-4544-B503-3002A76321E7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DeployerTarget", "04. Warm-up For Cluster Routing\04. Deploy - Hanlde Exceptions Raised by Deployed Actors\DeployerTarget\DeployerTarget.csproj", "{3C7A77FB-804B-4FE7-802C-188F2DD76E54}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -575,6 +583,18 @@ Global
 		{39FF4F7A-89D7-46D0-BCA2-71370CFC6D2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{39FF4F7A-89D7-46D0-BCA2-71370CFC6D2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{39FF4F7A-89D7-46D0-BCA2-71370CFC6D2C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{66D2F9C6-216E-4EE4-B1AC-B5AC441F54E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66D2F9C6-216E-4EE4-B1AC-B5AC441F54E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66D2F9C6-216E-4EE4-B1AC-B5AC441F54E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66D2F9C6-216E-4EE4-B1AC-B5AC441F54E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{95937A33-68B4-4544-B503-3002A76321E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95937A33-68B4-4544-B503-3002A76321E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95937A33-68B4-4544-B503-3002A76321E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95937A33-68B4-4544-B503-3002A76321E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C7A77FB-804B-4FE7-802C-188F2DD76E54}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C7A77FB-804B-4FE7-802C-188F2DD76E54}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C7A77FB-804B-4FE7-802C-188F2DD76E54}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C7A77FB-804B-4FE7-802C-188F2DD76E54}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -689,6 +709,10 @@ Global
 		{393DAB8F-71CD-4736-BF40-C5653C786D81} = {B99C7C53-E752-46F1-BB1B-3115810F2021}
 		{782AA88A-2171-4DD1-8C8B-5B9F22A0808B} = {B99C7C53-E752-46F1-BB1B-3115810F2021}
 		{39FF4F7A-89D7-46D0-BCA2-71370CFC6D2C} = {B99C7C53-E752-46F1-BB1B-3115810F2021}
+		{028F8631-E834-44DD-AAD4-9D5E82E5309E} = {EAAD7E45-C6CC-4A64-9C02-F1D934F79E00}
+		{66D2F9C6-216E-4EE4-B1AC-B5AC441F54E3} = {028F8631-E834-44DD-AAD4-9D5E82E5309E}
+		{95937A33-68B4-4544-B503-3002A76321E7} = {028F8631-E834-44DD-AAD4-9D5E82E5309E}
+		{3C7A77FB-804B-4FE7-802C-188F2DD76E54} = {028F8631-E834-44DD-AAD4-9D5E82E5309E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {ECF7691A-061A-4CA7-820E-B9E14611A042}
