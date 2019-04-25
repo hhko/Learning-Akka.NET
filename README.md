@@ -32,8 +32,8 @@
    - > Group - Create Routees Yourself
    - > Group - Handle Exceptions Raised by Routees
    - > Group - Handle Routees Lifecycle
-1. **Cluster Singleton**
-1. **Distributed PubSub**
+1. > **Cluster Singleton**
+1. > **Distributed PubSub**
 1. **Cluster Client**
    - Communicate with Cluster by Path 
    - Communicate with Cluster by Topic
