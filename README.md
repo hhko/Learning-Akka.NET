@@ -25,7 +25,7 @@
    - > Remote Deploy - 자동으로 Deathwatch 되는지? 
 1. **Cluster Routing**
    - Pool - Deploy Routees Remotely
-   - > Pool - Hanlde Exceptions Raised by Routees
+   - Pool - Hanlde Exceptions Raised by Routees
    - > Pool - Handle Routees Lifecycle
    - > Group - Create Routees Yourself
    - > Group - Handle Exceptions Raised by Routees
