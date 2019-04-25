@@ -31,13 +31,15 @@ namespace DeployerShared
 
         public DeployedEchoActor()
         {
-            Receive<SharedMessages.Hello>(hello =>
-            {
-                _log.Info($">>> Received '{hello.Message}' from {Sender} to {Self}.");
+            Receive<SharedMessages.Hello>(_ => Handle(_));
+        }
 
-                IActorRef localActor = Sender;
-                localActor.Tell(hello);
-            });
+        private void Handle(SharedMessages.Hello msg)
+        {
+            _log.Info($">>> Received '{msg.Message}' from {Sender} to {Self}.");
+
+            IActorRef localActor = Sender;
+            localActor.Tell(msg);
         }
     }
 }
