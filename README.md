@@ -19,7 +19,9 @@
    - Discover Actor by Role and Path : **cluster.State.Members.Where(member => ...);**
 1. **Warm-up For Cluster Routing**
    - Pool - Create Routees Automatically : **round-robin-pool**
+   - > Pool - Hanlde Exceptions Raised by Routees
    - Group - Create routees yourself : **round-robin-group**, **path**
+   - > Group - Hanlde Exceptions Raised by Routees
    - Deploy - Create Actor Remotely : **akka.actor.deployment.<actor-path>.remote**
    - Deploy - Hanlde Exceptions Raised by Deployed Actors
    - > Remote Deploy - 자동으로 Deathwatch 되는지? 
