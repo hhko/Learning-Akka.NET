@@ -223,6 +223,16 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NonSeedNode3", "05. Cluster
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NonSeedNodeDeployedActors", "05. Cluster Routing\01. Pool - Deploy Routees Remotely\NonSeedNodeDeployedActors\NonSeedNodeDeployedActors.csproj", "{3414B0D2-E9CB-4ADF-BD02-31687FDB8216}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SeedNode1", "05. Cluster Routing\02. Pool - Hanlde Exceptions Raised by Routees\SeedNode1\SeedNode1.csproj", "{8D52B35C-0897-404B-9C01-E75D4E8E70B5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NonSeedNode1", "05. Cluster Routing\02. Pool - Hanlde Exceptions Raised by Routees\NonSeedNode1\NonSeedNode1.csproj", "{E7271123-16DD-4BD9-9CBA-5C170DD1496A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NonSeedNode2", "05. Cluster Routing\02. Pool - Hanlde Exceptions Raised by Routees\NonSeedNode2\NonSeedNode2.csproj", "{393DAB8F-71CD-4736-BF40-C5653C786D81}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NonSeedNode3", "05. Cluster Routing\02. Pool - Hanlde Exceptions Raised by Routees\NonSeedNode3\NonSeedNode3.csproj", "{782AA88A-2171-4DD1-8C8B-5B9F22A0808B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NonSeedNodeDeployedActors", "05. Cluster Routing\02. Pool - Hanlde Exceptions Raised by Routees\NonSeedNodeDeployedActors\NonSeedNodeDeployedActors.csproj", "{39FF4F7A-89D7-46D0-BCA2-71370CFC6D2C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -545,6 +555,26 @@ Global
 		{3414B0D2-E9CB-4ADF-BD02-31687FDB8216}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3414B0D2-E9CB-4ADF-BD02-31687FDB8216}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3414B0D2-E9CB-4ADF-BD02-31687FDB8216}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D52B35C-0897-404B-9C01-E75D4E8E70B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D52B35C-0897-404B-9C01-E75D4E8E70B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D52B35C-0897-404B-9C01-E75D4E8E70B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D52B35C-0897-404B-9C01-E75D4E8E70B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E7271123-16DD-4BD9-9CBA-5C170DD1496A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7271123-16DD-4BD9-9CBA-5C170DD1496A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7271123-16DD-4BD9-9CBA-5C170DD1496A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7271123-16DD-4BD9-9CBA-5C170DD1496A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{393DAB8F-71CD-4736-BF40-C5653C786D81}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{393DAB8F-71CD-4736-BF40-C5653C786D81}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{393DAB8F-71CD-4736-BF40-C5653C786D81}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{393DAB8F-71CD-4736-BF40-C5653C786D81}.Release|Any CPU.Build.0 = Release|Any CPU
+		{782AA88A-2171-4DD1-8C8B-5B9F22A0808B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{782AA88A-2171-4DD1-8C8B-5B9F22A0808B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{782AA88A-2171-4DD1-8C8B-5B9F22A0808B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{782AA88A-2171-4DD1-8C8B-5B9F22A0808B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{39FF4F7A-89D7-46D0-BCA2-71370CFC6D2C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39FF4F7A-89D7-46D0-BCA2-71370CFC6D2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39FF4F7A-89D7-46D0-BCA2-71370CFC6D2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39FF4F7A-89D7-46D0-BCA2-71370CFC6D2C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -654,6 +684,11 @@ Global
 		{D8D11327-2FFB-457D-AA03-7E359FFAB8DA} = {AB8B9CF9-E7A1-402A-B649-2D065DDD36B4}
 		{7701DC70-8428-4A8C-B1C5-E6165AF328F3} = {AB8B9CF9-E7A1-402A-B649-2D065DDD36B4}
 		{3414B0D2-E9CB-4ADF-BD02-31687FDB8216} = {AB8B9CF9-E7A1-402A-B649-2D065DDD36B4}
+		{8D52B35C-0897-404B-9C01-E75D4E8E70B5} = {B99C7C53-E752-46F1-BB1B-3115810F2021}
+		{E7271123-16DD-4BD9-9CBA-5C170DD1496A} = {B99C7C53-E752-46F1-BB1B-3115810F2021}
+		{393DAB8F-71CD-4736-BF40-C5653C786D81} = {B99C7C53-E752-46F1-BB1B-3115810F2021}
+		{782AA88A-2171-4DD1-8C8B-5B9F22A0808B} = {B99C7C53-E752-46F1-BB1B-3115810F2021}
+		{39FF4F7A-89D7-46D0-BCA2-71370CFC6D2C} = {B99C7C53-E752-46F1-BB1B-3115810F2021}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {ECF7691A-061A-4CA7-820E-B9E14611A042}
