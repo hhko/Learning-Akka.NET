@@ -20,8 +20,8 @@
 1. **Warm-up For Cluster Routing**
    - Pool - Create Routees Automatically : **round-robin-pool**
    - Group - Create routees yourself : **round-robin-group**, **path**
-   - Remote Deploy - Create Actor Remotely : **akka.actor.deployment.<actor-path>.remote**
-   - > Remote Deploy - Handle Exceptions Info? 
+   - Deploy - Create Actor Remotely : **akka.actor.deployment.<actor-path>.remote**
+   - Deploy - Hanlde Exceptions Raised by Deployed Actors
    - > Remote Deploy - 자동으로 Deathwatch 되는지? 
 1. **Cluster Routing**
    - Pool - Deploy Routees Remotely
