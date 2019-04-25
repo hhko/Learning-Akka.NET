@@ -1,7 +1,8 @@
 ## Cluster Pool Routing 예외 정보가 부족하다
-1. Cluster Pool Routing일 때 예외가 발생된 소스 라인 정보가 전달되지 않는다.
+1. 데모 시나리오
    - NonSeedNode1에서 FooActor를 NonSeedNode2에게 배포한다.
-   - NonSeedNode1 환경 설정
+
+2. NonSeedNode1 환경 설정
 ```
 akka {
 	actor {
@@ -28,7 +29,7 @@ akka {
 	...
 }
 ```
-   - NonSeedNode2 환경 설정
+3. NonSeedNode2 환경 설정
 ```
 akka {
 	actor {
