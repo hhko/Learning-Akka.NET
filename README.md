@@ -90,8 +90,9 @@
 
 ## DOING - Labs
 - [ ] 01. -> Ch 01. 으로 변경한다.
-- [ ] Cluster Pool Routing
-- [ ] Cluster Group Routing
+- [ ] Cluster
+   - [ ] Pool Routing
+   - [ ] Group Routing
 - [ ] Cluster Pub/Sub
 - [ ] At Least Once
 - [ ] [Role 기반으로 Actor에게 메시지 보내기](https://github.com/akkadotnet/akka.net/issues/3757#issuecomment-483522034)
