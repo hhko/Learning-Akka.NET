@@ -89,7 +89,6 @@
 <br/>
 
 ## DOING - Labs
-- [ ] 01. -> Ch 01. 으로 변경한다.
 - [ ] Cluster
    - [ ] Pool Routing
    - [ ] Group Routing
