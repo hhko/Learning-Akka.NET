@@ -40,7 +40,7 @@
    - Subscribe to SubscribeContactPoints Events
    - Subscribe to SubscribeClusterClients Events
    - Send Custom Messages
-   - > Ping Pong Tutorial(Akka.NET Example)
+   - Sample - PingPong
    - > akka.cluster.client.receptionist, akka.cluster.client HOCON
 1. **Sharding**
 1. **Distributed Data**
