@@ -30,7 +30,7 @@
    - Pool - Hanlde Exceptions Raised by Routees
    - > Pool - Handle Routees Lifecycle
    - Group - Create Routees Yourself
-   - > Group - Handle Exceptions Raised by Routees
+   - Group - Handle Exceptions Raised by Routees
    - > Group - Handle Routees Lifecycle
 1. > **Cluster Singleton**
 1. > **Distributed PubSub**
