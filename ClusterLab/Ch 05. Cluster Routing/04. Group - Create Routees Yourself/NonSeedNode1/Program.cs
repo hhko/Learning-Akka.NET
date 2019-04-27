@@ -42,9 +42,10 @@ namespace NonSeedNode1
             //
             //      2. Group Router 생성 후(20초) 메시지를 전송해야 한다?
             //          Routing되기 전에 바로 메일을 전송하면 전달되지 않는다.
-            //          (확인 필요: Dead Letter에게도 전달되지 않는다.)
+            //          > Dead Letter에게도 전달되지 않는다.
+            //          > Sleep 전에(다른 노드 접속 인식 전에) Router을 생성해야 한다.
             //
-            //Thread.Sleep(20000);
+            Thread.Sleep(20000);
 
             worker.Tell("Hi 1");
             worker.Tell("Hi 2");

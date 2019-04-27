@@ -3,203 +3,203 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.572
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01. Overview", "01. Overview", "{A1CF0C0C-3F7F-4B4B-8BE0-BFA838013B19}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ch 01. Overview", "Ch 01. Overview", "{A1CF0C0C-3F7F-4B4B-8BE0-BFA838013B19}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01. Create Cluster", "01. Create Cluster", "{962AD9F9-AC02-4D3B-AF11-861059B0E922}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SeedNode1", "01. Overview\01. Create Cluster\SeedNode1\SeedNode1.csproj", "{E7733AA8-5754-4715-8B33-5BE24EEFC78F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SeedNode1", "Ch 01. Overview\01. Create Cluster\SeedNode1\SeedNode1.csproj", "{E7733AA8-5754-4715-8B33-5BE24EEFC78F}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NonSeedNode1", "01. Overview\01. Create Cluster\NonSeedNode1\NonSeedNode1.csproj", "{57627319-A35B-4434-9323-E5EE7E34791C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NonSeedNode1", "Ch 01. Overview\01. Create Cluster\NonSeedNode1\NonSeedNode1.csproj", "{57627319-A35B-4434-9323-E5EE7E34791C}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NonSeedNode2", "01. Overview\01. Create Cluster\NonSeedNode2\NonSeedNode2.csproj", "{5BBC1D43-29AF-4753-AE1D-DA21E8E28454}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NonSeedNode2", "Ch 01. Overview\01. Create Cluster\NonSeedNode2\NonSeedNode2.csproj", "{5BBC1D43-29AF-4753-AE1D-DA21E8E28454}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NonSeedNode3", "01. Overview\01. Create Cluster\NonSeedNode3\NonSeedNode3.csproj", "{7CECE761-29A3-4C20-85F4-78B745BF8D8F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NonSeedNode3", "Ch 01. Overview\01. Create Cluster\NonSeedNode3\NonSeedNode3.csproj", "{7CECE761-29A3-4C20-85F4-78B745BF8D8F}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02. Integrate with Petabridge.Cmd", "02. Integrate with Petabridge.Cmd", "{C6431149-253E-4F6E-A161-A181BBC7E78A}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SeedNode1", "01. Overview\02. Integrate with Petabridge.Cmd\SeedNode1\SeedNode1.csproj", "{A67337ED-78C9-49A7-AC85-74C664C6C127}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SeedNode1", "Ch 01. Overview\02. Integrate with Petabridge.Cmd\SeedNode1\SeedNode1.csproj", "{A67337ED-78C9-49A7-AC85-74C664C6C127}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NonSeedNode1", "01. Overview\02. Integrate with Petabridge.Cmd\NonSeedNode1\NonSeedNode1.csproj", "{C015FB94-F429-4FA1-8991-97C08ABAD03D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NonSeedNode1", "Ch 01. Overview\02. Integrate with Petabridge.Cmd\NonSeedNode1\NonSeedNode1.csproj", "{C015FB94-F429-4FA1-8991-97C08ABAD03D}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NonSeedNode2", "01. Overview\02. Integrate with Petabridge.Cmd\NonSeedNode2\NonSeedNode2.csproj", "{85955324-3810-4104-AFBD-C9D0673EFC6D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NonSeedNode2", "Ch 01. Overview\02. Integrate with Petabridge.Cmd\NonSeedNode2\NonSeedNode2.csproj", "{85955324-3810-4104-AFBD-C9D0673EFC6D}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NonSeedNode3", "01. Overview\02. Integrate with Petabridge.Cmd\NonSeedNode3\NonSeedNode3.csproj", "{E604DE1F-A746-4465-808F-5356B6AE4B6A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NonSeedNode3", "Ch 01. Overview\02. Integrate with Petabridge.Cmd\NonSeedNode3\NonSeedNode3.csproj", "{E604DE1F-A746-4465-808F-5356B6AE4B6A}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03. Automatically Mark Unreachable Nodes", "03. Automatically Mark Unreachable Nodes", "{26693F43-ACCE-4733-890F-02D677BF8E9F}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SeedNode1", "01. Overview\03. Automatically Mark Unreachable Nodes\SeedNode1\SeedNode1.csproj", "{5D447455-67EB-469F-876D-4C87A9A6D47A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SeedNode1", "Ch 01. Overview\03. Automatically Mark Unreachable Nodes\SeedNode1\SeedNode1.csproj", "{5D447455-67EB-469F-876D-4C87A9A6D47A}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NonSeedNode1", "01. Overview\03. Automatically Mark Unreachable Nodes\NonSeedNode1\NonSeedNode1.csproj", "{73E665FE-DF37-411D-8A28-148836E2AE8B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NonSeedNode1", "Ch 01. Overview\03. Automatically Mark Unreachable Nodes\NonSeedNode1\NonSeedNode1.csproj", "{73E665FE-DF37-411D-8A28-148836E2AE8B}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NonSeedNode2", "01. Overview\03. Automatically Mark Unreachable Nodes\NonSeedNode2\NonSeedNode2.csproj", "{D985377C-1715-4B38-8248-621ABA000E6C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NonSeedNode2", "Ch 01. Overview\03. Automatically Mark Unreachable Nodes\NonSeedNode2\NonSeedNode2.csproj", "{D985377C-1715-4B38-8248-621ABA000E6C}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NonSeedNode3", "01. Overview\03. Automatically Mark Unreachable Nodes\NonSeedNode3\NonSeedNode3.csproj", "{1967CF24-1915-4BB3-8FB0-D67D93655914}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NonSeedNode3", "Ch 01. Overview\03. Automatically Mark Unreachable Nodes\NonSeedNode3\NonSeedNode3.csproj", "{1967CF24-1915-4BB3-8FB0-D67D93655914}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04. Retry Joining Time Interval", "04. Retry Joining Time Interval", "{A3897B14-4E0A-4263-88A6-F584B87E8738}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SeedNode1", "01. Overview\04. Retry Joining Time Interval\SeedNode1\SeedNode1.csproj", "{BDA3EB03-353A-4E67-8C6B-A44925234677}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SeedNode1", "Ch 01. Overview\04. Retry Joining Time Interval\SeedNode1\SeedNode1.csproj", "{BDA3EB03-353A-4E67-8C6B-A44925234677}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NonSeedNode1", "01. Overview\04. Retry Joining Time Interval\NonSeedNode1\NonSeedNode1.csproj", "{8D485213-C59A-425E-B730-934D494AA6EA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NonSeedNode1", "Ch 01. Overview\04. Retry Joining Time Interval\NonSeedNode1\NonSeedNode1.csproj", "{8D485213-C59A-425E-B730-934D494AA6EA}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NonSeedNode2", "01. Overview\04. Retry Joining Time Interval\NonSeedNode2\NonSeedNode2.csproj", "{916FA932-968C-4155-BC6B-33389A1201C7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NonSeedNode2", "Ch 01. Overview\04. Retry Joining Time Interval\NonSeedNode2\NonSeedNode2.csproj", "{916FA932-968C-4155-BC6B-33389A1201C7}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NonSeedNode3", "01. Overview\04. Retry Joining Time Interval\NonSeedNode3\NonSeedNode3.csproj", "{E8E55492-DDD8-4C3F-A552-9B4185E6CD05}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NonSeedNode3", "Ch 01. Overview\04. Retry Joining Time Interval\NonSeedNode3\NonSeedNode3.csproj", "{E8E55492-DDD8-4C3F-A552-9B4185E6CD05}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02. Roles and Minimum Size", "02. Roles and Minimum Size", "{D4FECDBC-F331-4D9E-BBCD-94852C7DDCA8}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ch 02. Roles and Minimum Size", "Ch 02. Roles and Minimum Size", "{D4FECDBC-F331-4D9E-BBCD-94852C7DDCA8}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01. Define Roles", "01. Define Roles", "{5D24C0C2-F964-4DEC-81A3-241B56528E84}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SeedNode1", "02. Roles and Minimum Size\01. Define Roles\SeedNode1\SeedNode1.csproj", "{0C81FD5A-117A-4CA5-868E-1246D2BF7ED1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SeedNode1", "Ch 02. Roles and Minimum Size\01. Define Roles\SeedNode1\SeedNode1.csproj", "{0C81FD5A-117A-4CA5-868E-1246D2BF7ED1}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NonSeedNode1", "02. Roles and Minimum Size\01. Define Roles\NonSeedNode1\NonSeedNode1.csproj", "{640152B3-1339-4C0C-B594-750EF44D3A30}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NonSeedNode1", "Ch 02. Roles and Minimum Size\01. Define Roles\NonSeedNode1\NonSeedNode1.csproj", "{640152B3-1339-4C0C-B594-750EF44D3A30}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NonSeedNode2", "02. Roles and Minimum Size\01. Define Roles\NonSeedNode2\NonSeedNode2.csproj", "{23C09282-0A52-408A-B794-457749721252}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NonSeedNode2", "Ch 02. Roles and Minimum Size\01. Define Roles\NonSeedNode2\NonSeedNode2.csproj", "{23C09282-0A52-408A-B794-457749721252}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NonSeedNode3", "02. Roles and Minimum Size\01. Define Roles\NonSeedNode3\NonSeedNode3.csproj", "{1C1639D7-03C9-409C-96A9-5AA14F8BCC96}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NonSeedNode3", "Ch 02. Roles and Minimum Size\01. Define Roles\NonSeedNode3\NonSeedNode3.csproj", "{1C1639D7-03C9-409C-96A9-5AA14F8BCC96}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02. Cluster-Wide Minimum Size", "02. Cluster-Wide Minimum Size", "{8A0150E0-E17B-43EF-8D88-162A26F19299}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SeedNode1", "02. Roles and Minimum Size\02. Cluster-Wide Minimum Size\SeedNode1\SeedNode1.csproj", "{7DE7B732-2E58-4BF1-A1F7-C37735A2C4C4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SeedNode1", "Ch 02. Roles and Minimum Size\02. Cluster-Wide Minimum Size\SeedNode1\SeedNode1.csproj", "{7DE7B732-2E58-4BF1-A1F7-C37735A2C4C4}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NonSeedNode1", "02. Roles and Minimum Size\02. Cluster-Wide Minimum Size\NonSeedNode1\NonSeedNode1.csproj", "{D1ED9E49-7067-41B3-83ED-56CB405E2127}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NonSeedNode1", "Ch 02. Roles and Minimum Size\02. Cluster-Wide Minimum Size\NonSeedNode1\NonSeedNode1.csproj", "{D1ED9E49-7067-41B3-83ED-56CB405E2127}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NonSeedNode2", "02. Roles and Minimum Size\02. Cluster-Wide Minimum Size\NonSeedNode2\NonSeedNode2.csproj", "{F82389ED-21ED-4A94-ADA3-2AF41C15C060}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NonSeedNode2", "Ch 02. Roles and Minimum Size\02. Cluster-Wide Minimum Size\NonSeedNode2\NonSeedNode2.csproj", "{F82389ED-21ED-4A94-ADA3-2AF41C15C060}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NonSeedNode3", "02. Roles and Minimum Size\02. Cluster-Wide Minimum Size\NonSeedNode3\NonSeedNode3.csproj", "{F25DB524-8080-4B7A-AA9D-2C95F591E157}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NonSeedNode3", "Ch 02. Roles and Minimum Size\02. Cluster-Wide Minimum Size\NonSeedNode3\NonSeedNode3.csproj", "{F25DB524-8080-4B7A-AA9D-2C95F591E157}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03. Per-Role Minimum Size", "03. Per-Role Minimum Size", "{661F931D-BE18-479D-B7ED-D4E8E1C0F1B2}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SeedNode1", "02. Roles and Minimum Size\03. Per-Role Minimum Size\SeedNode1\SeedNode1.csproj", "{AB7C5251-7AE8-4E6B-9506-FD79576ABE4E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SeedNode1", "Ch 02. Roles and Minimum Size\03. Per-Role Minimum Size\SeedNode1\SeedNode1.csproj", "{AB7C5251-7AE8-4E6B-9506-FD79576ABE4E}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NonSeedNode1", "02. Roles and Minimum Size\03. Per-Role Minimum Size\NonSeedNode1\NonSeedNode1.csproj", "{2827490A-8500-4402-AE77-F1D4605EA9A3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NonSeedNode1", "Ch 02. Roles and Minimum Size\03. Per-Role Minimum Size\NonSeedNode1\NonSeedNode1.csproj", "{2827490A-8500-4402-AE77-F1D4605EA9A3}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NonSeedNode2", "02. Roles and Minimum Size\03. Per-Role Minimum Size\NonSeedNode2\NonSeedNode2.csproj", "{F960F95D-6583-46AF-A8A2-C7C941689862}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NonSeedNode2", "Ch 02. Roles and Minimum Size\03. Per-Role Minimum Size\NonSeedNode2\NonSeedNode2.csproj", "{F960F95D-6583-46AF-A8A2-C7C941689862}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NonSeedNode3", "02. Roles and Minimum Size\03. Per-Role Minimum Size\NonSeedNode3\NonSeedNode3.csproj", "{302DEFDC-B5CA-41D4-AD63-2975B73428B0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NonSeedNode3", "Ch 02. Roles and Minimum Size\03. Per-Role Minimum Size\NonSeedNode3\NonSeedNode3.csproj", "{302DEFDC-B5CA-41D4-AD63-2975B73428B0}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04. Mix Minimum Size", "04. Mix Minimum Size", "{C52B77AC-3867-46B1-96DD-4137E5BFB919}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SeedNode1", "02. Roles and Minimum Size\04. Mix Minimum Size\SeedNode1\SeedNode1.csproj", "{B001CCEB-A8E5-46CE-9908-E32CB16A650A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SeedNode1", "Ch 02. Roles and Minimum Size\04. Mix Minimum Size\SeedNode1\SeedNode1.csproj", "{B001CCEB-A8E5-46CE-9908-E32CB16A650A}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NonSeedNode1", "02. Roles and Minimum Size\04. Mix Minimum Size\NonSeedNode1\NonSeedNode1.csproj", "{BC92CF5F-EB29-4EB1-B6FB-0B6A6AC8BDB8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NonSeedNode1", "Ch 02. Roles and Minimum Size\04. Mix Minimum Size\NonSeedNode1\NonSeedNode1.csproj", "{BC92CF5F-EB29-4EB1-B6FB-0B6A6AC8BDB8}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NonSeedNode2", "02. Roles and Minimum Size\04. Mix Minimum Size\NonSeedNode2\NonSeedNode2.csproj", "{E39C634A-147A-40C3-86CA-D5304A59818E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NonSeedNode2", "Ch 02. Roles and Minimum Size\04. Mix Minimum Size\NonSeedNode2\NonSeedNode2.csproj", "{E39C634A-147A-40C3-86CA-D5304A59818E}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NonSeedNode3", "02. Roles and Minimum Size\04. Mix Minimum Size\NonSeedNode3\NonSeedNode3.csproj", "{BC872116-0136-4E1F-99EA-B18FC9CE0EE8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NonSeedNode3", "Ch 02. Roles and Minimum Size\04. Mix Minimum Size\NonSeedNode3\NonSeedNode3.csproj", "{BC872116-0136-4E1F-99EA-B18FC9CE0EE8}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03. Gossip Events", "03. Gossip Events", "{D79A3EE2-846F-4791-9C4A-9A2E440A6DAB}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ch 03. Gossip Events", "Ch 03. Gossip Events", "{D79A3EE2-846F-4791-9C4A-9A2E440A6DAB}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01. Subscribe to Gossip Events", "01. Subscribe to Gossip Events", "{7088B0A1-976D-4D58-A4A6-8C2F4BD9BEEF}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SeedNode1", "03. Gossip Events\01. Subscribe to Gossip Events\SeedNode1\SeedNode1.csproj", "{5C9472DC-4C3A-47E5-82C9-2685865AC409}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SeedNode1", "Ch 03. Gossip Events\01. Subscribe to Gossip Events\SeedNode1\SeedNode1.csproj", "{5C9472DC-4C3A-47E5-82C9-2685865AC409}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NonSeedNode1", "03. Gossip Events\01. Subscribe to Gossip Events\NonSeedNode1\NonSeedNode1.csproj", "{7EE3CB07-845B-4361-A8C9-66DA777189C0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NonSeedNode1", "Ch 03. Gossip Events\01. Subscribe to Gossip Events\NonSeedNode1\NonSeedNode1.csproj", "{7EE3CB07-845B-4361-A8C9-66DA777189C0}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NonSeedNode2", "03. Gossip Events\01. Subscribe to Gossip Events\NonSeedNode2\NonSeedNode2.csproj", "{3D93C85D-BE7A-49D3-9C06-FFBAA3E7C691}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NonSeedNode2", "Ch 03. Gossip Events\01. Subscribe to Gossip Events\NonSeedNode2\NonSeedNode2.csproj", "{3D93C85D-BE7A-49D3-9C06-FFBAA3E7C691}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NonSeedNode3", "03. Gossip Events\01. Subscribe to Gossip Events\NonSeedNode3\NonSeedNode3.csproj", "{91688A33-68A5-4087-BDC0-85269A2ADC80}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NonSeedNode3", "Ch 03. Gossip Events\01. Subscribe to Gossip Events\NonSeedNode3\NonSeedNode3.csproj", "{91688A33-68A5-4087-BDC0-85269A2ADC80}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02. Discover Actor by Tag", "02. Discover Actor by Tag", "{158958C6-EF1A-4165-B37D-B16980DA6B5D}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SeedNode1", "03. Gossip Events\02. Discover Actor by Tag\SeedNode1\SeedNode1.csproj", "{FA01DFCD-1D91-4DC1-A114-35F653BE32FA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SeedNode1", "Ch 03. Gossip Events\02. Discover Actor by Tag\SeedNode1\SeedNode1.csproj", "{FA01DFCD-1D91-4DC1-A114-35F653BE32FA}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NonSeedNode1", "03. Gossip Events\02. Discover Actor by Tag\NonSeedNode1\NonSeedNode1.csproj", "{F3E21267-F0FC-477F-B928-5AEEDCA02671}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NonSeedNode1", "Ch 03. Gossip Events\02. Discover Actor by Tag\NonSeedNode1\NonSeedNode1.csproj", "{F3E21267-F0FC-477F-B928-5AEEDCA02671}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NonSeedNode2", "03. Gossip Events\02. Discover Actor by Tag\NonSeedNode2\NonSeedNode2.csproj", "{EB60969C-AFD9-49B4-8437-E63D4151C44B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NonSeedNode2", "Ch 03. Gossip Events\02. Discover Actor by Tag\NonSeedNode2\NonSeedNode2.csproj", "{EB60969C-AFD9-49B4-8437-E63D4151C44B}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NonSeedNode3", "03. Gossip Events\02. Discover Actor by Tag\NonSeedNode3\NonSeedNode3.csproj", "{DC03C681-6873-414F-B1E2-E1EEC2E521A1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NonSeedNode3", "Ch 03. Gossip Events\02. Discover Actor by Tag\NonSeedNode3\NonSeedNode3.csproj", "{DC03C681-6873-414F-B1E2-E1EEC2E521A1}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Akka.Cluster.Discovery", "03. Gossip Events\02. Discover Actor by Tag\Akka.Cluster.Discovery\Akka.Cluster.Discovery.csproj", "{3593A7FB-A58F-4029-945A-375900855819}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Akka.Cluster.Discovery", "Ch 03. Gossip Events\02. Discover Actor by Tag\Akka.Cluster.Discovery\Akka.Cluster.Discovery.csproj", "{3593A7FB-A58F-4029-945A-375900855819}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04. Warm-up For Cluster Routing", "04. Warm-up For Cluster Routing", "{EAAD7E45-C6CC-4A64-9C02-F1D934F79E00}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ch 04. Warm-up for Cluster Routing", "Ch 04. Warm-up for Cluster Routing", "{EAAD7E45-C6CC-4A64-9C02-F1D934F79E00}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01. Pool - Create Routees Automatically", "01. Pool - Create Routees Automatically", "{42568045-E934-4526-95AD-7529331FDBA3}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02. Group - Create Routees Yourself", "02. Group - Create Routees Yourself", "{F73E806E-2E9B-4630-BCC0-1094F3EFD559}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CreateRouteesAutomatically", "04. Warm-up For Cluster Routing\01. Pool - Create Routees Automatically\CreateRouteesAutomatically\CreateRouteesAutomatically.csproj", "{AB8825B5-01A0-44F9-898D-495FC14E1B8D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CreateRouteesAutomatically", "Ch 04. Warm-up for Cluster Routing\01. Pool - Create Routees Automatically\CreateRouteesAutomatically\CreateRouteesAutomatically.csproj", "{AB8825B5-01A0-44F9-898D-495FC14E1B8D}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CreateRouteesYourself", "04. Warm-up For Cluster Routing\02. Group - Create Routees Yourself\CreateRouteesYourself\CreateRouteesYourself.csproj", "{631BAF79-CC99-4C36-8978-EFB0125470AA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CreateRouteesYourself", "Ch 04. Warm-up for Cluster Routing\02. Group - Create Routees Yourself\CreateRouteesYourself\CreateRouteesYourself.csproj", "{631BAF79-CC99-4C36-8978-EFB0125470AA}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03. Deploy - Create Actor Remotely", "03. Deploy - Create Actor Remotely", "{BF706B16-342C-4458-AF56-7D1B28407A3B}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Deployer", "04. Warm-up For Cluster Routing\03. Deploy - Create Actor Remotely\Deployer\Deployer.csproj", "{B5BD1640-B626-4763-9753-81EAD1BA387D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Deployer", "Ch 04. Warm-up for Cluster Routing\03. Deploy - Create Actor Remotely\Deployer\Deployer.csproj", "{B5BD1640-B626-4763-9753-81EAD1BA387D}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DeployerTarget", "04. Warm-up For Cluster Routing\03. Deploy - Create Actor Remotely\DeployerTarget\DeployerTarget.csproj", "{010FD7EA-3085-4B24-BFE3-B3827F4E424D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DeployerTarget", "Ch 04. Warm-up for Cluster Routing\03. Deploy - Create Actor Remotely\DeployerTarget\DeployerTarget.csproj", "{010FD7EA-3085-4B24-BFE3-B3827F4E424D}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DeployerShared", "04. Warm-up For Cluster Routing\03. Deploy - Create Actor Remotely\DeployerShared\DeployerShared.csproj", "{1C338A10-E2C5-4FA5-B61C-4F575A4EA392}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DeployerShared", "Ch 04. Warm-up for Cluster Routing\03. Deploy - Create Actor Remotely\DeployerShared\DeployerShared.csproj", "{1C338A10-E2C5-4FA5-B61C-4F575A4EA392}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "08. Cluster Client", "08. Cluster Client", "{2D81285A-72C6-4C1F-9DF8-3C43ED34B819}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ch 08. Cluster Client", "Ch 08. Cluster Client", "{2D81285A-72C6-4C1F-9DF8-3C43ED34B819}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01. Communicate with Cluster by Path", "01. Communicate with Cluster by Path", "{B3E860B8-A968-4D71-82BA-18DEB0B410B1}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SeedNode1", "08. Cluster Client\01. Communicate with Cluster by Path\SeedNode1\SeedNode1.csproj", "{1AAC4546-419A-4EE4-8442-8267EB1F62CE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SeedNode1", "Ch 08. Cluster Client\01. Communicate with Cluster by Path\SeedNode1\SeedNode1.csproj", "{1AAC4546-419A-4EE4-8442-8267EB1F62CE}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NonSeedNode1", "08. Cluster Client\01. Communicate with Cluster by Path\NonSeedNode1\NonSeedNode1.csproj", "{8475ECDD-964D-4976-80B3-D53B1EA60FC9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NonSeedNode1", "Ch 08. Cluster Client\01. Communicate with Cluster by Path\NonSeedNode1\NonSeedNode1.csproj", "{8475ECDD-964D-4976-80B3-D53B1EA60FC9}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NonSeedNode2", "08. Cluster Client\01. Communicate with Cluster by Path\NonSeedNode2\NonSeedNode2.csproj", "{B16D1793-D8CF-4753-93D1-D6F5D6AB7AE0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NonSeedNode2", "Ch 08. Cluster Client\01. Communicate with Cluster by Path\NonSeedNode2\NonSeedNode2.csproj", "{B16D1793-D8CF-4753-93D1-D6F5D6AB7AE0}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NonSeedNode3", "08. Cluster Client\01. Communicate with Cluster by Path\NonSeedNode3\NonSeedNode3.csproj", "{AAB9A1D5-B5C3-4CB4-8839-2DE43BA829F8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NonSeedNode3", "Ch 08. Cluster Client\01. Communicate with Cluster by Path\NonSeedNode3\NonSeedNode3.csproj", "{AAB9A1D5-B5C3-4CB4-8839-2DE43BA829F8}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClusterClientApp", "08. Cluster Client\01. Communicate with Cluster by Path\ClusterClientApp\ClusterClientApp.csproj", "{D58BFB2C-7D87-43BD-A932-0988126AFF64}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClusterClientApp", "Ch 08. Cluster Client\01. Communicate with Cluster by Path\ClusterClientApp\ClusterClientApp.csproj", "{D58BFB2C-7D87-43BD-A932-0988126AFF64}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02. Communicate with Cluster by Topic", "02. Communicate with Cluster by Topic", "{552C63F5-11D9-4C74-81E2-1D0C4E5201C9}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SeedNode1", "08. Cluster Client\02. Communicate with Cluster by Topic\SeedNode1\SeedNode1.csproj", "{A428BE63-EA8D-47F6-9725-8495D35C0C28}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SeedNode1", "Ch 08. Cluster Client\02. Communicate with Cluster by Topic\SeedNode1\SeedNode1.csproj", "{A428BE63-EA8D-47F6-9725-8495D35C0C28}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NonSeedNode1", "08. Cluster Client\02. Communicate with Cluster by Topic\NonSeedNode1\NonSeedNode1.csproj", "{B2BE28B5-F314-4323-84D2-F8C0583DAFB3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NonSeedNode1", "Ch 08. Cluster Client\02. Communicate with Cluster by Topic\NonSeedNode1\NonSeedNode1.csproj", "{B2BE28B5-F314-4323-84D2-F8C0583DAFB3}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NonSeedNode2", "08. Cluster Client\02. Communicate with Cluster by Topic\NonSeedNode2\NonSeedNode2.csproj", "{8AAB31B9-1E2A-40D8-A37C-C2B6ADB10764}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NonSeedNode2", "Ch 08. Cluster Client\02. Communicate with Cluster by Topic\NonSeedNode2\NonSeedNode2.csproj", "{8AAB31B9-1E2A-40D8-A37C-C2B6ADB10764}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NonSeedNode3", "08. Cluster Client\02. Communicate with Cluster by Topic\NonSeedNode3\NonSeedNode3.csproj", "{025B4DDE-E190-49D8-AE15-560FD7B97DF4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NonSeedNode3", "Ch 08. Cluster Client\02. Communicate with Cluster by Topic\NonSeedNode3\NonSeedNode3.csproj", "{025B4DDE-E190-49D8-AE15-560FD7B97DF4}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClusterClientApp", "08. Cluster Client\02. Communicate with Cluster by Topic\ClusterClientApp\ClusterClientApp.csproj", "{A8355683-4633-437B-9D8B-00232BF697E0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClusterClientApp", "Ch 08. Cluster Client\02. Communicate with Cluster by Topic\ClusterClientApp\ClusterClientApp.csproj", "{A8355683-4633-437B-9D8B-00232BF697E0}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03. Subscribe to SubscribeContactPoints Events", "03. Subscribe to SubscribeContactPoints Events", "{76D83784-5707-4099-B6A9-62263475000C}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SeedNode1", "08. Cluster Client\03. Subscribe to SubscribeContactPoints Events\SeedNode1\SeedNode1.csproj", "{F055F2FE-B60A-46C7-99EE-97C1F7217252}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SeedNode1", "Ch 08. Cluster Client\03. Subscribe to SubscribeContactPoints Events\SeedNode1\SeedNode1.csproj", "{F055F2FE-B60A-46C7-99EE-97C1F7217252}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClusterClientApp", "08. Cluster Client\03. Subscribe to SubscribeContactPoints Events\ClusterClientApp\ClusterClientApp.csproj", "{6E222DA3-78C6-430C-A25F-26AEA45C74F2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClusterClientApp", "Ch 08. Cluster Client\03. Subscribe to SubscribeContactPoints Events\ClusterClientApp\ClusterClientApp.csproj", "{6E222DA3-78C6-430C-A25F-26AEA45C74F2}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04. Subscribe to SubscribeClusterClients Events", "04. Subscribe to SubscribeClusterClients Events", "{2505A034-1DD3-4DCD-8B28-862E3235592A}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SeedNode1", "08. Cluster Client\04. Subscribe to SubscribeClusterClients Events\SeedNode1\SeedNode1.csproj", "{4D35881A-8644-402B-B622-9208ADEE0C4C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SeedNode1", "Ch 08. Cluster Client\04. Subscribe to SubscribeClusterClients Events\SeedNode1\SeedNode1.csproj", "{4D35881A-8644-402B-B622-9208ADEE0C4C}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SeedNode2", "08. Cluster Client\03. Subscribe to SubscribeContactPoints Events\SeedNode2\SeedNode2.csproj", "{B832826A-5CA1-4BF7-A9A2-AB4797C62FBA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SeedNode2", "Ch 08. Cluster Client\03. Subscribe to SubscribeContactPoints Events\SeedNode2\SeedNode2.csproj", "{B832826A-5CA1-4BF7-A9A2-AB4797C62FBA}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SeedNode3", "08. Cluster Client\03. Subscribe to SubscribeContactPoints Events\SeedNode3\SeedNode3.csproj", "{50791131-E444-4B48-8CEC-B74FC159ED90}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SeedNode3", "Ch 08. Cluster Client\03. Subscribe to SubscribeContactPoints Events\SeedNode3\SeedNode3.csproj", "{50791131-E444-4B48-8CEC-B74FC159ED90}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClusterClientApp1", "08. Cluster Client\04. Subscribe to SubscribeClusterClients Events\ClusterClientApp1\ClusterClientApp1.csproj", "{ADE727DB-5BEA-4CB1-B412-9CDA5021FA19}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClusterClientApp1", "Ch 08. Cluster Client\04. Subscribe to SubscribeClusterClients Events\ClusterClientApp1\ClusterClientApp1.csproj", "{ADE727DB-5BEA-4CB1-B412-9CDA5021FA19}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClusterClientApp2", "08. Cluster Client\04. Subscribe to SubscribeClusterClients Events\ClusterClientApp2\ClusterClientApp2.csproj", "{EB70C1DB-59E1-468B-9C72-D52F1E7BD5F7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClusterClientApp2", "Ch 08. Cluster Client\04. Subscribe to SubscribeClusterClients Events\ClusterClientApp2\ClusterClientApp2.csproj", "{EB70C1DB-59E1-468B-9C72-D52F1E7BD5F7}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClusterClientApp3", "08. Cluster Client\04. Subscribe to SubscribeClusterClients Events\ClusterClientApp3\ClusterClientApp3.csproj", "{5E2B2977-03BC-417C-93AC-074CFFC7BACD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClusterClientApp3", "Ch 08. Cluster Client\04. Subscribe to SubscribeClusterClients Events\ClusterClientApp3\ClusterClientApp3.csproj", "{5E2B2977-03BC-417C-93AC-074CFFC7BACD}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "05. Send Custom Messages", "05. Send Custom Messages", "{5D69EC23-F79E-4436-83A6-7545D28D7E6C}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SeedNode1", "08. Cluster Client\05. Send Custom Messages\SeedNode1\SeedNode1.csproj", "{FEF47416-C397-4FB1-A97B-E59DD7328AB9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SeedNode1", "Ch 08. Cluster Client\05. Send Custom Messages\SeedNode1\SeedNode1.csproj", "{FEF47416-C397-4FB1-A97B-E59DD7328AB9}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NonSeedNode1", "08. Cluster Client\05. Send Custom Messages\NonSeedNode1\NonSeedNode1.csproj", "{4E1EDA5D-2158-40BB-A9DE-BEE9FEA3B5FE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NonSeedNode1", "Ch 08. Cluster Client\05. Send Custom Messages\NonSeedNode1\NonSeedNode1.csproj", "{4E1EDA5D-2158-40BB-A9DE-BEE9FEA3B5FE}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NonSeedNode2", "08. Cluster Client\05. Send Custom Messages\NonSeedNode2\NonSeedNode2.csproj", "{02DC84E7-1004-4ED3-9A36-4D68460A3D9F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NonSeedNode2", "Ch 08. Cluster Client\05. Send Custom Messages\NonSeedNode2\NonSeedNode2.csproj", "{02DC84E7-1004-4ED3-9A36-4D68460A3D9F}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NonSeedNode3", "08. Cluster Client\05. Send Custom Messages\NonSeedNode3\NonSeedNode3.csproj", "{9AD87AD8-C185-4B35-8DE5-1967FA2E48FC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NonSeedNode3", "Ch 08. Cluster Client\05. Send Custom Messages\NonSeedNode3\NonSeedNode3.csproj", "{9AD87AD8-C185-4B35-8DE5-1967FA2E48FC}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClusterClientSharedMessages", "08. Cluster Client\05. Send Custom Messages\ClusterClientSharedMessages\ClusterClientSharedMessages.csproj", "{C89BAE3D-1842-440E-AE95-035D3DC5E99B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClusterClientSharedMessages", "Ch 08. Cluster Client\05. Send Custom Messages\ClusterClientSharedMessages\ClusterClientSharedMessages.csproj", "{C89BAE3D-1842-440E-AE95-035D3DC5E99B}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClusterClientApp", "08. Cluster Client\05. Send Custom Messages\ClusterClientApp\ClusterClientApp.csproj", "{EC0EDC58-7A18-4128-BA51-71F1E8E9A747}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClusterClientApp", "Ch 08. Cluster Client\05. Send Custom Messages\ClusterClientApp\ClusterClientApp.csproj", "{EC0EDC58-7A18-4128-BA51-71F1E8E9A747}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03. Discover Actor by Role and Path", "03. Discover Actor by Role and Path", "{8A99590E-A04E-4F2A-AB9D-61D877823A4B}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SeedNode1", "03. Gossip Events\03. Discover Actor by Role and Path\SeedNode1\SeedNode1.csproj", "{EF6542B6-9A8D-4527-928D-AF5A286181B6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SeedNode1", "Ch 03. Gossip Events\03. Discover Actor by Role and Path\SeedNode1\SeedNode1.csproj", "{EF6542B6-9A8D-4527-928D-AF5A286181B6}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NonSeedNode1", "03. Gossip Events\03. Discover Actor by Role and Path\NonSeedNode1\NonSeedNode1.csproj", "{A71EF503-4300-48FB-B905-0FDCB1BA2622}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NonSeedNode1", "Ch 03. Gossip Events\03. Discover Actor by Role and Path\NonSeedNode1\NonSeedNode1.csproj", "{A71EF503-4300-48FB-B905-0FDCB1BA2622}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NonSeedNode2", "03. Gossip Events\03. Discover Actor by Role and Path\NonSeedNode2\NonSeedNode2.csproj", "{2F67001B-1631-42A8-AD9A-2D86288800F1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NonSeedNode2", "Ch 03. Gossip Events\03. Discover Actor by Role and Path\NonSeedNode2\NonSeedNode2.csproj", "{2F67001B-1631-42A8-AD9A-2D86288800F1}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NonSeedNode3", "03. Gossip Events\03. Discover Actor by Role and Path\NonSeedNode3\NonSeedNode3.csproj", "{6F4C6B3D-508F-4BB5-9F56-2CA805BEA1AA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NonSeedNode3", "Ch 03. Gossip Events\03. Discover Actor by Role and Path\NonSeedNode3\NonSeedNode3.csproj", "{6F4C6B3D-508F-4BB5-9F56-2CA805BEA1AA}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "05. Cluster Routing", "05. Cluster Routing", "{1EF8762C-F602-4C52-8EB8-9810D0E67833}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ch 05. Cluster Routing", "Ch 05. Cluster Routing", "{1EF8762C-F602-4C52-8EB8-9810D0E67833}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01. Pool - Deploy Routees Remotely", "01. Pool - Deploy Routees Remotely", "{AB8B9CF9-E7A1-402A-B649-2D065DDD36B4}"
 EndProject
@@ -213,49 +213,49 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03. Pool - Handle Routees L
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "06. Group - Handle Routees Lifecycle", "06. Group - Handle Routees Lifecycle", "{1FB07DDE-2626-4B4B-833E-C1E8C0E9FB19}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SeedNode1", "05. Cluster Routing\01. Pool - Deploy Routees Remotely\SeedNode1\SeedNode1.csproj", "{2A479A0B-B3B8-46BE-BDC4-0F4DF4C594F2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SeedNode1", "Ch 05. Cluster Routing\01. Pool - Deploy Routees Remotely\SeedNode1\SeedNode1.csproj", "{2A479A0B-B3B8-46BE-BDC4-0F4DF4C594F2}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NonSeedNode1", "05. Cluster Routing\01. Pool - Deploy Routees Remotely\NonSeedNode1\NonSeedNode1.csproj", "{889F790E-D7A7-4CBE-A6F2-C1B49DB39247}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NonSeedNode1", "Ch 05. Cluster Routing\01. Pool - Deploy Routees Remotely\NonSeedNode1\NonSeedNode1.csproj", "{889F790E-D7A7-4CBE-A6F2-C1B49DB39247}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NonSeedNode2", "05. Cluster Routing\01. Pool - Deploy Routees Remotely\NonSeedNode2\NonSeedNode2.csproj", "{D8D11327-2FFB-457D-AA03-7E359FFAB8DA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NonSeedNode2", "Ch 05. Cluster Routing\01. Pool - Deploy Routees Remotely\NonSeedNode2\NonSeedNode2.csproj", "{D8D11327-2FFB-457D-AA03-7E359FFAB8DA}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NonSeedNode3", "05. Cluster Routing\01. Pool - Deploy Routees Remotely\NonSeedNode3\NonSeedNode3.csproj", "{7701DC70-8428-4A8C-B1C5-E6165AF328F3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NonSeedNode3", "Ch 05. Cluster Routing\01. Pool - Deploy Routees Remotely\NonSeedNode3\NonSeedNode3.csproj", "{7701DC70-8428-4A8C-B1C5-E6165AF328F3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NonSeedNodeDeployedActors", "05. Cluster Routing\01. Pool - Deploy Routees Remotely\NonSeedNodeDeployedActors\NonSeedNodeDeployedActors.csproj", "{3414B0D2-E9CB-4ADF-BD02-31687FDB8216}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NonSeedNodeDeployedActors", "Ch 05. Cluster Routing\01. Pool - Deploy Routees Remotely\NonSeedNodeDeployedActors\NonSeedNodeDeployedActors.csproj", "{3414B0D2-E9CB-4ADF-BD02-31687FDB8216}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SeedNode1", "05. Cluster Routing\02. Pool - Hanlde Exceptions Raised by Routees\SeedNode1\SeedNode1.csproj", "{8D52B35C-0897-404B-9C01-E75D4E8E70B5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SeedNode1", "Ch 05. Cluster Routing\02. Pool - Hanlde Exceptions Raised by Routees\SeedNode1\SeedNode1.csproj", "{8D52B35C-0897-404B-9C01-E75D4E8E70B5}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NonSeedNode1", "05. Cluster Routing\02. Pool - Hanlde Exceptions Raised by Routees\NonSeedNode1\NonSeedNode1.csproj", "{E7271123-16DD-4BD9-9CBA-5C170DD1496A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NonSeedNode1", "Ch 05. Cluster Routing\02. Pool - Hanlde Exceptions Raised by Routees\NonSeedNode1\NonSeedNode1.csproj", "{E7271123-16DD-4BD9-9CBA-5C170DD1496A}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NonSeedNode2", "05. Cluster Routing\02. Pool - Hanlde Exceptions Raised by Routees\NonSeedNode2\NonSeedNode2.csproj", "{393DAB8F-71CD-4736-BF40-C5653C786D81}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NonSeedNode2", "Ch 05. Cluster Routing\02. Pool - Hanlde Exceptions Raised by Routees\NonSeedNode2\NonSeedNode2.csproj", "{393DAB8F-71CD-4736-BF40-C5653C786D81}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NonSeedNodeDeployedActors", "05. Cluster Routing\02. Pool - Hanlde Exceptions Raised by Routees\NonSeedNodeDeployedActors\NonSeedNodeDeployedActors.csproj", "{39FF4F7A-89D7-46D0-BCA2-71370CFC6D2C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NonSeedNodeDeployedActors", "Ch 05. Cluster Routing\02. Pool - Hanlde Exceptions Raised by Routees\NonSeedNodeDeployedActors\NonSeedNodeDeployedActors.csproj", "{39FF4F7A-89D7-46D0-BCA2-71370CFC6D2C}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04. Deploy - Hanlde Exceptions Raised by Deployed Actors", "04. Deploy - Hanlde Exceptions Raised by Deployed Actors", "{028F8631-E834-44DD-AAD4-9D5E82E5309E}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Deployer", "04. Warm-up For Cluster Routing\04. Deploy - Hanlde Exceptions Raised by Deployed Actors\Deployer\Deployer.csproj", "{66D2F9C6-216E-4EE4-B1AC-B5AC441F54E3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Deployer", "Ch 04. Warm-up for Cluster Routing\04. Deploy - Hanlde Exceptions Raised by Deployed Actors\Deployer\Deployer.csproj", "{66D2F9C6-216E-4EE4-B1AC-B5AC441F54E3}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DeployerShared", "04. Warm-up For Cluster Routing\04. Deploy - Hanlde Exceptions Raised by Deployed Actors\DeployerShared\DeployerShared.csproj", "{95937A33-68B4-4544-B503-3002A76321E7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DeployerShared", "Ch 04. Warm-up for Cluster Routing\04. Deploy - Hanlde Exceptions Raised by Deployed Actors\DeployerShared\DeployerShared.csproj", "{95937A33-68B4-4544-B503-3002A76321E7}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DeployerTarget", "04. Warm-up For Cluster Routing\04. Deploy - Hanlde Exceptions Raised by Deployed Actors\DeployerTarget\DeployerTarget.csproj", "{3C7A77FB-804B-4FE7-802C-188F2DD76E54}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DeployerTarget", "Ch 04. Warm-up for Cluster Routing\04. Deploy - Hanlde Exceptions Raised by Deployed Actors\DeployerTarget\DeployerTarget.csproj", "{3C7A77FB-804B-4FE7-802C-188F2DD76E54}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "06. Sample - PingPong", "06. Sample - PingPong", "{1A478DF9-81C5-4E7F-9BAB-A6DA3315B692}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClusterClientApp", "08. Cluster Client\06. Sample - PingPong\ClusterClientApp\ClusterClientApp.csproj", "{A99200EE-C249-4653-9452-CDFE04D6BFE1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClusterClientApp", "Ch 08. Cluster Client\06. Sample - PingPong\ClusterClientApp\ClusterClientApp.csproj", "{A99200EE-C249-4653-9452-CDFE04D6BFE1}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClusterClientSharedMessages", "08. Cluster Client\06. Sample - PingPong\ClusterClientSharedMessages\ClusterClientSharedMessages.csproj", "{B7153FC9-2F7A-423E-A8CC-9E9222B6BBBF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClusterClientSharedMessages", "Ch 08. Cluster Client\06. Sample - PingPong\ClusterClientSharedMessages\ClusterClientSharedMessages.csproj", "{B7153FC9-2F7A-423E-A8CC-9E9222B6BBBF}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NonSeedNode1", "08. Cluster Client\06. Sample - PingPong\NonSeedNode1\NonSeedNode1.csproj", "{40F7F0D4-AE19-44AE-B9D5-05B757E99CC5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NonSeedNode1", "Ch 08. Cluster Client\06. Sample - PingPong\NonSeedNode1\NonSeedNode1.csproj", "{40F7F0D4-AE19-44AE-B9D5-05B757E99CC5}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SeedNode1", "08. Cluster Client\06. Sample - PingPong\SeedNode1\SeedNode1.csproj", "{A0590310-FC61-4DDB-B501-F7083E3F342B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SeedNode1", "Ch 08. Cluster Client\06. Sample - PingPong\SeedNode1\SeedNode1.csproj", "{A0590310-FC61-4DDB-B501-F7083E3F342B}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SeedNode1", "05. Cluster Routing\04. Group - Create Routees Yourself\SeedNode1\SeedNode1.csproj", "{03D6D6EE-B7E0-4FE3-8103-450F246D6F2D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SeedNode1", "Ch 05. Cluster Routing\04. Group - Create Routees Yourself\SeedNode1\SeedNode1.csproj", "{03D6D6EE-B7E0-4FE3-8103-450F246D6F2D}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NonSeedNode1", "05. Cluster Routing\04. Group - Create Routees Yourself\NonSeedNode1\NonSeedNode1.csproj", "{252F7779-1E10-4386-9BAF-65B526063CC4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NonSeedNode1", "Ch 05. Cluster Routing\04. Group - Create Routees Yourself\NonSeedNode1\NonSeedNode1.csproj", "{252F7779-1E10-4386-9BAF-65B526063CC4}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NonSeedNode2", "05. Cluster Routing\04. Group - Create Routees Yourself\NonSeedNode2\NonSeedNode2.csproj", "{CC12C60B-E5C3-4531-A6A3-F27518E16723}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NonSeedNode2", "Ch 05. Cluster Routing\04. Group - Create Routees Yourself\NonSeedNode2\NonSeedNode2.csproj", "{CC12C60B-E5C3-4531-A6A3-F27518E16723}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NonSeedNode3", "05. Cluster Routing\04. Group - Create Routees Yourself\NonSeedNode3\NonSeedNode3.csproj", "{14ED6022-5004-4481-938C-9A42D11E47B3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NonSeedNode3", "Ch 05. Cluster Routing\04. Group - Create Routees Yourself\NonSeedNode3\NonSeedNode3.csproj", "{14ED6022-5004-4481-938C-9A42D11E47B3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
