@@ -20,7 +20,6 @@ namespace NonSeedNode2
                 $":{config.GetString("akka.remote.dot-netty.tcp.port")}";
 
             ActorSystem system = ActorSystem.Create("ClusterLab", config);
-            //system.ActorOf(FooActor.Props(), nameof(FooActor) + "2");
             system.ActorOf(FooActor.Props(), nameof(FooActor));
 
             Console.WriteLine();

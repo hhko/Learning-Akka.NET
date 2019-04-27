@@ -22,8 +22,7 @@ namespace NonSeedNode1
                 $":{config.GetString("akka.remote.dot-netty.tcp.port")}";
 
             ActorSystem system = ActorSystem.Create("ClusterLab", config);
-            //system.ActorOf(FooActor.Props(), nameof(FooActor) + "1");
-            system.ActorOf(FooActor.Props(), nameof(FooActor));
+            //system.ActorOf(FooActor.Props(), nameof(FooActor));
 
             //
             // Cluster Group Routing
@@ -39,12 +38,13 @@ namespace NonSeedNode1
             //              routees.paths = [ "/user/FooActor" ]
             //                  vs.
             //              routees.paths = [ "/user/FooActor1", "/user/FooActor2" ]    <-- 동작하지 않는다.
+            //                  // 다른 노드에 있는 /user/FooActor2에게 메시지가 전송되지 않는다(DeadLetter).
             //
             //      2. Group Router 생성 후(20초) 메시지를 전송해야 한다?
             //          Routing되기 전에 바로 메일을 전송하면 전달되지 않는다.
             //          (확인 필요: Dead Letter에게도 전달되지 않는다.)
             //
-            Thread.Sleep(20000);
+            //Thread.Sleep(20000);
 
             worker.Tell("Hi 1");
             worker.Tell("Hi 2");
