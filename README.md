@@ -52,14 +52,13 @@
 ## DOING
 1. Akka 
    - Cluster Lab
-      - 2019-04-W4 Cluster Routing 
-         - [ ] Pools
-         - [ ] Groups
       - 2019-04-W4 Cluster Singleton
       - 2019-04-W4 Cluster Pub/Sub
       - [ ] Split Brain Resolver
       - [ ] Cluster Sharding
       - [ ] Cluster Distributed Data
+      - [ ] Message Version-up
+      - [ ] Role(Node) Version-up
    - NuGet
       - [ ] Consul Actor Discovery
       - [ ] Transactions
@@ -89,9 +88,7 @@
 <br/>
 
 ## DOING - Labs
-- [ ] Cluster
-   - [ ] Pool Routing
-   - [ ] Group Routing
+- [ ] Cluster Singleton
 - [ ] Cluster Pub/Sub
 - [ ] At Least Once
 - [ ] [Role 기반으로 Actor에게 메시지 보내기](https://github.com/akkadotnet/akka.net/issues/3757#issuecomment-483522034)
