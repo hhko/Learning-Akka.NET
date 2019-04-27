@@ -29,7 +29,7 @@
    - Pool - Deploy Routees Remotely
    - Pool - Hanlde Exceptions Raised by Routees
    - > Pool - Handle Routees Lifecycle
-   - > Group - Create Routees Yourself
+   - Group - Create Routees Yourself
    - > Group - Handle Exceptions Raised by Routees
    - > Group - Handle Routees Lifecycle
 1. > **Cluster Singleton**
