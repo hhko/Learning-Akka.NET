@@ -221,7 +221,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NonSeedNode2", "Ch 05. Clus
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NonSeedNode3", "Ch 05. Cluster Routing\01. Pool - Deploy Routees Remotely\NonSeedNode3\NonSeedNode3.csproj", "{7701DC70-8428-4A8C-B1C5-E6165AF328F3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NonSeedNodeDeployedActors", "Ch 05. Cluster Routing\01. Pool - Deploy Routees Remotely\NonSeedNodeDeployedActors\NonSeedNodeDeployedActors.csproj", "{3414B0D2-E9CB-4ADF-BD02-31687FDB8216}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NonSeedNodeDeployedActors", "Ch 05. Cluster Routing\01. Pool - Deploy Routees Remotely\NonSeedNodeDeployedActors\NonSeedNodeDeployedActors.csproj", "{3414B0D2-E9CB-4ADF-BD02-31687FDB8216}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SeedNode1", "Ch 05. Cluster Routing\02. Pool - Hanlde Exceptions Raised by Routees\SeedNode1\SeedNode1.csproj", "{8D52B35C-0897-404B-9C01-E75D4E8E70B5}"
 EndProject
@@ -256,6 +256,14 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NonSeedNode2", "Ch 05. Cluster Routing\04. Group - Create Routees Yourself\NonSeedNode2\NonSeedNode2.csproj", "{CC12C60B-E5C3-4531-A6A3-F27518E16723}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NonSeedNode3", "Ch 05. Cluster Routing\04. Group - Create Routees Yourself\NonSeedNode3\NonSeedNode3.csproj", "{14ED6022-5004-4481-938C-9A42D11E47B3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SeedNode1", "Ch 05. Cluster Routing\05. Group - Handle Exceptions Raised by Routees\SeedNode1\SeedNode1.csproj", "{EC74CD23-D50B-4F66-86D7-2E6CCCDA7EDD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NonSeedNode1", "Ch 05. Cluster Routing\05. Group - Handle Exceptions Raised by Routees\NonSeedNode1\NonSeedNode1.csproj", "{0C2BD741-5596-47FE-81E6-7A5C941A76B0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NonSeedNode2", "Ch 05. Cluster Routing\05. Group - Handle Exceptions Raised by Routees\NonSeedNode2\NonSeedNode2.csproj", "{C96B2C98-0531-457E-AF1D-82EFC5D16061}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NonSeedNode3", "Ch 05. Cluster Routing\05. Group - Handle Exceptions Raised by Routees\NonSeedNode3\NonSeedNode3.csproj", "{F3ECFDD0-32EC-456E-B686-A61A60B49219}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -639,6 +647,22 @@ Global
 		{14ED6022-5004-4481-938C-9A42D11E47B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{14ED6022-5004-4481-938C-9A42D11E47B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{14ED6022-5004-4481-938C-9A42D11E47B3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC74CD23-D50B-4F66-86D7-2E6CCCDA7EDD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC74CD23-D50B-4F66-86D7-2E6CCCDA7EDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC74CD23-D50B-4F66-86D7-2E6CCCDA7EDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC74CD23-D50B-4F66-86D7-2E6CCCDA7EDD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C2BD741-5596-47FE-81E6-7A5C941A76B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C2BD741-5596-47FE-81E6-7A5C941A76B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C2BD741-5596-47FE-81E6-7A5C941A76B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C2BD741-5596-47FE-81E6-7A5C941A76B0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C96B2C98-0531-457E-AF1D-82EFC5D16061}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C96B2C98-0531-457E-AF1D-82EFC5D16061}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C96B2C98-0531-457E-AF1D-82EFC5D16061}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C96B2C98-0531-457E-AF1D-82EFC5D16061}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F3ECFDD0-32EC-456E-B686-A61A60B49219}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3ECFDD0-32EC-456E-B686-A61A60B49219}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3ECFDD0-32EC-456E-B686-A61A60B49219}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3ECFDD0-32EC-456E-B686-A61A60B49219}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -765,6 +789,10 @@ Global
 		{252F7779-1E10-4386-9BAF-65B526063CC4} = {C4C3B424-A6CA-4A44-A6A7-2E1C4EEEF93A}
 		{CC12C60B-E5C3-4531-A6A3-F27518E16723} = {C4C3B424-A6CA-4A44-A6A7-2E1C4EEEF93A}
 		{14ED6022-5004-4481-938C-9A42D11E47B3} = {C4C3B424-A6CA-4A44-A6A7-2E1C4EEEF93A}
+		{EC74CD23-D50B-4F66-86D7-2E6CCCDA7EDD} = {9DCE1700-67ED-4AA0-999A-ED5D07F4D333}
+		{0C2BD741-5596-47FE-81E6-7A5C941A76B0} = {9DCE1700-67ED-4AA0-999A-ED5D07F4D333}
+		{C96B2C98-0531-457E-AF1D-82EFC5D16061} = {9DCE1700-67ED-4AA0-999A-ED5D07F4D333}
+		{F3ECFDD0-32EC-456E-B686-A61A60B49219} = {9DCE1700-67ED-4AA0-999A-ED5D07F4D333}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {ECF7691A-061A-4CA7-820E-B9E14611A042}
