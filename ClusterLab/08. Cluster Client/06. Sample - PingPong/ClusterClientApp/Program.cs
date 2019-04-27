@@ -28,7 +28,7 @@ namespace ClusterClientApp
             system.ActorOf(PingActor.Props(), nameof(PingActor));
 
             Console.WriteLine();
-            Console.WriteLine("NonSeedNode1 is running...");
+            Console.WriteLine("ClusterClientApp is running...");
             Console.WriteLine();
 
             Console.ReadLine();
