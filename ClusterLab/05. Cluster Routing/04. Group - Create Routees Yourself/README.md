@@ -1,7 +1,8 @@
 ## 생성된 액터로 클러스터 라우팅하기
 1. 생성된 액터 경로를 명시한다.
    - akka.actor.deployment.<액터경로>.routees.paths = [ ... ]
-   - **"/user/FooActor"에 있는 모든 액터가 Routee가 된다.**
+   - HOCON 예 이해하기: 
+      - **Cluster에 있는 노드 중에서 "/user/FooActor" 모든 액터를 Routee가 된다.**
 ```
 akka {
 	actor {
