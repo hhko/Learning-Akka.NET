@@ -4,6 +4,7 @@ using Akka.Configuration;
 using Akka.Routing;
 using NonSeedNodeSingletonActors;
 using System;
+using System.Diagnostics;
 using System.IO;
 using System.Threading;
 
@@ -33,12 +34,19 @@ namespace NonSeedNode1
                         .WithRole("Provider")),
                 name: "ConsumerSingleton");
 
-            system.ActorOf(ClusterSingletonProxy
+            IActorRef singletonProxyActor = system.ActorOf(ClusterSingletonProxy
                 .Props(
                     singletonManagerPath: "/user/ConsumerSingleton",
                     settings: ClusterSingletonProxySettings.Create(system)
                         .WithRole("Provider")),
                 name: "ConsumerProxy");
+
+            system.Scheduler.ScheduleTellRepeatedly(
+                TimeSpan.Zero,
+                TimeSpan.FromSeconds(4),
+                singletonProxyActor,
+                $"Message from process {Process.GetCurrentProcess().Id}",
+                Nobody.Instance);
 
             //
             // TODO ClusterSingletonManagerSettings 세부 설정

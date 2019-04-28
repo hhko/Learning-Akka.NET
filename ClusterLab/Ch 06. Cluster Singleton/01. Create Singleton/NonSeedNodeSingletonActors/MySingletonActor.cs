@@ -33,11 +33,20 @@ namespace NonSeedNodeSingletonActors
             _log.Info($">>> {_cluster.SelfAddress}, {Self.Path.ToStringWithoutAddress()}");
 
             Receive<Hello>(_ => Handle(_));
+            Receive<string>(_ => Handle(_));
         }
 
         private void Handle(Hello msg)
         {
             _log.Info($">>> Recevied message : {msg.Text}, Sender: {Sender}");
+        }
+
+        private void Handle(string msg)
+        {
+            var originalColor = Console.ForegroundColor;
+            Console.ForegroundColor = ConsoleColor.Magenta;
+            Console.WriteLine($"Message received \"{msg}\"");
+            Console.ForegroundColor = originalColor;
         }
     }
 }
