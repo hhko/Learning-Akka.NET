@@ -24,6 +24,16 @@ namespace ClusterClientApp
                     // .WithInitialContacts
                 "ClusterClientActor");
 
+            // 
+            // TODO ClusterClientSettings 세부 설정
+            //  - WithBufferSize
+            //  - WithEstablishingGetContactsInterval
+            //  - WithHeartbeatInterval
+            //  - WithInitialContacts
+            //  - WithReconnectTimeout
+            //  - WithRefreshContactsInterval
+            //
+
             //
             // 메시지를 경로가 일치하는 한 액터에게 보낸다.
             // The message will be delivered to one recipient with a matching path, if any such exists

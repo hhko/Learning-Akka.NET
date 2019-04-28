@@ -1,13 +1,11 @@
 ﻿using Akka.Actor;
 using Akka.Configuration;
 using Akka.Routing;
-using Petabridge.Cmd.Cluster;
-using Petabridge.Cmd.Host;
 using System;
 using System.IO;
 using System.Threading;
 
-namespace SeedNode1
+namespace NonSeedNode1
 {
     class Program
     {
@@ -25,12 +23,8 @@ namespace SeedNode1
 
             ActorSystem system = ActorSystem.Create("ClusterLab", config);
 
-            var cmd = PetabridgeCmd.Get(system);
-            cmd.RegisterCommandPalette(ClusterCommands.Instance);
-            cmd.Start();
-
             Console.WriteLine();
-            Console.WriteLine("SeedNode1 is running...");
+            Console.WriteLine("NonSeedNode1 is running...");
             Console.WriteLine();
 
             Console.ReadLine();
