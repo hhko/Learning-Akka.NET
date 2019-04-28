@@ -64,13 +64,13 @@
    - Cluster Lab version-up
       - [ ] Messages
 	  - [ ] Node/Role
+   - Persistence Lab
+      - [ ] At Least Once
+      - [ ] At Least Once + Cluster Pub/Sub
    - NuGet
       - [ ] Consul Actor Discovery
       - [ ] Transactions
    - Local Lab
-   - Persistence Lab
-      - [ ] At Least Once
-      - [ ] At Least Once + Cluster Pub/Sub
    - Remote Lab
    - Issues
    - FAQ
