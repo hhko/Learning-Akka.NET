@@ -203,6 +203,7 @@
 - [ ] [Process Manager](https://github.com/justeat/ProcessManager), [Blog](https://tech.just-eat.com/2015/05/26/process-managers/)
 - [ ] [Auto-Updating Cache using Actors](https://github.com/profesor79/akka.net.Patterns)
 - [ ] [a simple cluster with Akka.NET on .NET Core](https://github.com/BigDaddy1337/dotnet-core-akka-cluster-example)
+- [ ] [Akka retrying backoffsupervisor](https://gist.github.com/Danthar/82e89eff01ba1eb1d4c3)
 <br/>
 
 ## Blog Korean
