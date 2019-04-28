@@ -56,13 +56,14 @@
 ## DOING
 1. Akka 
    - Cluster Lab
-      - 2019-04-W4 Cluster Singleton
-      - 2019-04-W4 Cluster Pub/Sub
-      - [ ] Split Brain Resolver
+      - 2019-04-W5 Cluster Singleton
+      - 2019-04-W5 Cluster Pub/Sub
+      - 2019-04-W5 Split Brain Resolver
       - [ ] Cluster Sharding
       - [ ] Cluster Distributed Data
-      - [ ] Message Version-up
-      - [ ] Role(Node) Version-up
+   - Cluster Lab version-up
+      - [ ] Messages
+	  - [ ] Node/Role
    - NuGet
       - [ ] Consul Actor Discovery
       - [ ] Transactions
