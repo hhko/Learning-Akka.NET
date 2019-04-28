@@ -2,6 +2,8 @@
 1. Singleton Manager 만들기
 2. Singleton Proxy 만들기
 3. Proxy를 통해 Singleton Actor에게 메시지를 보낸다.
+4. /user/<Singleton Actor 이름>/<akka.cluster.singleton.singleton-name>
+   - 자동으로 자식 액터가 생성된다.
 
 
 ## TODO?
