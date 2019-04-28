@@ -160,6 +160,8 @@
 - [ ] [Pluralsight Akka.NET Cluster](https://github.com/thelegendofando/Pluralsight)
 - [ ] [Pub/Sub Problem](https://github.com/thelegendofando/ProducerConsumerProblem)
 - [ ] [Singleton Example](https://github.com/cgstevens/MyClusterServices)
+- [ ] [akka-cluster-singleton, Scala](https://github.com/viswanath7/akka-cluster-singleton)
+- [ ] [Akka Singleton Supervision](https://doc.akka.io/docs/akka/current/cluster-singleton.html#supervision)
 - [ ] [FileProcessor](https://github.com/cgstevens/FileProcessor)
 - [ ] [Akka.NET Workshop](https://github.com/profesor79/LDNAAkkaWorkshop)
 - [ ] [Akka.NET Patterns](https://github.com/profesor79/akka.net.Patterns)

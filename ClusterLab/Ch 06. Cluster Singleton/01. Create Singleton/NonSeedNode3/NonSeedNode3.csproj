@@ -10,6 +10,10 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\NonSeedNodeSingletonActors\NonSeedNodeSingletonActors.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
     <None Update="App.Akka.conf">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
