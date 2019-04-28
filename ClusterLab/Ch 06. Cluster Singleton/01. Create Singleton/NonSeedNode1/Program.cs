@@ -31,7 +31,14 @@ namespace NonSeedNode1
                     terminationMessage: PoisonPill.Instance,
                     settings: ClusterSingletonManagerSettings.Create(system)
                         .WithRole("Provider")),
-                name: "Consumer");
+                name: "ConsumerSingleton");
+
+            system.ActorOf(ClusterSingletonProxy
+                .Props(
+                    singletonManagerPath: "/user/ConsumerSingleton",
+                    settings: ClusterSingletonProxySettings.Create(system)
+                        .WithRole("Provider")),
+                name: "ConsumerProxy");
 
             //
             // TODO ClusterSingletonManagerSettings 세부 설정

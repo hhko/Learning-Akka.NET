@@ -32,13 +32,6 @@ namespace NonSeedNodeSingletonActors
         {
             _log.Info($">>> {_cluster.SelfAddress}, {Self.Path.ToStringWithoutAddress()}");
 
-            Context.ActorOf(ClusterSingletonProxy
-                .Props(
-                    singletonManagerPath: "/user/Consumer",
-                    settings: ClusterSingletonProxySettings.Create(Context.System)
-                        .WithRole("Provider")),
-                name: "ConsumerProxy");
-
             Receive<Hello>(_ => Handle(_));
         }
 

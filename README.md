@@ -114,6 +114,8 @@
    - [ ] Diagram 이미지 추가
    - [ ] Youtube 데모 동영상 추가
    - [ ] Blog 적용
+- [ ] 경로 만들기: new RootActorPath(Address) / ... ;
+- [ ] Routee: _workerRouter.Ask<Routees>(new GetRoutees()) ...
 - [ ] Visual Studio Code 기반으로 코드 작성
 
 <br/>
@@ -162,6 +164,7 @@
 - [ ] [Singleton Example](https://github.com/cgstevens/MyClusterServices)
 - [ ] [akka-cluster-singleton, Scala](https://github.com/viswanath7/akka-cluster-singleton)
 - [ ] [Akka Singleton Supervision](https://doc.akka.io/docs/akka/current/cluster-singleton.html#supervision)
+- [ ] [x-akka-cluster-singleton](https://github.com/jpierson/x-akka-cluster-singleton)
 - [ ] [FileProcessor](https://github.com/cgstevens/FileProcessor)
 - [ ] [Akka.NET Workshop](https://github.com/profesor79/LDNAAkkaWorkshop)
 - [ ] [Akka.NET Patterns](https://github.com/profesor79/akka.net.Patterns)
