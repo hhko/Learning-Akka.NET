@@ -37,10 +37,10 @@
    - > Send Message To Singleton
    - > Manage Singleton???
    - > Buffer Size
-1. > **Distributed PubSub**
-   - Publish - Communicate with Actors by Topic : **each message is broadcasted to all subscribers.**
-   - Publish - Communicate with Actors by Topic with Same Group Id : **each message is only delivered to one subscriber.**
-   - Publish - Communicate with Actors by Topic with Different Group Id : **each message is broadcasted to all subscribers.**
+1. **Distributed PubSub**
+   - Publish - Communicate with Actors by Topic : **DistributedPubSub.Get**, **Subscribe**, **SubscribeAck**, **Publish**
+   - Publish - Communicate with Actors by Topic with Same Group Id : **sendOneMessageToEachGroup: true**, = Send
+   - Publish - Communicate with Actors by Topic with Different Group Id : **sendOneMessageToEachGroup: true**, = Publish
    - > Send - ...
    - > SendToAll - ...
 1. **Cluster Client**
