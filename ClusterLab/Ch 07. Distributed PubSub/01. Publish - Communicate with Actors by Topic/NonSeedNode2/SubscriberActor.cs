@@ -23,51 +23,32 @@ namespace NonSeedNode2
 
         public SubscriberActor()
         {
-            //IActorRef self = Self;
-            //Cluster cluster = Cluster.Get(Context.System);
-            //cluster.RegisterOnMemberUp(() =>
-            //    {
-            //        _log.Info($">>> RegisterOnMemberUp, {Self.Path}, {cluster.SelfAddress}");
-            //        self.Tell(new ClusterJoined());
-            //    });
-
-            //Receive<ClusterJoined>(_ => Handle(_));
-
             //
             // "content" Topic을 등록한다.
+            //      등록: Subscribe, SubscribeAck
+            //      해제: Unsubscribe, UnsubscribeAck
+            // 액터가 종료되면 자동으로 Unsubscribe가 처리된다.
             //
             var mediator = DistributedPubSub.Get(Context.System).Mediator;
-            mediator.Tell(new Subscribe("content", Self));
+            mediator.Tell(new Subscribe("NamedTopic", Self));
 
-            Receive<string>(_ => Handle(_));
             Receive<SubscribeAck>(_ => Handle(_));
-        }
-
-        //private void Handle(ClusterJoined msg)
-        //{
-        //    //_log.Info($">>> Recevied message : {msg}, Sender: {Sender}");
-
-        //    //var mediator = DistributedPubSub.Get(Context.System).Mediator;
-
-        //    ////
-        //    //// "content" Topic을 등록한다.
-        //    ////
-        //    //mediator.Tell(new Subscribe("content", Self));
-        //}
-
-        private void Handle(string msg)
-        {
-            _log.Info($">>> Recevied message : \"{msg}\", Sender: {Sender}");
+            Receive<string>(_ => Handle(_));
         }
 
         private void Handle(SubscribeAck msg)
         {
-            if (msg.Subscribe.Topic.Equals("content")
+            if (msg.Subscribe.Topic.Equals("NamedTopic")
                 && msg.Subscribe.Ref.Equals(Self)
                 && msg.Subscribe.Group == null)
             {
                 _log.Info($">>> Recevied message : {msg}, Sender: {Sender}");
             }
+        }
+
+        private void Handle(string msg)
+        {
+            _log.Info($">>> Recevied message : \"{msg}\", Sender: {Sender}");
         }
     }
 }

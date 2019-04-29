@@ -277,19 +277,39 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NonSeedNode2", "Ch 06. Clus
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NonSeedNode3", "Ch 06. Cluster Singleton\01. Create Singleton\NonSeedNode3\NonSeedNode3.csproj", "{635806DC-DA74-4082-B43E-A2B7FC4A3864}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NonSeedNodeSingletonActors", "Ch 06. Cluster Singleton\01. Create Singleton\NonSeedNodeSingletonActors\NonSeedNodeSingletonActors.csproj", "{992C4325-B41A-4798-8933-5369B6EDAD6A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NonSeedNodeSingletonActors", "Ch 06. Cluster Singleton\01. Create Singleton\NonSeedNodeSingletonActors\NonSeedNodeSingletonActors.csproj", "{992C4325-B41A-4798-8933-5369B6EDAD6A}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ch 07. Distributed PubSub", "Ch 07. Distributed PubSub", "{8DF3E747-0C12-4059-BF73-BD300B20A696}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01. Create PubSub", "01. Create PubSub", "{9B83B3B0-D1EA-4062-9F67-9BDB00F25FAA}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01. Publish - Communicate with Actors by Topic", "01. Publish - Communicate with Actors by Topic", "{9B83B3B0-D1EA-4062-9F67-9BDB00F25FAA}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SeedNode1", "Ch 07. Distributed PubSub\01. Create PubSub\SeedNode1\SeedNode1.csproj", "{DD6897BC-66A3-4C2B-BFDB-23990ED0B477}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SeedNode1", "Ch 07. Distributed PubSub\01. Publish - Communicate with Actors by Topic\SeedNode1\SeedNode1.csproj", "{DD6897BC-66A3-4C2B-BFDB-23990ED0B477}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NonSeedNode1", "Ch 07. Distributed PubSub\01. Create PubSub\NonSeedNode1\NonSeedNode1.csproj", "{34F29CC8-D5EE-477B-B523-9F8DA9903A2C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NonSeedNode1", "Ch 07. Distributed PubSub\01. Publish - Communicate with Actors by Topic\NonSeedNode1\NonSeedNode1.csproj", "{34F29CC8-D5EE-477B-B523-9F8DA9903A2C}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NonSeedNode2", "Ch 07. Distributed PubSub\01. Create PubSub\NonSeedNode2\NonSeedNode2.csproj", "{8CD6D2F3-D2AE-4B37-B222-3E197362B7B6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NonSeedNode2", "Ch 07. Distributed PubSub\01. Publish - Communicate with Actors by Topic\NonSeedNode2\NonSeedNode2.csproj", "{8CD6D2F3-D2AE-4B37-B222-3E197362B7B6}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NonSeedNode3", "Ch 07. Distributed PubSub\01. Create PubSub\NonSeedNode3\NonSeedNode3.csproj", "{696BD69A-13FE-4364-AFE1-B436A8B0B5D0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NonSeedNode3", "Ch 07. Distributed PubSub\01. Publish - Communicate with Actors by Topic\NonSeedNode3\NonSeedNode3.csproj", "{696BD69A-13FE-4364-AFE1-B436A8B0B5D0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02. Publish - Communicate with Actors by Topic with Same Group Id", "02. Publish - Communicate with Actors by Topic with Same Group Id", "{08F85C77-4BDB-4CF4-AFCF-2D9F8365B40A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03. Publish - Communicate with Actors by Topic with Different Group Id", "03. Publish - Communicate with Actors by Topic with Different Group Id", "{1E4BDDE1-75E2-4911-98C3-1DBD2015C07C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SeedNode1", "Ch 07. Distributed PubSub\02. Publish - Communicate with Actors by Topic with Same Group Id\SeedNode1\SeedNode1.csproj", "{71C9C7F4-7CD8-4314-95A2-DCBBAE980016}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NonSeedNode1", "Ch 07. Distributed PubSub\02. Publish - Communicate with Actors by Topic with Same Group Id\NonSeedNode1\NonSeedNode1.csproj", "{87DF6008-558C-4C23-9830-F71AAC237C4B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NonSeedNode2", "Ch 07. Distributed PubSub\02. Publish - Communicate with Actors by Topic with Same Group Id\NonSeedNode2\NonSeedNode2.csproj", "{DA441433-AF02-49A1-997A-F2A803D94968}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NonSeedNode3", "Ch 07. Distributed PubSub\02. Publish - Communicate with Actors by Topic with Same Group Id\NonSeedNode3\NonSeedNode3.csproj", "{F317A034-826D-4F78-94EE-136F11B65F81}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NonSeedNode1", "Ch 07. Distributed PubSub\03. Publish - Communicate with Actors by Topic with Different Group Id\NonSeedNode1\NonSeedNode1.csproj", "{6392F3FE-9816-4585-8550-013F19F4D31E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NonSeedNode2", "Ch 07. Distributed PubSub\03. Publish - Communicate with Actors by Topic with Different Group Id\NonSeedNode2\NonSeedNode2.csproj", "{29D74D87-0706-4AB0-9A38-6D0D197DCEDD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NonSeedNode3", "Ch 07. Distributed PubSub\03. Publish - Communicate with Actors by Topic with Different Group Id\NonSeedNode3\NonSeedNode3.csproj", "{E89F508E-4EC1-44D4-AAD5-999DA6EB0D59}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SeedNode1", "Ch 07. Distributed PubSub\03. Publish - Communicate with Actors by Topic with Different Group Id\SeedNode1\SeedNode1.csproj", "{266AA2C0-141F-4DE6-B44F-34D8B1C63475}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -725,6 +745,38 @@ Global
 		{696BD69A-13FE-4364-AFE1-B436A8B0B5D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{696BD69A-13FE-4364-AFE1-B436A8B0B5D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{696BD69A-13FE-4364-AFE1-B436A8B0B5D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{71C9C7F4-7CD8-4314-95A2-DCBBAE980016}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71C9C7F4-7CD8-4314-95A2-DCBBAE980016}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71C9C7F4-7CD8-4314-95A2-DCBBAE980016}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71C9C7F4-7CD8-4314-95A2-DCBBAE980016}.Release|Any CPU.Build.0 = Release|Any CPU
+		{87DF6008-558C-4C23-9830-F71AAC237C4B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87DF6008-558C-4C23-9830-F71AAC237C4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87DF6008-558C-4C23-9830-F71AAC237C4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87DF6008-558C-4C23-9830-F71AAC237C4B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA441433-AF02-49A1-997A-F2A803D94968}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA441433-AF02-49A1-997A-F2A803D94968}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA441433-AF02-49A1-997A-F2A803D94968}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA441433-AF02-49A1-997A-F2A803D94968}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F317A034-826D-4F78-94EE-136F11B65F81}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F317A034-826D-4F78-94EE-136F11B65F81}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F317A034-826D-4F78-94EE-136F11B65F81}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F317A034-826D-4F78-94EE-136F11B65F81}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6392F3FE-9816-4585-8550-013F19F4D31E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6392F3FE-9816-4585-8550-013F19F4D31E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6392F3FE-9816-4585-8550-013F19F4D31E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6392F3FE-9816-4585-8550-013F19F4D31E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{29D74D87-0706-4AB0-9A38-6D0D197DCEDD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29D74D87-0706-4AB0-9A38-6D0D197DCEDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29D74D87-0706-4AB0-9A38-6D0D197DCEDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29D74D87-0706-4AB0-9A38-6D0D197DCEDD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E89F508E-4EC1-44D4-AAD5-999DA6EB0D59}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E89F508E-4EC1-44D4-AAD5-999DA6EB0D59}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E89F508E-4EC1-44D4-AAD5-999DA6EB0D59}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E89F508E-4EC1-44D4-AAD5-999DA6EB0D59}.Release|Any CPU.Build.0 = Release|Any CPU
+		{266AA2C0-141F-4DE6-B44F-34D8B1C63475}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{266AA2C0-141F-4DE6-B44F-34D8B1C63475}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{266AA2C0-141F-4DE6-B44F-34D8B1C63475}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{266AA2C0-141F-4DE6-B44F-34D8B1C63475}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -866,6 +918,16 @@ Global
 		{34F29CC8-D5EE-477B-B523-9F8DA9903A2C} = {9B83B3B0-D1EA-4062-9F67-9BDB00F25FAA}
 		{8CD6D2F3-D2AE-4B37-B222-3E197362B7B6} = {9B83B3B0-D1EA-4062-9F67-9BDB00F25FAA}
 		{696BD69A-13FE-4364-AFE1-B436A8B0B5D0} = {9B83B3B0-D1EA-4062-9F67-9BDB00F25FAA}
+		{08F85C77-4BDB-4CF4-AFCF-2D9F8365B40A} = {8DF3E747-0C12-4059-BF73-BD300B20A696}
+		{1E4BDDE1-75E2-4911-98C3-1DBD2015C07C} = {8DF3E747-0C12-4059-BF73-BD300B20A696}
+		{71C9C7F4-7CD8-4314-95A2-DCBBAE980016} = {08F85C77-4BDB-4CF4-AFCF-2D9F8365B40A}
+		{87DF6008-558C-4C23-9830-F71AAC237C4B} = {08F85C77-4BDB-4CF4-AFCF-2D9F8365B40A}
+		{DA441433-AF02-49A1-997A-F2A803D94968} = {08F85C77-4BDB-4CF4-AFCF-2D9F8365B40A}
+		{F317A034-826D-4F78-94EE-136F11B65F81} = {08F85C77-4BDB-4CF4-AFCF-2D9F8365B40A}
+		{6392F3FE-9816-4585-8550-013F19F4D31E} = {1E4BDDE1-75E2-4911-98C3-1DBD2015C07C}
+		{29D74D87-0706-4AB0-9A38-6D0D197DCEDD} = {1E4BDDE1-75E2-4911-98C3-1DBD2015C07C}
+		{E89F508E-4EC1-44D4-AAD5-999DA6EB0D59} = {1E4BDDE1-75E2-4911-98C3-1DBD2015C07C}
+		{266AA2C0-141F-4DE6-B44F-34D8B1C63475} = {1E4BDDE1-75E2-4911-98C3-1DBD2015C07C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {ECF7691A-061A-4CA7-820E-B9E14611A042}
