@@ -281,35 +281,35 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NonSeedNodeSingletonActors"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ch 07. Distributed PubSub", "Ch 07. Distributed PubSub", "{8DF3E747-0C12-4059-BF73-BD300B20A696}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01. Publish - Communicate with Actors by Topic", "01. Publish - Communicate with Actors by Topic", "{9B83B3B0-D1EA-4062-9F67-9BDB00F25FAA}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01. Publish - Communicate by Topic", "01. Publish - Communicate by Topic", "{9B83B3B0-D1EA-4062-9F67-9BDB00F25FAA}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SeedNode1", "Ch 07. Distributed PubSub\01. Publish - Communicate with Actors by Topic\SeedNode1\SeedNode1.csproj", "{DD6897BC-66A3-4C2B-BFDB-23990ED0B477}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SeedNode1", "Ch 07. Distributed PubSub\01. Publish - Communicate by Topic\SeedNode1\SeedNode1.csproj", "{DD6897BC-66A3-4C2B-BFDB-23990ED0B477}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NonSeedNode1", "Ch 07. Distributed PubSub\01. Publish - Communicate with Actors by Topic\NonSeedNode1\NonSeedNode1.csproj", "{34F29CC8-D5EE-477B-B523-9F8DA9903A2C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NonSeedNode1", "Ch 07. Distributed PubSub\01. Publish - Communicate by Topic\NonSeedNode1\NonSeedNode1.csproj", "{34F29CC8-D5EE-477B-B523-9F8DA9903A2C}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NonSeedNode2", "Ch 07. Distributed PubSub\01. Publish - Communicate with Actors by Topic\NonSeedNode2\NonSeedNode2.csproj", "{8CD6D2F3-D2AE-4B37-B222-3E197362B7B6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NonSeedNode2", "Ch 07. Distributed PubSub\01. Publish - Communicate by Topic\NonSeedNode2\NonSeedNode2.csproj", "{8CD6D2F3-D2AE-4B37-B222-3E197362B7B6}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NonSeedNode3", "Ch 07. Distributed PubSub\01. Publish - Communicate with Actors by Topic\NonSeedNode3\NonSeedNode3.csproj", "{696BD69A-13FE-4364-AFE1-B436A8B0B5D0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NonSeedNode3", "Ch 07. Distributed PubSub\01. Publish - Communicate by Topic\NonSeedNode3\NonSeedNode3.csproj", "{696BD69A-13FE-4364-AFE1-B436A8B0B5D0}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02. Publish - Communicate with Actors by Topic with Same Group Id", "02. Publish - Communicate with Actors by Topic with Same Group Id", "{08F85C77-4BDB-4CF4-AFCF-2D9F8365B40A}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02. Publish - Communicate by Topic with Same Group Id", "02. Publish - Communicate by Topic with Same Group Id", "{08F85C77-4BDB-4CF4-AFCF-2D9F8365B40A}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03. Publish - Communicate with Actors by Topic with Different Group Id", "03. Publish - Communicate with Actors by Topic with Different Group Id", "{1E4BDDE1-75E2-4911-98C3-1DBD2015C07C}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03. Publish - Communicate by Topic with Different Group Id", "03. Publish - Communicate by Topic with Different Group Id", "{1E4BDDE1-75E2-4911-98C3-1DBD2015C07C}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SeedNode1", "Ch 07. Distributed PubSub\02. Publish - Communicate with Actors by Topic with Same Group Id\SeedNode1\SeedNode1.csproj", "{71C9C7F4-7CD8-4314-95A2-DCBBAE980016}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SeedNode1", "Ch 07. Distributed PubSub\02. Publish - Communicate by Topic with Same Group Id\SeedNode1\SeedNode1.csproj", "{71C9C7F4-7CD8-4314-95A2-DCBBAE980016}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NonSeedNode1", "Ch 07. Distributed PubSub\02. Publish - Communicate with Actors by Topic with Same Group Id\NonSeedNode1\NonSeedNode1.csproj", "{87DF6008-558C-4C23-9830-F71AAC237C4B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NonSeedNode1", "Ch 07. Distributed PubSub\02. Publish - Communicate by Topic with Same Group Id\NonSeedNode1\NonSeedNode1.csproj", "{87DF6008-558C-4C23-9830-F71AAC237C4B}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NonSeedNode2", "Ch 07. Distributed PubSub\02. Publish - Communicate with Actors by Topic with Same Group Id\NonSeedNode2\NonSeedNode2.csproj", "{DA441433-AF02-49A1-997A-F2A803D94968}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NonSeedNode2", "Ch 07. Distributed PubSub\02. Publish - Communicate by Topic with Same Group Id\NonSeedNode2\NonSeedNode2.csproj", "{DA441433-AF02-49A1-997A-F2A803D94968}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NonSeedNode3", "Ch 07. Distributed PubSub\02. Publish - Communicate with Actors by Topic with Same Group Id\NonSeedNode3\NonSeedNode3.csproj", "{F317A034-826D-4F78-94EE-136F11B65F81}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NonSeedNode3", "Ch 07. Distributed PubSub\02. Publish - Communicate by Topic with Same Group Id\NonSeedNode3\NonSeedNode3.csproj", "{F317A034-826D-4F78-94EE-136F11B65F81}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NonSeedNode1", "Ch 07. Distributed PubSub\03. Publish - Communicate with Actors by Topic with Different Group Id\NonSeedNode1\NonSeedNode1.csproj", "{6392F3FE-9816-4585-8550-013F19F4D31E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NonSeedNode1", "Ch 07. Distributed PubSub\03. Publish - Communicate by Topic with Different Group Id\NonSeedNode1\NonSeedNode1.csproj", "{6392F3FE-9816-4585-8550-013F19F4D31E}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NonSeedNode2", "Ch 07. Distributed PubSub\03. Publish - Communicate with Actors by Topic with Different Group Id\NonSeedNode2\NonSeedNode2.csproj", "{29D74D87-0706-4AB0-9A38-6D0D197DCEDD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NonSeedNode2", "Ch 07. Distributed PubSub\03. Publish - Communicate by Topic with Different Group Id\NonSeedNode2\NonSeedNode2.csproj", "{29D74D87-0706-4AB0-9A38-6D0D197DCEDD}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NonSeedNode3", "Ch 07. Distributed PubSub\03. Publish - Communicate with Actors by Topic with Different Group Id\NonSeedNode3\NonSeedNode3.csproj", "{E89F508E-4EC1-44D4-AAD5-999DA6EB0D59}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NonSeedNode3", "Ch 07. Distributed PubSub\03. Publish - Communicate by Topic with Different Group Id\NonSeedNode3\NonSeedNode3.csproj", "{E89F508E-4EC1-44D4-AAD5-999DA6EB0D59}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SeedNode1", "Ch 07. Distributed PubSub\03. Publish - Communicate with Actors by Topic with Different Group Id\SeedNode1\SeedNode1.csproj", "{266AA2C0-141F-4DE6-B44F-34D8B1C63475}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SeedNode1", "Ch 07. Distributed PubSub\03. Publish - Communicate by Topic with Different Group Id\SeedNode1\SeedNode1.csproj", "{266AA2C0-141F-4DE6-B44F-34D8B1C63475}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
