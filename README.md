@@ -17,7 +17,7 @@
    - Subscribe to Gossip Events : **Cluster _cluster = Cluster.Get(Context.System); _cluster.Subscribe(Self, ...);**
    - Discover Actor by Tag
    - Discover Actor by Role and Path : **cluster.State.Members.Where(member => ...);**
-1. **Warm-up For Cluster Routing**
+1. **Warm-up for Cluster Routing**
    - Pool - Create Routees Automatically : **round-robin-pool**
    - > Pool - Hanlde Exceptions Raised by Routees
    - Group - Create routees yourself : **round-robin-group**, **path**
