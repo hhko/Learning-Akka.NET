@@ -38,10 +38,11 @@
    - > Manage Singleton???
    - > Buffer Size
 1. **Distributed PubSub**
-   - Publish - Communicate by Topic : **DistributedPubSub.Get**, **Subscribe**, **SubscribeAck**, **Publish**
+   - Publish - Communicate by Topic : **DistributedPubSub.Get**, **Subscribe/SubscribeAck**, **Publish**
    - Publish - Communicate by Topic with Same Group Id : **sendOneMessageToEachGroup: true**, (Send)
    - Publish - Communicate by Topic with Different Group Id : **sendOneMessageToEachGroup: true**, (Publish)
-   - > Send - ...
+   - Send - Communicate by Path : **Put**, **Remove**, **Send**
+   - > Send - Communicate by Path with localAffinity : **localAffinity: true**
    - > SendToAll - ...
 1. **Cluster Client**
    - Communicate with Cluster by Path 
