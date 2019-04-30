@@ -85,6 +85,9 @@
 1. Pattern Lab
    - Saga
 1. .NET Core Lab
+1. OSS
+   - [Akka with Prometheus](https://github.com/syncromatics/Akka.Monitoring.Prometheus)
+   - [Petabridge.Tracing.Zipkin](https://github.com/petabridge/Petabridge.Tracing.Zipkin)
 1. Docker Container Lab
 1. RabbitMQ Lab
 1. Visual Studio Extension Lab
