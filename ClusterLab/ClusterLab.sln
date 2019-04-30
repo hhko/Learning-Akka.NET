@@ -311,15 +311,25 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NonSeedNode3", "Ch 07. Dist
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SeedNode1", "Ch 07. Distributed PubSub\03. Publish - Communicate by Topic with Different Group Id\SeedNode1\SeedNode1.csproj", "{266AA2C0-141F-4DE6-B44F-34D8B1C63475}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04. Send - Communicate by Path", "04. Send - Communicate by Path", "{E873FA38-DBAD-4E3C-88C4-5E9457022831}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "05. Send - Communicate by Path", "05. Send - Communicate by Path", "{E873FA38-DBAD-4E3C-88C4-5E9457022831}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NonSeedNode1", "Ch 07. Distributed PubSub\04. Send - Communicate by Path\NonSeedNode1\NonSeedNode1.csproj", "{7433956C-B752-4C95-A136-4D2656BE4415}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NonSeedNode1", "Ch 07. Distributed PubSub\05. Send - Communicate by Path\NonSeedNode1\NonSeedNode1.csproj", "{7433956C-B752-4C95-A136-4D2656BE4415}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NonSeedNode2", "Ch 07. Distributed PubSub\04. Send - Communicate by Path\NonSeedNode2\NonSeedNode2.csproj", "{972D9DE1-766E-4176-87AF-DDDAD71A75E9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NonSeedNode2", "Ch 07. Distributed PubSub\05. Send - Communicate by Path\NonSeedNode2\NonSeedNode2.csproj", "{972D9DE1-766E-4176-87AF-DDDAD71A75E9}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NonSeedNode3", "Ch 07. Distributed PubSub\04. Send - Communicate by Path\NonSeedNode3\NonSeedNode3.csproj", "{3A863CFB-1E89-4B4B-80B1-0D9B077971AB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NonSeedNode3", "Ch 07. Distributed PubSub\05. Send - Communicate by Path\NonSeedNode3\NonSeedNode3.csproj", "{3A863CFB-1E89-4B4B-80B1-0D9B077971AB}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SeedNode1", "Ch 07. Distributed PubSub\04. Send - Communicate by Path\SeedNode1\SeedNode1.csproj", "{5049A118-B2D1-45CE-AF69-8C24D4730502}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SeedNode1", "Ch 07. Distributed PubSub\05. Send - Communicate by Path\SeedNode1\SeedNode1.csproj", "{5049A118-B2D1-45CE-AF69-8C24D4730502}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04. Publish - Get Topics", "04. Publish - Get Topics", "{3DECF34E-6AFC-49FB-8EA7-28DEB5E6261B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SeedNode1", "Ch 07. Distributed PubSub\04. Publish - Get Topics\SeedNode1\SeedNode1.csproj", "{AFB6AF61-B1BE-466E-BB0F-48AD1E935E8C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NonSeedNode1", "Ch 07. Distributed PubSub\04. Publish - Get Topics\NonSeedNode1\NonSeedNode1.csproj", "{B0C03B40-A587-424E-91EC-20FFF44F817B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NonSeedNode2", "Ch 07. Distributed PubSub\04. Publish - Get Topics\NonSeedNode2\NonSeedNode2.csproj", "{5C31AE14-6A19-4E28-A807-A9CFD21B83B0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NonSeedNode3", "Ch 07. Distributed PubSub\04. Publish - Get Topics\NonSeedNode3\NonSeedNode3.csproj", "{772729F3-1EB2-4B93-8DD2-093BC996C17E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -803,6 +813,22 @@ Global
 		{5049A118-B2D1-45CE-AF69-8C24D4730502}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5049A118-B2D1-45CE-AF69-8C24D4730502}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5049A118-B2D1-45CE-AF69-8C24D4730502}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AFB6AF61-B1BE-466E-BB0F-48AD1E935E8C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AFB6AF61-B1BE-466E-BB0F-48AD1E935E8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AFB6AF61-B1BE-466E-BB0F-48AD1E935E8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AFB6AF61-B1BE-466E-BB0F-48AD1E935E8C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B0C03B40-A587-424E-91EC-20FFF44F817B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0C03B40-A587-424E-91EC-20FFF44F817B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0C03B40-A587-424E-91EC-20FFF44F817B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0C03B40-A587-424E-91EC-20FFF44F817B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C31AE14-6A19-4E28-A807-A9CFD21B83B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C31AE14-6A19-4E28-A807-A9CFD21B83B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C31AE14-6A19-4E28-A807-A9CFD21B83B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C31AE14-6A19-4E28-A807-A9CFD21B83B0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{772729F3-1EB2-4B93-8DD2-093BC996C17E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{772729F3-1EB2-4B93-8DD2-093BC996C17E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{772729F3-1EB2-4B93-8DD2-093BC996C17E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{772729F3-1EB2-4B93-8DD2-093BC996C17E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -959,6 +985,11 @@ Global
 		{972D9DE1-766E-4176-87AF-DDDAD71A75E9} = {E873FA38-DBAD-4E3C-88C4-5E9457022831}
 		{3A863CFB-1E89-4B4B-80B1-0D9B077971AB} = {E873FA38-DBAD-4E3C-88C4-5E9457022831}
 		{5049A118-B2D1-45CE-AF69-8C24D4730502} = {E873FA38-DBAD-4E3C-88C4-5E9457022831}
+		{3DECF34E-6AFC-49FB-8EA7-28DEB5E6261B} = {8DF3E747-0C12-4059-BF73-BD300B20A696}
+		{AFB6AF61-B1BE-466E-BB0F-48AD1E935E8C} = {3DECF34E-6AFC-49FB-8EA7-28DEB5E6261B}
+		{B0C03B40-A587-424E-91EC-20FFF44F817B} = {3DECF34E-6AFC-49FB-8EA7-28DEB5E6261B}
+		{5C31AE14-6A19-4E28-A807-A9CFD21B83B0} = {3DECF34E-6AFC-49FB-8EA7-28DEB5E6261B}
+		{772729F3-1EB2-4B93-8DD2-093BC996C17E} = {3DECF34E-6AFC-49FB-8EA7-28DEB5E6261B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {ECF7691A-061A-4CA7-820E-B9E14611A042}
