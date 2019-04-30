@@ -41,6 +41,7 @@
    - Publish - Communicate by Topic : **DistributedPubSub.Get**, **Subscribe/SubscribeAck**, **Publish**
    - Publish - Communicate by Topic with Same Group Id : **sendOneMessageToEachGroup: true**, (Send)
    - Publish - Communicate by Topic with Different Group Id : **sendOneMessageToEachGroup: true**, (Publish)
+   - Publish - Get Topics
    - Send - Communicate by Path : **Put**, **Remove**, **Send**
    - > Send - Communicate by Path with localAffinity : **localAffinity: true**
    - > SendToAll - ...
