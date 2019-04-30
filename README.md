@@ -17,7 +17,7 @@
    - Subscribe to Gossip Events : **Cluster _cluster = Cluster.Get(Context.System); _cluster.Subscribe(Self, ...);**
    - Discover Actor by Tag
    - Discover Actor by Role and Path : **cluster.State.Members.Where(member => ...);**
-1. **Warm-up For Cluster Routing**
+1. **Warm-up for Cluster Routing**
    - Pool - Create Routees Automatically : **round-robin-pool**
    - > Pool - Hanlde Exceptions Raised by Routees
    - Group - Create routees yourself : **round-robin-group**, **path**
@@ -85,6 +85,9 @@
 1. Pattern Lab
    - Saga
 1. .NET Core Lab
+1. OSS
+   - [Akka with Prometheus](https://github.com/syncromatics/Akka.Monitoring.Prometheus)
+   - [Petabridge.Tracing.Zipkin](https://github.com/petabridge/Petabridge.Tracing.Zipkin)
 1. Docker Container Lab
 1. RabbitMQ Lab
 1. Visual Studio Extension Lab
@@ -101,6 +104,7 @@
 ## DOING - Labs
 - [ ] Cluster Singleton
 - [ ] Cluster Pub/Sub
+- [ ] [스플릿 브레인(Split Brain) 현상](https://aspell.tistory.com/75)
 - [ ] At Least Once
 - [ ] [Role 기반으로 Actor에게 메시지 보내기](https://github.com/akkadotnet/akka.net/issues/3757#issuecomment-483522034)
    - [ ] async IEnumerable 적용
@@ -120,6 +124,11 @@
    - [ ] 프로그램 종료 방법 변경
    - [ ] ActorSystem 이름을 conf 파일에서 지정하기 + SeedNode 이름에도 같이 사용하기?
    - [ ] [ClusterClient Router 연동할 때 버그 이슈](https://github.com/akkadotnet/akka.net/issues/3315)
+- [ ] Split Brain
+   - [ ] [Split Brain이란? cluster partition시 발생하는 split brain](https://heni.tistory.com/9)
+   - [ ] [How to avoid the split-brain problem in elasticsearch](https://blog.trifork.com/2013/10/24/how-to-avoid-the-split-brain-problem-in-elasticsearch/)
+   - [ ] [Running a Lagom microservice on Akka Cluster with split-brain resolver](https://medium.com/stashaway-engineering/running-a-lagom-microservice-on-akka-cluster-with-split-brain-resolver-2a1c301659bd)
+   - [ ] [Monitoring 1.0, Commercial features and more](https://www.slideshare.net/Typesafe_Inc/typesafe-reactive-platform-monitoring-10-commercial-features-and-more)
 - [ ] README.md 
    - [ ] 요약 추가
    - [ ] Diagram 이미지 추가
@@ -210,6 +219,7 @@
 - [ ] [Auto-Updating Cache using Actors](https://github.com/profesor79/akka.net.Patterns)
 - [ ] [a simple cluster with Akka.NET on .NET Core](https://github.com/BigDaddy1337/dotnet-core-akka-cluster-example)
 - [ ] [Akka retrying backoffsupervisor](https://gist.github.com/Danthar/82e89eff01ba1eb1d4c3)
+- [ ] [Akka.Cluster.SplitBrainResolver](https://github.com/kennethito/Akka.Cluster.SplitBrainResolver)
 <br/>
 
 ## Blog Korean
@@ -262,6 +272,7 @@
    - [ ] [Writing Pure Code in C#](https://www.dotnetcurry.com/csharp/1464/pure-code-csharp)
    - [ ] [Writing Honest Methods in C#](https://www.dotnetcurry.com/patterns-practices/1449/pure-impure-methods-csharp)
    - [ ] [Composing Honest Methods in C#](https://www.dotnetcurry.com/patterns-practices/honest-methods-csharp)
+   - [ ] [Functional, Reactive, and Distributed Systems Bibliography](https://gist.github.com/brendanzab/a6073e73f751a6ca9750f960a92f2afe)
 - Domain-Driven Design
    - [ ] [DDD, Hexagonal, Onion, Clean, CQRS, … How I put it all together](https://herbertograca.com/2017/11/16/explicit-architecture-01-ddd-hexagonal-onion-clean-cqrs-how-i-put-it-all-together/)
 - Repository Pattern
