@@ -10,10 +10,6 @@ namespace NonSeedNode2
 {
     public class SubscriberActor : ReceiveActor
     {
-        #region Messages
-        public sealed class ClusterJoined { }
-        #endregion
-
         private readonly ILoggingAdapter _log = Context.GetLogger();
 
         public static Props Props()
