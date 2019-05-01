@@ -17,9 +17,10 @@
 <br/>
 
 ## 데모
-1. 액터 경로(`/user/SubscriberActor`)가 같은 모든 액터에게 메시지를 모든 메시지를 보낸다.
-   | excludeSelf: false | excludeSelf: true |
-   |---|--|
-   | Hello2 | Hello1, Hello3|
+1. 액터 경로(`/user/SubscriberActor`)가 같은 모든 액터에게 메시지를 모든 메시지를 보낸다.  
+
+| excludeSelf: false | excludeSelf: true |
+|:---:|:---:|
+| Hello2 | Hello1, Hello3 |
 
 ![](./Images/Demo.png)
