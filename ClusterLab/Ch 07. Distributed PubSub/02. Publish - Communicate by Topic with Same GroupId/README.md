@@ -1,6 +1,7 @@
-## Topic과 Group 이름으로 메시지 보내기/받기
+## Topic과 Group으로 메시지 보내기/받기
 1. Topic을 등록한다.
    - public Subscribe(string topic, IActorRef @ref, `string group = null`)
+   - **Topic 해제를 위한 Unsubscribe/UnsubscribeAck는 액터가 파괴될 때 자동으로 호출된다.**
    ```
    var mediator = DistributedPubSub.Get(Context.System).Mediator;
    mediator.Tell(new Subscribe("NamedTopic", Self, "SameGroupId"));
@@ -38,7 +39,7 @@
 ## 데모
 1. NonSeedNode1, NonSeedNode2에서 같은 Group과 Topic을 등록한다.
 2. NonSeedNode3에서 `sendOneMessageToEachGroup: true`로 Topic으로 메시지를 보낸다.
-- Send (local: true)와 같다.
+- **Send (local: true)와 같다.**
 
    | NonSeedNode1 | NonSeedNode2 |
    |:--:|:--:|
