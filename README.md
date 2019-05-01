@@ -77,6 +77,7 @@
          - [ ] At Least Once + Cluster Pub/Sub
       - [ ] LocalLab
 	  - [ ] RemoteLab
+	  - [ ] RabbitMQ Lab
    - NuGet
       - [ ] Consul Actor Discovery
       - [ ] Transactions: Saga Pattern
@@ -84,21 +85,21 @@
       - Pluralsight
 	  - ...
    - Understanding Projects
-1. Pattern Lab
-   - Saga
-1. .NET Core Lab
-1. OSS
-   - [Akka with Prometheus](https://github.com/syncromatics/Akka.Monitoring.Prometheus)
-   - [Petabridge.Tracing.Zipkin](https://github.com/petabridge/Petabridge.Tracing.Zipkin)
-1. Docker Container Lab
-1. RabbitMQ Lab
-1. Visual Studio Extension Lab
+1. 필수
+   - [ ] .NET Core Lab
+   - OSS
+      - [ ] [Metric, Akka with Prometheus](https://github.com/syncromatics/Akka.Monitoring.Prometheus)
+      - [ ] [Tracing, Petabridge.Tracing.Zipkin](https://github.com/petabridge/Petabridge.Tracing.Zipkin)
+      - [ ] [HealthCheck](https://github.com/petabridge/akkadotnet-healthcheck)
 1. Books
    - Akka 쿡북
    - 아카 코딩 공작소
    - 러닝 아카
    - 아카를 이용한 마이크로서비스 개발
    - Reactive Application with Akka.NET
+1. 추가 준비Docker
+   - Docker Container Lab
+   - Visual Studio Extension Lab
    
 
 <br/>
