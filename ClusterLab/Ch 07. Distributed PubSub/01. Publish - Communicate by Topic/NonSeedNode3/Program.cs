@@ -21,6 +21,7 @@ namespace NonSeedNode3
 
             ActorSystem system = ActorSystem.Create("ClusterLab", config);
 
+            system.ActorOf(SubscriberActor.Props(), nameof(SubscriberActor));
             system.ActorOf(PublisherActor.Props(), nameof(PublisherActor));
 
             Console.WriteLine();

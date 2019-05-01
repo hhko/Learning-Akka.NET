@@ -39,11 +39,12 @@
 ## 데모
 1. NonSeedNode1, NonSeedNode2에서 같은 Group과 Topic을 등록한다.
 2. NonSeedNode3에서 `sendOneMessageToEachGroup: true`로 Topic으로 메시지를 보낸다.
-- **Send (local: true)와 같다.**
+- **Send (localAffinity: false)와 같다.**
+   - 랜덤하게 메시지를 보낸다.
 
-   | NonSeedNode1 | NonSeedNode2 |
-   |:--:|:--:|
-   | NamedTopic | NamedTopic |
-   | SameGroupId | SameGroupId |
+   | NonSeedNode1 | NonSeedNode2 | NonSeedNode3 |
+   |:--:|:--:|:--:|
+   | NamedTopic | NamedTopic | NamedTopic |
+   | SameGroupId | SameGroupId | SameGroupId |
 
 ![](./Images/Demo.png)
