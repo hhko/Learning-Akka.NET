@@ -63,28 +63,28 @@
 
 ## DOING
 1. Labs
-  - 2019-04-W5 Cluster Singleton
-  - 2019-04-W5 Split Brain Resolver
-  - 2019-04-W5 Cluster Sharding
-  - 2019-05-W1 Cluster Distributed Data
-  - 2019-05-W1 Persistence 
-  - 2019-05-W2 Cluster + Persistence
+   - 2019-04-W5 Cluster Singleton
+   - 2019-04-W5 Split Brain Resolver
+   - 2019-04-W5 Cluster Sharding
+   - 2019-05-W1 Cluster Distributed Data
+   - 2019-05-W1 Persistence 
+   - 2019-05-W2 Cluster + Persistence
 1. Cluster Extensions
-  - Messages version-up
-  - Node/Role version-up
-  - Consul Actor Discovery
-  - Transactions: Saga Pattern
+   - Messages version-up
+   - Node/Role version-up
+   - Consul Actor Discovery
+   - Transactions: Saga Pattern
 1. FAQ
-  - Local
-  - Remote
-  - 프로젝트 이해
+   - Local
+   - Remote
+   - 프로젝트 이해
 1. Message Queue
-  - RabbitMQ
+   - RabbitMQ
 1. OSS
-  - .NET Core
-  - [Tracing, Petabridge.Tracing.Zipkin](https://github.com/petabridge/Petabridge.Tracing.Zipkin)
-  - [Metric, Akka with Prometheus](https://github.com/syncromatics/Akka.Monitoring.Prometheus)
-  - [HealthCheck](https://github.com/petabridge/akkadotnet-healthcheck)
+   - .NET Core
+   - [Tracing, Petabridge.Tracing.Zipkin](https://github.com/petabridge/Petabridge.Tracing.Zipkin)
+   - [Metric, Akka with Prometheus](https://github.com/syncromatics/Akka.Monitoring.Prometheus)
+   - [HealthCheck](https://github.com/petabridge/akkadotnet-healthcheck)
 1. Books
    - Akka 쿡북
    - 아카 코딩 공작소
