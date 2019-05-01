@@ -46,6 +46,7 @@
    - Send - Communicate by Path with localAffinity : **localAffinity: true**
    - SendToAll - Communicate by Path 
    - SendToAll - Communicate by Path with ExcludeSelf : **excludeSelf: true**
+   - > 사용자 정의 메시지(모든 Node에 참고해야 하나?, 메시지를 받지 않는 Node도?)
 1. **Cluster Client**
    - Communicate with Cluster by Path 
    - Communicate with Cluster by Topic
