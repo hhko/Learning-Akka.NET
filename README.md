@@ -45,7 +45,7 @@
    - Send - Communicate by Path : **Put**, **Remove**, **Send**
    - Send - Communicate by Path with localAffinity : **localAffinity: true**
    - SendToAll - Communicate by Path 
-   - SendToAll - Communicate by Path with ExcludeSelf
+   - SendToAll - Communicate by Path with ExcludeSelf : **excludeSelf: true**
 1. **Cluster Client**
    - Communicate with Cluster by Path 
    - Communicate with Cluster by Topic
@@ -65,24 +65,24 @@
 1. Akka 
    - Cluster Lab
       - 2019-04-W5 Cluster Singleton
-      - 2019-04-W5 Cluster Pub/Sub
       - 2019-04-W5 Split Brain Resolver
-      - [ ] Cluster Sharding
-      - [ ] Cluster Distributed Data
+      - 2019-04-W5 Cluster Sharding
+      - 2019-04-W5 Cluster Distributed Data
    - Cluster Lab version-up
       - [ ] Messages
 	  - [ ] Node/Role
-   - Persistence Lab
-      - [ ] At Least Once
-      - [ ] At Least Once + Cluster Pub/Sub
+   - Labs & FAQ
+	  - Persistence Lab
+         - [ ] At Least Once
+         - [ ] At Least Once + Cluster Pub/Sub
+      - [ ] LocalLab
+	  - [ ] RemoteLab
    - NuGet
       - [ ] Consul Actor Discovery
-      - [ ] Transactions
-   - Local Lab
-   - Remote Lab
-   - Issues
-   - FAQ
+      - [ ] Transactions: Saga Pattern
    - Examples
+      - Pluralsight
+	  - ...
    - Understanding Projects
 1. Pattern Lab
    - Saga
