@@ -54,7 +54,7 @@ namespace NonSeedNode3
             // 1. Publish	= SendToAll(excludeSelf: true)
             //      sendOneMessageToEachGroup: false
             //      sendOneMessageToEachGroup: true & Different Group Names
-            // 2. Publish   = Send(LocalAffinity: true)
+            // 2. Publish   = Send(LocalAffinity: false)
             //      sendOneMessageToEachGroup: true & Same Group Name
             //====================================================================
             //
