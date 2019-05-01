@@ -1,4 +1,4 @@
-## Topic이 일치하고 GroupId가 없는 모든 액터에게 메시지 보내기
+## Topic으로 메시지 보내기/받기
 1. Topic을 등록한다.
    - Subscribe
    ```
@@ -21,7 +21,6 @@
    }
    ```
 1. Topic으로 메시지를 보낸다.
-   - CurrentTopics
    ```
    var mediator = DistributedPubSub.Get(Context.System).Mediator;
    mediator.Tell(new Publish(
@@ -36,7 +35,7 @@
 ## 데모
 1. NonSeedNode1, NonSeedNode2에서 Topic을 등록한다.
 2. NonSeedNode3에서 Topic으로 메시지를 보낸다.
-
+- SendToAll (excludeSelf: true)와 같다.
 
    | NonSeedNode1 | NonSeedNode2 |
    |:--:|:--:|
