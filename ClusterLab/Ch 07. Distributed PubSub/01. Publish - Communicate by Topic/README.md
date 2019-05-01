@@ -36,7 +36,7 @@
 ## 데모
 1. NonSeedNode1, NonSeedNode2에서 Topic을 등록한다.
 2. NonSeedNode3에서 Topic으로 메시지를 보낸다.
-- SendToAll (excludeSelf: true)와 같다.
+- **SendToAll (excludeSelf: true)와 같다.**
 
    | NonSeedNode1 | NonSeedNode2 |
    |:--:|:--:|
