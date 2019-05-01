@@ -50,6 +50,14 @@ namespace NonSeedNode3
             //      If all the subscribed actors have different group names, 
             //              then this works like normal Publish and each message is broadcasted to all subscribers.
             //
+            //====================================================================
+            // 1. Publish	= SendToAll
+            //      sendOneMessageToEachGroup: false
+            //      sendOneMessageToEachGroup: true & Different Group Names
+            // 2. Publish = Send
+            //      sendOneMessageToEachGroup: true & Same Group Name
+            //====================================================================
+            //
             var mediator = DistributedPubSub.Get(Context.System).Mediator;
 
             //
