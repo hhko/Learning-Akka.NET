@@ -39,7 +39,7 @@ namespace NonSeedNode3
             // localAffinity: false 
             //      => 액터 경로가 같은 모든 액터에게 메시지를 랜덤 순서로 보낸다.
             // localAffinity: true
-            //      => 이전 메시지를 받은 액터에게 다시 보낸다.
+            //      => 이전 메시지를 받은 액터에게 다시 메시지를 보낸다.
             //
             mediator.Tell(new Send("/user/SubscriberActor", 
                 "Hello1",
