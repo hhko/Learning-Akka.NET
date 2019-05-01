@@ -62,51 +62,43 @@
 <br/>
 
 ## DOING
-1. Akka 
-   - Cluster Lab
-      - 2019-04-W5 Cluster Singleton
-      - 2019-04-W5 Split Brain Resolver
-      - 2019-04-W5 Cluster Sharding
-      - 2019-04-W5 Cluster Distributed Data
-   - Cluster Lab version-up
-      - [ ] Messages
-	  - [ ] Node/Role
-   - Labs & FAQ
-	  - Persistence Lab
-         - [ ] At Least Once
-         - [ ] At Least Once + Cluster Pub/Sub
-      - [ ] LocalLab
-	  - [ ] RemoteLab
-	  - [ ] RabbitMQ Lab
-   - NuGet
-      - [ ] Consul Actor Discovery
-      - [ ] Transactions: Saga Pattern
-   - Examples
-      - Pluralsight
-	  - ...
-   - Understanding Projects
-1. 필수
-   - [ ] .NET Core Lab
-   - OSS
-      - [ ] [Metric, Akka with Prometheus](https://github.com/syncromatics/Akka.Monitoring.Prometheus)
-      - [ ] [Tracing, Petabridge.Tracing.Zipkin](https://github.com/petabridge/Petabridge.Tracing.Zipkin)
-      - [ ] [HealthCheck](https://github.com/petabridge/akkadotnet-healthcheck)
+1. Labs
+  - 2019-04-W5 Cluster Singleton
+  - 2019-04-W5 Split Brain Resolver
+  - 2019-04-W5 Cluster Sharding
+  - 2019-05-W1 Cluster Distributed Data
+  - 2019-05-W1 Persistence 
+  - 2019-05-W2 Cluster + Persistence
+1. Cluster Extensions
+  - Messages version-up
+  - Node/Role version-up
+  - Consul Actor Discovery
+  - Transactions: Saga Pattern
+1. FAQ
+  - Local
+  - Remote
+  - 프로젝트 이해
+1. Message Queue
+  - RabbitMQ
+1. OSS
+  - .NET Core
+  - [Tracing, Petabridge.Tracing.Zipkin](https://github.com/petabridge/Petabridge.Tracing.Zipkin)
+  - [Metric, Akka with Prometheus](https://github.com/syncromatics/Akka.Monitoring.Prometheus)
+  - [HealthCheck](https://github.com/petabridge/akkadotnet-healthcheck)
 1. Books
    - Akka 쿡북
    - 아카 코딩 공작소
    - 러닝 아카
    - 아카를 이용한 마이크로서비스 개발
    - Reactive Application with Akka.NET
-1. 추가 준비Docker
+1. 추가 준비 
    - Docker Container Lab
    - Visual Studio Extension Lab
-   
 
 <br/>
 
 ## DOING - Labs
 - [ ] Cluster Singleton
-- [ ] Cluster Pub/Sub
 - [ ] [스플릿 브레인(Split Brain) 현상](https://aspell.tistory.com/75)
 - [ ] At Least Once
 - [ ] [Role 기반으로 Actor에게 메시지 보내기](https://github.com/akkadotnet/akka.net/issues/3757#issuecomment-483522034)
@@ -143,7 +135,7 @@
 
 <br/>
 
-## TODO - Akka.NET 이슈
+## TODO - Akka.NET Issues
 - [ ] Hocon 다음 행 시작에 ","일 때 예외 발생
 - [ ] RegisterOnMemberUp 람다 함수 Self Path가 akka://ClusterLab/system/cluster/$a 이다.
 - [ ] .NET Core에서는 "akka.actor.deployment.<actor-path>.cluster.allow-local-routess = off"가 동작하지 않는다.
@@ -153,7 +145,7 @@
 
 <br/>
 
-## TODO - FAQ
+## TODO - Akka.NET FAQ
 - [ ] Long running + Cancel: FSM
 - [ ] Ask -> FSM
 - [ ] Logging Message Info(including Generic).
@@ -177,7 +169,7 @@
 
 <br/>
  
-## TODO - 예제 추가
+## TODO - Akka.NET Samples
 - [ ] [Cluster.WebCrawler](https://github.com/petabridge/akkadotnet-code-samples/tree/master/Cluster.WebCrawler)
 - [ ] [Cluster.Monitoring](https://github.com/cgstevens/Akka.Cluster.Monitor)
 - [ ] [Akka.NET Repo Cluster Examples](https://github.com/akkadotnet/akka.net/tree/dev/src/examples/Cluster)
