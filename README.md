@@ -39,12 +39,13 @@
    - > Buffer Size
 1. **Distributed PubSub**
    - Publish - Communicate by Topic : **DistributedPubSub.Get**, **Subscribe/SubscribeAck**, **Publish**
-   - Publish - Communicate by Topic with Same Group Id : **sendOneMessageToEachGroup: true**, (Send)
-   - Publish - Communicate by Topic with Different Group Id : **sendOneMessageToEachGroup: true**, (Publish)
+   - Publish - Communicate by Topic with Same GroupId : **sendOneMessageToEachGroup: true**, (Send)
+   - Publish - Communicate by Topic with Different GroupId : **sendOneMessageToEachGroup: true**, (Publish)
    - Publish - Get Topics
    - Send - Communicate by Path : **Put**, **Remove**, **Send**
-   - > Send - Communicate by Path with localAffinity : **localAffinity: true**
-   - > SendToAll - ...
+   - Send - Communicate by Path with localAffinity : **localAffinity: true**
+   - SendToAll - Communicate by Path 
+   - SendToAll - Communicate by Path with ExcludeSelf
 1. **Cluster Client**
    - Communicate with Cluster by Path 
    - Communicate with Cluster by Topic
