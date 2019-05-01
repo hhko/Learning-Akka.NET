@@ -36,22 +36,23 @@ namespace NonSeedNode3
             var mediator = DistributedPubSub.Get(Context.System).Mediator;
 
             //
-            // localAffinity: false 
-            //      => 액터 경로가 같은 모든 액터에게 메시지를 랜덤 순서로 보낸다.
-            // localAffinity: true
-            //      => 이전 메시지를 받은 액터에게 다시 보낸다.
+            // excludeSelf: false 
+            //      => 액터 경로가 같은 모든 액터에게 메시지를 다 보낸다.
+            // excludeSelf: true
+            //      => 자신의 노드에 있는 액터 경로가 같은 액터는 제외하여 
+            //          다른 노드에 있는 액터 경로가 같은 모든 액터에게 메시지를 다 보낸다.
             //
-            mediator.Tell(new Send("/user/SubscriberActor", 
+            mediator.Tell(new SendToAll("/user/SubscriberActor", 
                 "Hello1",
-                localAffinity: false));
+                excludeSelf: true));
 
-            mediator.Tell(new Send("/user/SubscriberActor", 
+            mediator.Tell(new SendToAll("/user/SubscriberActor", 
                 "Hello2",
-                localAffinity: false));
+                excludeSelf: false));
 
-            mediator.Tell(new Send("/user/SubscriberActor",
+            mediator.Tell(new SendToAll("/user/SubscriberActor",
                 "Hello3",
-                localAffinity: false));
+                excludeSelf: true));
         }
     }
 }

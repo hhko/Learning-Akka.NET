@@ -47,11 +47,11 @@ namespace NonSeedNode3
 
             mediator.Tell(new Send("/user/SubscriberActor", 
                 "Hello2",
-                localAffinity: false));
+                localAffinity: true));
 
             mediator.Tell(new Send("/user/SubscriberActor",
                 "Hello3",
-                localAffinity: false));
+                localAffinity: true));
         }
     }
 }
