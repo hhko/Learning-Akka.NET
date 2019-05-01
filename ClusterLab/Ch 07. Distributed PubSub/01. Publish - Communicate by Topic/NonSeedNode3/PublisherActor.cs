@@ -51,10 +51,10 @@ namespace NonSeedNode3
             //              then this works like normal Publish and each message is broadcasted to all subscribers.
             // 
             //====================================================================
-            // 1. Publish	= SendToAll
+            // 1. Publish	= SendToAll(excludeSelf: true)
             //      sendOneMessageToEachGroup: false
             //      sendOneMessageToEachGroup: true & Different Group Names
-            // 2. Publish = Send
+            // 2. Publish   = Send(LocalAffinity: true)
             //      sendOneMessageToEachGroup: true & Same Group Name
             //====================================================================
             //

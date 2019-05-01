@@ -1,6 +1,7 @@
 ## Topic으로 메시지 보내기/받기
 1. Topic을 등록한다.
    - Subscribe
+   - **Topic 해제를 위한 Unsubscribe/UnsubscribeAck는 액터가 파괴될 때 자동으로 호출된다.**
    ```
    var mediator = DistributedPubSub.Get(Context.System).Mediator;
    mediator.Tell(new Subscribe("NamedTopic", Self));
