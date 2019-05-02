@@ -20,21 +20,13 @@ namespace CreateRouteesYourself
             system.ActorOf(ParentActor.Props(), nameof(ParentActor));
 
             var roundRobinGroupActor = system.ActorOf(Props.Empty
-                    .WithRouter(FromConfig.Instance)
-                    .WithSupervisorStrategy(new OneForOneStrategy(ex =>
-                        {
-                            //
-                            // 그룹 Routee 예외가 발생될 때 호출되지 않는다.
-                            //
-                            system.Log.Info($">>> It is not called when exceptions are raised from group-routees");
-                            return Directive.Restart;
-                        })),
+                    .WithRouter(FromConfig.Instance),
                     "MyGroupRouterActor");
 
-            roundRobinGroupActor.Tell("1");
-            roundRobinGroupActor.Tell("2");
-            roundRobinGroupActor.Tell("3");
-            roundRobinGroupActor.Tell("4");
+            roundRobinGroupActor.Tell(0);
+            roundRobinGroupActor.Tell(1);
+            roundRobinGroupActor.Tell(2);
+            roundRobinGroupActor.Tell(3);
 
             Console.ReadLine();
         }

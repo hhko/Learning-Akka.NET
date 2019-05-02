@@ -21,18 +21,5 @@ namespace CreateRouteesYourself
             Context.ActorOf(ChildActor.Props(), nameof(ChildActor) + "2");
             Context.ActorOf(ChildActor.Props(), nameof(ChildActor) + "3");
         }
-
-        protected override SupervisorStrategy SupervisorStrategy()
-        {
-            return new OneForOneStrategy(ex =>
-                {
-                    //
-                    // Group Routee 예외가 발생되면 호출된다.
-                    //
-                    _log.Info($">>> Current, OneForOneStrategy : {Self}, {ex.ToString()}");
-
-                    return Directive.Restart;
-                });
-        }
     }
 }

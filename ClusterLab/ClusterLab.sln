@@ -115,19 +115,19 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ch 04. Warm-up for Cluster 
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01. Pool - Create Routees Automatically", "01. Pool - Create Routees Automatically", "{42568045-E934-4526-95AD-7529331FDBA3}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02. Group - Create Routees Yourself", "02. Group - Create Routees Yourself", "{F73E806E-2E9B-4630-BCC0-1094F3EFD559}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03. Group - Create Routees Yourself", "03. Group - Create Routees Yourself", "{F73E806E-2E9B-4630-BCC0-1094F3EFD559}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CreateRouteesAutomatically", "Ch 04. Warm-up for Cluster Routing\01. Pool - Create Routees Automatically\CreateRouteesAutomatically\CreateRouteesAutomatically.csproj", "{AB8825B5-01A0-44F9-898D-495FC14E1B8D}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CreateRouteesYourself", "Ch 04. Warm-up for Cluster Routing\02. Group - Create Routees Yourself\CreateRouteesYourself\CreateRouteesYourself.csproj", "{631BAF79-CC99-4C36-8978-EFB0125470AA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CreateRouteesYourself", "Ch 04. Warm-up for Cluster Routing\03. Group - Create Routees Yourself\CreateRouteesYourself\CreateRouteesYourself.csproj", "{631BAF79-CC99-4C36-8978-EFB0125470AA}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03. Deploy - Create Actor Remotely", "03. Deploy - Create Actor Remotely", "{BF706B16-342C-4458-AF56-7D1B28407A3B}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "05. Deploy - Create Actor Remotely", "05. Deploy - Create Actor Remotely", "{BF706B16-342C-4458-AF56-7D1B28407A3B}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Deployer", "Ch 04. Warm-up for Cluster Routing\03. Deploy - Create Actor Remotely\Deployer\Deployer.csproj", "{B5BD1640-B626-4763-9753-81EAD1BA387D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Deployer", "Ch 04. Warm-up for Cluster Routing\05. Deploy - Create Actor Remotely\Deployer\Deployer.csproj", "{B5BD1640-B626-4763-9753-81EAD1BA387D}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DeployerTarget", "Ch 04. Warm-up for Cluster Routing\03. Deploy - Create Actor Remotely\DeployerTarget\DeployerTarget.csproj", "{010FD7EA-3085-4B24-BFE3-B3827F4E424D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DeployerTarget", "Ch 04. Warm-up for Cluster Routing\05. Deploy - Create Actor Remotely\DeployerTarget\DeployerTarget.csproj", "{010FD7EA-3085-4B24-BFE3-B3827F4E424D}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DeployerShared", "Ch 04. Warm-up for Cluster Routing\03. Deploy - Create Actor Remotely\DeployerShared\DeployerShared.csproj", "{1C338A10-E2C5-4FA5-B61C-4F575A4EA392}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DeployerShared", "Ch 04. Warm-up for Cluster Routing\05. Deploy - Create Actor Remotely\DeployerShared\DeployerShared.csproj", "{1C338A10-E2C5-4FA5-B61C-4F575A4EA392}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ch 08. Cluster Client", "Ch 08. Cluster Client", "{2D81285A-72C6-4C1F-9DF8-3C43ED34B819}"
 EndProject
@@ -205,9 +205,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01. Pool - Deploy Routees R
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04. Group - Create Routees Yourself", "04. Group - Create Routees Yourself", "{C4C3B424-A6CA-4A44-A6A7-2E1C4EEEF93A}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02. Pool - Hanlde Exceptions Raised by Routees", "02. Pool - Hanlde Exceptions Raised by Routees", "{B99C7C53-E752-46F1-BB1B-3115810F2021}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02. Pool - Hanlde Exceptions from Routees", "02. Pool - Hanlde Exceptions from Routees", "{B99C7C53-E752-46F1-BB1B-3115810F2021}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "05. Group - Handle Exceptions Raised by Routees", "05. Group - Handle Exceptions Raised by Routees", "{9DCE1700-67ED-4AA0-999A-ED5D07F4D333}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "05. Group - Handle Exceptions from Routees", "05. Group - Handle Exceptions from Routees", "{9DCE1700-67ED-4AA0-999A-ED5D07F4D333}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03. Pool - Handle Routees Lifecycle", "03. Pool - Handle Routees Lifecycle", "{F5449545-E4DF-48A6-B044-7DB44435DBC6}"
 EndProject
@@ -223,21 +223,21 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NonSeedNode3", "Ch 05. Clus
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NonSeedNodeDeployedActors", "Ch 05. Cluster Routing\01. Pool - Deploy Routees Remotely\NonSeedNodeDeployedActors\NonSeedNodeDeployedActors.csproj", "{3414B0D2-E9CB-4ADF-BD02-31687FDB8216}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SeedNode1", "Ch 05. Cluster Routing\02. Pool - Hanlde Exceptions Raised by Routees\SeedNode1\SeedNode1.csproj", "{8D52B35C-0897-404B-9C01-E75D4E8E70B5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SeedNode1", "Ch 05. Cluster Routing\02. Pool - Hanlde Exceptions from Routees\SeedNode1\SeedNode1.csproj", "{8D52B35C-0897-404B-9C01-E75D4E8E70B5}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NonSeedNode1", "Ch 05. Cluster Routing\02. Pool - Hanlde Exceptions Raised by Routees\NonSeedNode1\NonSeedNode1.csproj", "{E7271123-16DD-4BD9-9CBA-5C170DD1496A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NonSeedNode1", "Ch 05. Cluster Routing\02. Pool - Hanlde Exceptions from Routees\NonSeedNode1\NonSeedNode1.csproj", "{E7271123-16DD-4BD9-9CBA-5C170DD1496A}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NonSeedNode2", "Ch 05. Cluster Routing\02. Pool - Hanlde Exceptions Raised by Routees\NonSeedNode2\NonSeedNode2.csproj", "{393DAB8F-71CD-4736-BF40-C5653C786D81}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NonSeedNode2", "Ch 05. Cluster Routing\02. Pool - Hanlde Exceptions from Routees\NonSeedNode2\NonSeedNode2.csproj", "{393DAB8F-71CD-4736-BF40-C5653C786D81}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NonSeedNodeDeployedActors", "Ch 05. Cluster Routing\02. Pool - Hanlde Exceptions Raised by Routees\NonSeedNodeDeployedActors\NonSeedNodeDeployedActors.csproj", "{39FF4F7A-89D7-46D0-BCA2-71370CFC6D2C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NonSeedNodeDeployedActors", "Ch 05. Cluster Routing\02. Pool - Hanlde Exceptions from Routees\NonSeedNodeDeployedActors\NonSeedNodeDeployedActors.csproj", "{39FF4F7A-89D7-46D0-BCA2-71370CFC6D2C}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04. Deploy - Hanlde Exceptions Raised by Deployed Actors", "04. Deploy - Hanlde Exceptions Raised by Deployed Actors", "{028F8631-E834-44DD-AAD4-9D5E82E5309E}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "06. Deploy - Hanlde Exceptions from Deployed Actors", "06. Deploy - Hanlde Exceptions from Deployed Actors", "{028F8631-E834-44DD-AAD4-9D5E82E5309E}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Deployer", "Ch 04. Warm-up for Cluster Routing\04. Deploy - Hanlde Exceptions Raised by Deployed Actors\Deployer\Deployer.csproj", "{66D2F9C6-216E-4EE4-B1AC-B5AC441F54E3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Deployer", "Ch 04. Warm-up for Cluster Routing\06. Deploy - Hanlde Exceptions from Deployed Actors\Deployer\Deployer.csproj", "{66D2F9C6-216E-4EE4-B1AC-B5AC441F54E3}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DeployerShared", "Ch 04. Warm-up for Cluster Routing\04. Deploy - Hanlde Exceptions Raised by Deployed Actors\DeployerShared\DeployerShared.csproj", "{95937A33-68B4-4544-B503-3002A76321E7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DeployerShared", "Ch 04. Warm-up for Cluster Routing\06. Deploy - Hanlde Exceptions from Deployed Actors\DeployerShared\DeployerShared.csproj", "{95937A33-68B4-4544-B503-3002A76321E7}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DeployerTarget", "Ch 04. Warm-up for Cluster Routing\04. Deploy - Hanlde Exceptions Raised by Deployed Actors\DeployerTarget\DeployerTarget.csproj", "{3C7A77FB-804B-4FE7-802C-188F2DD76E54}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DeployerTarget", "Ch 04. Warm-up for Cluster Routing\06. Deploy - Hanlde Exceptions from Deployed Actors\DeployerTarget\DeployerTarget.csproj", "{3C7A77FB-804B-4FE7-802C-188F2DD76E54}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "06. Sample - PingPong", "06. Sample - PingPong", "{1A478DF9-81C5-4E7F-9BAB-A6DA3315B692}"
 EndProject
@@ -257,13 +257,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NonSeedNode2", "Ch 05. Clus
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NonSeedNode3", "Ch 05. Cluster Routing\04. Group - Create Routees Yourself\NonSeedNode3\NonSeedNode3.csproj", "{14ED6022-5004-4481-938C-9A42D11E47B3}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SeedNode1", "Ch 05. Cluster Routing\05. Group - Handle Exceptions Raised by Routees\SeedNode1\SeedNode1.csproj", "{EC74CD23-D50B-4F66-86D7-2E6CCCDA7EDD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SeedNode1", "Ch 05. Cluster Routing\05. Group - Handle Exceptions from Routees\SeedNode1\SeedNode1.csproj", "{EC74CD23-D50B-4F66-86D7-2E6CCCDA7EDD}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NonSeedNode1", "Ch 05. Cluster Routing\05. Group - Handle Exceptions Raised by Routees\NonSeedNode1\NonSeedNode1.csproj", "{0C2BD741-5596-47FE-81E6-7A5C941A76B0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NonSeedNode1", "Ch 05. Cluster Routing\05. Group - Handle Exceptions from Routees\NonSeedNode1\NonSeedNode1.csproj", "{0C2BD741-5596-47FE-81E6-7A5C941A76B0}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NonSeedNode2", "Ch 05. Cluster Routing\05. Group - Handle Exceptions Raised by Routees\NonSeedNode2\NonSeedNode2.csproj", "{C96B2C98-0531-457E-AF1D-82EFC5D16061}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NonSeedNode2", "Ch 05. Cluster Routing\05. Group - Handle Exceptions from Routees\NonSeedNode2\NonSeedNode2.csproj", "{C96B2C98-0531-457E-AF1D-82EFC5D16061}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NonSeedNode3", "Ch 05. Cluster Routing\05. Group - Handle Exceptions Raised by Routees\NonSeedNode3\NonSeedNode3.csproj", "{F3ECFDD0-32EC-456E-B686-A61A60B49219}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NonSeedNode3", "Ch 05. Cluster Routing\05. Group - Handle Exceptions from Routees\NonSeedNode3\NonSeedNode3.csproj", "{F3ECFDD0-32EC-456E-B686-A61A60B49219}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ch 06. Cluster Singleton", "Ch 06. Cluster Singleton", "{072D68B6-2578-4AC4-A350-842F6F57F720}"
 EndProject
@@ -360,6 +360,14 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NonSeedNode2", "Ch 07. Distributed PubSub\08. SendToAll - Communicate by Path with ExcludeSelf\NonSeedNode2\NonSeedNode2.csproj", "{41C427F2-6C96-4100-B0C5-75E9347B8868}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NonSeedNode3", "Ch 07. Distributed PubSub\08. SendToAll - Communicate by Path with ExcludeSelf\NonSeedNode3\NonSeedNode3.csproj", "{CBBD5B55-1126-4D1B-BF69-B1FD46CE45CA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02. Pool - Handle Exceptions from Routees", "02. Pool - Handle Exceptions from Routees", "{25AA1B56-4998-4D34-85AA-93EDB191CD81}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04. Group - Handle Exceptions from Routees", "04. Group - Handle Exceptions from Routees", "{D15A50AC-B294-4BB2-87B7-1FEE5CCEAB68}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HandleExceptionsFromPoolRoutees", "Ch 04. Warm-up for Cluster Routing\02. Pool - Handle Exceptions from Routees\HandleExceptionsFromPoolRoutees\HandleExceptionsFromPoolRoutees.csproj", "{91F3DAD8-CD15-428A-BE69-5C7D433CEA6E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HandleExceptionsFromGroupRoutees", "Ch 04. Warm-up for Cluster Routing\04. Group - Handle Exceptions from Routees\HandleExceptionsFromGroupRoutees\HandleExceptionsFromGroupRoutees.csproj", "{CA1F7327-EF9F-4812-876E-CEE4643A68F9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -907,6 +915,14 @@ Global
 		{CBBD5B55-1126-4D1B-BF69-B1FD46CE45CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CBBD5B55-1126-4D1B-BF69-B1FD46CE45CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CBBD5B55-1126-4D1B-BF69-B1FD46CE45CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{91F3DAD8-CD15-428A-BE69-5C7D433CEA6E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91F3DAD8-CD15-428A-BE69-5C7D433CEA6E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91F3DAD8-CD15-428A-BE69-5C7D433CEA6E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91F3DAD8-CD15-428A-BE69-5C7D433CEA6E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA1F7327-EF9F-4812-876E-CEE4643A68F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA1F7327-EF9F-4812-876E-CEE4643A68F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA1F7327-EF9F-4812-876E-CEE4643A68F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA1F7327-EF9F-4812-876E-CEE4643A68F9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -1083,6 +1099,10 @@ Global
 		{6A548D8E-596D-41E1-939A-F2565BA73808} = {D084117C-EF79-41CA-993E-15B223754A63}
 		{41C427F2-6C96-4100-B0C5-75E9347B8868} = {D084117C-EF79-41CA-993E-15B223754A63}
 		{CBBD5B55-1126-4D1B-BF69-B1FD46CE45CA} = {D084117C-EF79-41CA-993E-15B223754A63}
+		{25AA1B56-4998-4D34-85AA-93EDB191CD81} = {EAAD7E45-C6CC-4A64-9C02-F1D934F79E00}
+		{D15A50AC-B294-4BB2-87B7-1FEE5CCEAB68} = {EAAD7E45-C6CC-4A64-9C02-F1D934F79E00}
+		{91F3DAD8-CD15-428A-BE69-5C7D433CEA6E} = {25AA1B56-4998-4D34-85AA-93EDB191CD81}
+		{CA1F7327-EF9F-4812-876E-CEE4643A68F9} = {D15A50AC-B294-4BB2-87B7-1FEE5CCEAB68}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {ECF7691A-061A-4CA7-820E-B9E14611A042}

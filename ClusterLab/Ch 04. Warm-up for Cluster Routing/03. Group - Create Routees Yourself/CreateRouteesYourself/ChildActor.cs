@@ -5,7 +5,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace CreateRouteesAutomatically
+namespace CreateRouteesYourself
 {
     public class ChildActor : ReceiveActor
     {
@@ -13,20 +13,19 @@ namespace CreateRouteesAutomatically
 
         public static Props Props()
         {
-            return Akka.Actor.Props.Create(() => new ChildActor())
-                .WithRouter(FromConfig.Instance);
+            return Akka.Actor.Props.Create(() => new ChildActor());
         }
 
         public ChildActor()
         {
-            _log.Info($">>> {Self.Path.ToStringWithoutAddress()}, Constructor");
+            _log.Info($">>> Current: {Self}");
 
             Receive<int>(_ => Handle(_));
         }
 
         private void Handle(int msg)
         {
-            _log.Info($">>> {Self.Path.ToStringWithoutAddress()}, {msg}");
+            _log.Info($">>> Handle: {Self}, {msg}");
         }
     }
 }

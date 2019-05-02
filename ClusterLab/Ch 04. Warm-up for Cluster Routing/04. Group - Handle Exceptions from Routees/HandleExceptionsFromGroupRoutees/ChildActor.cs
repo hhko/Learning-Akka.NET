@@ -5,7 +5,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace CreateRouteesYourself
+namespace HandleExceptionsFromGroupRoutees
 {
     public class ChildActor : ReceiveActor
     {
@@ -20,15 +20,15 @@ namespace CreateRouteesYourself
         {
             _log.Info($">>> Current: {Self}");
 
-            Receive<string>(_ => Handle(_));
+            Receive<int>(_ => Handle(_));
         }
 
-        private void Handle(string msg)
+        private void Handle(int msg)
         {
             _log.Info($">>> Handle: {Self}, {msg}");
 
-            int error = 0;
-            int reult = 2019 / error;
+            if (msg == 3)
+                throw new Exception(msg.ToString());
         }
     }
 }
