@@ -221,10 +221,14 @@
 ## Blog Korean
 - [ ] [Botcamp 한글화](https://blog.rajephon.dev/2018/12/02/akka-01/)
 - [ ] [Naver 블로그](https://m.blog.naver.com/PostView.nhn?blogId=kbh3983&logNo=221182343063&categoryNo=119&proxyReferer=https%3A%2F%2Fwww.google.co.kr%2F)
-- [ ] [한글 Wiki](http://wiki.webnori.com/m/mobile.action#page/1048605)
+- [ ] [하마 블로그](https://hamait.tistory.com/category/Akka)
+- [ ] [인호의 IT 잡동사니](https://helloino.tistory.com/category/Programing/Akka)
+- [ ] [코드 로드](https://codeday.me/ko/?s=Akka), [실패한 메시지 다시 시도하기 ](https://codeday.me/ko/qa/20190421/370868.html) 
 - [ ] [Akka.NET Kafka](http://wiki.webnori.com/display/AKKA)
 - [ ] [Akka.NET + ASP.NET Core](https://hardyeats.github.io/2018/02/19/aspnetcore-akka/)
-
+- [ ] [임백준 Akka 강의](https://www.youtube.com/watch?v=6AsrJdCSojs&list=PLVsNizTWUw7EH7R0gP6qyc4p-vOc6jvJq)
+- [ ] [Akka Stream을 활용한 Reliable Message Stream 처리](https://www.popit.kr/tag/akka-stream)
+- [ ] [김이선 블로그](http://veblush.github.io/ko/), [발표 동영상](https://www.youtube.com/watch?v=rcG0g5M42Tg) 
 <br/>
 
 ## Blog - Akka.NET English
