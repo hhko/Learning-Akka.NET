@@ -91,6 +91,7 @@
    - [HealthCheck](https://github.com/petabridge/akkadotnet-healthcheck)
    - Cluster Actor Monitoring(Node, Actor Hierarchy, Hocon 뷰어/편집/배포, ...)
 1. Docker
+   - [Akka.NET-Bootstrap](https://github.com/petabridge/akkadotnet-bootstrap)
    - Docker Swarm 
    - Rolling Update
 1. Books
