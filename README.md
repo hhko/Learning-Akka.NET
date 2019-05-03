@@ -222,6 +222,7 @@
 - [ ] [Botcamp 한글화](https://blog.rajephon.dev/2018/12/02/akka-01/)
 - [ ] [Naver 블로그](https://m.blog.naver.com/PostView.nhn?blogId=kbh3983&logNo=221182343063&categoryNo=119&proxyReferer=https%3A%2F%2Fwww.google.co.kr%2F)
 - [ ] [하마 블로그](https://hamait.tistory.com/category/Akka)
+- [ ] [하마 Akka 클러스터 번역](https://hamait.tistory.com/m/670)
 - [ ] [인호의 IT 잡동사니](https://helloino.tistory.com/category/Programing/Akka)
 - [ ] [코드 로드](https://codeday.me/ko/?s=Akka), [실패한 메시지 다시 시도하기 ](https://codeday.me/ko/qa/20190421/370868.html) 
 - [ ] [Akka.NET Kafka](http://wiki.webnori.com/display/AKKA)
