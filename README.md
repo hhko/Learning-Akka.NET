@@ -79,20 +79,26 @@
    - Local
    - Remote
    - 프로젝트 이해
-1. Message Queue
+1. Message Queue 연동
    - RabbitMQ
+   - RabbitMQ Docker
+   - HAProxy
 1. OSS
    - .NET Core
    - [Tracing, Petabridge.Tracing.Zipkin](https://github.com/petabridge/Petabridge.Tracing.Zipkin)
    - [Metric, Akka with Prometheus](https://github.com/syncromatics/Akka.Monitoring.Prometheus)
    - [HealthCheck](https://github.com/petabridge/akkadotnet-healthcheck)
+   - Cluster Actor Monitoring(Node, Actor Hierarchy, Hocon 뷰어/편집/배포, ...)
+1. Docker
+   - Docker Swarm 
+   - Rolling Update
 1. Books
    - Akka 쿡북
    - 아카 코딩 공작소
    - 러닝 아카
    - 아카를 이용한 마이크로서비스 개발
    - Reactive Application with Akka.NET
-1. 추가 준비 
+1. 추가 Lab
    - Docker Container Lab
    - Visual Studio Extension Lab
 
@@ -143,6 +149,9 @@
 - [ ] Cluster Pool Routing 예외 처리가 Remote Deploy와 다르다(부족하다).
 - [ ] ClusterClient "/user/xyz/" ActorPath 마지막에 "/"가 있으면 전달되지 않는다. 
 - [ ] ClusterClient에세 정의된 사용자 정의 메시지가 Seed Node에도 참조되어 있어야 전송할 수 있다.
+- [ ] Hocon 검증 방법?
+- [ ] Rolling Update
+- [ ] 부하 사전 분산(HAProxy)
 
 <br/>
 
