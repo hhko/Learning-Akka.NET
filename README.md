@@ -141,7 +141,7 @@
 - [ ] 경로 만들기: new RootActorPath(Address) / ... ;
 - [ ] Routee: _workerRouter.Ask<Routees>(new GetRoutees()) ...
 - [ ] Visual Studio Code 기반으로 코드 작성
-
+- [ ] 바쁜 Actor는 Heartbeat을 정상적으로 처리하나? Dispatcher와 연동.
 <br/>
 
 ## TODO - Akka.NET Issues
