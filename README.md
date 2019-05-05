@@ -67,7 +67,7 @@
    - **2019-05-W1** IoT Tutorials
    - **2019-05-W1** Persistence
    - **2019-05-W1** [Akka.Persistence.Extras](https://github.com/petabridge/Akka.Persistence.Extras)
-   - **2019-05-W2** Cluster + Persistence
+   - **2019-05-W1** Cluster + Persistence
    - Cluster Singleton
    - Split Brain Resolver
    - Cluster Sharding
