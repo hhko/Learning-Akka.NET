@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.572
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ch 01. IoT", "Ch 01. IoT", "{83881639-43BD-49F8-954C-AAF122FC0CAF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01. Tutorial", "01. Tutorial", "{8042181E-4686-44F9-ABEA-5D95BEAC045B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IoTApp", "Ch 01. IoT\01. Tutorial\IoTApp\IoTApp.csproj", "{B037D354-F3AF-41A3-AB37-C3380891EE39}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IoTApp.Tests", "Ch 01. IoT\01. Tutorial\IoTApp.Tests\IoTApp.Tests.csproj", "{D81672B9-AF07-4B7F-A931-F5BA32D68BCC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B037D354-F3AF-41A3-AB37-C3380891EE39}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B037D354-F3AF-41A3-AB37-C3380891EE39}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B037D354-F3AF-41A3-AB37-C3380891EE39}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B037D354-F3AF-41A3-AB37-C3380891EE39}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D81672B9-AF07-4B7F-A931-F5BA32D68BCC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D81672B9-AF07-4B7F-A931-F5BA32D68BCC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D81672B9-AF07-4B7F-A931-F5BA32D68BCC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D81672B9-AF07-4B7F-A931-F5BA32D68BCC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8042181E-4686-44F9-ABEA-5D95BEAC045B} = {83881639-43BD-49F8-954C-AAF122FC0CAF}
+		{B037D354-F3AF-41A3-AB37-C3380891EE39} = {8042181E-4686-44F9-ABEA-5D95BEAC045B}
+		{D81672B9-AF07-4B7F-A931-F5BA32D68BCC} = {8042181E-4686-44F9-ABEA-5D95BEAC045B}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4827BB32-A932-41FB-8C33-4F51116FBD69}
+	EndGlobalSection
+EndGlobal
