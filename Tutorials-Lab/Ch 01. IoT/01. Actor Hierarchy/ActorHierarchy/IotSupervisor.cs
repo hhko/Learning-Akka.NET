@@ -2,7 +2,7 @@
 using Akka.Actor;
 using Akka.Event;
 
-namespace IoTApp
+namespace ActorHierarchy
 {
     #region iot-supervisor
     public class IotSupervisor : UntypedActor

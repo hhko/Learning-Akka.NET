@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace IoTApp
+namespace ActorHierarchy
 {
     class Program
     {

@@ -1,7 +1,7 @@
 ﻿using System;
 using Akka.Actor;
 
-namespace IoTApp
+namespace ActorHierarchy
 {
     #region iot-app
     public class IotApp

@@ -3,7 +3,7 @@ using Akka.Actor;
 using Akka.TestKit.Xunit2;
 using Xunit;
 
-namespace IoTApp.Tests
+namespace ActorHierarchy.Tests
 {
     #region print-refs
     public class PrintMyActorRefActor : UntypedActor
