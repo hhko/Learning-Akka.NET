@@ -64,13 +64,15 @@
 
 ## DOING
 1. Labs
-   - **2019-04-W5 Cluster Singleton**
-   - **2019-04-W5 Split Brain Resolver**
-   - **2019-04-W5 Cluster Sharding**
-   - 2019-05-W1 Cluster Distributed Data
-   - 2019-05-W1 Persistence, 
-   - 2019-05-W1 [Akka.Persistence.Extras](https://github.com/petabridge/Akka.Persistence.Extras)
-   - 2019-05-W2 Cluster + Persistence
+   - **2019-05-W1** IoT Tutorials
+   - **2019-05-W1** Persistence
+   - **2019-05-W1** [Akka.Persistence.Extras](https://github.com/petabridge/Akka.Persistence.Extras)
+   - **2019-05-W2** Cluster + Persistence
+   - Cluster Singleton
+   - Split Brain Resolver
+   - Cluster Sharding
+   - Cluster Distributed Data
+   - Hocon 
 1. Cluster Extensions
    - Messages version-up
    - Node/Role version-up
