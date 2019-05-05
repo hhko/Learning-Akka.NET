@@ -3,19 +3,31 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.572
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ch 01. IoT", "Ch 01. IoT", "{83881639-43BD-49F8-954C-AAF122FC0CAF}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ch 01. IoT Original", "Ch 01. IoT Original", "{83881639-43BD-49F8-954C-AAF122FC0CAF}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01. Actor Hierarchy", "01. Actor Hierarchy", "{8042181E-4686-44F9-ABEA-5D95BEAC045B}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ActorHierarchy", "Ch 01. IoT\01. Actor Hierarchy\ActorHierarchy\ActorHierarchy.csproj", "{B037D354-F3AF-41A3-AB37-C3380891EE39}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ActorHierarchy", "Ch 01. IoT Original\01. Actor Hierarchy\ActorHierarchy\ActorHierarchy.csproj", "{B037D354-F3AF-41A3-AB37-C3380891EE39}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ActorHierarchy.Tests", "Ch 01. IoT\01. Actor Hierarchy\ActorHierarchy.Tests\ActorHierarchy.Tests.csproj", "{D81672B9-AF07-4B7F-A931-F5BA32D68BCC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ActorHierarchy.Tests", "Ch 01. IoT Original\01. Actor Hierarchy\ActorHierarchy.Tests\ActorHierarchy.Tests.csproj", "{D81672B9-AF07-4B7F-A931-F5BA32D68BCC}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02. Device Design", "02. Device Design", "{36F8A7C5-391E-402C-9620-414BC0C4C26F}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DeviceDeisgn", "Ch 01. IoT\02. Device Deisgn\DeviceDeisgn\DeviceDeisgn.csproj", "{41A10B75-3F4C-404F-BF99-0EAFD76AD19F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DeviceDeisgn", "Ch 01. IoT Original\02. Device Deisgn\DeviceDeisgn\DeviceDeisgn.csproj", "{41A10B75-3F4C-404F-BF99-0EAFD76AD19F}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DeviceDesign.Tests", "Ch 01. IoT\02. Device Deisgn\DeviceDeisgn.Tests\DeviceDesign.Tests.csproj", "{763BC042-9E41-4FD7-9E15-869AEA351E20}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DeviceDesign.Tests", "Ch 01. IoT Original\02. Device Deisgn\DeviceDeisgn.Tests\DeviceDesign.Tests.csproj", "{763BC042-9E41-4FD7-9E15-869AEA351E20}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03. Device Group Design", "03. Device Group Design", "{D22DCFD9-1D78-41A2-99DD-0AEE778B3066}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04. Query Design", "04. Query Design", "{DE903D7E-7613-4CDD-83C4-74B972F8AB6D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DeviceGroupDesign", "Ch 01. IoT Original\03. Device Group Design\DeviceGroupDesign\DeviceGroupDesign.csproj", "{6F9DF74B-7877-4CB0-8379-B52FC9F66473}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DeviceGroupDesign.Tests", "Ch 01. IoT Original\03. Device Group Design\DeviceGroupDesign.Tests\DeviceGroupDesign.Tests.csproj", "{9A7F0091-0757-4DC9-97B3-E9DA11287B26}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QueryDesign.Tests", "Ch 01. IoT Original\04. Query Design\QueryDesign.Tests\QueryDesign.Tests.csproj", "{6C4169D6-27BC-43B4-8C03-3E2AF5CB8F55}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QueryDesign", "Ch 01. IoT Original\04. Query Design\QueryDesign\QueryDesign.csproj", "{7B5D0BDA-FCA4-40AE-8DD2-5AE62182A39D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +51,22 @@ Global
 		{763BC042-9E41-4FD7-9E15-869AEA351E20}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{763BC042-9E41-4FD7-9E15-869AEA351E20}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{763BC042-9E41-4FD7-9E15-869AEA351E20}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F9DF74B-7877-4CB0-8379-B52FC9F66473}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F9DF74B-7877-4CB0-8379-B52FC9F66473}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F9DF74B-7877-4CB0-8379-B52FC9F66473}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F9DF74B-7877-4CB0-8379-B52FC9F66473}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A7F0091-0757-4DC9-97B3-E9DA11287B26}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A7F0091-0757-4DC9-97B3-E9DA11287B26}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A7F0091-0757-4DC9-97B3-E9DA11287B26}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A7F0091-0757-4DC9-97B3-E9DA11287B26}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C4169D6-27BC-43B4-8C03-3E2AF5CB8F55}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C4169D6-27BC-43B4-8C03-3E2AF5CB8F55}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C4169D6-27BC-43B4-8C03-3E2AF5CB8F55}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C4169D6-27BC-43B4-8C03-3E2AF5CB8F55}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B5D0BDA-FCA4-40AE-8DD2-5AE62182A39D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B5D0BDA-FCA4-40AE-8DD2-5AE62182A39D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B5D0BDA-FCA4-40AE-8DD2-5AE62182A39D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B5D0BDA-FCA4-40AE-8DD2-5AE62182A39D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -50,6 +78,12 @@ Global
 		{36F8A7C5-391E-402C-9620-414BC0C4C26F} = {83881639-43BD-49F8-954C-AAF122FC0CAF}
 		{41A10B75-3F4C-404F-BF99-0EAFD76AD19F} = {36F8A7C5-391E-402C-9620-414BC0C4C26F}
 		{763BC042-9E41-4FD7-9E15-869AEA351E20} = {36F8A7C5-391E-402C-9620-414BC0C4C26F}
+		{D22DCFD9-1D78-41A2-99DD-0AEE778B3066} = {83881639-43BD-49F8-954C-AAF122FC0CAF}
+		{DE903D7E-7613-4CDD-83C4-74B972F8AB6D} = {83881639-43BD-49F8-954C-AAF122FC0CAF}
+		{6F9DF74B-7877-4CB0-8379-B52FC9F66473} = {D22DCFD9-1D78-41A2-99DD-0AEE778B3066}
+		{9A7F0091-0757-4DC9-97B3-E9DA11287B26} = {D22DCFD9-1D78-41A2-99DD-0AEE778B3066}
+		{6C4169D6-27BC-43B4-8C03-3E2AF5CB8F55} = {DE903D7E-7613-4CDD-83C4-74B972F8AB6D}
+		{7B5D0BDA-FCA4-40AE-8DD2-5AE62182A39D} = {DE903D7E-7613-4CDD-83C4-74B972F8AB6D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4827BB32-A932-41FB-8C33-4F51116FBD69}
