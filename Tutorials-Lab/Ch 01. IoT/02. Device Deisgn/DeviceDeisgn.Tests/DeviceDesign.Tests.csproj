@@ -15,7 +15,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\ActorDesign\ActorDeisgn.csproj" />
+    <ProjectReference Include="..\DeviceDeisgn\DeviceDeisgn.csproj" />
   </ItemGroup>
 
 </Project>

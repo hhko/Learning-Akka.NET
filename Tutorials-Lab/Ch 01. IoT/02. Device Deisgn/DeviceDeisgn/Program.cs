@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace ActorDesign
+namespace DeviceDesign
 {
     class Program
     {

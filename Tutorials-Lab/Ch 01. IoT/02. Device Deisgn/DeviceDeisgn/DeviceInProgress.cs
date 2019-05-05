@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using Akka.Actor;
 using Akka.Event;
 
-namespace ActorDesign
+namespace DeviceDesign
 {
     public static class DeviceInProgress1
     {

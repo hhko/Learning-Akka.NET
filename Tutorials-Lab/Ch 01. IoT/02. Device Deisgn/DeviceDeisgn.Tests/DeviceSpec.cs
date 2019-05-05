@@ -1,9 +1,9 @@
 ﻿using Akka.TestKit.Xunit2;
 using FluentAssertions;
 using Xunit;
-using static ActorDesign.MainDevice;
+using static DeviceDesign.MainDevice;
 
-namespace ActorDesign.Tests
+namespace DeviceDesign.Tests
 {
     public class DeviceSpec : TestKit
     {

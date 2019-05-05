@@ -11,11 +11,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ActorHierarchy", "Ch 01. Io
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ActorHierarchy.Tests", "Ch 01. IoT\01. Actor Hierarchy\ActorHierarchy.Tests\ActorHierarchy.Tests.csproj", "{D81672B9-AF07-4B7F-A931-F5BA32D68BCC}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02. Actor Design", "02. Actor Design", "{36F8A7C5-391E-402C-9620-414BC0C4C26F}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02. Device Design", "02. Device Design", "{36F8A7C5-391E-402C-9620-414BC0C4C26F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ActorDeisgn", "Ch 01. IoT\02. Actor Design\ActorDesign\ActorDeisgn.csproj", "{41A10B75-3F4C-404F-BF99-0EAFD76AD19F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DeviceDeisgn", "Ch 01. IoT\02. Device Deisgn\DeviceDeisgn\DeviceDeisgn.csproj", "{41A10B75-3F4C-404F-BF99-0EAFD76AD19F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ActorDesign.Tests", "Ch 01. IoT\02. Actor Design\ActorDesign.Tests\ActorDesign.Tests.csproj", "{763BC042-9E41-4FD7-9E15-869AEA351E20}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DeviceDesign.Tests", "Ch 01. IoT\02. Device Deisgn\DeviceDeisgn.Tests\DeviceDesign.Tests.csproj", "{763BC042-9E41-4FD7-9E15-869AEA351E20}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
