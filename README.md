@@ -69,6 +69,7 @@
    - **2019-05-W1** [Akka.Persistence.Extras](https://github.com/petabridge/Akka.Persistence.Extras)
    - **2019-05-W1** Cluster + Persistence
    - Cluster Singleton
+   - Coordinated Shutdown
    - Split Brain Resolver
    - Cluster Sharding
    - Cluster Distributed Data
