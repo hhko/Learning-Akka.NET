@@ -2,7 +2,7 @@
    - Install "SQLite/SQL Server Compact Toolbox" Extension in Visual Studio
    - Create Database
 
-2. App.Akka.conf 파일
+2. App.Akka.conf
    ```
    akka.persistence.journal {
 	  plugin = "akka.persistence.journal.sqlite"
@@ -17,8 +17,10 @@
    }
    ```
 
-1. 액터
-   - ReceivePersistentActor 상속
-   - Command<T>(Action<T> handler, 
+1. Actor
+   - ReceivePersistentActor 
+   
+1. Message Handlers
+   - Command: Command<T>(Action<T> handler, ...) : 
       - Persist<TEvent>(TEvent @event, Action<TEvent> handler);
-   - Recover<T>(Action<T> handler,
+   - Recover: Recover<T>(Action<T> handler, ...)
