@@ -17,7 +17,9 @@
    - DeleteSnapshot vs. DeleteSnapshots
    - OnReplaySuccess vs. OnReplayFailure 
    - SnapshotSequenceNr 
- 
+1. SQLite
+   - 뷰어
+   - 데이터 확인하기
 <br/>
 
 ## Cluster Lab
