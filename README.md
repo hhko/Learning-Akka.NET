@@ -1,5 +1,27 @@
 # MORE FUN with Akka.NET Labs 
 
+## Persistence Lab
+1. **ReceivePersistentActor vs. UntypedPersistentActor**
+   - PersistenceId 
+   - OnCommand 
+   - OnRecover 
+   - IsRecovering   
+   - Persist vs. PersistAsync 
+   - DeferAsync 
+   - DeleteMessages 
+1. **AtLeastOnceDeliveryReceiveActor vs. AtLeastOnceDeliveryActor**
+1. **PersistentView**
+1. **AsyncWriteJournal**
+1. **SnapshotStore**
+   - LoadSnapshot vs. SaveSnapshot 
+   - DeleteSnapshot vs. DeleteSnapshots
+   - OnReplaySuccess vs. OnReplayFailure 
+   - SnapshotSequenceNr 
+1. SQLite
+   - 뷰어
+   - 데이터 확인하기
+<br/>
+
 ## Cluster Lab
 1. **Overview**
    - Create Cluster : **akka.cluster.seed-nodes**
