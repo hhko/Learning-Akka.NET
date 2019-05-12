@@ -29,4 +29,4 @@
 1. If the folder does not exist, it throws an exception.
 ![](./Images/FolderNotExisted.png)
 
-1. If the db-file does not exist, it makes it there and does not throw an exception.
+1. **If the db-file does not exist, it makes it there and does not throw an exception.**
