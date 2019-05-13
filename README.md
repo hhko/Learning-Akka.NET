@@ -241,6 +241,7 @@
 - [ ] [Akka.NET Reference Architecture - CRQS + Sharding + In-Memory Replication](https://github.com/Aaronontheweb/InMemoryCQRSReplication)
 - [ ] [Debugger application for viewing Akka.NET Cluster.Sharding Data](https://github.com/Aaronontheweb/Cluster.Sharding.Viewer)
 - [ ] [Akka.AtLeastOnceDelivery-Snapshot-Manipulation](https://github.com/Aaronontheweb/Akka.AtLeastOnceDelivery-Snapshot-Manipulation)
+- [ ] [Generic persistent gateway for Akka.NET at-least-once-delivery semantics](https://gist.github.com/Horusiath/64d829720b66df16bc59dbf106a8008e)
 - [ ] [Play with Akka Cluster](https://github.com/carsten-j/playWithAkkaCluster)
 - [ ] [AkkaAnalyzer](https://github.com/AkkaNetContrib/AkkaAnalyzer)
 - [ ] [Akka.NET-Throughput](https://github.com/Aaronontheweb/Akka.NET-Throughput)

@@ -85,10 +85,13 @@ namespace AtLeastOnceDelivery_01_Basics
                     Persist(new MsgConfirmed(confirm.DeliveryId), Handler);
                 });
 
-            Command<UnconfirmedWarning>(_ =>
-                {
-
-                });
+            //
+            // akka.persistence.at-least-once-delivery.warn-after-number-of-unconfirmed-attempts = 5
+            //  "N + 1" 재시도 이후에 'UnconfirmedWarning' 메시지를 받는다.
+            //
+            //Command<UnconfirmedWarning>(_ =>
+            //    {
+            //    });
         }
 
         protected override void PostStop()
