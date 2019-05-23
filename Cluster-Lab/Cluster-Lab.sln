@@ -365,9 +365,17 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02. Pool - Handle Exception
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04. Group - Handle Exceptions from Routees", "04. Group - Handle Exceptions from Routees", "{D15A50AC-B294-4BB2-87B7-1FEE5CCEAB68}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HandleExceptionsFromPoolRoutees", "Ch 04. Warm-up for Cluster Routing\02. Pool - Handle Exceptions from Routees\HandleExceptionsFromPoolRoutees\HandleExceptionsFromPoolRoutees.csproj", "{91F3DAD8-CD15-428A-BE69-5C7D433CEA6E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HandleExceptionsFromPoolRoutees", "Ch 04. Warm-up for Cluster Routing\02. Pool - Handle Exceptions from Routees\HandleExceptionsFromPoolRoutees\HandleExceptionsFromPoolRoutees.csproj", "{91F3DAD8-CD15-428A-BE69-5C7D433CEA6E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HandleExceptionsFromGroupRoutees", "Ch 04. Warm-up for Cluster Routing\04. Group - Handle Exceptions from Routees\HandleExceptionsFromGroupRoutees\HandleExceptionsFromGroupRoutees.csproj", "{CA1F7327-EF9F-4812-876E-CEE4643A68F9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HandleExceptionsFromGroupRoutees", "Ch 04. Warm-up for Cluster Routing\04. Group - Handle Exceptions from Routees\HandleExceptionsFromGroupRoutees\HandleExceptionsFromGroupRoutees.csproj", "{CA1F7327-EF9F-4812-876E-CEE4643A68F9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ch 09. Cluster Sharding", "Ch 09. Cluster Sharding", "{9BD1A8A9-3B3E-4BE5-B130-D277512F1BD2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01. Quick Start", "01. Quick Start", "{2B1EA595-B0C7-497D-86AD-630B0C18C090}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SeedNode1", "Ch 09. Cluster Sharding\01. Quick Start\SeedNode1\SeedNode1.csproj", "{1653BB72-4688-462F-8EDA-365D3F70267E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NonSeedNode1", "Ch 09. Cluster Sharding\01. Quick Start\NonSeedNode1\NonSeedNode1.csproj", "{05CFEE22-CE7E-4D58-9C31-E0E9B44E7E23}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -923,6 +931,14 @@ Global
 		{CA1F7327-EF9F-4812-876E-CEE4643A68F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CA1F7327-EF9F-4812-876E-CEE4643A68F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CA1F7327-EF9F-4812-876E-CEE4643A68F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1653BB72-4688-462F-8EDA-365D3F70267E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1653BB72-4688-462F-8EDA-365D3F70267E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1653BB72-4688-462F-8EDA-365D3F70267E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1653BB72-4688-462F-8EDA-365D3F70267E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{05CFEE22-CE7E-4D58-9C31-E0E9B44E7E23}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05CFEE22-CE7E-4D58-9C31-E0E9B44E7E23}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05CFEE22-CE7E-4D58-9C31-E0E9B44E7E23}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05CFEE22-CE7E-4D58-9C31-E0E9B44E7E23}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -1103,6 +1119,9 @@ Global
 		{D15A50AC-B294-4BB2-87B7-1FEE5CCEAB68} = {EAAD7E45-C6CC-4A64-9C02-F1D934F79E00}
 		{91F3DAD8-CD15-428A-BE69-5C7D433CEA6E} = {25AA1B56-4998-4D34-85AA-93EDB191CD81}
 		{CA1F7327-EF9F-4812-876E-CEE4643A68F9} = {D15A50AC-B294-4BB2-87B7-1FEE5CCEAB68}
+		{2B1EA595-B0C7-497D-86AD-630B0C18C090} = {9BD1A8A9-3B3E-4BE5-B130-D277512F1BD2}
+		{1653BB72-4688-462F-8EDA-365D3F70267E} = {2B1EA595-B0C7-497D-86AD-630B0C18C090}
+		{05CFEE22-CE7E-4D58-9C31-E0E9B44E7E23} = {2B1EA595-B0C7-497D-86AD-630B0C18C090}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {ECF7691A-061A-4CA7-820E-B9E14611A042}
