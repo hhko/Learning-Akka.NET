@@ -211,6 +211,7 @@
 - [ ] [Cluster.Monitoring](https://github.com/cgstevens/Akka.Cluster.Monitor)
 - [ ] [Akka.NET Repo Cluster Examples](https://github.com/akkadotnet/akka.net/tree/dev/src/examples/Cluster)
 - [ ] [Sharding](https://github.com/uatec/akka.net-clustersharding-example)
+- [ ] [Sharding & Persistence](https://github.com/jurek333/AkkaNETShardingPersistenceTest)
 - [ ] [Pluralsight Akka.NET Cluster](https://github.com/thelegendofando/Pluralsight)
 - [ ] [Pub/Sub Problem](https://github.com/thelegendofando/ProducerConsumerProblem)
 - [ ] [Singleton Example](https://github.com/cgstevens/MyClusterServices)
