@@ -207,6 +207,7 @@
 <br/>
  
 ## TODO - Akka.NET Samples
+- [ ] [Workshop-Blog](https://petabridge.com/cluster/), [Workshop-Github](https://github.com/petabridge/akkadotnet-cluster-workshop)
 - [ ] [Cluster.WebCrawler](https://github.com/petabridge/akkadotnet-code-samples/tree/master/Cluster.WebCrawler)
 - [ ] [Cluster.Monitoring](https://github.com/cgstevens/Akka.Cluster.Monitor)
 - [ ] [Akka.NET Repo Cluster Examples](https://github.com/akkadotnet/akka.net/tree/dev/src/examples/Cluster)
