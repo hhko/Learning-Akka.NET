@@ -256,6 +256,8 @@
 - [ ] [Akka retrying backoffsupervisor](https://gist.github.com/Danthar/82e89eff01ba1eb1d4c3)
 - [ ] [Akka.Cluster.SplitBrainResolver](https://github.com/kennethito/Akka.Cluster.SplitBrainResolver)
 - [ ] [Akka Cluster Monitoring, Web](https://github.com/daedrag/akka-monitoring-tool)
+- [ ] [How to disable cluster heartbeat logging in Akka.NET](https://stackoverflow.com/questions/38857644/how-to-disable-cluster-heartbeat-logging-in-akka-net)
+- [ ] [An entry with the same key already exists.](https://github.com/akkadotnet/akka.net/issues/2535), [Sample](https://github.com/mwpro/akka.net/tree/ClusterReceptionistIssue/src/examples/GP/ReceptionistIssue)
 <br/>
 
 ## Blog Korean
