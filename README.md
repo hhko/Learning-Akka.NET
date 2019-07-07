@@ -255,6 +255,7 @@
 - [ ] [a simple cluster with Akka.NET on .NET Core](https://github.com/BigDaddy1337/dotnet-core-akka-cluster-example)
 - [ ] [Akka retrying backoffsupervisor](https://gist.github.com/Danthar/82e89eff01ba1eb1d4c3)
 - [ ] [Akka.Cluster.SplitBrainResolver](https://github.com/kennethito/Akka.Cluster.SplitBrainResolver)
+- [ ] [Akka Cluster Monitoring, Web](https://github.com/daedrag/akka-monitoring-tool)
 <br/>
 
 ## Blog Korean
