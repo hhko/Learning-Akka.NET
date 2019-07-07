@@ -260,6 +260,9 @@
 - [ ] [An entry with the same key already exists.](https://github.com/akkadotnet/akka.net/issues/2535), [Sample](https://github.com/mwpro/akka.net/tree/ClusterReceptionistIssue/src/examples/GP/ReceptionistIssue)
 <br/>
 
+## Akka.NET EXtensions
+- [ ] [Tracer + Zipkin](https://github.com/aliostad/PerfIt)
+
 ## Blog Korean
 - [ ] [Botcamp 한글화](https://blog.rajephon.dev/2018/12/02/akka-01/)
 - [ ] [Naver 블로그](https://m.blog.naver.com/PostView.nhn?blogId=kbh3983&logNo=221182343063&categoryNo=119&proxyReferer=https%3A%2F%2Fwww.google.co.kr%2F)
