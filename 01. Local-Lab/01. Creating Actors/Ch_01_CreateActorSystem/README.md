@@ -1,5 +1,5 @@
-﻿### This chapter covers
-- How to create ActorSystem.
+﻿## This chapter covers
+1. How to create ActorSystem.
 
 ### How 
 1. namespace
@@ -14,6 +14,10 @@ ActorSystem system = ActorSystem.Create("...");
 
 ### What
 1. ActorSystem class
-- public abstract class ActorSystem : ...
-   - public static ActorSystem Create(string name);
-   - public static ActorSystem Create(string name, Config config);
+```cs
+public abstract class ActorSystem : ...
+{
+   public static ActorSystem Create(string name);
+   public static ActorSystem Create(string name, Config config);
+   ...
+}
