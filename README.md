@@ -1,27 +1,5 @@
 # MORE FUN with Akka.NET Labs 
 
-## Persistence Lab
-1. **ReceivePersistentActor vs. UntypedPersistentActor**
-   - PersistenceId 
-   - OnCommand 
-   - OnRecover 
-   - IsRecovering   
-   - Persist vs. PersistAsync 
-   - DeferAsync 
-   - DeleteMessages 
-1. **AtLeastOnceDeliveryReceiveActor vs. AtLeastOnceDeliveryActor**
-1. **PersistentView**
-1. **AsyncWriteJournal**
-1. **SnapshotStore**
-   - LoadSnapshot vs. SaveSnapshot 
-   - DeleteSnapshot vs. DeleteSnapshots
-   - OnReplaySuccess vs. OnReplayFailure 
-   - SnapshotSequenceNr 
-1. SQLite
-   - 뷰어
-   - 데이터 확인하기
-<br/>
-
 ## Cluster Lab
 1. **Overview**
    - Create Cluster : **akka.cluster.seed-nodes**
@@ -80,7 +58,30 @@
 1. **Sharding**
 1. **Distributed Data**
 1. **Split Brain Resolver**
-   
+
+<br/>
+
+## Persistence Lab
+1. **ReceivePersistentActor vs. UntypedPersistentActor**
+   - PersistenceId 
+   - OnCommand 
+   - OnRecover 
+   - IsRecovering   
+   - Persist vs. PersistAsync 
+   - DeferAsync 
+   - DeleteMessages 
+1. **AtLeastOnceDeliveryReceiveActor vs. AtLeastOnceDeliveryActor**
+1. **PersistentView**
+1. **AsyncWriteJournal**
+1. **SnapshotStore**
+   - LoadSnapshot vs. SaveSnapshot 
+   - DeleteSnapshot vs. DeleteSnapshots
+   - OnReplaySuccess vs. OnReplayFailure 
+   - SnapshotSequenceNr 
+1. SQLite
+   - 뷰어
+   - 데이터 확인하기
+
 <br/>
 <br/>
 
@@ -167,6 +168,7 @@
 - [ ] Routee: _workerRouter.Ask<Routees>(new GetRoutees()) ...
 - [ ] Visual Studio Code 기반으로 코드 작성
 - [ ] 바쁜 Actor는 Heartbeat을 정상적으로 처리하나? Dispatcher와 연동.
+- [ ] [Cluster.Tools.Client.ClusterReceptionist: An entry with the same key already exists](https://github.com/akkadotnet/akka.net/issues/2535)
 <br/>
 
 ## TODO - Akka.NET Issues
@@ -258,8 +260,9 @@
 - [ ] [Akka Cluster Monitoring, Web](https://github.com/daedrag/akka-monitoring-tool)
 - [ ] [How to disable cluster heartbeat logging in Akka.NET](https://stackoverflow.com/questions/38857644/how-to-disable-cluster-heartbeat-logging-in-akka-net)
 - [ ] [An entry with the same key already exists.](https://github.com/akkadotnet/akka.net/issues/2535), [Sample](https://github.com/mwpro/akka.net/tree/ClusterReceptionistIssue/src/examples/GP/ReceptionistIssue)
-<br/>
 - [ ] [Akka Cluster Management](https://github.com/ismaelhamed/akka-cluster-management)
+
+<br/>
 
 ## Akka.NET EXtensions
 - [ ] [Tracer + Zipkin](https://github.com/aliostad/PerfIt)
