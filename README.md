@@ -2,8 +2,8 @@
 
 ## 04. Cluster 
 1. **Overview**
-   1. Create the cluster
-   1. Remove the node
+   - Create the cluster
+   - Remove the node
 
 ## Cluster Lab-old
 1. **Overview**

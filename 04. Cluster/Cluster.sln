@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29209.62
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01. Overview", "01. Overview", "{329A0FAD-6DB1-44A0-BAFA-7930C2A2B4E6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01. Create the cluster", "01. Create the cluster", "{E693CB8C-C26B-483D-B894-72A89EB47FEF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02. Remove the node", "02. Remove the node", "{0B2EDA33-8860-4857-8DC3-AF0E1D884909}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SeedNode1", "01. Overview\01. Create the cluster\SeedNode1\SeedNode1.csproj", "{C2DB16BA-136D-4624-AA5B-6B5AFDB9C701}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SeedNode1", "01. Overview\02. Remove the node\SeedNode1\SeedNode1.csproj", "{33DBE1C8-634E-41BC-B405-4AB5B5E4AC27}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C2DB16BA-136D-4624-AA5B-6B5AFDB9C701}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2DB16BA-136D-4624-AA5B-6B5AFDB9C701}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2DB16BA-136D-4624-AA5B-6B5AFDB9C701}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2DB16BA-136D-4624-AA5B-6B5AFDB9C701}.Release|Any CPU.Build.0 = Release|Any CPU
+		{33DBE1C8-634E-41BC-B405-4AB5B5E4AC27}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33DBE1C8-634E-41BC-B405-4AB5B5E4AC27}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33DBE1C8-634E-41BC-B405-4AB5B5E4AC27}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33DBE1C8-634E-41BC-B405-4AB5B5E4AC27}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E693CB8C-C26B-483D-B894-72A89EB47FEF} = {329A0FAD-6DB1-44A0-BAFA-7930C2A2B4E6}
+		{0B2EDA33-8860-4857-8DC3-AF0E1D884909} = {329A0FAD-6DB1-44A0-BAFA-7930C2A2B4E6}
+		{C2DB16BA-136D-4624-AA5B-6B5AFDB9C701} = {E693CB8C-C26B-483D-B894-72A89EB47FEF}
+		{33DBE1C8-634E-41BC-B405-4AB5B5E4AC27} = {0B2EDA33-8860-4857-8DC3-AF0E1D884909}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {95F4A972-BB1C-4EC5-87A1-FA15574E3FA2}
+	EndGlobalSection
+EndGlobal
