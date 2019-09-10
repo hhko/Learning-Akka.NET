@@ -2,8 +2,8 @@
 
 ## 04. Cluster 
 1. **Overview**
-   - Create the cluster
-   - Remove the node
+   - Create a new cluster(Joining itself)
+   - Shut down a new cluster(Exiting itself)
 
 ## Cluster Lab-old
 1. **Overview**
