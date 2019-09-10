@@ -5,9 +5,9 @@ VisualStudioVersion = 16.0.29209.62
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01. Overview", "01. Overview", "{329A0FAD-6DB1-44A0-BAFA-7930C2A2B4E6}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01. Create the cluster", "01. Create the cluster", "{E693CB8C-C26B-483D-B894-72A89EB47FEF}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01. Create a new cluster", "01. Create a new cluster", "{E693CB8C-C26B-483D-B894-72A89EB47FEF}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02. Remove the node", "02. Remove the node", "{0B2EDA33-8860-4857-8DC3-AF0E1D884909}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02. Shut down a new cluster", "02. Shut down a new cluster", "{0B2EDA33-8860-4857-8DC3-AF0E1D884909}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SeedNode1", "01. Overview\01. Create the cluster\SeedNode1\SeedNode1.csproj", "{C2DB16BA-136D-4624-AA5B-6B5AFDB9C701}"
 EndProject

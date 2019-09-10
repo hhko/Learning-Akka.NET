@@ -47,7 +47,7 @@ namespace SeedNode1
             //
             var config = ConfigurationFactory.ParseString(
                 File.ReadAllText(
-                Path.Combine("Conf", "App.Akka.conf")));
+                Path.Combine("Conf", "Akka.conf")));
 
             //
             // 콘솔 타이틀

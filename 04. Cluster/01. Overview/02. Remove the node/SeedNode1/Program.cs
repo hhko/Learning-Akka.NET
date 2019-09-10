@@ -65,7 +65,7 @@ namespace SeedNode1
         {
             var config = ConfigurationFactory.ParseString(
                 File.ReadAllText(
-                Path.Combine("Conf", "App.Akka.conf")));
+                Path.Combine("Conf", "Akka.conf")));
 
             Console.Title = $"{config.GetString("app.service-name")}" +
                 $" - akka.tcp://{config.GetString("app.actorsystem-name")}" +
