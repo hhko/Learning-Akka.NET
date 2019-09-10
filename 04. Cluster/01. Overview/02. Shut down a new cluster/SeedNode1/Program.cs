@@ -14,6 +14,8 @@ using System.Threading;
 //            };
 // TODO: 3. TerminatedEvent 제거
 // TODO: 4. README.md 파일 작성
+// TODO: 5. await system.Terminate(); 무한 대기가 아닌 시간 설정이 필요하다.
+//
 
 //
 // Cluster 생성 로그
@@ -76,6 +78,10 @@ namespace SeedNode1
 
             Console.ReadLine();
 
+            //
+            // Cluster 핸들 얻기
+            // Leave을 호출하여 멤버에서 제거될 때(RegisterOnMemberRemoved) ActorSystem을 파괴시킨다.
+            //
             var cluster = Akka.Cluster.Cluster.Get(system);
             cluster.RegisterOnMemberRemoved(() => MemberRemoved(system));
             cluster.Leave(cluster.SelfAddress);
