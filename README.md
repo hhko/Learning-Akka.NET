@@ -3,7 +3,7 @@
 ## 04. Cluster 
 1. **Overview**
    - Create a new cluster(Joining itself)
-   - Shut down a new cluster(Exiting itself)
+   - Shut down a new cluster(Exiting itself gracefully)
 
 ## Cluster Lab-old
 1. **Overview**
