@@ -3,7 +3,9 @@
 ## 04. Cluster 
 1. **Overview**
    - Create a new cluster(Joining itself)
-     - **akka.cluster.seed-nodes**
+	 ```cs
+	 akka.cluster.seed-nodes = [ "akka.tcp://Cluster-Lab@127.0.0.1:8081" ]
+	 ```
    - Shut down a new cluster(Exiting itself gracefully)
      ```cs
      var cluster = Akka.Cluster.Cluster.Get(system);
