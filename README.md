@@ -8,7 +8,7 @@
 		remote {
 			dot-netty.tcp {
 				hostname = "127.0.0.1"   	// Seed Node - IP
-				port = 8081					// Seed Node - Port 
+				port = 8081			// Seed Node - Port 
 			}
 		}
 		cluster {
