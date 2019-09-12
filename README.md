@@ -3,7 +3,7 @@
 ## 04. Cluster 
 1. **Overview**
    - Create a new cluster(Joining itself)
-	 ```cs
+     ```cs
 	 akka {
 		remote {
 			dot-netty.tcp {
@@ -15,7 +15,7 @@
 			seed-nodes = [ "akka.tcp://Cluster-Lab@127.0.0.1:8081" ]
 		}
 	 }
-	 ```
+     ```
    - Shut down a new cluster(Exiting itself gracefully)
      ```cs
      var cluster = Akka.Cluster.Cluster.Get(system);
@@ -24,8 +24,9 @@
 	 
 	 // Waits for the Terminate to complete execution within a specified time interval.
      system.WhenTerminated.Wait();
-
-	 ```
+     ```
+     - https://stackoverflow.com/questions/38309461/akka-net-cluster-node-graceful-shutdown/38325349
+     - https://github.com/ZoolWay/akka-net-cluster-graceful-shutdown-samples
 
 ## Cluster Lab-old
 1. **Overview**
