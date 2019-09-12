@@ -29,6 +29,9 @@
      - https://github.com/ZoolWay/akka-net-cluster-graceful-shutdown-samples
    - ***Multiple Seed Nodes***
    - ***Join the nodes to the cluster***
+      - Join / 동일한 것은 한개만
+      - Exit
+      - Rejoin
    - ***Integrate with Petabridge.Cmd***
       - Leader?
       - Join
