@@ -12,10 +12,14 @@ using System.Threading;
 //                quitEvent.Set();
 //                e.Cancel = true;
 //            };
-// TODO: 3. TerminatedEvent 제거
-// TODO: 4. README.md 파일 작성
-// TODO: 5. await system.Terminate(); 무한 대기가 아닌 시간 설정이 필요하다.
+// TODO: 3. README.md 파일 작성
 //
+
+//
+// DONE: 4. TerminatedEvent 제거
+//          -> WhenTerminated
+// DONE: 5. await system.Terminate(); 무한 대기가 아닌 시간 설정이 필요하다.
+//          -> WhenTerminated.Wait(30000);
 
 //
 // Cluster 생성 로그
