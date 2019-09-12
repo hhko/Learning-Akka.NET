@@ -27,7 +27,15 @@
      ```
      - https://stackoverflow.com/questions/38309461/akka-net-cluster-node-graceful-shutdown/38325349
      - https://github.com/ZoolWay/akka-net-cluster-graceful-shutdown-samples
-
+   - ***Multiple Seed Nodes***
+   - ***Join the nodes to the cluster***
+   - ***Integrate with Petabridge.Cmd***
+      - Leader?
+      - Join
+      - Exit
+      - Petabridge.Cmd Exit/Join/...
+   - ***Retry Joining Time Interval : **akka.cluster.seed-node-timeout*****
+   - ***Automatically Mark Unreachable Nodes : **akka.cluster.auto-down-unreachable-after*****
 ## Cluster Lab-old
 1. **Overview**
    - Create Cluster : **akka.cluster.seed-nodes**
