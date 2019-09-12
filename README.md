@@ -4,7 +4,17 @@
 1. **Overview**
    - Create a new cluster(Joining itself)
 	 ```cs
-	 akka.cluster.seed-nodes = [ "akka.tcp://Cluster-Lab@127.0.0.1:8081" ]
+	 akka {
+		remote {
+			dot-netty.tcp {
+				hostname = "127.0.0.1"   	// Seed Node - IP
+				port = 8081					// Seed Node - Port 
+			}
+		}
+		cluster {
+			seed-nodes = [ "akka.tcp://Cluster-Lab@127.0.0.1:8081" ]
+		}
+	 }
 	 ```
    - Shut down a new cluster(Exiting itself gracefully)
      ```cs
