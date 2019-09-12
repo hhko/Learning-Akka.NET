@@ -3,7 +3,17 @@
 ## 04. Cluster 
 1. **Overview**
    - Create a new cluster(Joining itself)
+     - **akka.cluster.seed-nodes**
    - Shut down a new cluster(Exiting itself gracefully)
+     ```cs
+     var cluster = Akka.Cluster.Cluster.Get(system);
+     cluster.RegisterOnMemberRemoved(() => system.Terminate());
+     cluster.Leave(cluster.SelfAddress);
+	 
+	 // Waits for the Terminate to complete execution within a specified time interval.
+     system.WhenTerminated.Wait();
+
+	 ```
 
 ## Cluster Lab-old
 1. **Overview**

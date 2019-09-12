@@ -61,7 +61,7 @@ namespace SeedNode1
 {
     class Program
     {
-        private static readonly ManualResetEvent TerminatedEvent = new ManualResetEvent(false);
+        //private static readonly ManualResetEvent TerminatedEvent = new ManualResetEvent(false);
 
         static void Main(string[] args)
         {
@@ -83,16 +83,18 @@ namespace SeedNode1
             // Leave을 호출하여 멤버에서 제거될 때(RegisterOnMemberRemoved) ActorSystem을 파괴시킨다.
             //
             var cluster = Akka.Cluster.Cluster.Get(system);
-            cluster.RegisterOnMemberRemoved(() => MemberRemoved(system));
+            //cluster.RegisterOnMemberRemoved(() => MemberRemoved(system));
+            cluster.RegisterOnMemberRemoved(() => system.Terminate());
             cluster.Leave(cluster.SelfAddress);
 
-            TerminatedEvent.WaitOne();
+            system.WhenTerminated.Wait();
+            //TerminatedEvent.WaitOne();
         }
 
-        private static async void MemberRemoved(ActorSystem system)
-        {
-            await system.Terminate();
-            TerminatedEvent.Set();
-        }
+        //private static async void MemberRemoved(ActorSystem system)
+        //{
+        //    await system.Terminate();
+        //    TerminatedEvent.Set();
+        //}
     }
 }
