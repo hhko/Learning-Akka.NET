@@ -32,8 +32,8 @@
 	 akka {
 		cluster {
 			seed-nodes = [
-				"akka.tcp://Cluster-Lab@127.0.0.1:8081",	//
-				"akka.tcp://Cluster-Lab@127.0.0.1:8082"
+				"akka.tcp://Cluster-Lab@127.0.0.1:8081",	// 
+				"akka.tcp://Cluster-Lab@127.0.0.1:8082"		// My IP and Port
 			]
 		}
 	 }
