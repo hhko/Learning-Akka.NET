@@ -27,7 +27,17 @@
      ```
      - https://stackoverflow.com/questions/38309461/akka-net-cluster-node-graceful-shutdown/38325349
      - https://github.com/ZoolWay/akka-net-cluster-graceful-shutdown-samples
-   - ***Multiple Seed Nodes***
+   - Join multiple seed nodes
+     ```cs
+	 akka {
+		cluster {
+			seed-nodes = [
+				"akka.tcp://Cluster-Lab@127.0.0.1:8081",	//
+				"akka.tcp://Cluster-Lab@127.0.0.1:8082"
+			]
+		}
+	 }
+	 ```
    - ***Join the nodes to the cluster***
       - Join / 동일한 것은 한개만
       - Exit

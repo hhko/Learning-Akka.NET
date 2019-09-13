@@ -13,15 +13,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SeedNode1", "01. Overview\0
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SeedNode1", "01. Overview\02. Shut down a new cluster\SeedNode1\SeedNode1.csproj", "{FE37EAAA-BCF4-4310-B522-52E737305591}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03. Join the nodes to the cluster", "03. Join the nodes to the cluster", "{13250248-284E-43D2-A623-C6C6DFDD06CC}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04. Join the nodes to the cluster", "04. Join the nodes to the cluster", "{13250248-284E-43D2-A623-C6C6DFDD06CC}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SeedNode1", "01. Overview\03. Join the nodes to the cluster\SeedNode1\SeedNode1.csproj", "{B54FD94D-1936-4322-8946-E014136243C3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SeedNode1", "01. Overview\04. Join the nodes to the cluster\SeedNode1\SeedNode1.csproj", "{B54FD94D-1936-4322-8946-E014136243C3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NonSeedNode1", "01. Overview\03. Join the nodes to the cluster\NonSeedNode1\NonSeedNode1.csproj", "{DA2CA832-E2B8-44C9-A885-7FE7471FD478}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NonSeedNode1", "01. Overview\04. Join the nodes to the cluster\NonSeedNode1\NonSeedNode1.csproj", "{DA2CA832-E2B8-44C9-A885-7FE7471FD478}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NonSeedNode2", "01. Overview\03. Join the nodes to the cluster\NonSeedNode2\NonSeedNode2.csproj", "{51B4D1AC-42F7-43C5-AB1C-669CF754917C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NonSeedNode2", "01. Overview\04. Join the nodes to the cluster\NonSeedNode2\NonSeedNode2.csproj", "{51B4D1AC-42F7-43C5-AB1C-669CF754917C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NonSeedNode3", "01. Overview\03. Join the nodes to the cluster\NonSeedNode3\NonSeedNode3.csproj", "{B8E07ED0-FE19-4205-B4CA-9CC5A296EAFB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NonSeedNode3", "01. Overview\04. Join the nodes to the cluster\NonSeedNode3\NonSeedNode3.csproj", "{B8E07ED0-FE19-4205-B4CA-9CC5A296EAFB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03. Join multiple seed nodes", "03. Join multiple seed nodes", "{39C31475-AC9F-4D97-980D-C4E6AE48B85A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -67,6 +69,7 @@ Global
 		{DA2CA832-E2B8-44C9-A885-7FE7471FD478} = {13250248-284E-43D2-A623-C6C6DFDD06CC}
 		{51B4D1AC-42F7-43C5-AB1C-669CF754917C} = {13250248-284E-43D2-A623-C6C6DFDD06CC}
 		{B8E07ED0-FE19-4205-B4CA-9CC5A296EAFB} = {13250248-284E-43D2-A623-C6C6DFDD06CC}
+		{39C31475-AC9F-4D97-980D-C4E6AE48B85A} = {329A0FAD-6DB1-44A0-BAFA-7930C2A2B4E6}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {95F4A972-BB1C-4EC5-87A1-FA15574E3FA2}
