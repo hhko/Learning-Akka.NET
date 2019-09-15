@@ -310,6 +310,7 @@
 - [ ] [How to disable cluster heartbeat logging in Akka.NET](https://stackoverflow.com/questions/38857644/how-to-disable-cluster-heartbeat-logging-in-akka-net)
 - [ ] [An entry with the same key already exists.](https://github.com/akkadotnet/akka.net/issues/2535), [Sample](https://github.com/mwpro/akka.net/tree/ClusterReceptionistIssue/src/examples/GP/ReceptionistIssue)
 - [ ] [Akka Cluster Management](https://github.com/ismaelhamed/akka-cluster-management)
+- [ ] [Sample](https://github.com/alexandrebl?tab=repositories)
 
 <br/>
 
