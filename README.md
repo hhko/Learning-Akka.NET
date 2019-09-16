@@ -2,8 +2,10 @@
 
 ## 04. Cluster 
 1. **Overview**
-   - Create a new cluster(Joining itself)  
-     **akka.cluster.seed-nodes = [ "akka.tcp://..." ]**
+   - Create a new cluster(Joining itself)
+     ```cs
+     akka.cluster.seed-nodes = [ "akka.tcp://..." ]
+     ```
    - Shut down a new cluster(Exiting itself gracefully)
      ```cs
      var cluster = Akka.Cluster.Cluster.Get(system);
@@ -14,7 +16,9 @@
      system.WhenTerminated.Wait();
      ```
    - Join multiple seed nodes  
-     **akka.cluster.seed-nodes = [ "akka.tcp://...", "akka.tcp://..." ]**
+     ```cs
+     akka.cluster.seed-nodes = [ "akka.tcp://...", "akka.tcp://..." ]
+     ```
    - ***Join the nodes to the cluster***
       - Join / 동일한 것은 한개만
       - Exit
