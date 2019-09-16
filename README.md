@@ -37,11 +37,11 @@
    - ***Automatically Mark Unreachable Nodes : **akka.cluster.auto-down-unreachable-after*****
 ## Cluster Lab-old
 1. **Overview**
-   - Create Cluster : **akka.cluster.seed-nodes**
-   - Integrate with Petabridge.Cmd  
-   - Automatically Mark Unreachable Nodes : **akka.cluster.auto-down-unreachable-after**
-   - Retry Joining Time Interval : **akka.cluster.seed-node-timeout**
-   - > Seed Node N개 일 때
+   - ~Create Cluster : **akka.cluster.seed-nodes**~
+   - ~Integrate with Petabridge.Cmd~  
+   - ~Automatically Mark Unreachable Nodes : **akka.cluster.auto-down-unreachable-after**~
+   - ~Retry Joining Time Interval : **akka.cluster.seed-node-timeout**~
+   - ~Seed Node N개 일 때~
    - > Petabridge.Cmd Join, Leave, ...
 1. **Roles and Minimum Size**
    - Define Roles : **akka.cluster.roles**
