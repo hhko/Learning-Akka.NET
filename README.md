@@ -19,15 +19,15 @@
      ```cs
      akka.cluster.seed-nodes = [ "akka.tcp://...", "akka.tcp://..." ]
      ```
-   - ***Join the nodes to the cluster***
-      - Join / 동일한 것은 한개만
-      - Exit
-      - Rejoin
    - ***Integrate with Petabridge.Cmd***
       - Leader?
       - Join
       - Exit
       - Petabridge.Cmd Exit/Join/...
+   - ***Join the nodes to the cluster***
+      - 새 Join(성공 됨), 기존 Join(실패 됨)
+      - Exit 정상, Exit 비정상
+      - Exit(정상)일 때 Rejoin, Exit(비정상)일 때 Rejoin
    - ***Retry Joining Time Interval : **akka.cluster.seed-node-timeout*****
    - ***Automatically Mark Unreachable Nodes : **akka.cluster.auto-down-unreachable-after*****
 ## Cluster Lab-old
