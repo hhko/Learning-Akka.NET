@@ -4,7 +4,9 @@
 1. **Overview**
    - Create a new cluster(Joining itself)
      ```cs
-     akka.cluster.seed-nodes = [ "akka.tcp://..." ]
+     akka.cluster.seed-nodes = [ 
+        "akka.tcp://..."   // The seed-node's URL must be itself.  
+     ]
      ```
    - Shut down a new cluster(Exiting itself gracefully)
      ```cs
@@ -18,8 +20,8 @@
    - Join multiple seed nodes  
      ```cs
      akka.cluster.seed-nodes = [ 
-		"akka.tcp://...",  // The first Seed Node must be itself.
-		"akka.tcp://..." 
+        "akka.tcp://...",  // The first seed-node's URL must be itself.
+        "akka.tcp://..." 
      ]
      ```
    - ***Integrate with Petabridge.Cmd***
