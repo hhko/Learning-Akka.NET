@@ -17,7 +17,10 @@
      ```
    - Join multiple seed nodes  
      ```cs
-     akka.cluster.seed-nodes = [ "akka.tcp://...", "akka.tcp://..." ]
+     akka.cluster.seed-nodes = [ 
+		"akka.tcp://...",  // Self, 첫 Seed Node는 반드시 자신이어야 한다.
+		"akka.tcp://..." 
+	]
      ```
    - ***Integrate with Petabridge.Cmd***
       - Leader?
