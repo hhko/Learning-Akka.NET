@@ -2,42 +2,19 @@
 
 ## 04. Cluster 
 1. **Overview**
-   - Create a new cluster(Joining itself)
-     ```cs
-	 akka {
-		remote {
-			dot-netty.tcp {
-				hostname = "127.0.0.1"   	// Seed Node - IP
-				port = 8081			// Seed Node - Port 
-			}
-		}
-		cluster {
-			seed-nodes = [ "akka.tcp://Cluster-Lab@127.0.0.1:8081" ]
-		}
-	 }
-     ```
+   - Create a new cluster(Joining itself)  
+     **akka.cluster.seed-nodes = [ "akka.tcp://..." ]"
    - Shut down a new cluster(Exiting itself gracefully)
      ```cs
      var cluster = Akka.Cluster.Cluster.Get(system);
      cluster.RegisterOnMemberRemoved(() => system.Terminate());
      cluster.Leave(cluster.SelfAddress);
 	 
-	 // Waits for the Terminate to complete execution within a specified time interval.
+     // Waits for the Terminate to complete execution within a specified time interval.
      system.WhenTerminated.Wait();
      ```
-     - https://stackoverflow.com/questions/38309461/akka-net-cluster-node-graceful-shutdown/38325349
-     - https://github.com/ZoolWay/akka-net-cluster-graceful-shutdown-samples
    - Join multiple seed nodes
-     ```cs
-	 akka {
-		cluster {
-			seed-nodes = [
-				"akka.tcp://Cluster-Lab@127.0.0.1:8081",	// 
-				"akka.tcp://Cluster-Lab@127.0.0.1:8082"		// My IP and Port
-			]
-		}
-	 }
-	 ```
+     **akka.cluster.seed-nodes = [ "akka.tcp://...", "akka.tcp://..." ]"
    - ***Join the nodes to the cluster***
       - Join / 동일한 것은 한개만
       - Exit
