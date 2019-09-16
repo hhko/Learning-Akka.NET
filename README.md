@@ -13,7 +13,7 @@
      // Waits for the Terminate to complete execution within a specified time interval.
      system.WhenTerminated.Wait();
      ```
-   - Join multiple seed nodes
+   - Join multiple seed nodes  
      **akka.cluster.seed-nodes = [ "akka.tcp://...", "akka.tcp://..." ]**
    - ***Join the nodes to the cluster***
       - Join / 동일한 것은 한개만
