@@ -1,5 +1,45 @@
 # MORE FUN with Akka.NET Labs 
 
+- **Gossip**은 **Membership 상태**와 **Reachability 상태**를 동기화 시켜는 역할을 수행한다.
+  - **Membership 상태: 이 노드가 클러스터의 현재 멤버인가?**  
+    Joining, WeaklyUp, Up, Leaving, Exiting, Down, Removed
+  - **Reachability 상태: 이 노드를 지금 연결할 수 있는가?**  
+    Reachable, Unreachable  
+    - Unreachable일 때 해당 Node을 클러스터에서 탈퇴(Removed) 시키지 않는 이유는 일시적인 네트워크 장애(Network Partition Tolerance)와 같이 자동으로 해결될 수 있는 일시적인 문제들이기 때문이다.
+    - 노드와 연결할 수 없다고 해서 프로세스가 종료었다고 가정하면 안된다. 연결안된 노드가 여전히 활발하게 작업을 수행하다가 일시적 네트워크 장애가 해결되면 다시 정상적으로 작업을 수행할 수 있다.
+
+- Reachability 상태는 akka.cluster.failure-detector가 결정합니다.
+
+- Unreachable 현상
+  1. Unreachable 노드가 1개 이상 존재하면 새 Node가 합류하지 못한다.
+     - 새 Process로 처음 진입하는 Node일 때(새 Port)는 "Joining" 상태로 대기한다.
+     - 새 Process로 재진입하는 Node일 때는(기존 Port) 기존 Node 상태를 "Up Unreachable"에서 "Down Unreachable"로 변경한다.
+       새 Process가 이전 Port을 사용하고 있기 때문에 기존 Node는 종료되었다고 명확히 판단할 수 있기 때문에 "Up Unreachable"을 
+```
+akka.tcp://ClusterLab@localhost:8081 | [] | up |
+akka.tcp://ClusterLab@localhost:8082 | [] | up | unreachable
+akka.tcp://ClusterLab@localhost:8083 | [] | up | unreachable
+```
+```
+akka.tcp://ClusterLab@localhost:8081 | [] | up |
+akka.tcp://ClusterLab@localhost:8082 | [] | down | unreachable
+akka.tcp://ClusterLab@localhost:8083 | [] | up | unreachable
+```
+```
+akka.tcp://ClusterLab@localhost:8081 | [] | up |
+akka.tcp://ClusterLab@localhost:8082 | [] | down | unreachable
+akka.tcp://ClusterLab@localhost:8083 | [] | up | unreachable
+akka.tcp://ClusterLab@localhost:8084 | [] | joining | 
+```
+  
+- Unreachable 상태를 제거하는 방법
+  - 수동 > Petabridge.Cmd 도구: cluster down -a 주소, clsuter down-unreachable
+  - 자동 > akka.cluster.auto-down-unreachable-after
+  - 자동 > Split Brain Resolver
+  - 자동 > IDowningProvider
+  - 자동 > IReachability 이벤트 처리: ClusterEvent.ReachableMember, ClusterEvent.UnreachableMember
+
+
 ## 04. Cluster 
 1. **Overview**
    - Create a new cluster(Joining itself)
