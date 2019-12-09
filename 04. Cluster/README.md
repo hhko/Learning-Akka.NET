@@ -28,6 +28,30 @@
      - https://stackoverflow.com/questions/38309461/akka-net-cluster-node-graceful-shutdown/38325349
      - https://github.com/ZoolWay/akka-net-cluster-graceful-shutdown-samples
    - Join multiple seed nodes
+     - Seed Node 정보를 지정한다.
+	   - 형식  
+	     akka.cluster.seed-nodes = [   
+			"akka.tcp://ActorSystemName@IP:Port",   
+			"akka.tcp://ActorSystemName@...:...",   
+			...   
+		 ]  
+	   - 첫 번째 Seed Node가 접속될 때까지 Cluster을 구성하지 않는다.
+	   - 테스트 케이스: 클러스터 구성 정보 순서
+		 - Case 1: 자기 자신으로 첫 Seed Node을 구성할 때(장점: 바로 클러스터가 구성된다)
+		   - 첫 번째 실행되는 Seed Node가 클러스터를 구성한다(Leader가 된다).
+		      Node [akka.tcp://...자신] is JOINING itself (with roles []) and forming a new cluster  
+			  Cluster Node [akka.tcp://...자신] - Leader is moving node [akka.tcp://...자신] to [Up]  
+			  Node [akka.tcp://Cluster-Lab@127.0.0.1:8082] is JOINING itself (with roles []) and forming a new cluster  
+			  Leader is moving node [akka.tcp://Cluster-Lab@127.0.0.1:8082] to [Up]  
+		   - 두 번째 실행되는 Seed Node는 구성된 클러스터에 합류한다.
+		      Welcome from [akka.tcp://...SeedNode]  
+			  Welcome from [akka.tcp://Cluster-Lab@127.0.0.1:8082]  
+		 - Case 2: Seed Node 목록이 고정일 때(장점: 지정된 첫 Seed Node가 실행되어야만 클러스터가 구성된다)
+		   - 지정된 첫 Seed Node가 클러스터가 구성되어 있지 않다면 재시도를 하면서 대기한다.
+		   - 지정된 첫 Seed Node가 접속되면 클러스터가 구성되고, 가장 처음에 실행된 Seed Node가 Leader가된다.
+	   - 테스트 케이스
+	     - 클러스터 구성 정보에 없는 새 Seed Node
+		 
      ```cs
 	 akka {
 		cluster {
@@ -38,6 +62,17 @@
 		}
 	 }
 	 ```
+```
+[INFO][2019-12-09 ?? 2:57:44][Thread 0006][Cluster] Cluster Node [akka.tcp://Cluster-Lab@127.0.0.1:8081] - Leader is moving node [akka.tcp://Cluster-Lab@127.0.0.1:8081] to [Up]
+[INFO][2019-12-09 ?? 2:57:44][Thread 0005][Cluster] Cluster Node [akka.tcp://Cluster-Lab@127.0.0.1:8081] - Received InitJoin message from [[akka.tcp://Cluster-Lab@127.0.0.1:8082/system/cluster/core/daemon/joinSeedNodeProcess-1#1998450496]] to [akka.tcp://Cluster-Lab@127.0.0.1:8081]
+[INFO][2019-12-09 ?? 2:57:44][Thread 0005][Cluster] Cluster Node [akka.tcp://Cluster-Lab@127.0.0.1:8081] - Sending InitJoinNack message from node [akka.tcp://Cluster-Lab@127.0.0.1:8081] to [[akka.tcp://Cluster-Lab@127.0.0.1:8082/system/cluster/core/daemon/joinSeedNodeProcess-1#1998450496]]
+[INFO][2019-12-09 ?? 2:57:45][Thread 0005][Cluster] Cluster Node [akka.tcp://Cluster-Lab@127.0.0.1:8081] - Node [akka.tcp://Cluster-Lab@127.0.0.1:8082] is JOINING, roles []
+[INFO][2019-12-09 ?? 2:57:45][Thread 0006][Cluster] Cluster Node [akka.tcp://Cluster-Lab@127.0.0.1:8081] - Leader is moving node [akka.tcp://Cluster-Lab@127.0.0.1:8082] to [Up]
+```
+```
+[INFO][2019-12-09 ?? 2:57:45][Thread 0006][Cluster] Cluster Node [akka.tcp://Cluster-Lab@127.0.0.1:8082] - Welcome from [akka.tcp://Cluster-Lab@127.0.0.1:8081]
+```
+
    - ***Join the nodes to the cluster***
       - Join / 동일한 것은 한개만
       - Exit
