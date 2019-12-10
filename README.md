@@ -9,6 +9,25 @@
 1. Best Practices을 README.md 파일에 정리한다.
 1. Gossip을 정리한다.
    - Lifecycle: Leader Action, 명시적 Action
+1. 클러스터 합류
+   - seed-nodes 목록
+   - akka.cluster.seed-node-timeout
+   - 같은 프로세스 2번 실행
+1. 클러스터 이탈
+   - Graceful Leave
+   - Petabridge.Cmd
+   - akka.cluster.auto-down-unreachable-after
+   - Split Brain
+1. 클러스터 합류/이탈
+   - 합류 > 합류?
+   - 합류 > 이탈(정상), 인지 전 > 합류
+   - 합류 > 이탈(정상), 인지 후 > 합류
+   - 합류 > 이탈(비정상), 인지 전 > 합류
+   - 합류 > 이탈(비정상), 인지 후 > 합류
+1. Gossip
+   - 알고리즘 이해
+   - 옵션 이해
+   - First Heatbeat ?
 
 <br/>
 
