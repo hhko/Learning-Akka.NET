@@ -1,5 +1,17 @@
 # MORE FUN with Akka.NET Labs 
 
+**TODO**
+1. '04. Cluster > 0. Warming up' 폴더 추가
+   - Log
+   - Petabridge.Cmd
+   - Console Title
+1. Leader 데모를 추가한다.
+1. Best Practices을 README.md 파일에 정리한다.
+1. Gossip을 정리한다.
+   - Lifecycle: Leader Action, 명시적 Action
+
+<br/>
+
 - **Gossip**은 **Membership 상태**와 **Reachability 상태**를 동기화 시켜는 역할을 수행한다.
   - **Membership 상태: 이 노드가 클러스터의 현재 멤버인가?**  
     Joining, WeaklyUp, Up, Leaving, Exiting, Down, Removed
