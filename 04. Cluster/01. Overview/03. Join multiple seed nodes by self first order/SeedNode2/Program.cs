@@ -38,7 +38,7 @@ namespace SeedNode2
             cluster.RegisterOnMemberRemoved(() => system.Terminate());
             cluster.Leave(cluster.SelfAddress);
 
-            system.WhenTerminated.Wait();
+            system.WhenTerminated.Wait(config.GetTimeSpan("app.actorsystem-terminated-timeout"));
         }
     }
 }

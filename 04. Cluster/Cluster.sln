@@ -23,11 +23,25 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NonSeedNode2", "01. Overvie
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NonSeedNode3", "01. Overview\04. Join the nodes to the cluster\NonSeedNode3\NonSeedNode3.csproj", "{B8E07ED0-FE19-4205-B4CA-9CC5A296EAFB}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03. Join multiple seed nodes", "03. Join multiple seed nodes", "{39C31475-AC9F-4D97-980D-C4E6AE48B85A}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03. Join multiple seed nodes by self first order", "03. Join multiple seed nodes by self first order", "{95B52DB6-630B-4793-8228-A5F7642C9402}"
+	ProjectSection(SolutionItems) = preProject
+		01. Overview\03. Join multiple seed nodes by self first order\README.md = 01. Overview\03. Join multiple seed nodes by self first order\README.md
+	EndProjectSection
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SeedNode1", "01. Overview\03. Join multiple seed nodes\SeedNode1\SeedNode1.csproj", "{2C677937-F6AB-4A17-918C-5DF9CA754DF8}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04. Join multiple seed nodes by fixed order", "04. Join multiple seed nodes by fixed order", "{1BA72D18-E277-4CBC-ABC0-CB66B858F825}"
+	ProjectSection(SolutionItems) = preProject
+		01. Overview\04. Join multiple seed nodes by fixed order\README.md = 01. Overview\04. Join multiple seed nodes by fixed order\README.md
+	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SeedNode2", "01. Overview\03. Join multiple seed nodes\SeedNode2\SeedNode2.csproj", "{153ACE38-C08C-4D1C-86D6-7036F91CD66A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SeedNode1", "01. Overview\03. Join multiple seed nodes by self first order\SeedNode1\SeedNode1.csproj", "{402A2AD3-D882-4BA2-A45B-6E8437DA4C0A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SeedNode2", "01. Overview\03. Join multiple seed nodes by self first order\SeedNode2\SeedNode2.csproj", "{F62932DD-94E5-488E-A848-AC1D3DDA7EA9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SeedNode1", "01. Overview\04. Join multiple seed nodes by fixed order\SeedNode1\SeedNode1.csproj", "{51FFB957-0676-4E0B-BF20-4646538C620E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SeedNode2", "01. Overview\04. Join multiple seed nodes by fixed order\SeedNode2\SeedNode2.csproj", "{A193B92D-4CC3-4BA4-A598-6525A72B262B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SeedNode3", "01. Overview\04. Join multiple seed nodes by fixed order\SeedNode3\SeedNode3.csproj", "{845C6CBB-0F42-44AA-867A-F2ABDB65D651}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -59,14 +73,26 @@ Global
 		{B8E07ED0-FE19-4205-B4CA-9CC5A296EAFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B8E07ED0-FE19-4205-B4CA-9CC5A296EAFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B8E07ED0-FE19-4205-B4CA-9CC5A296EAFB}.Release|Any CPU.Build.0 = Release|Any CPU
-		{2C677937-F6AB-4A17-918C-5DF9CA754DF8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{2C677937-F6AB-4A17-918C-5DF9CA754DF8}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{2C677937-F6AB-4A17-918C-5DF9CA754DF8}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{2C677937-F6AB-4A17-918C-5DF9CA754DF8}.Release|Any CPU.Build.0 = Release|Any CPU
-		{153ACE38-C08C-4D1C-86D6-7036F91CD66A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{153ACE38-C08C-4D1C-86D6-7036F91CD66A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{153ACE38-C08C-4D1C-86D6-7036F91CD66A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{153ACE38-C08C-4D1C-86D6-7036F91CD66A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{402A2AD3-D882-4BA2-A45B-6E8437DA4C0A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{402A2AD3-D882-4BA2-A45B-6E8437DA4C0A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{402A2AD3-D882-4BA2-A45B-6E8437DA4C0A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{402A2AD3-D882-4BA2-A45B-6E8437DA4C0A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F62932DD-94E5-488E-A848-AC1D3DDA7EA9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F62932DD-94E5-488E-A848-AC1D3DDA7EA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F62932DD-94E5-488E-A848-AC1D3DDA7EA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F62932DD-94E5-488E-A848-AC1D3DDA7EA9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{51FFB957-0676-4E0B-BF20-4646538C620E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51FFB957-0676-4E0B-BF20-4646538C620E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51FFB957-0676-4E0B-BF20-4646538C620E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51FFB957-0676-4E0B-BF20-4646538C620E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A193B92D-4CC3-4BA4-A598-6525A72B262B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A193B92D-4CC3-4BA4-A598-6525A72B262B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A193B92D-4CC3-4BA4-A598-6525A72B262B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A193B92D-4CC3-4BA4-A598-6525A72B262B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{845C6CBB-0F42-44AA-867A-F2ABDB65D651}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{845C6CBB-0F42-44AA-867A-F2ABDB65D651}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{845C6CBB-0F42-44AA-867A-F2ABDB65D651}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{845C6CBB-0F42-44AA-867A-F2ABDB65D651}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -81,9 +107,13 @@ Global
 		{DA2CA832-E2B8-44C9-A885-7FE7471FD478} = {13250248-284E-43D2-A623-C6C6DFDD06CC}
 		{51B4D1AC-42F7-43C5-AB1C-669CF754917C} = {13250248-284E-43D2-A623-C6C6DFDD06CC}
 		{B8E07ED0-FE19-4205-B4CA-9CC5A296EAFB} = {13250248-284E-43D2-A623-C6C6DFDD06CC}
-		{39C31475-AC9F-4D97-980D-C4E6AE48B85A} = {329A0FAD-6DB1-44A0-BAFA-7930C2A2B4E6}
-		{2C677937-F6AB-4A17-918C-5DF9CA754DF8} = {39C31475-AC9F-4D97-980D-C4E6AE48B85A}
-		{153ACE38-C08C-4D1C-86D6-7036F91CD66A} = {39C31475-AC9F-4D97-980D-C4E6AE48B85A}
+		{95B52DB6-630B-4793-8228-A5F7642C9402} = {329A0FAD-6DB1-44A0-BAFA-7930C2A2B4E6}
+		{1BA72D18-E277-4CBC-ABC0-CB66B858F825} = {329A0FAD-6DB1-44A0-BAFA-7930C2A2B4E6}
+		{402A2AD3-D882-4BA2-A45B-6E8437DA4C0A} = {95B52DB6-630B-4793-8228-A5F7642C9402}
+		{F62932DD-94E5-488E-A848-AC1D3DDA7EA9} = {95B52DB6-630B-4793-8228-A5F7642C9402}
+		{51FFB957-0676-4E0B-BF20-4646538C620E} = {1BA72D18-E277-4CBC-ABC0-CB66B858F825}
+		{A193B92D-4CC3-4BA4-A598-6525A72B262B} = {1BA72D18-E277-4CBC-ABC0-CB66B858F825}
+		{845C6CBB-0F42-44AA-867A-F2ABDB65D651} = {1BA72D18-E277-4CBC-ABC0-CB66B858F825}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {95F4A972-BB1C-4EC5-87A1-FA15574E3FA2}

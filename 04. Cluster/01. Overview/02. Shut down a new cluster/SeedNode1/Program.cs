@@ -83,22 +83,16 @@ namespace SeedNode1
             Console.ReadLine();
 
             //
-            // Cluster 핸들 얻기
-            // Leave을 호출하여 멤버에서 제거될 때(RegisterOnMemberRemoved) ActorSystem을 파괴시킨다.
+            // Cluster 핸들 얻는다.
+            // Leave을 호출하여 멤버에서 이탈될 때(RegisterOnMemberRemoved) ActorSystem을 파괴시킨다.
+            // cluster.SelfAddress는 "akka.tcp://Cluster-Lab@127.0.0.1:8081"이다.
             //
             var cluster = Akka.Cluster.Cluster.Get(system);
-            //cluster.RegisterOnMemberRemoved(() => MemberRemoved(system));
             cluster.RegisterOnMemberRemoved(() => system.Terminate());
             cluster.Leave(cluster.SelfAddress);
 
-            system.WhenTerminated.Wait();
-            //TerminatedEvent.WaitOne();
+            // 액터시스템 파괴를 대기한다.
+            system.WhenTerminated.Wait(config.GetTimeSpan("app.actorsystem-terminated-timeout"));
         }
-
-        //private static async void MemberRemoved(ActorSystem system)
-        //{
-        //    await system.Terminate();
-        //    TerminatedEvent.Set();
-        //}
     }
 }

@@ -15,7 +15,7 @@ using System.Threading;
 // TODO: 3. README.md 파일 작성
 //
 
-namespace SeedNode1
+namespace SeedNode2
 {
     class Program
     {
@@ -38,7 +38,7 @@ namespace SeedNode1
             cluster.RegisterOnMemberRemoved(() => system.Terminate());
             cluster.Leave(cluster.SelfAddress);
 
-            system.WhenTerminated.Wait();
+            system.WhenTerminated.Wait(config.GetTimeSpan("app.actorsystem-terminated-timeout"));
         }
     }
 }
