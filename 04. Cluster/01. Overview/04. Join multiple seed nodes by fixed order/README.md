@@ -1,5 +1,7 @@
 ## 데모 순서
-
+1. SeedNode3을 실행한다.
+   - 클러스터 합류를 위해 재시도 지속한다(대기한다).
+   - SeedNode1이 실행되면 클러스터에 합류된다.
    ```
    [WARNING][2019-12-11 ?? 2:20:05][Thread 0004][[akka://Cluster-Lab/system/cluster/core/daemon/joinSeedNodeProcess-1#929318280]] Couldn't join seed nodes after [16] attempts, will try again. seed-nodes=[akka.tcp://Cluster-Lab@127.0.0.1:8081,akka.tcp://Cluster-Lab@127.0.0.1:8082,akka.tcp://Cluster-Lab@127.0.0.1:9999]
    ...(SeedNode1 실행 후)
@@ -7,12 +9,12 @@
    ```
 1. SeedNode2을 실행한다.
    - 클러스터 합류를 위해 재시도 지속한다(대기한다).
+   - SeedNode1이 실행되면 클러스터에 합류된다.
    ```
    [WARNING][2019-12-11 ?? 2:20:15][Thread 0021][[akka://Cluster-Lab/system/cluster/core/daemon/joinSeedNodeProcess-1#2064222105]] Couldn't join seed nodes after [12] attempts, will try again. seed-nodes=[akka.tcp://Cluster-Lab@127.0.0.1:8081,akka.tcp://Cluster-Lab@127.0.0.1:9999]
    ...(SeedNode1 실행 후)
    [INFO][2019-12-11 ?? 2:20:15][Thread 0021][Cluster] Cluster Node [akka.tcp://Cluster-Lab@127.0.0.1:8082] - Welcome from [akka.tcp://Cluster-Lab@127.0.0.1:8081]
    ```
-
 1. SeedNode1을 실행한다.
    - 클러스터를 구성한다.
    - SeedNode1(자신)는 Leader가 된다.
