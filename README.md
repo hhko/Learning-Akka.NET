@@ -1,6 +1,7 @@
 # MORE FUN with Akka.NET Labs 
 
 **TODO**
+1. '확인 사항' -> 
 1. 04. Join the nodes to the cluster -> 05. Join the nodes to the cluster
 1. '04. Cluster > 0. Warming up' 폴더 추가
    - Log
