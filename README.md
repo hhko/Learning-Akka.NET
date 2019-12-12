@@ -1,4 +1,4 @@
-# MORE FUN with Akka.NET Labs 
+# MORE FUN with Akka.NET 
 
 **TODO**
 1. '확인 사항' -> 
