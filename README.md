@@ -403,6 +403,7 @@ akka.tcp://ClusterLab@localhost:8084 | [] | joining |
 - [ ] [Supervisors in C# with Akka.NET](https://buildplease.com/pages/supervisors-csharp/)
 - [ ] [Akka.NET 기술 정리 7개](https://hryniewski.net/tag/akka-net/)
 - [ ] [Akka.NET Extension 만들기](https://havret.io/akka-entity-framework-core)
+- [ ] [Akka.NET](https://hryniewski.net/category/net/akka-net/)
 
 <br/>
 
