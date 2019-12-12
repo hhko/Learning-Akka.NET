@@ -1,6 +1,6 @@
 # MORE FUN with Akka.NET 
 - **목차**
-[Akka.NET Sample](#Akka.NET-Sample)
+  - [Akka.NET Sample](#akkanet-sample)
 
 ## Akka.NET Sample
 - [ ] [Workshop-Blog](https://petabridge.com/cluster/), [Workshop-Github](https://github.com/petabridge/akkadotnet-cluster-workshop)
