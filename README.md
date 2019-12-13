@@ -36,6 +36,7 @@
 	   - 시간(단순)
 	   - 노드 갯수(Split Brain Resolver)
 	   - ...3개(Split Brain Resolver)
+     - 이탈 감지
    - 클러스터 - 노드 역할과 최소 크기
      - Define Roles : **akka.cluster.roles**
      - Cluster-Wide Minimum Size : **akka.cluster.min-nr-of-members**
@@ -45,11 +46,15 @@
    - 액터 - Routing
    - 액터 - Singleton
    - 액터 - Sharding
+   - 액터 - 인지? 찾기
+   - 액터 - 지표(Matrices)
    - 메시지 - Pub/Sub
    - 메시지 - ClusterClient
+   - 메시지 - 동기화
+   - 메시지 - 추적
    - 데이터 - Distributed Data
-	
-	
+   - 컨테이너 - Docker Compose
+   - 컨테이너 - Kubernetes 
    
 **TODO**
 1. '확인 사항' -> 
