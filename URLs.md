@@ -16,6 +16,8 @@
 - [Blog, Akka.NET English](#blog-akkanet-english)
 - [Blog, DDD and DesignPatterns English](#blog-ddd-and-designpatterns-english)
 
+<br/>
+
 ## Akka.NET Sample
 - [ ] [Workshop-Blog](https://petabridge.com/cluster/), [Workshop-Github](https://github.com/petabridge/akkadotnet-cluster-workshop)
 - [ ] [Cluster.WebCrawler](https://github.com/petabridge/akkadotnet-code-samples/tree/master/Cluster.WebCrawler)

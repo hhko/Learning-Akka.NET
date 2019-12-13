@@ -17,6 +17,7 @@
    1. Overview
       1. Petebridge.Cmd
 	  1. 로그, 타이틀, 종료 이벤트
+	  1. 액터시스템 클러스터 시각화(?)
    1. 클러스터 생성
       1. 시드 노드가 1개일 때, 클러스터 생성하기(Create a cluster)
       1. 시드 노드가 1개일 때, 클러스터 파괴하기(Destory a cluster)
@@ -25,15 +26,28 @@
 	  재시도?
 	  타임아웃?
    1. 클러스터 노트 합류와 이탈
-      1. 노드 합류하기
-	  1. 노드 이탈하기(정상)
-	  1. 노드 이탈하기(비정상)
+      1. 노드 합류
+	  1. 노드 이탈(정상)
+	  1. 노드 이탈(비정상)
+	  1. Reachable일 때 같은 노드 합류 안됨
+	  1. Unreachable일 때 노드 합류 안됨(같은 노드와 새 노드)
+	  1. Unreachable일 때 노드 합류(weekly member, 같은 노드와 새 노드)
 	  1. 노드 이탈 시키기
 	     1. 시간(단순)
 		 1. 노드 갯수(Split Brain Resolver)
 		 1. ...3개(Split Brain Resolver)
-	  1. 
-	1. 클러스터 상태 동기화
+   1. 클러스터 노드 역할과 최소 크기
+      1. Define Roles : **akka.cluster.roles**
+      1. Cluster-Wide Minimum Size : **akka.cluster.min-nr-of-members**
+      1. Per-Role Minimum Size : **akka.cluster.role.<role-name>.min-nr-of-members**
+      1. Mix Minimum Size  
+   1. 클러스터 상태 동기화(Gossip)
+   1. 액터 - Routing
+   1. 액터 - Singleton
+   1. 액터 - Sharding
+   1. 메시지 - Pub/Sub
+   1. 메시지 - ClusterClient
+   1. 데이터 - Distributed Data
 	
 	
    
