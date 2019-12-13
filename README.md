@@ -14,7 +14,7 @@
 1. Remote
 1. Persistence
 1. Cluster
-   - Overview
+   - 클러스터 - 개요
      - Petebridge.Cmd
 	 - 로그, 타이틀, 종료 이벤트
 	 - 액터시스템 클러스터 시각화(?)
