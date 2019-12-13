@@ -1,10 +1,20 @@
 # MORE FUN with Akka.NET 
-- **목차**
-  - [Akka.NET Sample](#akkanet-sample)
-  - [Akka.NET EXtensions](akkanet-extensions)
-  - [Blog, Akka.NET Korean](blog-akkanet-korean)
-  - [Blog, Akka.NET English](blog-akkanet-english)
-  - [Blog, DDD and DesignPatterns English](blog-ddd-and-designpatterns-english)
+**It is you. Actor Model for Event-Driven Microservice Architecture.**  
+
+<br/>
+
+**문서**  
+- [홈](./README.md)
+- [유용한 URLs](./URLs.md)
+
+<br/>
+
+**목차**  
+- [Akka.NET Sample](#akkanet-sample)
+- [Akka.NET EXtensions](#akkanet-extensions)
+- [Blog, Akka.NET Korean](#blog-akkanet-korean)
+- [Blog, Akka.NET English](#blog-akkanet-english)
+- [Blog, DDD and DesignPatterns English](#blog-ddd-and-designpatterns-english)
 
 ## Akka.NET Sample
 - [ ] [Workshop-Blog](https://petabridge.com/cluster/), [Workshop-Github](https://github.com/petabridge/akkadotnet-cluster-workshop)

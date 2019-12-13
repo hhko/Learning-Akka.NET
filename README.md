@@ -3,9 +3,38 @@
 
 <br/>
 
-- 목차
+- 문서
+  - [홈](./README.md)
   - [유용한 URLs](./URLs.md)
 
+- 목차
+1. Local
+1. Remote
+1. Persistence
+1. Cluster
+   1. Overview
+      1. Petebridge.Cmd
+	  1. 로그, 타이틀, 종료 이벤트
+   1. 클러스터 생성
+      1. 시드 노드가 1개일 때, 클러스터 생성하기(Create a cluster)
+      1. 시드 노드가 1개일 때, 클러스터 파괴하기(Destory a cluster)
+	  1. 시드 노드가 N개일 때, 시드 노드가 고정 순서
+	  1. 시드 노드가 N개일 때, 시드 노드가 자신 우선
+	  재시도?
+	  타임아웃?
+   1. 클러스터 노트 합류와 이탈
+      1. 노드 합류하기
+	  1. 노드 이탈하기(정상)
+	  1. 노드 이탈하기(비정상)
+	  1. 노드 이탈 시키기
+	     1. 시간(단순)
+		 1. 노드 갯수(Split Brain Resolver)
+		 1. ...3개(Split Brain Resolver)
+	  1. 
+	1. 클러스터 상태 동기화
+	
+	
+   
 **TODO**
 1. '확인 사항' -> 
 1. akka.cluster.allow-weakly-up-members = on 예제(랜덤 폴트일 때), https://github.com/akkadotnet/akka.net/issues/3887
