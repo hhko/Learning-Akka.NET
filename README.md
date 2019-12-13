@@ -3,11 +3,13 @@
 
 <br/>
 
-- 문서
+- **문서**  
   - [홈](./README.md)
   - [유용한 URLs](./URLs.md)
 
-- 목차
+<br/>
+
+- **목차**  
 1. Local
 1. Remote
 1. Persistence
