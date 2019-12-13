@@ -2,9 +2,9 @@
 - **목차**
   - [Akka.NET Sample](#akkanet-sample)
   - [Akka.NET EXtensions](akkanet-extensions)
-  - [Blog - Akka.NET Korean](blog---akkanet-korean)
-  - [Blog - Akka.NET English](blog---akkanet-english)
-  - [Blog - DDD and DesignPatterns English](blog---ddd-and-designpatterns-english)
+  - [Blog, Akka.NET Korean](blog-akkanet-korean)
+  - [Blog, Akka.NET English](blog-akkanet-english)
+  - [Blog, DDD and DesignPatterns English](blog-ddd-and-designpatterns-english)
 
 ## Akka.NET Sample
 - [ ] [Workshop-Blog](https://petabridge.com/cluster/), [Workshop-Github](https://github.com/petabridge/akkadotnet-cluster-workshop)
@@ -67,7 +67,7 @@
 
 <br/>
 
-## Blog Akka.NET Korean
+## Blog, Akka.NET Korean
 - [ ] [Botcamp 한글화](https://blog.rajephon.dev/2018/12/02/akka-01/)
 - [ ] [Naver 블로그](https://m.blog.naver.com/PostView.nhn?blogId=kbh3983&logNo=221182343063&categoryNo=119&proxyReferer=https%3A%2F%2Fwww.google.co.kr%2F)
 - [ ] [하마 블로그](https://hamait.tistory.com/category/Akka)
@@ -82,7 +82,7 @@
 
 <br/>
 
-## Blog - Akka.NET English
+## Blog, Akka.NET English
 - [ ] [Akka.NET Official](https://petabridge.com/blog/)
 - [ ] [Akka.NET CEO, Aaronstannard](http://www.aaronstannard.com/)
 - [ ] [Akka.NET 팀 코어 멤버](https://bartoszsypytkowski.com/tag/akka-net/)
@@ -100,7 +100,7 @@
 
 <br/>
 
-## Blog - DDD and DesignPatterns English
+## Blog, DDD and DesignPatterns English
 - Primitive Obsession
    - [ ] [Primitive Obsession](https://refactoring.guru/smells/primitive-obsession)
    - [ ] [강박적 기본 타입](http://dj6316.torchpad.com/%EB%A6%AC%ED%8C%A9%ED%86%A0%EB%A7%81%28refactoring%29/CH.03+%EC%BD%94%EB%93%9C%EC%9D%98+%EA%B5%AC%EB%A6%B0%EB%82%B4/5.%EA%B0%95%EB%B0%95%EC%A0%81+%EA%B8%B0%EB%B3%B8+%ED%83%80%EC%9E%85+%EC%82%AC%EC%9A%A9+Primitive+Obsession)
