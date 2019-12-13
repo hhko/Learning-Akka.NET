@@ -1,4 +1,7 @@
 # MORE FUN with Akka.NET 
+**It is you. Actor Model for Event-Driven Microservice Architecture.**  
+
+<br/>
 
 - 목차
   - [유용한 URLs](./URLs.md)
