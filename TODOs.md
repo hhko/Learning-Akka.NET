@@ -1,5 +1,5 @@
 # MORE FUN with Akka.NET 
-**It is you. Actor Model.**
+**It is you. Actor Model!**
 
 <br/>
 
@@ -12,13 +12,16 @@
 
 **목차**   
 - [TODO](#todo)
-- 04. Cluster(#04-cluster) 
-- Cluster Lab(#cluster-lab)
-- Persistence Lab(#persistence-lab)
-- DOING(#doing)
-- Labs(#labs)
-- Akka.NET Issues(#akkanet-issues)
-- Akka.NET FAQ(#akkanet-faq)
+- [04. Cluster](#04-cluster) 
+- [Cluster Lab](#cluster-lab)
+- [Persistence Lab](#persistence-lab)
+- [DOING](#doing)
+- [Labs](#labs)
+- [Akka.NET Issues](#akkanet-issues)
+- [Akka.NET FAQ](#akkanet-faq)
+
+<br/>
+<br/>
 
 **TODO**
 1. '확인 사항' -> 
