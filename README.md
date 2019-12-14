@@ -9,14 +9,14 @@
 
 <br/>
 
-**문서**  
+**Documents**  
 - [**Home(Current)**](./README.md)
 - [Useful URLs](./URLs.md)
 - [TODOs](./TODOs.md)
 
 <br/>
 
-**목차**   
+**Contents**   
 1. Local
 1. Remote
 1. Persistence
