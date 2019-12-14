@@ -10,7 +10,7 @@
 <br/>
 
 **Documents**  
-- [**Home(Current)**](./README.md)
+- [**HOME(Current)**](./README.md)
 - [Useful URLs](./URLs.md)
 - [TODOs](./TODOs.md)
 
