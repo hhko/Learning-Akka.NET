@@ -3,14 +3,14 @@
 
 <br/>
 
-**문서**  
+**Documents**  
 - [HOME](./README.md)
 - [**Useful URLs(Current)**](./URLs.md)
 - [TODOs](./TODOs.md)
 
 <br/>
 
-**목차**  
+**Contents**  
 - [Akka.NET Sample](#akkanet-sample)
 - [Akka.NET EXtensions](#akkanet-extensions)
 - [Blog, Akka.NET Korean](#blog-akkanet-korean)
