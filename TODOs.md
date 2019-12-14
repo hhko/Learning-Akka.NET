@@ -3,14 +3,14 @@
 
 <br/>
 
-**문서**  
-- [Home](./README.md)
+**Documents**  
+- [HOME](./README.md)
 - [Useful URLs](./URLs.md)
 - [**TODOs(Current)**](./TODOs.md)
 
 <br/>
 
-**목차**   
+**Contents**   
 - [TODO](#todo)
 - [04. Cluster](#04-cluster) 
 - [Cluster Lab](#cluster-lab)
