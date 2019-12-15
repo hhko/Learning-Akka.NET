@@ -3,9 +3,9 @@
 > We believe that writing correct concurrent & distributed, resilient and elastic applications is too hard. 
 > Most of the time it's because we are using the wrong tools and the wrong level of abstraction.
 >
-> **Actor Model is here to change that.**
+> Actor Model is here to change that.
 >
-> **Using the Actor Model we raise the abstraction level and provide a better platform to build correct concurrent and scalable applications.** 
+> **Using the Actor Model we raise the abstraction level** and provide a better platform to build correct concurrent and scalable applications.
 
 <br/>
 
