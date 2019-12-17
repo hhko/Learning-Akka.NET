@@ -1,0 +1,35 @@
+CreatingActors
+	Props
+		Props props1 = Props.Create(typeof(MyActor));
+		Props props2 = Props.Create(() => new MyActorWithArgs("arg"));
+		Props props3 = Props.Create<MyActor>();
+		Props props4 = Props.Create(typeof(MyActorWithArgs), "arg");
+	이름 규칙
+	이름 겹침
+		InvalidActorNameException
+		
+Sending Messages	
+	Forward message
+	
+Receiving Messages	
+	HowTo_06_ReceiveTimeout
+	Ask: Send-And-Receive-Future
+	DeadLetters
+
+Stopping Actors
+	자식 모두 삭제
+	Long Running 취소 처리	
+	이름을 바로 사용할 수 없다.
+
+Identifying Actors via Actor Selection
+	ActorSelection 	=> *, 상대 경로, akka.actor.ActorNotFound
+	Identify, ActorIdentity
+	
+Fault Tolerant
+	Kill	
+
+상태 머신
+	Become/Unbecome
+	FSM 상속
+	
+	
