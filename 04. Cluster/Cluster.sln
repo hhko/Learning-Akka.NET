@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.29209.62
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.489
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01. Overview", "01. Overview", "{329A0FAD-6DB1-44A0-BAFA-7930C2A2B4E6}"
 EndProject
@@ -41,7 +41,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SeedNode1", "01. Overview\0
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SeedNode2", "01. Overview\04. Join multiple seed nodes by fixed order\SeedNode2\SeedNode2.csproj", "{A193B92D-4CC3-4BA4-A598-6525A72B262B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SeedNode3", "01. Overview\04. Join multiple seed nodes by fixed order\SeedNode3\SeedNode3.csproj", "{845C6CBB-0F42-44AA-867A-F2ABDB65D651}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SeedNode3", "01. Overview\04. Join multiple seed nodes by fixed order\SeedNode3\SeedNode3.csproj", "{845C6CBB-0F42-44AA-867A-F2ABDB65D651}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "00. Ready", "00. Ready", "{1F8DAAF8-29BE-4E9B-AED8-CC2ECEF38049}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "00. Ready", "00. Ready", "{03743DDE-3137-4F1A-8986-BFCDAB588D7A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasicConfiguration", "01. Overview\00. Ready\BasicConfiguration\BasicConfiguration.csproj", "{98632461-5B67-4538-86BD-68A6DFBCD91A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -93,6 +99,10 @@ Global
 		{845C6CBB-0F42-44AA-867A-F2ABDB65D651}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{845C6CBB-0F42-44AA-867A-F2ABDB65D651}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{845C6CBB-0F42-44AA-867A-F2ABDB65D651}.Release|Any CPU.Build.0 = Release|Any CPU
+		{98632461-5B67-4538-86BD-68A6DFBCD91A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98632461-5B67-4538-86BD-68A6DFBCD91A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98632461-5B67-4538-86BD-68A6DFBCD91A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98632461-5B67-4538-86BD-68A6DFBCD91A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -114,6 +124,8 @@ Global
 		{51FFB957-0676-4E0B-BF20-4646538C620E} = {1BA72D18-E277-4CBC-ABC0-CB66B858F825}
 		{A193B92D-4CC3-4BA4-A598-6525A72B262B} = {1BA72D18-E277-4CBC-ABC0-CB66B858F825}
 		{845C6CBB-0F42-44AA-867A-F2ABDB65D651} = {1BA72D18-E277-4CBC-ABC0-CB66B858F825}
+		{03743DDE-3137-4F1A-8986-BFCDAB588D7A} = {329A0FAD-6DB1-44A0-BAFA-7930C2A2B4E6}
+		{98632461-5B67-4538-86BD-68A6DFBCD91A} = {03743DDE-3137-4F1A-8986-BFCDAB588D7A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {95F4A972-BB1C-4EC5-87A1-FA15574E3FA2}
