@@ -17,8 +17,6 @@
 
 <br/>
 
-> **모든 예제는 단위 테스트를 포함시킨다.**
-
 **Table of Contents**   
 1. Local
    - 단위 테스트
@@ -73,3 +71,11 @@
    - 예제 - End to End Akka.NET Distributed Programming
    - 단위 테스트
 1. Streams
+
+<br/>
+
+## TODO
+1. Akka 학습
+1. Akka 단위 테스트 프로젝트
+1. [Petabridge-dotnet-new](https://github.com/petabridge/petabridge-dotnet-new)
+1. [Cluster.WebCrawler](https://github.com/petabridge/akkadotnet-code-samples/tree/master/Cluster.WebCrawler)
