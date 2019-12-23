@@ -6,8 +6,23 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Petabridge.Cmd.Cluster" Version="0.7.0" />
-    <PackageReference Include="Petabridge.Cmd.Remote" Version="0.7.0" />
+    <PackageReference Include="Akka.Cluster" Version="1.3.17" />
+    <PackageReference Include="Akka.Logger.NLog" Version="1.3.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="Conf\Akka.conf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Conf\App.conf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Conf\NLog .conf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Conf\Petabridge.conf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
 
 </Project>
